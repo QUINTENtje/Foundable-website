@@ -44,6 +44,47 @@ Geef je antwoord in dit JSON-formaat:
   "conclusion": "..."
 }`;
 
+function extractText(html: string): string {
+  // Remove scripts, styles, and their content
+  let text = html.replace(/<script[\s\S]*?<\/script>/gi, "");
+  text = text.replace(/<style[\s\S]*?<\/style>/gi, "");
+  // Remove HTML tags
+  text = text.replace(/<[^>]+>/g, " ");
+  // Decode common HTML entities
+  text = text.replace(/&amp;/g, "&");
+  text = text.replace(/&lt;/g, "<");
+  text = text.replace(/&gt;/g, ">");
+  text = text.replace(/&quot;/g, '"');
+  text = text.replace(/&#039;/g, "'");
+  text = text.replace(/&nbsp;/g, " ");
+  // Collapse whitespace
+  text = text.replace(/\s+/g, " ").trim();
+  return text;
+}
+
+async function fetchWebsiteContent(url: string): Promise<string | null> {
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 10000);
+
+    const res = await fetch(url, {
+      signal: controller.signal,
+      headers: {
+        "User-Agent": "Foundable-AIO-Scanner/1.0",
+      },
+    });
+    clearTimeout(timeout);
+
+    if (!res.ok) return null;
+
+    const html = await res.text();
+    const text = extractText(html);
+    return text.slice(0, 8000);
+  } catch {
+    return null;
+  }
+}
+
 export async function POST(request: Request) {
   try {
     const body = await request.json();
@@ -56,6 +97,12 @@ export async function POST(request: Request) {
       );
     }
 
+    const websiteContent = await fetchWebsiteContent(url);
+
+    const contentBlock = websiteContent
+      ? `\n\nWebsite-inhoud:\n${websiteContent}`
+      : `\n\nLet op: de website-inhoud kon niet worden opgehaald. Analyseer op basis van de URL en geef aan dat je de site niet kon bereiken.`;
+
     const userMessage = `Analyseer de volgende website op AI-zichtbaarheid: ${url}
 
 Aanvullende context:
@@ -63,6 +110,7 @@ Aanvullende context:
 - E-mail: ${email}
 ${company ? `- Bedrijfsnaam: ${company}` : ""}
 ${sector ? `- Sector: ${sector}` : ""}
+${contentBlock}
 
 Geef je analyse als JSON.`;
 
