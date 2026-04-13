@@ -1,19 +1,17 @@
 "use client";
 
 import { useState } from "react";
-import type { Metadata } from "next";
 import ScoreDisplay from "@/components/ScoreDisplay";
 
 interface ScoreResult {
   categories: {
     name: string;
     score: number;
-    explanation: string;
-    improvement: string;
+    maxScore: number;
   }[];
+  checkpoints: Record<string, boolean>;
   totalScore: number;
-  priorityActions: string[];
-  conclusion: string;
+  label: string;
 }
 
 export default function ScorePage() {

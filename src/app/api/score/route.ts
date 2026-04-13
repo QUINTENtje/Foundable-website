@@ -2,67 +2,172 @@ import Anthropic from "@anthropic-ai/sdk";
 
 const client = new Anthropic();
 
-const SYSTEM_PROMPT = `Je bent een AIO (AI Optimization) specialist bij Foundable, een Nederlands bureau dat
-websites optimaliseert voor AI-zoekmachines zoals ChatGPT, Perplexity en Google AI.
+const SYSTEM_PROMPT = `Je bent een AIO-specialist bij Foundable. Je analyseert websites op AI-zichtbaarheid via 20 binaire checkpoints. Elke checkpoint scoort ALLEEN 5 punten OF 0 punten — nooit iets ertussenin.
 
-Je analyseert de opgegeven website-URL en geeft een AI Visibility Score op basis van
-vijf categorieën (elk maximaal 20 punten, totaal 100 punten).
+Analyseer de meegestuurde website-inhoud en beantwoord elke checkpoint met true (5pt) of false (0pt).
 
-De vijf categorieën:
-1. Structuur & techniek — Is er JSON-LD aanwezig? Kloppen de meta-tags? Is de sitestructuur logisch?
-2. Content duidelijkheid — Begrijpt AI wie dit bedrijf is, wat het doet en voor wie?
-3. Feiten & specificiteit — Staan er concrete feiten, prijzen, cijfers en USP's op de site?
-4. Vertrouwen & autoriteit — Zijn er reviews, certificeringen, vermeldingen of duidelijke contactgegevens?
-5. Lokale herkenbaarheid — Is de locatie, regio of het werkgebied duidelijk voor AI?
+De 20 checkpoints:
 
-Geef voor elke categorie:
-- Een score van 0 tot 20 (alleen gehele getallen)
-- Één zin die uitlegt waarom je deze score geeft
-- Één concreet, specifiek verbeterpunt
+GESTRUCTUREERDE DATA (5 checks x 5pt = 25pt):
+1. json_ld_aanwezig — Is er een <script type="application/ld+json"> aanwezig?
+2. type_klopt — Klopt @type bij het bedrijfstype?
+3. naam_adres_telefoon — Staan naam, adres én telefoon in het schema?
+4. faqpage_schema — Is er een FAQPage schema aanwezig?
+5. description_ingevuld — Is het description veld gevuld met betekenisvolle tekst?
 
-Geef daarna:
-- De totaalscore (som van de vijf categorieën)
-- Drie prioritaire acties, gerangschikt op impact
-- Een conclusie van twee tot drie zinnen in gewone taal
+ENTITEITSDUIDELIJKHEID (4 checks x 5pt = 20pt):
+6. bedrijfsnaam_prominent — Staat de bedrijfsnaam in H1 of bovenaan de pagina?
+7. locatie_benoemd — Is een locatie of regio expliciet vermeld?
+8. wat_bedrijf_doet — Is binnen de eerste 100 woorden duidelijk wat het bedrijf doet?
+9. doelgroep_benoemd — Is de doelgroep expliciet benoemd?
 
-Antwoord uitsluitend in het Nederlands.
-Wees eerlijk, concreet en praktisch. Geen wollige taal. Geen loze complimenten.
-Als je de website niet kunt bereiken, geef dan een eerlijke score van 0 op alle categorieën
-met de melding dat de URL niet bereikbaar was.
+CONTENTSTRUCTUUR (4 checks x 5pt = 20pt):
+10. faq_aanwezig — Zijn er minimaal 2 FAQ-vragen met antwoorden?
+11. korte_zinnen — Zijn zinnen gemiddeld korter dan 20 woorden?
+12. concrete_feiten — Zijn er concrete feiten zoals cijfers, prijzen of jaren?
+13. lijsten_of_headers — Worden lijsten, bullets of subheadings gebruikt?
 
-Geef je antwoord in dit JSON-formaat:
+TECHNISCHE CRAWLBAARHEID (4 checks x 5pt = 20pt):
+14. crawlers_niet_geblokkeerd — Worden AI-crawlers NIET geblokkeerd?
+15. geen_noindex — Is er GEEN noindex meta tag?
+16. server_rendered — Is de tekst leesbaar zonder JavaScript?
+17. laadtijd_acceptabel — Lijkt de pagina snel te laden?
+
+AUTORITEITSSIGNALEN (3 checks x 5pt = 15pt):
+18. reviews_aanwezig — Zijn er reviews of testimonials aanwezig?
+19. over_ons_aanwezig — Is er een Over ons of team pagina?
+20. contact_vindbaar — Is contactinformatie makkelijk te vinden?
+
+Geef je antwoord UITSLUITEND in dit JSON-formaat zonder extra tekst:
 {
-  "categories": [
-    { "name": "Structuur & techniek", "score": 0-20, "explanation": "...", "improvement": "..." },
-    { "name": "Content duidelijkheid", "score": 0-20, "explanation": "...", "improvement": "..." },
-    { "name": "Feiten & specificiteit", "score": 0-20, "explanation": "...", "improvement": "..." },
-    { "name": "Vertrouwen & autoriteit", "score": 0-20, "explanation": "...", "improvement": "..." },
-    { "name": "Lokale herkenbaarheid", "score": 0-20, "explanation": "...", "improvement": "..." }
-  ],
-  "totalScore": 0-100,
-  "priorityActions": ["...", "...", "..."],
-  "conclusion": "..."
+  "checkpoints": {
+    "json_ld_aanwezig": true/false,
+    "type_klopt": true/false,
+    "naam_adres_telefoon": true/false,
+    "faqpage_schema": true/false,
+    "description_ingevuld": true/false,
+    "bedrijfsnaam_prominent": true/false,
+    "locatie_benoemd": true/false,
+    "wat_bedrijf_doet": true/false,
+    "doelgroep_benoemd": true/false,
+    "faq_aanwezig": true/false,
+    "korte_zinnen": true/false,
+    "concrete_feiten": true/false,
+    "lijsten_of_headers": true/false,
+    "crawlers_niet_geblokkeerd": true/false,
+    "geen_noindex": true/false,
+    "server_rendered": true/false,
+    "laadtijd_acceptabel": true/false,
+    "reviews_aanwezig": true/false,
+    "over_ons_aanwezig": true/false,
+    "contact_vindbaar": true/false
+  }
 }`;
 
+interface Checkpoints {
+  json_ld_aanwezig: boolean;
+  type_klopt: boolean;
+  naam_adres_telefoon: boolean;
+  faqpage_schema: boolean;
+  description_ingevuld: boolean;
+  bedrijfsnaam_prominent: boolean;
+  locatie_benoemd: boolean;
+  wat_bedrijf_doet: boolean;
+  doelgroep_benoemd: boolean;
+  faq_aanwezig: boolean;
+  korte_zinnen: boolean;
+  concrete_feiten: boolean;
+  lijsten_of_headers: boolean;
+  crawlers_niet_geblokkeerd: boolean;
+  geen_noindex: boolean;
+  server_rendered: boolean;
+  laadtijd_acceptabel: boolean;
+  reviews_aanwezig: boolean;
+  over_ons_aanwezig: boolean;
+  contact_vindbaar: boolean;
+}
+
+function b(val: boolean): number {
+  return val ? 5 : 0;
+}
+
+function calculateScores(cp: Checkpoints) {
+  const categories = [
+    {
+      name: "Gestructureerde data",
+      score:
+        b(cp.json_ld_aanwezig) +
+        b(cp.type_klopt) +
+        b(cp.naam_adres_telefoon) +
+        b(cp.faqpage_schema) +
+        b(cp.description_ingevuld),
+      maxScore: 25,
+    },
+    {
+      name: "Entiteitsduidelijkheid",
+      score:
+        b(cp.bedrijfsnaam_prominent) +
+        b(cp.locatie_benoemd) +
+        b(cp.wat_bedrijf_doet) +
+        b(cp.doelgroep_benoemd),
+      maxScore: 20,
+    },
+    {
+      name: "Contentstructuur",
+      score:
+        b(cp.faq_aanwezig) +
+        b(cp.korte_zinnen) +
+        b(cp.concrete_feiten) +
+        b(cp.lijsten_of_headers),
+      maxScore: 20,
+    },
+    {
+      name: "Technische crawlbaarheid",
+      score:
+        b(cp.crawlers_niet_geblokkeerd) +
+        b(cp.geen_noindex) +
+        b(cp.server_rendered) +
+        b(cp.laadtijd_acceptabel),
+      maxScore: 20,
+    },
+    {
+      name: "Autoriteitssignalen",
+      score:
+        b(cp.reviews_aanwezig) +
+        b(cp.over_ons_aanwezig) +
+        b(cp.contact_vindbaar),
+      maxScore: 15,
+    },
+  ];
+
+  const totalScore = categories.reduce((sum, cat) => sum + cat.score, 0);
+
+  let label: string;
+  if (totalScore <= 39) label = "Slecht";
+  else if (totalScore <= 59) label = "Matig";
+  else if (totalScore <= 79) label = "Goed";
+  else label = "Uitstekend";
+
+  return { categories, totalScore, label };
+}
+
 function extractText(html: string): string {
-  // Remove scripts, styles, and their content
   let text = html.replace(/<script[\s\S]*?<\/script>/gi, "");
   text = text.replace(/<style[\s\S]*?<\/style>/gi, "");
-  // Remove HTML tags
   text = text.replace(/<[^>]+>/g, " ");
-  // Decode common HTML entities
   text = text.replace(/&amp;/g, "&");
   text = text.replace(/&lt;/g, "<");
   text = text.replace(/&gt;/g, ">");
   text = text.replace(/&quot;/g, '"');
   text = text.replace(/&#039;/g, "'");
   text = text.replace(/&nbsp;/g, " ");
-  // Collapse whitespace
   text = text.replace(/\s+/g, " ").trim();
   return text;
 }
 
-async function fetchWebsiteContent(url: string): Promise<string | null> {
+async function fetchWebsiteContent(
+  url: string
+): Promise<{ text: string | null; html: string | null }> {
   try {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 10000);
@@ -75,13 +180,13 @@ async function fetchWebsiteContent(url: string): Promise<string | null> {
     });
     clearTimeout(timeout);
 
-    if (!res.ok) return null;
+    if (!res.ok) return { text: null, html: null };
 
     const html = await res.text();
     const text = extractText(html);
-    return text.slice(0, 8000);
+    return { text: text.slice(0, 8000), html: html.slice(0, 12000) };
   } catch {
-    return null;
+    return { text: null, html: null };
   }
 }
 
@@ -97,11 +202,12 @@ export async function POST(request: Request) {
       );
     }
 
-    const websiteContent = await fetchWebsiteContent(url);
+    const { text: websiteText, html: websiteHtml } =
+      await fetchWebsiteContent(url);
 
-    const contentBlock = websiteContent
-      ? `\n\nWebsite-inhoud:\n${websiteContent}`
-      : `\n\nLet op: de website-inhoud kon niet worden opgehaald. Analyseer op basis van de URL en geef aan dat je de site niet kon bereiken.`;
+    const contentBlock = websiteText
+      ? `\n\nWebsite-inhoud (leesbare tekst):\n${websiteText}\n\nRuwe HTML (voor structured data checks):\n${websiteHtml}`
+      : `\n\nLet op: de website-inhoud kon niet worden opgehaald. Zet alle checkpoints op false.`;
 
     const userMessage = `Analyseer de volgende website op AI-zichtbaarheid: ${url}
 
@@ -136,12 +242,23 @@ Geef je analyse als JSON.`;
       jsonText = jsonMatch[1].trim();
     }
 
-    const result = JSON.parse(jsonText);
-    return Response.json(result);
+    const parsed = JSON.parse(jsonText);
+    const checkpoints: Checkpoints = parsed.checkpoints;
+    const { categories, totalScore, label } = calculateScores(checkpoints);
+
+    return Response.json({
+      categories,
+      checkpoints,
+      totalScore,
+      label,
+    });
   } catch (error) {
     console.error("Score API error:", error);
     return Response.json(
-      { error: "Er is een fout opgetreden bij het analyseren van de website." },
+      {
+        error:
+          "Er is een fout opgetreden bij het analyseren van de website.",
+      },
       { status: 500 }
     );
   }
