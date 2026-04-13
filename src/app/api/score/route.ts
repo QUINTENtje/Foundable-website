@@ -152,7 +152,8 @@ function calculateScores(cp: Checkpoints) {
 }
 
 function extractText(html: string): string {
-  let text = html.replace(/<script[\s\S]*?<\/script>/gi, "");
+  // Preserve JSON-LD blocks, remove all other scripts
+  let text = html.replace(/<script(?![^>]*type\s*=\s*["']application\/ld\+json["'])[\s\S]*?<\/script>/gi, "");
   text = text.replace(/<style[\s\S]*?<\/style>/gi, "");
   text = text.replace(/<[^>]+>/g, " ");
   text = text.replace(/&amp;/g, "&");
@@ -183,6 +184,9 @@ async function fetchWebsiteContent(
     if (!res.ok) return { text: null, html: null };
 
     const html = await res.text();
+    console.log("=== OPGEHAALDE HTML (eerste 500 chars) ===");
+    console.log(html.slice(0, 500));
+    console.log("=== EINDE HTML PREVIEW ===");
     const text = extractText(html);
     return { text: text.slice(0, 8000), html: html.slice(0, 12000) };
   } catch {
