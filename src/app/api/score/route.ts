@@ -22,7 +22,7 @@ ENTITEITSDUIDELIJKHEID (4 checks x 5pt = 20pt):
 9. doelgroep_benoemd — Is de doelgroep expliciet benoemd?
 
 CONTENTSTRUCTUUR (4 checks x 5pt = 20pt):
-10. faq_aanwezig — Zijn er minimaal 2 FAQ-vragen met antwoorden?
+10. faq_aanwezig — Zijn er minimaal 2 FAQ-vragen met antwoorden? Let ook op HTML-elementen zoals <details>, <summary>, data-faq, class="faq", aria-label met 'vraag' of 'question', of tekst die begint met 'Veel gestelde vragen', 'FAQ', 'Vragen', of zinnen die eindigen op een vraagteken gevolgd door een antwoord.
 11. korte_zinnen — Tel het aantal zinnen dat langer is dan 20 woorden. Als meer dan 30% van de zinnen langer is dan 20 woorden, geef false. Anders geef true.
 12. concrete_feiten — Zijn er concrete feiten zoals cijfers, prijzen of jaren?
 13. lijsten_of_headers — Worden lijsten, bullets of subheadings gebruikt?
