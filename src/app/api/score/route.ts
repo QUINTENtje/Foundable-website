@@ -184,10 +184,7 @@ async function fetchWebsiteContent(
     if (!res.ok) return { text: null, html: null };
 
     const html = await res.text();
-    console.log("=== OPGEHAALDE HTML (eerste 500 chars) ===");
-    console.log(html.slice(0, 500));
-    console.log("=== EINDE HTML PREVIEW ===");
-    const text = extractText(html);
+const text = extractText(html);
     return { text: text.slice(0, 8000), html: html.slice(0, 12000) };
   } catch {
     return { text: null, html: null };
