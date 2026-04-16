@@ -16,7 +16,7 @@ export async function POST(request: Request) {
     await resend.emails.send({
       from: "Foundable <noreply@foundable.nl>",
       to: "quinten@foundable.nl",
-      reply_to: email,
+      replyTo: email,
       subject: `Nieuwe audit aanvraag — ${naam} (${bedrijf})`,
       html: `
         <h2>Nieuwe AIO-audit aanvraag</h2>
