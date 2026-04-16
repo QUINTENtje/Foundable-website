@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Zo werkt de AIO audit \u2014 Foundable",
   description:
-    "Van aanvraag tot volledig geoptimaliseerde website in drie stappen. Geen calls, geen intake. Foundable doet het werk \u2014 jij implementeert.",
+    "Wij geven AI alles wat het nodig heeft om jou te begrijpen. Geen verkoopgesprek, geen lange intake \u2014 in vijf stappen klaar.",
 };
 
 export default function WerkwijzePage() {
@@ -14,12 +14,8 @@ export default function WerkwijzePage() {
       <section className="py-16 sm:py-24 bg-bg">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-navy leading-tight">
-            Van aanvraag tot AIO-proof website. In drie stappen.
+            Wij geven AI alles wat het nodig heeft om jou te begrijpen.
           </h1>
-          <p className="mt-4 text-lg text-text-light">
-            Geen verkoopgesprek. Geen lange intake. Jij stelt &eacute;&eacute;n
-            vraag &mdash; wij doen de rest.
-          </p>
         </div>
       </section>
 
@@ -32,13 +28,11 @@ export default function WerkwijzePage() {
               1
             </div>
             <h2 className="text-2xl font-bold text-navy">
-              Gratis AI Visibility Score
+              Check je gratis AI Visibility Score
             </h2>
             <p className="mt-3 text-text-light leading-relaxed">
-              Je vraagt je gratis score aan via de tool op deze website. Je vult
-              je URL, naam en e-mailadres in. Wij analyseren je website en
-              sturen je een indicatie van hoe zichtbaar je bent voor AI &mdash;
-              met concrete verbeterpunten. Geen verplichtingen.
+              Vul je URL in en zie direct hoe zichtbaar je website is voor
+              AI &mdash; inclusief concrete verbeterpunten. Geen verplichtingen.
             </p>
           </div>
 
@@ -47,15 +41,13 @@ export default function WerkwijzePage() {
             <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-white font-bold text-lg">
               2
             </div>
-            <h2 className="text-2xl font-bold text-navy">Audit op maat</h2>
+            <h2 className="text-2xl font-bold text-navy">
+              Je hoort persoonlijk van ons
+            </h2>
             <p className="mt-3 text-text-light leading-relaxed">
-              Na akkoord ontvang je een factuur voor 50% van het auditbedrag
-              (&euro;297,50 excl. BTW). Zodra die betaald is, beginnen we. We
-              stellen je &eacute;&eacute;n vraag: welke klant of dienst wil je
-              het meest aantrekken via AI? Daarna analyseren we je volledige
-              website, schrijven we teksten, bouwen we je structured data en
-              werken we je implementatiegids uit. De doorlooptijd is gemiddeld 5
-              tot 7 werkdagen.
+              We bekijken je website en nemen contact op. Geen geautomatiseerde
+              mail, geen verkoopgesprek. Als we denken dat een audit wat voor je
+              doet, laten we je weten wat we zien.
             </p>
           </div>
 
@@ -65,15 +57,42 @@ export default function WerkwijzePage() {
               3
             </div>
             <h2 className="text-2xl font-bold text-navy">
-              Levering en implementatie
+              De audit begint
             </h2>
             <p className="mt-3 text-text-light leading-relaxed">
-              Je ontvangt het volledige pakket per e-mail: het auditrapport, de
-              Content Optimization PDF, de JSON-LD code, de implementatiegids
-              en de aanbevelingstips. We lichten de
-              belangrijkste bevindingen toe in een heldere begeleidende e-mail.
-              Jij implementeert de aanbevelingen zelf, of geef je ze door aan je
-              webdesigner.
+              Je betaalt de eerste termijn (&euro;297,50 excl. BTW) en wij gaan
+              aan de slag.
+            </p>
+          </div>
+
+          {/* Step 4 */}
+          <div className="relative pl-16">
+            <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-white font-bold text-lg">
+              4
+            </div>
+            <h2 className="text-2xl font-bold text-navy">
+              Je ontvangt het pakket
+            </h2>
+            <p className="mt-3 text-text-light leading-relaxed">
+              Binnen 14 werkdagen ontvang je per mail het volledige pakket:
+              auditrapport, Content Optimization PDF, JSON-LD code,
+              implementatiegids, bonus website tips en tips om beter gevonden te
+              worden. De tweede termijn (&euro;297,50 excl. BTW) ontvang je
+              tegelijk.
+            </p>
+          </div>
+
+          {/* Step 5 */}
+          <div className="relative pl-16">
+            <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-white font-bold text-lg">
+              5
+            </div>
+            <h2 className="text-2xl font-bold text-navy">
+              Revisie
+            </h2>
+            <p className="mt-3 text-text-light leading-relaxed">
+              Je hebt 14 dagen om feedback te geven. Wij verwerken dat in twee
+              revisierondes.
             </p>
           </div>
         </div>
@@ -86,9 +105,9 @@ export default function WerkwijzePage() {
             We maken je vindbaar, niet beroemd.
           </p>
           <p className="mt-6 text-white/70 leading-relaxed max-w-xl mx-auto">
-            Geen maandelijkse kosten. Geen abonnement. Geen follow-up calls die
-            je niet wil. E&eacute;n audit, een compleet pakket, en daarna ben je
-            aan zet.
+            Na de audit heeft AI geen reden meer om jou niet te begrijpen. Hoe
+            prominent je daarna verschijnt, bouw je stap voor stap op &mdash;
+            aan de hand van onze tips.
           </p>
         </div>
       </section>
