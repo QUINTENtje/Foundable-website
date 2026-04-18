@@ -95,7 +95,7 @@ export default function ScorePage() {
               ))}
             </ul>
             <p className="mt-4 text-text-light leading-relaxed text-sm">
-              Je krijgt per categorie een score, uitleg en een concreet verbeterpunt. Plus drie prioritaire acties die je direct kunt oppakken.
+              Je ziet direct hoe je website scoort op AI-vindbaarheid.
             </p>
           </div>
         </div>
