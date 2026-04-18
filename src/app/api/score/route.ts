@@ -1,4 +1,5 @@
 import Anthropic from "@anthropic-ai/sdk";
+import { Resend } from "resend";
 
 const client = new Anthropic();
 
@@ -246,6 +247,30 @@ Geef je analyse als JSON.`;
     const parsed = JSON.parse(jsonText);
     const checkpoints: Checkpoints = parsed.checkpoints;
     const { categories, totalScore, label } = calculateScores(checkpoints);
+
+    // Send notification email
+    try {
+      const resend = new Resend(process.env.RESEND_API_KEY);
+      await resend.emails.send({
+        from: "Foundable <noreply@foundable.nl>",
+        to: "quinten@foundable.nl",
+        replyTo: email,
+        subject: `Score aanvraag — ${name} (${totalScore}/100 — ${label})`,
+        html: `
+          <h2>Nieuwe AI Visibility Score aanvraag</h2>
+          <table style="border-collapse:collapse;font-family:sans-serif;">
+            <tr><td style="padding:8px 16px 8px 0;font-weight:bold;">Naam:</td><td style="padding:8px 0;">${name}</td></tr>
+            <tr><td style="padding:8px 16px 8px 0;font-weight:bold;">E-mail:</td><td style="padding:8px 0;"><a href="mailto:${email}">${email}</a></td></tr>
+            ${company ? `<tr><td style="padding:8px 16px 8px 0;font-weight:bold;">Bedrijf:</td><td style="padding:8px 0;">${company}</td></tr>` : ""}
+            ${sector ? `<tr><td style="padding:8px 16px 8px 0;font-weight:bold;">Sector:</td><td style="padding:8px 0;">${sector}</td></tr>` : ""}
+            <tr><td style="padding:8px 16px 8px 0;font-weight:bold;">Website:</td><td style="padding:8px 0;"><a href="${url}">${url}</a></td></tr>
+            <tr><td style="padding:8px 16px 8px 0;font-weight:bold;">Score:</td><td style="padding:8px 0;"><strong>${totalScore}/100 — ${label}</strong></td></tr>
+          </table>
+        `,
+      });
+    } catch {
+      // Don't fail the score response if email fails
+    }
 
     return Response.json({
       categories,
