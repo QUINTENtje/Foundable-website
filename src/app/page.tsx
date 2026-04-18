@@ -52,62 +52,27 @@ function Problem() {
   return (
     <section className="py-20 sm:py-28 bg-bg-alt">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-navy">
-            AI leest je website. Maar begrijpt het je?
+        <div className="max-w-3xl mx-auto">
+          <h2 className="text-3xl sm:text-4xl font-bold text-navy text-center">
+            De manier waarop mensen zoeken, verandert.
           </h2>
-          <p className="mt-6 text-lg text-text-light leading-relaxed">
-            Google kennen we allemaal &mdash; je zorgt dat je gevonden wordt.
-            Maar ChatGPT, Perplexity en Google AI werken anders. Die zoeken
-            niet naar je website, ze lezen hem om te beslissen wie ze
-            aanbevelen. Is jouw website vaag, onvolledig of slecht geschreven?
-            Dan kiezen ze simpelweg iemand anders.
-          </p>
-        </div>
-
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="rounded-2xl bg-white p-8 border border-border">
-            <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-accent/10 text-accent">
-              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z" />
-              </svg>
-            </div>
-            <h3 className="text-lg font-bold text-navy">AI slaat je over</h3>
-            <p className="mt-2 text-text-light leading-relaxed text-sm">
-              De meeste websites missen concrete feiten, locatiedata en
-              structuur. AI snapt ze niet &mdash; en beveelt ze daarom niet
-              aan.
+          <div className="mt-8 space-y-6 text-lg text-text-light leading-relaxed">
+            <p>
+              Google is nog steeds groot. Maar steeds meer mensen stellen hun
+              vraag aan ChatGPT, Claude, Perplexity of Google AI &mdash; en
+              krijgen direct een antwoord, zonder door te klikken naar een
+              website.
             </p>
-          </div>
-
-          <div className="rounded-2xl bg-white p-8 border border-border">
-            <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-accent/10 text-accent">
-              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 0 1 .865-.501 48.172 48.172 0 0 0 3.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0 0 12 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018Z" />
-              </svg>
-            </div>
-            <h3 className="text-lg font-bold text-navy">
-              Je website vertelt het verkeerde verhaal
-            </h3>
-            <p className="mt-2 text-text-light leading-relaxed text-sm">
-              Wat jij op je website zet en wat AI daaruit opmaakt zijn twee
-              verschillende dingen. Foundable analyseert wat AI ziet &mdash; en
-              zorgt dat het klopt met wie je echt bent.
+            <p>
+              Je Google-positie zegt niets over hoe zichtbaar je bent in die
+              antwoorden. Want AI werkt anders dan Google. Het zoekt niet naar
+              je website &mdash; het leest hem, en beslist op basis daarvan wie
+              het aanbeveelt. Is je website vaag, onvolledig of slecht
+              geschreven? Dan kiezen ze simpelweg iemand anders.
             </p>
-          </div>
-
-          <div className="rounded-2xl bg-white p-8 border border-border">
-            <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-accent/10 text-accent">
-              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z" />
-              </svg>
-            </div>
-            <h3 className="text-lg font-bold text-navy">
-              Wie wacht, verliest
-            </h3>
-            <p className="mt-2 text-text-light leading-relaxed text-sm">
-              AIO is nieuw in Nederland. Wie nu begint, bouwt een voorsprong
-              die straks moeilijk in te halen is.
+            <p>
+              Wie nu alleen op Google inzet, mist een steeds groter publiek. En
+              wie straks wil inhalen, heeft een achterstand.
             </p>
           </div>
         </div>
