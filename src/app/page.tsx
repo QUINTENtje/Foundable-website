@@ -325,6 +325,61 @@ const jsonLd = {
   ],
 };
 
+const faqJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Wat is AIO en waarom zou ik er iets mee doen?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "AIO staat voor AI Optimization. Het is het optimaliseren van je website voor AI-zoekmachines zoals ChatGPT, Perplexity en Google AI. Die tools worden steeds vaker gebruikt om bedrijven te vergelijken en aanbevelingen te doen. Als jouw website niet AIO-proof is, word je simpelweg niet genoemd.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Hoe werkt de audit precies?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket met rapport, herschreven teksten, JSON-LD code en implementatie-instructies. Jij hoeft maar \u00e9\u00e9n vraag te beantwoorden \u2014 de rest doen wij.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Wat heb ik zelf nodig om te doen?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Weinig. Na je aanbetaling stellen we \u00e9\u00e9n vraag: welke klant of dienst wil je het meest aantrekken via AI? Daarna gaan we aan de slag. Na levering implementeer jij de aanbevelingen zelf, of laat je het doen door je webdesigner.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Wanneer zie ik resultaat?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Dat verschilt per website en per zoekmachine. Sommige klanten zien al binnen enkele weken een verschil in hoe AI hun bedrijf beschrijft. Een garantie op snelheid geven we niet \u2014 maar je website is na de audit aantoonbaar beter begrijpelijk voor AI.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Garanderen jullie dat ik aanbevolen word door ChatGPT?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Nee \u2014 en dat doet niemand die eerlijk is. Hoe prominent je verschijnt hangt ook af van externe factoren zoals reviews, concurrentie en vermeldingen. Wat we w\u00e9l garanderen: we geven AI alles wat het nodig heeft om jou te begrijpen. De rest bouw je stap voor stap op met onze tips.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Voor welke bedrijven is dit geschikt?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Foundable werkt met Nederlandse MKB-bedrijven die lokale klanten aantrekken. Denk aan horecabedrijven, vakantieparken, dienstverleners en ambachtelijke bedrijven. Als mensen jou kunnen vinden via Google, kunnen ze je ook vinden via AI \u2014 maar dan moet je website daar wel op ingericht zijn.",
+      },
+    },
+  ],
+};
+
 /* ───────── Page ───────── */
 export default function HomePage() {
   return (
@@ -332,6 +387,10 @@ export default function HomePage() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <Hero />
       <Problem />
