@@ -302,6 +302,13 @@ const jsonLd = {
   url: "https://foundable.nl",
   email: "quinten@foundable.nl",
   telephone: "06-38389591",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "Andreasplein 84",
+    postalCode: "1058 GD",
+    addressLocality: "Amsterdam",
+    addressCountry: "NL",
+  },
   founder: "Quinten Orij",
   foundingLocation: "Amsterdam, Nederland",
   description:
