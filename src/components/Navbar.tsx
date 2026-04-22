@@ -9,6 +9,7 @@ const navItems = [
   { label: "Cases", href: "/cases" },
   { label: "AI Visibility Score", href: "/score" },
   { label: "Contact", href: "/contact" },
+  { label: "Over", href: "/over" },
 ];
 
 export default function Navbar() {
