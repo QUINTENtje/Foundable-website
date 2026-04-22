@@ -28,9 +28,9 @@ export default function OverPage() {
               <Image
                 src="/quinten.jpg"
                 alt="Quinten Orij, oprichter van Foundable"
-                width={224}
-                height={224}
-                className="rounded-full w-56 h-56 object-cover"
+                width={256}
+                height={256}
+                className="rounded-full w-64 h-64 object-cover object-[center_20%]"
                 priority
               />
             </div>
