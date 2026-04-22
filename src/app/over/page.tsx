@@ -23,7 +23,7 @@ export default function OverPage() {
       {/* Over Quinten */}
       <section className="py-16 sm:py-20 bg-bg-alt">
         <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-14">
+          <div className="flex flex-col md:flex-row items-center gap-10 md:gap-14">
             <div className="flex-shrink-0">
               <Image
                 src="/quinten.jpg"
