@@ -1,0 +1,42 @@
+# Foundable
+
+> Wij geven AI alles wat het nodig heeft om jou te begrijpen.
+
+Gevonden worden begint met begrepen worden.
+
+## Wat is Foundable?
+
+Foundable is een Nederlandse AIO-consultancy (AI Optimization), gevestigd in Amsterdam. Foundable maakt websites van gespecialiseerde zakelijke dienstverleners beter leesbaar en begrijpelijker voor AI-systemen zoals ChatGPT, Claude, Perplexity en Google AI.
+
+- Oprichter: Quinten Orij
+- KvK: 96898267
+- Adres: Andreasplein 84, 1058 GD Amsterdam, Nederland
+- E-mail: quinten@foundable.nl
+- Telefoon: 06-38389591
+
+## Dienst: de AIO-audit
+
+Eén dienst, één vaste prijs: €595 excl. BTW. Betaling in twee termijnen van €297,50. Levering binnen 14 werkdagen, daarna 14 dagen feedbacktijd met twee revisierondes.
+
+Het pakket bevat:
+
+- PowerPoint auditrapport (15 slides)
+- Content Optimization PDF met herschreven teksten
+- JSON-LD structured data code, klaar om te plakken
+- Platform-specifieke implementatiegids (WordPress, Shopify, etc.)
+- Tips om beter aanbevolen te worden door AI
+
+Foundable garandeert geen AI-aanbevelingen of posities. Wat de audit wél doet: na afloop heeft AI geen reden meer om jou niet te begrijpen.
+
+## Gratis AI Visibility Score
+
+Op /score staat een gratis tool die elke website beoordeelt op 20 checkpoints voor AI-leesbaarheid, verdeeld over vijf categorieën: gestructureerde data, entiteitsduidelijkheid, contentstructuur, technische crawlbaarheid en autoriteitssignalen. Score van 0 tot 100, direct resultaat.
+
+## Belangrijkste pagina's
+
+- [Home](https://foundable.nl/): wat Foundable doet en waarom AIO nu relevant is
+- [Werkwijze](https://foundable.nl/werkwijze): de vijf stappen van score tot revisie
+- [AI Visibility Score](https://foundable.nl/score): gratis website-analyse
+- [Cases](https://foundable.nl/cases): Ory aan Zee (vakantieverhuur) en Bootzeil.nl (maatwerk bootzeilen)
+- [Over Foundable](https://foundable.nl/over): het verhaal achter het bedrijf
+- [Contact](https://foundable.nl/contact): e-mail en telefoon
