@@ -2,6 +2,7 @@ import Link from "next/link";
 import DeliverableCard from "@/components/DeliverableCard";
 import CaseCard from "@/components/CaseCard";
 import FAQ from "@/components/FAQ";
+import JsonLd from "@/components/JsonLd";
 
 /* ───────── Hero ───────── */
 function Hero() {
@@ -295,36 +296,6 @@ function CasesPreview() {
 }
 
 /* ───────── JSON-LD ───────── */
-const jsonLd = {
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  name: "Foundable",
-  url: "https://foundable.nl",
-  email: "quinten@foundable.nl",
-  telephone: "06-38389591",
-  address: {
-    "@type": "PostalAddress",
-    streetAddress: "Andreasplein 84",
-    postalCode: "1058 GD",
-    addressLocality: "Amsterdam",
-    addressCountry: "NL",
-  },
-  founder: "Quinten Orij",
-  foundingLocation: "Amsterdam, Nederland",
-  description:
-    "Foundable helpt Nederlandse MKB-bedrijven zichtbaar worden in AI-zoekmachines zoals ChatGPT, Perplexity en Google AI via done-for-you AIO audits.",
-  areaServed: "Nederland",
-  priceRange: "\u20ac595 excl. BTW",
-  knowsAbout: [
-    "AIO",
-    "AI Optimization",
-    "AI zichtbaarheid",
-    "structured data",
-    "JSON-LD",
-    "ChatGPT zichtbaarheid",
-  ],
-};
-
 const faqJsonLd = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
@@ -384,14 +355,7 @@ const faqJsonLd = {
 export default function HomePage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-      />
+      <JsonLd data={faqJsonLd} />
       <Hero />
       <Problem />
       <Deliverables />
