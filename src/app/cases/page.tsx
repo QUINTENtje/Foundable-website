@@ -4,6 +4,16 @@ export const metadata: Metadata = {
   title: "Cases \u2014 Foundable",
   description:
     "Bekijk hoe Foundable Nederlandse bedrijven zichtbaar heeft gemaakt in ChatGPT, Perplexity en Google AI.",
+  openGraph: {
+    type: "website",
+    locale: "nl_NL",
+    siteName: "Foundable",
+    url: "https://foundable.nl/cases",
+    title: "Cases \u2014 Foundable",
+    description:
+      "Bekijk hoe Foundable Nederlandse bedrijven zichtbaar heeft gemaakt in ChatGPT, Perplexity en Google AI.",
+    images: [{ url: "/logo.png" }],
+  },
 };
 
 export default function CasesPage() {

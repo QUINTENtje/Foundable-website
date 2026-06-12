@@ -6,6 +6,16 @@ export const metadata: Metadata = {
   title: "Over Foundable \u2014 AIO specialist in Amsterdam",
   description:
     "Foundable helpt Nederlandse bedrijven vindbaar worden voor AI. Opgericht door Quinten Orij vanuit Amsterdam.",
+  openGraph: {
+    type: "website",
+    locale: "nl_NL",
+    siteName: "Foundable",
+    url: "https://foundable.nl/over",
+    title: "Over Foundable \u2014 AIO specialist in Amsterdam",
+    description:
+      "Foundable helpt Nederlandse bedrijven vindbaar worden voor AI. Opgericht door Quinten Orij vanuit Amsterdam.",
+    images: [{ url: "/logo.png" }],
+  },
 };
 
 export default function OverPage() {

@@ -5,6 +5,16 @@ export const metadata: Metadata = {
   title: "Zo werkt de AIO audit \u2014 Foundable",
   description:
     "Wij geven AI alles wat het nodig heeft om jou te begrijpen. Geen verkoopgesprek, geen lange intake \u2014 in vijf stappen klaar.",
+  openGraph: {
+    type: "website",
+    locale: "nl_NL",
+    siteName: "Foundable",
+    url: "https://foundable.nl/werkwijze",
+    title: "Zo werkt de AIO audit \u2014 Foundable",
+    description:
+      "Wij geven AI alles wat het nodig heeft om jou te begrijpen. Geen verkoopgesprek, geen lange intake \u2014 in vijf stappen klaar.",
+    images: [{ url: "/logo.png" }],
+  },
 };
 
 export default function WerkwijzePage() {

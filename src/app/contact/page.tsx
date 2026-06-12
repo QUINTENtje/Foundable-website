@@ -5,6 +5,16 @@ export const metadata: Metadata = {
   title: "Contact \u2014 Foundable",
   description:
     "Neem contact op met Foundable. We reageren binnen \u00e9\u00e9n werkdag.",
+  openGraph: {
+    type: "website",
+    locale: "nl_NL",
+    siteName: "Foundable",
+    url: "https://foundable.nl/contact",
+    title: "Contact \u2014 Foundable",
+    description:
+      "Neem contact op met Foundable. We reageren binnen \u00e9\u00e9n werkdag.",
+    images: [{ url: "/logo.png" }],
+  },
 };
 
 export default function ContactPage() {
