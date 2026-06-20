@@ -1,15 +1,19 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "Zo werkt de AIO audit \u2014 Foundable",
   description:
     "Wij geven AI alles wat het nodig heeft om jou te begrijpen. Geen verkoopgesprek, geen lange intake \u2014 in vijf stappen klaar.",
+  alternates: {
+    canonical: "/werkwijze",
+  },
   openGraph: {
     type: "website",
     locale: "nl_NL",
     siteName: "Foundable",
-    url: "https://foundable.nl/werkwijze",
+    url: "https://www.foundable.nl/werkwijze",
     title: "Zo werkt de AIO audit \u2014 Foundable",
     description:
       "Wij geven AI alles wat het nodig heeft om jou te begrijpen. Geen verkoopgesprek, geen lange intake \u2014 in vijf stappen klaar.",
@@ -17,9 +21,50 @@ export const metadata: Metadata = {
   },
 };
 
+const howToSchema = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  name: "Zo werkt de AIO-audit van Foundable",
+  description:
+    "De AIO-audit van Foundable in vijf stappen: van gratis AI Visibility Score tot revisie.",
+  step: [
+    {
+      "@type": "HowToStep",
+      position: 1,
+      name: "Check je gratis AI Visibility Score",
+      text: "Vul je URL in en zie direct hoe zichtbaar je website is voor AI \u2014 inclusief concrete verbeterpunten. Geen verplichtingen.",
+    },
+    {
+      "@type": "HowToStep",
+      position: 2,
+      name: "Je hoort persoonlijk van ons",
+      text: "We bekijken je website en nemen contact op. Geen geautomatiseerde mail, geen verkoopgesprek. Als we denken dat een audit wat voor je doet, laten we je weten wat we zien.",
+    },
+    {
+      "@type": "HowToStep",
+      position: 3,
+      name: "De audit begint",
+      text: "Je betaalt de eerste termijn (\u20ac297,50 excl. BTW) en wij gaan aan de slag.",
+    },
+    {
+      "@type": "HowToStep",
+      position: 4,
+      name: "Je ontvangt het pakket",
+      text: "Binnen 14 werkdagen ontvang je per mail het volledige pakket: auditrapport, Content Optimization PDF, JSON-LD code, implementatiegids, bonus website tips en tips om beter gevonden te worden. De tweede termijn (\u20ac297,50 excl. BTW) ontvang je tegelijk.",
+    },
+    {
+      "@type": "HowToStep",
+      position: 5,
+      name: "Revisie",
+      text: "Je hebt 14 dagen om feedback te geven. Wij verwerken dat in twee revisierondes.",
+    },
+  ],
+};
+
 export default function WerkwijzePage() {
   return (
     <>
+      <JsonLd data={howToSchema} />
       {/* Hero */}
       <section className="py-16 sm:py-24 bg-bg">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">

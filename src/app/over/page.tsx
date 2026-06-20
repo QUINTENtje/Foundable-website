@@ -1,16 +1,20 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "Over Foundable \u2014 AIO specialist in Amsterdam",
   description:
     "Foundable helpt Nederlandse bedrijven vindbaar worden voor AI. Opgericht door Quinten Orij vanuit Amsterdam.",
+  alternates: {
+    canonical: "/over",
+  },
   openGraph: {
     type: "website",
     locale: "nl_NL",
     siteName: "Foundable",
-    url: "https://foundable.nl/over",
+    url: "https://www.foundable.nl/over",
     title: "Over Foundable \u2014 AIO specialist in Amsterdam",
     description:
       "Foundable helpt Nederlandse bedrijven vindbaar worden voor AI. Opgericht door Quinten Orij vanuit Amsterdam.",
@@ -18,9 +22,19 @@ export const metadata: Metadata = {
   },
 };
 
+const aboutPageSchema = {
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "@id": "https://www.foundable.nl/over#aboutpage",
+  url: "https://www.foundable.nl/over",
+  name: "Over Foundable",
+  mainEntity: { "@id": "https://www.foundable.nl/#quinten-orij" },
+};
+
 export default function OverPage() {
   return (
     <>
+      <JsonLd data={aboutPageSchema} />
       {/* Hero */}
       <section className="py-16 sm:py-24 bg-bg">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">

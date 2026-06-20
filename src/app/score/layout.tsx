@@ -4,11 +4,14 @@ export const metadata: Metadata = {
   title: "Gratis AI Visibility Score \u2014 Foundable",
   description:
     "Hoe zichtbaar is jouw website voor ChatGPT, Perplexity en Google AI? Vraag je gratis score aan en ontvang concrete verbeterpunten.",
+  alternates: {
+    canonical: "/score",
+  },
   openGraph: {
     type: "website",
     locale: "nl_NL",
     siteName: "Foundable",
-    url: "https://foundable.nl/score",
+    url: "https://www.foundable.nl/score",
     title: "Gratis AI Visibility Score \u2014 Foundable",
     description:
       "Hoe zichtbaar is jouw website voor ChatGPT, Perplexity en Google AI? Vraag je gratis score aan en ontvang concrete verbeterpunten.",

@@ -4,15 +4,18 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Start je AIO-audit — Foundable",
   description:
-    "Klaar om zichtbaar te worden voor AI? Begin met je gratis AI Visibility Score en ontdek waar je website nu staat.",
+    "Start in vijf minuten je AIO-audit. Eén vraag beantwoorden, de rest doen wij. €595 excl. BTW, alles inbegrepen.",
+  alternates: {
+    canonical: "/start",
+  },
   openGraph: {
     type: "website",
     locale: "nl_NL",
     siteName: "Foundable",
-    url: "https://foundable.nl/start",
+    url: "https://www.foundable.nl/start",
     title: "Start je AIO-audit — Foundable",
     description:
-      "Klaar om zichtbaar te worden voor AI? Begin met je gratis AI Visibility Score en ontdek waar je website nu staat.",
+      "Start in vijf minuten je AIO-audit. Eén vraag beantwoorden, de rest doen wij. €595 excl. BTW, alles inbegrepen.",
     images: [{ url: "/logo.png" }],
   },
 };
