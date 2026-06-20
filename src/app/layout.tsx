@@ -2,10 +2,7 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import JsonLd, {
-  professionalServiceSchema,
-  webSiteSchema,
-} from "@/components/JsonLd";
+import JsonLd, { siteGraph } from "@/components/JsonLd";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -20,7 +17,10 @@ export const metadata: Metadata = {
   },
   description:
     "Foundable helpt Nederlandse bedrijven zichtbaar worden in ChatGPT, Perplexity en Google AI. Done-for-you AIO audit voor €595 excl. BTW. Gratis AI Visibility Score aanvragen.",
-  metadataBase: new URL("https://foundable.nl"),
+  metadataBase: new URL("https://www.foundable.nl"),
+  alternates: {
+    canonical: "./",
+  },
   openGraph: {
     type: "website",
     locale: "nl_NL",
@@ -28,8 +28,15 @@ export const metadata: Metadata = {
     title: "Foundable — AIO Audit voor Nederlandse MKB-bedrijven",
     description:
       "Foundable helpt Nederlandse bedrijven zichtbaar worden in ChatGPT, Perplexity en Google AI. Done-for-you AIO audit voor €595 excl. BTW.",
-    url: "https://foundable.nl",
+    url: "https://www.foundable.nl",
     images: [{ url: "/logo.png" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Foundable — AIO Audit voor Nederlandse MKB-bedrijven",
+    description:
+      "Foundable helpt Nederlandse bedrijven zichtbaar worden in ChatGPT, Perplexity en Google AI. Done-for-you AIO audit voor €595 excl. BTW.",
+    images: ["/logo.png"],
   },
 };
 
@@ -41,8 +48,7 @@ export default function RootLayout({
   return (
     <html lang="nl" className={`${geistSans.variable} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-bg text-text font-sans">
-        <JsonLd data={professionalServiceSchema} />
-        <JsonLd data={webSiteSchema} />
+        <JsonLd data={siteGraph} />
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
