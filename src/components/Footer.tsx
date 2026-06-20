@@ -57,7 +57,7 @@ export default function Footer() {
                   href="tel:+31638389591"
                   className="hover:text-white transition-colors"
                 >
-                  06-38389591
+                  +31 6 38389591
                 </a>
               </li>
               <li>Amsterdam, Nederland</li>
@@ -68,7 +68,7 @@ export default function Footer() {
         <div className="mt-12 pt-8 border-t border-white/10 text-center text-sm text-white/40">
           <p>
             Foundable | KvK: 96898267 | BTW: NL005235720B29 |
-            quinten@foundable.nl | 06-38389591
+            quinten@foundable.nl | +31 6 38389591
           </p>
           <p className="mt-2">
             &copy; {new Date().getFullYear()} Foundable. Gevestigd in Amsterdam,

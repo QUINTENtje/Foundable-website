@@ -5,11 +5,14 @@ export const metadata: Metadata = {
   title: "Contact \u2014 Foundable",
   description:
     "Neem contact op met Foundable. We reageren binnen \u00e9\u00e9n werkdag.",
+  alternates: {
+    canonical: "/contact",
+  },
   openGraph: {
     type: "website",
     locale: "nl_NL",
     siteName: "Foundable",
-    url: "https://foundable.nl/contact",
+    url: "https://www.foundable.nl/contact",
     title: "Contact \u2014 Foundable",
     description:
       "Neem contact op met Foundable. We reageren binnen \u00e9\u00e9n werkdag.",
@@ -60,7 +63,7 @@ export default function ContactPage() {
                       href="tel:+31638389591"
                       className="text-text-light hover:text-navy transition-colors"
                     >
-                      06-38389591
+                      +31 6 38389591
                     </a>
                   </dd>
                 </div>
