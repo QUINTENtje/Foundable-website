@@ -9,7 +9,7 @@ interface CaseCardProps {
 
 export default function CaseCard({ name, sector, result, href }: CaseCardProps) {
   return (
-    <div className="rounded-2xl border border-border bg-white p-8 hover:shadow-md transition-shadow">
+    <div className="card-lift h-full rounded-2xl border border-border bg-white p-8">
       <p className="text-sm font-semibold text-accent uppercase tracking-wide">
         {sector}
       </p>

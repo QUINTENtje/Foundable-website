@@ -24,8 +24,10 @@ export default function Navbar() {
 
   return (
     <header
-      className={`sticky top-0 z-50 bg-white transition-shadow ${
-        scrolled ? "shadow-md" : ""
+      className={`sticky top-0 z-50 transition-all duration-300 ${
+        scrolled
+          ? "glass shadow-[0_8px_30px_-12px_rgba(15,31,61,0.18)] border-b border-border/60"
+          : "bg-white/80 backdrop-blur-sm"
       }`}
     >
       <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -47,7 +49,7 @@ export default function Navbar() {
             ))}
             <Link
               href="/score"
-              className="rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent-hover transition-colors"
+              className="glow-accent rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent-hover"
             >
               Gratis score aanvragen
             </Link>

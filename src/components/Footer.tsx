@@ -11,8 +11,11 @@ export default function Footer() {
             <div className="mb-3">
               <Logo variant="dark" className="h-9 w-auto" />
             </div>
-            <p className="text-sm max-w-xs">
-              We maken je vindbaar, niet beroemd.
+            <p className="text-sm max-w-xs font-medium text-white/90">
+              Gevonden worden begint met begrepen worden.
+            </p>
+            <p className="mt-1 text-sm max-w-xs">
+              Word gevonden in het AI-tijdperk.
             </p>
           </div>
 

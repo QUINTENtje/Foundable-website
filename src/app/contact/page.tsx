@@ -30,8 +30,8 @@ export default function ContactPage() {
             Neem contact op
           </h1>
           <p className="mt-4 text-lg text-text-light">
-            Heb je een vraag over de audit of wil je meer weten? Stuur een
-            berichtje. We reageren binnen &eacute;&eacute;n werkdag.
+            Vragen, of loop je ergens vast? E&eacute;n berichtje en ik kijk met
+            je mee. We reageren binnen &eacute;&eacute;n werkdag.
           </p>
         </div>
       </section>
@@ -82,11 +82,11 @@ export default function ContactPage() {
               <div className="mt-10 rounded-xl bg-bg-alt border border-border p-6">
                 <p className="text-text-light leading-relaxed">
                   Liever direct starten? Vraag je gratis AI Visibility Score
-                  aan &mdash; dan nemen we daarna contact op.
+                  aan, dan nemen we daarna contact op.
                 </p>
                 <Link
                   href="/score"
-                  className="mt-4 inline-flex items-center justify-center rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent-hover transition-colors"
+                  className="glow-accent mt-4 inline-flex items-center justify-center rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent-hover"
                 >
                   Gratis score aanvragen
                 </Link>

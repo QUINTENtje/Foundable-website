@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
+import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
-  title: "Zo werkt de AIO audit \u2014 Foundable",
+  title: "Zo werkt de GEO-audit \u2014 Foundable",
   description:
-    "Wij geven AI alles wat het nodig heeft om jou te begrijpen. Geen verkoopgesprek, geen lange intake \u2014 in vijf stappen klaar.",
+    "Wij geven AI alles wat het nodig heeft om jou te begrijpen. Geen verkoopgesprek, geen lange intake. In vijf stappen klaar.",
   alternates: {
     canonical: "/werkwijze",
   },
@@ -14,9 +15,9 @@ export const metadata: Metadata = {
     locale: "nl_NL",
     siteName: "Foundable",
     url: "https://www.foundable.nl/werkwijze",
-    title: "Zo werkt de AIO audit \u2014 Foundable",
+    title: "Zo werkt de GEO-audit \u2014 Foundable",
     description:
-      "Wij geven AI alles wat het nodig heeft om jou te begrijpen. Geen verkoopgesprek, geen lange intake \u2014 in vijf stappen klaar.",
+      "Wij geven AI alles wat het nodig heeft om jou te begrijpen. Geen verkoopgesprek, geen lange intake. In vijf stappen klaar.",
     images: [{ url: "/logo.png" }],
   },
 };
@@ -24,15 +25,15 @@ export const metadata: Metadata = {
 const howToSchema = {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  name: "Zo werkt de AIO-audit van Foundable",
+  name: "Zo werkt de GEO-audit van Foundable",
   description:
-    "De AIO-audit van Foundable in vijf stappen: van gratis AI Visibility Score tot revisie.",
+    "De GEO-audit van Foundable in vijf stappen: van gratis AI Visibility Score tot revisie.",
   step: [
     {
       "@type": "HowToStep",
       position: 1,
       name: "Check je gratis AI Visibility Score",
-      text: "Vul je URL in en zie direct hoe zichtbaar je website is voor AI \u2014 inclusief concrete verbeterpunten. Geen verplichtingen.",
+      text: "Vul je URL in en zie direct hoe zichtbaar je website is voor AI, inclusief concrete verbeterpunten. Geen verplichtingen.",
     },
     {
       "@type": "HowToStep",
@@ -44,13 +45,13 @@ const howToSchema = {
       "@type": "HowToStep",
       position: 3,
       name: "De audit begint",
-      text: "Je betaalt de eerste termijn (\u20ac297,50 excl. BTW) en wij gaan aan de slag.",
+      text: "Je betaalt de eerste termijn (50% van het totaal) en wij gaan aan de slag.",
     },
     {
       "@type": "HowToStep",
       position: 4,
       name: "Je ontvangt het pakket",
-      text: "Binnen 14 werkdagen ontvang je per mail het volledige pakket: auditrapport, Content Optimization PDF, JSON-LD code, implementatiegids, bonus website tips en tips om beter gevonden te worden. De tweede termijn (\u20ac297,50 excl. BTW) ontvang je tegelijk.",
+      text: "Binnen 14 werkdagen ontvang je per mail het volledige pakket: auditrapport, Content Optimization PDF, JSON-LD code, implementatiegids en tips om beter gevonden te worden. De tweede termijn (de resterende 50%) ontvang je tegelijk.",
     },
     {
       "@type": "HowToStep",
@@ -66,9 +67,16 @@ export default function WerkwijzePage() {
     <>
       <JsonLd data={howToSchema} />
       {/* Hero */}
-      <section className="py-16 sm:py-24 bg-bg">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl sm:text-5xl font-bold text-navy leading-tight">
+      <section className="relative overflow-hidden py-16 sm:py-24 bg-bg">
+        <div className="aurora" aria-hidden="true">
+          <div className="blob blob-1" />
+          <div className="blob blob-3" />
+        </div>
+        <div className="relative mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
+          <span className="inline-flex items-center gap-2 rounded-full border border-border bg-white/70 px-4 py-1.5 text-sm font-medium text-navy backdrop-blur">
+            In vijf stappen klaar
+          </span>
+          <h1 className="mt-6 text-4xl sm:text-5xl font-bold text-navy leading-tight">
             Wij geven AI alles wat het nodig heeft om jou te begrijpen.
           </h1>
         </div>
@@ -76,10 +84,10 @@ export default function WerkwijzePage() {
 
       {/* Steps */}
       <section className="py-16 sm:py-24 bg-bg-alt">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 space-y-16">
+        <Reveal className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 space-y-16">
           {/* Step 1 */}
           <div className="relative pl-16">
-            <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-white font-bold text-lg">
+            <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-white font-bold text-lg shadow-[0_8px_20px_-6px_rgba(249,115,22,0.6)]">
               1
             </div>
             <h2 className="text-2xl font-bold text-navy">
@@ -87,13 +95,13 @@ export default function WerkwijzePage() {
             </h2>
             <p className="mt-3 text-text-light leading-relaxed">
               Vul je URL in en zie direct hoe zichtbaar je website is voor
-              AI &mdash; inclusief concrete verbeterpunten. Geen verplichtingen.
+              AI, inclusief concrete verbeterpunten. Geen verplichtingen.
             </p>
           </div>
 
           {/* Step 2 */}
           <div className="relative pl-16">
-            <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-white font-bold text-lg">
+            <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-white font-bold text-lg shadow-[0_8px_20px_-6px_rgba(249,115,22,0.6)]">
               2
             </div>
             <h2 className="text-2xl font-bold text-navy">
@@ -108,21 +116,21 @@ export default function WerkwijzePage() {
 
           {/* Step 3 */}
           <div className="relative pl-16">
-            <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-white font-bold text-lg">
+            <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-white font-bold text-lg shadow-[0_8px_20px_-6px_rgba(249,115,22,0.6)]">
               3
             </div>
             <h2 className="text-2xl font-bold text-navy">
               De audit begint
             </h2>
             <p className="mt-3 text-text-light leading-relaxed">
-              Je betaalt de eerste termijn (&euro;297,50 excl. BTW) en wij gaan
+              Je betaalt de eerste termijn (50% van het totaal) en wij gaan
               aan de slag.
             </p>
           </div>
 
           {/* Step 4 */}
           <div className="relative pl-16">
-            <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-white font-bold text-lg">
+            <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-white font-bold text-lg shadow-[0_8px_20px_-6px_rgba(249,115,22,0.6)]">
               4
             </div>
             <h2 className="text-2xl font-bold text-navy">
@@ -131,15 +139,15 @@ export default function WerkwijzePage() {
             <p className="mt-3 text-text-light leading-relaxed">
               Binnen 14 werkdagen ontvang je per mail het volledige pakket:
               auditrapport, Content Optimization PDF, JSON-LD code,
-              implementatiegids, bonus website tips en tips om beter gevonden te
-              worden. De tweede termijn (&euro;297,50 excl. BTW) ontvang je
+              implementatiegids en tips om beter gevonden te
+              worden. De tweede termijn (de resterende 50%) ontvang je
               tegelijk.
             </p>
           </div>
 
           {/* Step 5 */}
           <div className="relative pl-16">
-            <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-white font-bold text-lg">
+            <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-white font-bold text-lg shadow-[0_8px_20px_-6px_rgba(249,115,22,0.6)]">
               5
             </div>
             <h2 className="text-2xl font-bold text-navy">
@@ -150,21 +158,24 @@ export default function WerkwijzePage() {
               revisierondes.
             </p>
           </div>
-        </div>
+        </Reveal>
       </section>
 
       {/* Promise Block */}
-      <section className="py-16 sm:py-24 bg-navy text-white">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
+      <section className="glow-radial py-16 sm:py-24 bg-navy text-white">
+        <Reveal className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-3xl sm:text-4xl font-bold">
-            We maken je vindbaar, niet beroemd.
+            Gevonden worden begint met begrepen worden.
+          </p>
+          <p className="mt-3 text-lg text-accent font-medium">
+            Word gevonden in het AI-tijdperk.
           </p>
           <p className="mt-6 text-white/70 leading-relaxed max-w-xl mx-auto">
             Na de audit heeft AI geen reden meer om jou niet te begrijpen. Hoe
-            prominent je daarna verschijnt, bouw je stap voor stap op &mdash;
-            aan de hand van onze tips.
+            prominent je daarna verschijnt, bouw je stap voor stap op, aan
+            de hand van onze tips.
           </p>
-        </div>
+        </Reveal>
       </section>
 
       {/* CTA */}
@@ -172,7 +183,7 @@ export default function WerkwijzePage() {
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
           <Link
             href="/score"
-            className="inline-flex items-center justify-center rounded-lg bg-accent px-8 py-4 text-lg font-semibold text-white hover:bg-accent-hover transition-colors"
+            className="glow-accent inline-flex items-center justify-center rounded-lg bg-accent px-8 py-4 text-lg font-semibold text-white hover:bg-accent-hover"
           >
             Vraag je gratis AI Visibility Score aan
           </Link>

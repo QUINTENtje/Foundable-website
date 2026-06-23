@@ -3,45 +3,66 @@ import DeliverableCard from "@/components/DeliverableCard";
 import CaseCard from "@/components/CaseCard";
 import FAQ from "@/components/FAQ";
 import JsonLd from "@/components/JsonLd";
+import Reveal from "@/components/Reveal";
 
 /* ───────── Hero ───────── */
 function Hero() {
   return (
-    <section className="py-20 sm:py-28 lg:py-36 bg-bg">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    <section className="relative overflow-hidden bg-bg">
+      <div className="aurora" aria-hidden="true">
+        <div className="blob blob-1" />
+        <div className="blob blob-2" />
+        <div className="blob blob-3" />
+      </div>
+      <div
+        className="absolute inset-0 bg-dots opacity-70 [mask-image:radial-gradient(ellipse_70%_60%_at_50%_30%,black,transparent)]"
+        aria-hidden="true"
+      />
+
+      <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-24 sm:py-32 lg:py-40">
         <div className="max-w-3xl">
-          <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-navy leading-tight">
-            Zorg dat AI jou kent &mdash; niet alleen je concurrent.
+          <span className="inline-flex items-center gap-2 rounded-full border border-border bg-white/70 px-4 py-1.5 text-sm font-medium text-navy backdrop-blur">
+            <span className="h-2 w-2 rounded-full bg-accent animate-pulse" />
+            GEO &middot; Generative Engine Optimization
+          </span>
+
+          <h1 className="mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold text-navy leading-tight">
+            Zorg dat AI jou kent.{" "}
+            <span className="text-gradient">Niet alleen je concurrent.</span>
           </h1>
+
           <p className="mt-6 text-lg sm:text-xl text-text-light max-w-2xl leading-relaxed">
             ChatGPT, Perplexity en Google AI bepalen steeds vaker wie klanten
             bellen. Foundable analyseert jouw website en levert alles wat AI
-            nodig heeft om jou te begrijpen. Geen vage adviezen &mdash; een
-            compleet pakket, klaar om te implementeren.
+            nodig heeft om jou te begrijpen. Geen vage adviezen, maar een
+            compleet pakket dat klaar is om te implementeren.
           </p>
+
+          <p className="mt-6 text-lg font-semibold text-navy">
+            Gevonden worden begint met begrepen worden.
+          </p>
+
           <div className="mt-10 flex flex-col sm:flex-row gap-4">
             <Link
               href="/score"
-              className="inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3.5 text-base font-semibold text-white hover:bg-accent-hover transition-colors"
+              className="glow-accent inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3.5 text-base font-semibold text-white hover:bg-accent-hover"
             >
               Vraag je gratis AI Visibility Score aan
             </Link>
             <Link
               href="/werkwijze"
-              className="inline-flex items-center justify-center rounded-lg border border-border px-6 py-3.5 text-base font-semibold text-navy hover:bg-navy hover:text-white transition-colors"
+              className="inline-flex items-center justify-center rounded-lg border border-border bg-white/60 px-6 py-3.5 text-base font-semibold text-navy backdrop-blur hover:bg-navy hover:text-white transition-colors"
             >
               Bekijk hoe het werkt
             </Link>
           </div>
-          <div className="mt-6">
-            <p className="text-sm text-text-light mb-2">Klaar om te beginnen?</p>
-            <Link
-              href="/start"
-              className="inline-flex items-center justify-center rounded-lg bg-navy px-6 py-3.5 text-base font-semibold text-white hover:bg-navy-light transition-colors"
-            >
-              Start je audit &mdash; &euro;595
-            </Link>
-          </div>
+
+          <p className="mt-6 text-sm text-text-light">
+            Done-for-you GEO-audit.{" "}
+            <span className="line-through">&euro;999</span>{" "}
+            <span className="font-semibold text-navy">&euro;499 excl. BTW</span>.
+            Tijdelijke introductieprijs.
+          </p>
         </div>
       </div>
     </section>
@@ -53,21 +74,20 @@ function Problem() {
   return (
     <section className="py-20 sm:py-28 bg-bg-alt">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto">
+        <Reveal className="max-w-3xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold text-navy text-center">
             De manier waarop mensen zoeken, verandert.
           </h2>
           <div className="mt-8 space-y-6 text-lg text-text-light leading-relaxed">
             <p>
               Google is nog steeds groot. Maar steeds meer mensen stellen hun
-              vraag aan ChatGPT, Claude, Perplexity of Google AI &mdash; en
-              krijgen direct een antwoord, zonder door te klikken naar een
-              website.
+              vraag aan ChatGPT, Claude, Perplexity of Google AI, en krijgen
+              direct een antwoord, zonder door te klikken naar een website.
             </p>
             <p>
               Je Google-positie zegt niets over hoe zichtbaar je bent in die
               antwoorden. Want AI werkt anders dan Google. Het zoekt niet naar
-              je website &mdash; het leest hem, en beslist op basis daarvan wie
+              je website. Het leest hem, en beslist op basis daarvan wie
               het aanbeveelt. Is je website vaag, onvolledig of slecht
               geschreven? Dan kiezen ze simpelweg iemand anders.
             </p>
@@ -76,7 +96,7 @@ function Problem() {
               wie straks wil inhalen, heeft een achterstand.
             </p>
           </div>
-        </div>
+        </Reveal>
       </div>
     </section>
   );
@@ -86,7 +106,7 @@ function Problem() {
 function Deliverables() {
   const deliverables = [
     {
-      title: "PowerPoint Auditrapport \u2014 15 slides",
+      title: "PowerPoint Auditrapport (15 slides)",
       description:
         "Je ziet precies hoe AI jouw website nu leest. Je krijgt een overzicht van wat ontbreekt, wat onduidelijk is en wat er als eerste moet veranderen. Inclusief prioriteitenlijst.",
       icon: (
@@ -118,7 +138,7 @@ function Deliverables() {
     {
       title: "Platform-specifieke implementatiegids",
       description:
-        "Alle aanbevelingen zijn uitgewerkt als stap-voor-stap instructies voor jouw specifieke platform. Of je nou WordPress, Shopify of iets anders gebruikt \u2014 het staat erin.",
+        "Alle aanbevelingen zijn uitgewerkt als stap-voor-stap instructies voor jouw specifieke platform. Of je nou WordPress, Shopify of iets anders gebruikt, het staat erin.",
       icon: (
         <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15a2.25 2.25 0 0 1 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" />
@@ -140,26 +160,32 @@ function Deliverables() {
   return (
     <section className="py-20 sm:py-28 bg-bg">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl mx-auto text-center mb-16">
+        <Reveal className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold text-navy">
             Een compleet pakket. Geen losse tips.
           </h2>
           <p className="mt-4 text-lg text-text-light">
-            Een done-for-you AIO audit die ervoor zorgt dat AI jouw website
+            Een done-for-you GEO-audit die ervoor zorgt dat AI jouw website
             &eacute;cht begrijpt.
           </p>
-        </div>
+        </Reveal>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {deliverables.map((d) => (
-            <DeliverableCard
-              key={d.title}
-              icon={d.icon}
-              title={d.title}
-              description={d.description}
-            />
+          {deliverables.map((d, i) => (
+            <Reveal key={d.title} delay={i * 70} className="h-full">
+              <DeliverableCard
+                icon={d.icon}
+                title={d.title}
+                description={d.description}
+              />
+            </Reveal>
           ))}
         </div>
+
+        <p className="mt-12 text-center text-text-light">
+          De deliverables zijn &eacute;&eacute;n geheel, geen losse lijstjes.
+          Samen vertellen ze AI precies wie je bent.
+        </p>
       </div>
     </section>
   );
@@ -168,23 +194,28 @@ function Deliverables() {
 /* ───────── Promise ───────── */
 function Promise() {
   return (
-    <section className="py-20 sm:py-28 bg-navy text-white">
-      <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
+    <section className="glow-radial py-20 sm:py-28 bg-navy text-white">
+      <Reveal className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
         <p className="text-3xl sm:text-4xl font-bold leading-tight">
-          We maken je vindbaar, niet beroemd.
+          Gevonden worden begint met begrepen worden.
+        </p>
+        <p className="mt-3 text-lg text-accent font-medium">
+          Word gevonden in het AI-tijdperk.
         </p>
         <p className="mt-8 text-lg text-white/70 leading-relaxed max-w-2xl mx-auto">
           Wij geven AI alles wat het nodig heeft om jou te begrijpen. Hoe
-          prominent je daarna verschijnt, bouw je stap voor stap op &mdash; aan
+          prominent je daarna verschijnt, bouw je stap voor stap op, aan
           de hand van onze tips.
         </p>
         <p className="mt-6 text-sm text-white/50 max-w-2xl mx-auto leading-relaxed">
           We garanderen geen aanbevelingen. Hoe prominent je verschijnt in
           ChatGPT hangt ook af van je reviews, concurrentie en hoe vaak je
           online vermeld wordt. Wat we w&eacute;l garanderen: na deze audit
-          heeft AI geen excuus meer om jou niet te begrijpen.
+          heeft AI geen excuus meer om jou niet te begrijpen. Geen enkele stap
+          is een garantie, maar samen verschuiven ze de kans duidelijk in jouw
+          voordeel.
         </p>
-      </div>
+      </Reveal>
     </section>
   );
 }
@@ -200,68 +231,80 @@ function Pricing() {
           </h2>
         </div>
 
-        <div className="mt-12 mx-auto max-w-lg">
-          <div className="rounded-2xl bg-white border-2 border-navy p-8 shadow-sm">
-            <div className="text-center">
-              <p className="mt-2">
-                <span className="text-5xl font-bold text-navy">
-                  &euro;595
+        <Reveal className="mt-12 mx-auto max-w-lg">
+          {/* Gradient-rand met glow */}
+          <div className="rounded-[1.1rem] bg-gradient-to-br from-accent/60 via-amber/40 to-navy/30 p-[1.5px] shadow-[0_30px_70px_-30px_rgba(249,115,22,0.45)]">
+            <div className="rounded-2xl bg-white p-8">
+              <div className="text-center">
+                <span className="inline-flex items-center gap-2 rounded-full bg-accent/10 px-4 py-1.5 text-sm font-semibold text-accent">
+                  <span className="h-2 w-2 rounded-full bg-accent animate-pulse" />
+                  Tijdelijke introductiekorting &middot; 50%
                 </span>
-                <span className="text-text-light ml-2">excl. BTW</span>
-              </p>
-              <p className="mt-2 text-sm text-text-light">
-                Betaling: 50% bij start, 50% bij levering
-              </p>
-              <p className="text-sm text-text-light">
-                Doorlooptijd: gemiddeld 5&ndash;7 werkdagen
-              </p>
+
+                <p className="mt-5 flex items-end justify-center gap-3">
+                  <span className="text-2xl font-semibold text-text-light line-through decoration-2">
+                    &euro;999
+                  </span>
+                  <span className="shimmer text-6xl font-bold leading-none">
+                    &euro;499
+                  </span>
+                </p>
+                <p className="mt-1 text-text-light">excl. BTW</p>
+
+                <p className="mt-4 text-sm text-text-light">
+                  Betaling: 50% bij start, 50% bij oplevering
+                </p>
+                <p className="text-sm text-text-light">
+                  Doorlooptijd: gemiddeld 5&ndash;7 werkdagen
+                </p>
+              </div>
+
+              <ul className="mt-8 space-y-3 text-left">
+                {[
+                  "PowerPoint auditrapport (15 slides)",
+                  "Content Optimization PDF",
+                  "JSON-LD structured data code",
+                  "Platform-specifieke implementatiegids",
+                  "Tips om beter aanbevolen te worden door AI",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-3">
+                    <svg
+                      className="mt-0.5 h-5 w-5 flex-shrink-0 text-accent"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={2}
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
+                    <span className="text-text">{item}</span>
+                  </li>
+                ))}
+              </ul>
+
+              <Link
+                href="/score"
+                className="glow-accent mt-8 inline-flex w-full items-center justify-center rounded-lg bg-accent px-6 py-3.5 text-base font-semibold text-white hover:bg-accent-hover"
+              >
+                Start met je gratis AI Visibility Score
+              </Link>
+              <Link
+                href="/start"
+                className="mt-3 inline-flex w-full items-center justify-center rounded-lg bg-navy px-6 py-3.5 text-base font-semibold text-white hover:bg-navy-light transition-colors"
+              >
+                Start je audit voor &euro;499
+              </Link>
             </div>
-
-            <ul className="mt-8 space-y-3 text-left">
-              {[
-                "PowerPoint auditrapport (15 slides)",
-                "Content Optimization PDF",
-                "JSON-LD structured data code",
-                "Platform-specifieke implementatiegids",
-                "Tips om beter aanbevolen te worden door AI",
-              ].map((item) => (
-                <li key={item} className="flex items-start gap-3">
-                  <svg
-                    className="mt-0.5 h-5 w-5 flex-shrink-0 text-accent"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    strokeWidth={2}
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M4.5 12.75l6 6 9-13.5"
-                    />
-                  </svg>
-                  <span className="text-text">{item}</span>
-                </li>
-              ))}
-            </ul>
-
-            <Link
-              href="/score"
-              className="mt-8 inline-flex w-full items-center justify-center rounded-lg bg-accent px-6 py-3.5 text-base font-semibold text-white hover:bg-accent-hover transition-colors"
-            >
-              Start met je gratis AI Visibility Score
-            </Link>
-            <Link
-              href="/start"
-              className="mt-3 inline-flex w-full items-center justify-center rounded-lg bg-navy px-6 py-3.5 text-base font-semibold text-white hover:bg-navy-light transition-colors"
-            >
-              Start je audit &mdash; &euro;595
-            </Link>
           </div>
 
           <p className="mt-4 text-center text-sm text-text-light">
             Geen abonnement. Geen maandelijkse kosten. Eenmalig.
           </p>
-        </div>
+        </Reveal>
       </div>
     </section>
   );
@@ -271,7 +314,7 @@ function Pricing() {
 function CasesPreview() {
   return (
     <section className="py-20 sm:py-28 bg-bg">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <Reveal className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl sm:text-4xl font-bold text-navy text-center mb-12">
           Bedrijven die al gevonden worden
         </h2>
@@ -280,7 +323,7 @@ function CasesPreview() {
           <CaseCard
             name="Ory aan Zee"
             sector="Vakantieverhuur"
-            result="AI begrijpt nu de locatie, sfeer en doelgroep van Ory aan Zee volledig &mdash; en beveelt het aan bij de juiste zoekopdrachten."
+            result="AI begrijpt nu de locatie, sfeer en doelgroep van Ory aan Zee volledig, en beveelt het aan bij de juiste zoekopdrachten."
             href="/cases#ory-aan-zee"
           />
           <CaseCard
@@ -290,7 +333,7 @@ function CasesPreview() {
             href="/cases#bootzeil"
           />
         </div>
-      </div>
+      </Reveal>
     </section>
   );
 }
@@ -302,10 +345,10 @@ const faqJsonLd = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "Wat is AIO en waarom zou ik er iets mee doen?",
+      name: "Wat is GEO en waarom zou ik er iets mee doen?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "AIO staat voor AI Optimization. Het is het optimaliseren van je website voor AI-zoekmachines zoals ChatGPT, Perplexity en Google AI. Die tools worden steeds vaker gebruikt om bedrijven te vergelijken en aanbevelingen te doen. Als jouw website niet AIO-proof is, word je simpelweg niet genoemd.",
+        text: "GEO staat voor Generative Engine Optimization: je website zo inrichten dat AI-systemen zoals ChatGPT, Perplexity, Claude en Google AI je begrijpen en aanbevelen. Steeds meer mensen vragen eerst een AI om advies in plaats van te googelen. Begrijpt de AI jouw website niet goed, dan noemt hij gewoon iemand anders.",
       },
     },
     {
@@ -313,7 +356,7 @@ const faqJsonLd = {
       name: "Hoe werkt de audit precies?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket met rapport, herschreven teksten, JSON-LD code en implementatie-instructies. Jij hoeft maar \u00e9\u00e9n vraag te beantwoorden \u2014 de rest doen wij.",
+        text: "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket met rapport, herschreven teksten, JSON-LD code en implementatie-instructies. Jij hoeft maar \u00e9\u00e9n vraag te beantwoorden. De rest doen wij.",
       },
     },
     {
@@ -329,7 +372,7 @@ const faqJsonLd = {
       name: "Wanneer zie ik resultaat?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Dat verschilt per website en per zoekmachine. Sommige klanten zien al binnen enkele weken een verschil in hoe AI hun bedrijf beschrijft. Een garantie op snelheid geven we niet \u2014 maar je website is na de audit aantoonbaar beter begrijpelijk voor AI.",
+        text: "Dat verschilt per website en per zoekmachine. Sommige klanten zien al binnen enkele weken een verschil in hoe AI hun bedrijf beschrijft. Een garantie op snelheid geven we niet, maar je website is na de audit aantoonbaar beter begrijpelijk voor AI.",
       },
     },
     {
@@ -337,15 +380,15 @@ const faqJsonLd = {
       name: "Garanderen jullie dat ik aanbevolen word door ChatGPT?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Nee \u2014 en dat doet niemand die eerlijk is. Hoe prominent je verschijnt hangt ook af van externe factoren zoals reviews, concurrentie en vermeldingen. Wat we w\u00e9l garanderen: we geven AI alles wat het nodig heeft om jou te begrijpen. De rest bouw je stap voor stap op met onze tips.",
+        text: "Nee. Dat doet niemand die eerlijk is. Hoe prominent je verschijnt hangt ook af van externe factoren zoals reviews, concurrentie en vermeldingen. Wat we w\u00e9l garanderen: we geven AI alles wat het nodig heeft om jou te begrijpen. De rest bouw je stap voor stap op met onze tips.",
       },
     },
     {
       "@type": "Question",
-      name: "Voor welke bedrijven is dit geschikt?",
+      name: "Voor wie is dit geschikt?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Foundable werkt met Nederlandse MKB-bedrijven die lokale klanten aantrekken. Denk aan horecabedrijven, vakantieparken, dienstverleners en ambachtelijke bedrijven. Als mensen jou kunnen vinden via Google, kunnen ze je ook vinden via AI \u2014 maar dan moet je website daar wel op ingericht zijn.",
+        text: "Foundable werkt vooral met gevestigde experts die zichzelf verkopen: trainers, sprekers, auteurs en executive coaches. Daarnaast met gespecialiseerde advocaten en boutique consultants. De rode draad: je hebt een bewezen naam, je opdrachten zijn wat waard, en je verkoopt jezelf via je eigen website. Juist dan telt het of AI je begrijpt, want bij dat soort keuzes vraagt de klant steeds vaker eerst een AI om advies.",
       },
     },
   ],

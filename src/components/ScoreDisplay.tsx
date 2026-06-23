@@ -39,18 +39,22 @@ export default function ScoreDisplay({ result }: { result: ScoreResult }) {
       </div>
 
       {/* CTA */}
-      <div className="rounded-2xl bg-navy p-8 text-center">
+      <div className="glow-radial rounded-2xl bg-navy p-8 text-center">
         <h3 className="text-2xl font-bold text-white">
           Wil je dit volledig laten aanpakken?
         </h3>
         <p className="mt-3 text-white/70 max-w-lg mx-auto">
-          Foundable levert een compleet AIO audit pakket voor &euro;595 excl.
-          BTW. Geen vage adviezen &mdash; concrete deliverables die je direct
-          kunt implementeren.
+          Foundable levert een compleet GEO-auditpakket. Geen vage adviezen,
+          maar concrete deliverables die je direct kunt implementeren.
+        </p>
+        <p className="mt-2 text-sm text-white/50">
+          <span className="line-through">&euro;999</span>{" "}
+          <span className="font-semibold text-white">&euro;499 excl. BTW</span>{" "}
+          &middot; tijdelijke introductieprijs
         </p>
         <Link
           href="/werkwijze"
-          className="mt-6 inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-base font-semibold text-white hover:bg-accent-hover transition-colors"
+          className="glow-accent mt-6 inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-base font-semibold text-white hover:bg-accent-hover"
         >
           Bekijk het pakket
         </Link>

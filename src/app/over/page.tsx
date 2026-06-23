@@ -4,7 +4,7 @@ import Link from "next/link";
 import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
-  title: "Over Foundable \u2014 AIO specialist in Amsterdam",
+  title: "Over Foundable \u2014 GEO-specialist in Amsterdam",
   description:
     "Foundable helpt Nederlandse bedrijven vindbaar worden voor AI. Opgericht door Quinten Orij vanuit Amsterdam.",
   alternates: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     locale: "nl_NL",
     siteName: "Foundable",
     url: "https://www.foundable.nl/over",
-    title: "Over Foundable \u2014 AIO specialist in Amsterdam",
+    title: "Over Foundable \u2014 GEO-specialist in Amsterdam",
     description:
       "Foundable helpt Nederlandse bedrijven vindbaar worden voor AI. Opgericht door Quinten Orij vanuit Amsterdam.",
     images: [{ url: "/logo.png" }],
@@ -36,8 +36,12 @@ export default function OverPage() {
     <>
       <JsonLd data={aboutPageSchema} />
       {/* Hero */}
-      <section className="py-16 sm:py-24 bg-bg">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative overflow-hidden py-16 sm:py-24 bg-bg">
+        <div className="aurora" aria-hidden="true">
+          <div className="blob blob-1" />
+          <div className="blob blob-2" />
+        </div>
+        <div className="relative mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-navy leading-tight">
             Wij geven AI alles wat het nodig heeft om jou te begrijpen.
           </h1>
@@ -65,7 +69,7 @@ export default function OverPage() {
               <div className="mt-4 space-y-4 text-text-light leading-relaxed">
                 <p>
                   Mijn naam is Quinten Orij, oprichter van Foundable. Ik kom uit
-                  een echt ondernemersgezin &mdash; starten is bij ons gewoon
+                  een echt ondernemersgezin. Starten is bij ons gewoon
                   iets wat je doet. Op mijn 16e schreef ik me in bij de KvK, nu
                   ben ik 18 en draait Foundable volop.
                 </p>
@@ -95,12 +99,16 @@ export default function OverPage() {
           <div className="mt-4 space-y-4 text-text-light leading-relaxed">
             <p>
               Foundable is gevestigd in Amsterdam en helpt Nederlandse
-              bedrijven vindbaar worden voor AI. Geen vage adviezen, geen
-              moeilijke techniek &mdash; een compleet pakket dat je direct
+              bedrijven vindbaar worden voor AI. Geen vage adviezen en geen
+              moeilijke techniek, maar een compleet pakket dat je direct
               kunt implementeren.
             </p>
             <p>
               Na onze audit heeft AI geen reden meer om jou niet te begrijpen.
+            </p>
+            <p className="text-navy font-medium">
+              Vragen, of loop je ergens vast? E&eacute;n berichtje en ik kijk
+              met je mee.
             </p>
           </div>
         </div>
@@ -111,7 +119,7 @@ export default function OverPage() {
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
           <Link
             href="/werkwijze"
-            className="inline-flex items-center justify-center rounded-lg bg-accent px-8 py-4 text-lg font-semibold text-white hover:bg-accent-hover transition-colors"
+            className="glow-accent inline-flex items-center justify-center rounded-lg bg-accent px-8 py-4 text-lg font-semibold text-white hover:bg-accent-hover"
           >
             Bekijk hoe het werkt
           </Link>

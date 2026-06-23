@@ -12,11 +12,11 @@ const geistSans = Geist({
 
 export const metadata: Metadata = {
   title: {
-    default: "Foundable — AIO Audit voor Nederlandse MKB-bedrijven",
+    default: "Foundable — GEO-audit: word gevonden in het AI-tijdperk",
     template: "%s",
   },
   description:
-    "Foundable helpt Nederlandse bedrijven zichtbaar worden in ChatGPT, Perplexity en Google AI. Done-for-you AIO audit voor €595 excl. BTW. Gratis AI Visibility Score aanvragen.",
+    "Foundable zorgt dat ChatGPT, Perplexity, Claude en Google AI jouw website begrijpen en aanbevelen. Done-for-you GEO-audit. Vraag gratis je AI Visibility Score aan.",
   metadataBase: new URL("https://www.foundable.nl"),
   alternates: {
     canonical: "./",
@@ -25,17 +25,17 @@ export const metadata: Metadata = {
     type: "website",
     locale: "nl_NL",
     siteName: "Foundable",
-    title: "Foundable — AIO Audit voor Nederlandse MKB-bedrijven",
+    title: "Foundable — GEO-audit: word gevonden in het AI-tijdperk",
     description:
-      "Foundable helpt Nederlandse bedrijven zichtbaar worden in ChatGPT, Perplexity en Google AI. Done-for-you AIO audit voor €595 excl. BTW.",
+      "Foundable zorgt dat ChatGPT, Perplexity, Claude en Google AI jouw website begrijpen en aanbevelen. Done-for-you GEO-audit.",
     url: "https://www.foundable.nl",
     images: [{ url: "/logo.png" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Foundable — AIO Audit voor Nederlandse MKB-bedrijven",
+    title: "Foundable — GEO-audit: word gevonden in het AI-tijdperk",
     description:
-      "Foundable helpt Nederlandse bedrijven zichtbaar worden in ChatGPT, Perplexity en Google AI. Done-for-you AIO audit voor €595 excl. BTW.",
+      "Foundable zorgt dat ChatGPT, Perplexity, Claude en Google AI jouw website begrijpen en aanbevelen. Done-for-you GEO-audit.",
     images: ["/logo.png"],
   },
 };

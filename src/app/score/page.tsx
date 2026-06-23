@@ -58,14 +58,18 @@ export default function ScorePage() {
   return (
     <>
       {/* Hero */}
-      <section className="py-16 sm:py-20 bg-bg">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative overflow-hidden py-16 sm:py-20 bg-bg">
+        <div className="aurora" aria-hidden="true">
+          <div className="blob blob-1" />
+          <div className="blob blob-3" />
+        </div>
+        <div className="relative mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-navy">
             Hoe zichtbaar ben jij voor AI?
           </h1>
           <p className="mt-4 text-lg text-text-light max-w-2xl mx-auto">
             Vul je website-URL in. Wij analyseren hoe goed AI jouw bedrijf
-            begrijpt &mdash; en wat er beter kan. Gratis, zonder verplichtingen.
+            begrijpt, en wat er beter kan. Gratis, zonder verplichtingen.
           </p>
         </div>
       </section>
@@ -76,15 +80,15 @@ export default function ScorePage() {
           <div className="rounded-2xl bg-bg-alt border border-border p-8">
             <h2 className="text-xl font-bold text-navy mb-4">Wat is de AI Visibility Score?</h2>
             <p className="text-text-light leading-relaxed mb-4">
-              De AI Visibility Score laat zien hoe goed AI-zoekmachines zoals ChatGPT, Perplexity en Google AI jouw website kunnen lezen en begrijpen. We analyseren vijf categorie&euml;n:
+              De AI Visibility Score laat zien hoe goed AI-zoekmachines zoals ChatGPT, Perplexity en Google AI jouw website kunnen lezen en begrijpen. We lopen 20 checkpoints na, verdeeld over vijf categorie&euml;n die samen goed zijn voor 100 punten:
             </p>
             <ul className="space-y-2">
               {[
-                "Structuur & techniek — Heeft je site JSON-LD, correcte meta-tags en een logische opbouw?",
-                "Content duidelijkheid — Snapt AI wie je bent, wat je doet en voor wie?",
-                "Feiten & specificiteit — Staan er concrete prijzen, cijfers en USP's op je site?",
-                "Vertrouwen & autoriteit — Zijn er reviews, certificeringen en duidelijke contactgegevens?",
-                "Lokale herkenbaarheid — Weet AI waar je zit en welk gebied je bedient?",
+                "Structuur en techniek: heeft je site JSON-LD, correcte meta-tags en een logische opbouw?",
+                "Content duidelijkheid: snapt AI wie je bent, wat je doet en voor wie?",
+                "Feiten en specificiteit: staan er concrete prijzen, cijfers en USP's op je site?",
+                "Vertrouwen en autoriteit: zijn er reviews, certificeringen en duidelijke contactgegevens?",
+                "Lokale herkenbaarheid: weet AI waar je zit en welk gebied je bedient?",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-sm text-text-light">
                   <svg className="mt-0.5 h-5 w-5 flex-shrink-0 text-accent" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
@@ -187,7 +191,7 @@ export default function ScorePage() {
                 <input
                   id="sector"
                   type="text"
-                  placeholder="Bijv. horeca, dienstverlening, retail"
+                  placeholder="Bijv. training, advocatuur, coaching, consultancy"
                   value={sector}
                   onChange={(e) => setSector(e.target.value)}
                   className="w-full rounded-lg border border-border px-4 py-3 text-text focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
@@ -201,7 +205,7 @@ export default function ScorePage() {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full rounded-lg bg-accent px-6 py-3.5 text-base font-semibold text-white hover:bg-accent-hover transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
+                className="glow-accent w-full rounded-lg bg-accent px-6 py-3.5 text-base font-semibold text-white hover:bg-accent-hover disabled:opacity-60 disabled:cursor-not-allowed"
               >
                 {loading ? "We analyseren je website op AI-leesbaarheid..." : "Analyseer mijn website"}
               </button>

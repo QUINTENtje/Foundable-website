@@ -23,8 +23,12 @@ export default function CasesPage() {
   return (
     <>
       {/* Hero */}
-      <section className="py-16 sm:py-24 bg-bg">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative overflow-hidden py-16 sm:py-24 bg-bg">
+        <div className="aurora" aria-hidden="true">
+          <div className="blob blob-1" />
+          <div className="blob blob-3" />
+        </div>
+        <div className="relative mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-navy leading-tight">
             Bedrijven die AI nu begrijpt.
           </h1>
@@ -50,7 +54,7 @@ export default function CasesPage() {
                 Ory aan Zee verhuurt vakantiewoningen aan de Nederlandse kust.
                 De website zag er goed uit, maar AI kon er weinig mee. Bij
                 zoekopdrachten als &lsquo;vakantiewoning aan zee
-                boeken&rsquo; werd Ory aan Zee niet aanbevolen &mdash; niet
+                boeken&rsquo; werd Ory aan Zee niet aanbevolen. Niet
                 omdat het aanbod niet klopte, maar omdat de website te vaag was
                 voor AI.
               </p>
@@ -59,11 +63,13 @@ export default function CasesPage() {
             <div>
               <h3 className="text-lg font-bold text-navy">Aanpak</h3>
               <p className="mt-2 text-text-light leading-relaxed">
-                We analyseerden de volledige website op AIO-criteria. De
-                locatie, sfeer, doelgroep en unieke kenmerken van de woningen
-                waren nauwelijks concreet beschreven. We herschreven de teksten,
-                voegden specifieke feiten toe en implementeerden JSON-LD
-                structured data met alle relevante informatie.
+                We brachten met de AI Visibility Score in kaart wat AI w&eacute;l
+                en niet begreep: 20 checkpoints over structuur,
+                duidelijkheid en techniek. De locatie, sfeer, doelgroep en
+                unieke kenmerken van de woningen waren nauwelijks concreet
+                beschreven. We herschreven de teksten, voegden specifieke feiten
+                toe en implementeerden JSON-LD structured data met alle relevante
+                informatie.
               </p>
             </div>
 
@@ -103,12 +109,11 @@ export default function CasesPage() {
             <div>
               <h3 className="text-lg font-bold text-navy">Aanpak</h3>
               <p className="mt-2 text-text-light leading-relaxed">
-                We voerden een volledige Golden 10 analyse uit &mdash; een
-                methode waarbij we de 10 belangrijkste vragen identificeren die
-                AI over een bedrijf moet kunnen beantwoorden. Daarna
-                herschreven we de content in begrijpelijke taal zonder het
-                vakmanschap te verliezen. JSON-LD structured data zorgde voor
-                gestructureerde feiten over diensten, werkgebied en
+                We analyseerden de site met de AI Visibility Score: 20
+                checkpoints die laten zien wat AI mist, verkeerd leest of niet
+                kan plaatsen. Daarna herschreven we de content in begrijpelijke
+                taal zonder het vakmanschap te verliezen. JSON-LD structured data
+                zorgde voor gestructureerde feiten over diensten, werkgebied en
                 contactgegevens.
               </p>
             </div>
@@ -118,7 +123,7 @@ export default function CasesPage() {
               <p className="mt-2 text-text-light leading-relaxed">
                 AI begrijpt nu wat Bootzeil.nl maakt, voor wie, in welke regio
                 en wat een klant kan verwachten. De technische expertise is
-                behouden &mdash; maar nu ook leesbaar voor de zoekmachines die
+                behouden, maar nu ook leesbaar voor de zoekmachines die
                 de aanbevelingen doen.
               </p>
             </div>

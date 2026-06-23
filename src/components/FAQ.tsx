@@ -9,14 +9,14 @@ interface FAQItem {
 
 const faqs: FAQItem[] = [
   {
-    question: "Wat is AIO en waarom zou ik er iets mee doen?",
+    question: "Wat is GEO en waarom zou ik er iets mee doen?",
     answer:
-      "AIO staat voor AI Optimization. Het is het optimaliseren van je website voor AI-zoekmachines zoals ChatGPT, Perplexity en Google AI. Die tools worden steeds vaker gebruikt om bedrijven te vergelijken en aanbevelingen te doen. Als jouw website niet AIO-proof is, word je simpelweg niet genoemd.",
+      "GEO staat voor Generative Engine Optimization: je website zo inrichten dat AI-systemen zoals ChatGPT, Perplexity, Claude en Google AI je begrijpen en aanbevelen. Steeds meer mensen vragen eerst een AI om advies in plaats van te googelen. Begrijpt de AI jouw website niet goed, dan noemt hij gewoon iemand anders.",
   },
   {
     question: "Hoe werkt de audit precies?",
     answer:
-      "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket met rapport, herschreven teksten, JSON-LD code en implementatie-instructies. Jij hoeft maar \u00e9\u00e9n vraag te beantwoorden \u2014 de rest doen wij.",
+      "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket met rapport, herschreven teksten, JSON-LD code en implementatie-instructies. Jij hoeft maar \u00e9\u00e9n vraag te beantwoorden. De rest doen wij.",
   },
   {
     question: "Wat heb ik zelf nodig om te doen?",
@@ -26,17 +26,17 @@ const faqs: FAQItem[] = [
   {
     question: "Wanneer zie ik resultaat?",
     answer:
-      "Dat verschilt per website en per zoekmachine. Sommige klanten zien al binnen enkele weken een verschil in hoe AI hun bedrijf beschrijft. Een garantie op snelheid geven we niet \u2014 maar je website is na de audit aantoonbaar beter begrijpelijk voor AI.",
+      "Dat verschilt per website en per zoekmachine. Sommige klanten zien al binnen enkele weken een verschil in hoe AI hun bedrijf beschrijft. Een garantie op snelheid geven we niet, maar je website is na de audit aantoonbaar beter begrijpelijk voor AI.",
   },
   {
     question: "Garanderen jullie dat ik aanbevolen word door ChatGPT?",
     answer:
-      "Nee \u2014 en dat doet niemand die eerlijk is. Hoe prominent je verschijnt hangt ook af van externe factoren zoals reviews, concurrentie en vermeldingen. Wat we w\u00e9l garanderen: we geven AI alles wat het nodig heeft om jou te begrijpen. De rest bouw je stap voor stap op met onze tips.",
+      "Nee. Dat doet niemand die eerlijk is. Hoe prominent je verschijnt hangt ook af van externe factoren zoals reviews, concurrentie en vermeldingen. Wat we w\u00e9l garanderen: we geven AI alles wat het nodig heeft om jou te begrijpen. De rest bouw je stap voor stap op met onze tips.",
   },
   {
-    question: "Voor welke bedrijven is dit geschikt?",
+    question: "Voor wie is dit geschikt?",
     answer:
-      "Foundable werkt met Nederlandse MKB-bedrijven die lokale klanten aantrekken. Denk aan horecabedrijven, vakantieparken, dienstverleners en ambachtelijke bedrijven. Als mensen jou kunnen vinden via Google, kunnen ze je ook vinden via AI \u2014 maar dan moet je website daar wel op ingericht zijn.",
+      "Foundable werkt vooral met gevestigde experts die zichzelf verkopen: trainers, sprekers, auteurs en executive coaches. Daarnaast met gespecialiseerde advocaten en boutique consultants. De rode draad: je hebt een bewezen naam, je opdrachten zijn wat waard, en je verkoopt jezelf via je eigen website. Juist dan telt het of AI je begrijpt, want bij dat soort keuzes vraagt de klant steeds vaker eerst een AI om advies.",
   },
 ];
 

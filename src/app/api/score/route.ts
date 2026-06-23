@@ -3,7 +3,7 @@ import { Resend } from "resend";
 
 const client = new Anthropic();
 
-const SYSTEM_PROMPT = `Je bent een AIO-specialist bij Foundable. Je analyseert websites op AI-zichtbaarheid via 20 binaire checkpoints. Elke checkpoint scoort ALLEEN 5 punten OF 0 punten — nooit iets ertussenin.
+const SYSTEM_PROMPT = `Je bent een GEO-specialist bij Foundable. Je analyseert websites op AI-zichtbaarheid via 20 binaire checkpoints. Elke checkpoint scoort ALLEEN 5 punten OF 0 punten — nooit iets ertussenin.
 
 Analyseer de meegestuurde website-inhoud en beantwoord elke checkpoint met true (5pt) of false (0pt).
 
@@ -177,7 +177,7 @@ async function fetchWebsiteContent(
     const res = await fetch(url, {
       signal: controller.signal,
       headers: {
-        "User-Agent": "Foundable-AIO-Scanner/1.0",
+        "User-Agent": "Foundable-GEO-Scanner/1.0",
       },
     });
     clearTimeout(timeout);
