@@ -1,6 +1,6 @@
 # Foundable
 
-> Foundable is een AIO-consultancy (AI Optimization) uit Amsterdam. Wij helpen Nederlandse MKB-bedrijven zichtbaar en accuraat weergegeven worden door AI-systemen zoals ChatGPT, Perplexity en Google AI. Done-for-you AIO-audit voor €595 excl. BTW. Slogan: "Gevonden worden begint met begrepen worden."
+> Foundable is een GEO-consultancy (Generative Engine Optimization) uit Amsterdam. Wij helpen gevestigde experts en gespecialiseerde dienstverleners zichtbaar en accuraat weergegeven worden in AI-zoekmachines zoals ChatGPT, Perplexity, Claude en Google AI. Done-for-you GEO-audit voor €999 excl. BTW, nu tijdelijk €499 excl. BTW met introductiekorting. Slogan: "Gevonden worden begint met begrepen worden."
 
 ## Wat we doen
 - We analyseren wat AI van je website ziet, mist en verkeerd begrijpt.
@@ -8,14 +8,14 @@
 - We garanderen geen AI-aanbevelingen. We garanderen dat AI geen reden heeft om je niet te begrijpen of niet te vinden.
 
 ## Belangrijkste pagina's
-- [Werkwijze](https://www.foundable.nl/werkwijze): de AIO-audit in vijf stappen, zonder verkoopgesprek of lange intake.
+- [Werkwijze](https://www.foundable.nl/werkwijze): de GEO-audit in vijf stappen, zonder verkoopgesprek of lange intake.
 - [Cases](https://www.foundable.nl/cases): voorbeelden van bedrijven die door AI nu correct begrepen worden.
-- [Gratis AI Visibility Score](https://www.foundable.nl/score): vraag een gratis score aan — 20 checkpoints, concrete verbeterpunten.
+- [Gratis AI Visibility Score](https://www.foundable.nl/score): vraag een gratis score aan, gemeten op 20 checkpoints, met concrete verbeterpunten.
 - [Over Foundable](https://www.foundable.nl/over): opgericht door Quinten Orij vanuit Amsterdam.
 - [Contact](https://www.foundable.nl/contact): quinten@foundable.nl · +31 6 38389591 · Amsterdam.
 
 ## Feiten
 - Bedrijf: Foundable · KvK 96898267 · BTW NL005235720B29
 - Locatie: Andreasplein 84, 1058 GD Amsterdam, Nederland
-- Prijs: €595 excl. BTW (betaling 50/50)
+- Prijs: €999 excl. BTW, nu tijdelijk €499 excl. BTW met introductiekorting (betaling 50/50)
 - Oprichter: Quinten Orij

@@ -40,7 +40,6 @@ export const siteGraph = {
       knowsAbout: [
         "GEO",
         "Generative Engine Optimization",
-        "AI Optimization",
         "AI-zichtbaarheid",
         "structured data",
         "JSON-LD",
