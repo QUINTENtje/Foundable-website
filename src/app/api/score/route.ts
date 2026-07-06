@@ -223,8 +223,10 @@ ${contentBlock}
 Geef je analyse als JSON.`;
 
     const message = await client.messages.create({
-      model: "claude-sonnet-4-20250514",
+      model: "claude-sonnet-5",
       max_tokens: 1500,
+      // Sonnet 5 zet thinking standaard aan; uit laten zodat max_tokens volledig naar de JSON gaat
+      thinking: { type: "disabled" },
       system: SYSTEM_PROMPT,
       messages: [{ role: "user", content: userMessage }],
     });
