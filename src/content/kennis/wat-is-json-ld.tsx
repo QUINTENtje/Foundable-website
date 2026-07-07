@@ -10,7 +10,7 @@ const artikel: KennisArtikel = {
   gepubliceerd: "2026-07-07",
   leestijdMin: 5,
   intro:
-    "JSON-LD is een klein blok code in je website dat machines in één keer vertelt wie je bent, wat je doet, waar je zit en wat het kost. Bezoekers zien er niets van. Zoekmachines en AI-systemen lezen het wél — en hoeven daardoor niet te gokken wat voor bedrijf je bent.",
+    "JSON-LD is een klein blok code in je website dat machines in één keer vertelt wie je bent, wat je doet, waar je zit en wat het kost. Bezoekers zien er niets van. Zoekmachines en AI-systemen lezen het wél. Zij hoeven daardoor niet te gokken wat voor bedrijf je bent.",
   content: (
     <>
       <H2>Hoe het eruitziet</H2>
@@ -47,7 +47,7 @@ const artikel: KennisArtikel = {
         Je websitetekst is geschreven voor mensen, en dat hoort ook zo.
         Maar een machine die uit lopende tekst moet afleiden wat je
         telefoonnummer is, of je in Utrecht zit of daar alleen een klant
-        had, en of &ldquo;vanaf &euro;150&rdquo; per uur of per traject is —
+        had, en of &ldquo;vanaf &euro;150&rdquo; per uur of per traject is:
         die maakt fouten. JSON-LD haalt dat gokwerk weg. De feiten staan er
         eenduidig, op een vaste plek, in een vorm die machines feilloos
         lezen.
@@ -109,7 +109,7 @@ const artikel: KennisArtikel = {
     {
       vraag: "Heeft mijn WordPress- of Shopify-site dit al?",
       antwoord:
-        "Vaak gedeeltelijk, via een plugin of het thema. Het probleem: die schema's zijn meestal generiek — type 'WebSite' in plaats van jouw soort bedrijf, zonder adres, prijzen of FAQ. Controleren loont bijna altijd.",
+        "Vaak gedeeltelijk, via een plugin of het thema. Het probleem: die schema's zijn meestal generiek. Type 'WebSite' in plaats van jouw soort bedrijf, zonder adres, prijzen of FAQ. Controleren loont bijna altijd.",
     },
     {
       vraag: "Hoe controleer ik of mijn website JSON-LD heeft?",

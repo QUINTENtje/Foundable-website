@@ -10,7 +10,7 @@ const artikel: KennisArtikel = {
   gepubliceerd: "2026-07-07",
   leestijdMin: 6,
   intro:
-    "ChatGPT heeft geen lijst met beste bedrijven klaarliggen. Het stelt bij elke vraag opnieuw een antwoord samen uit twee bronnen: wat het model geleerd heeft uit trainingsdata, en wat het live op het web vindt. In beide gevallen wint het bedrijf dat het duidelijkst beschreven staat — op de eigen website én daarbuiten.",
+    "ChatGPT heeft geen lijst met beste bedrijven klaarliggen. Het stelt bij elke vraag opnieuw een antwoord samen uit twee bronnen: wat het model geleerd heeft uit trainingsdata, en wat het live op het web vindt. In beide gevallen wint het bedrijf dat het duidelijkst beschreven staat, op de eigen website én daarbuiten.",
   content: (
     <>
       <H2>Twee routes naar een aanbeveling</H2>
@@ -47,7 +47,7 @@ const artikel: KennisArtikel = {
       </UL>
       <P>
         Elke stap is een filter. Een website die vaag is over wat het bedrijf
-        doet, sneuvelt bij het lezen — hoe goed het bedrijf zelf ook is.
+        doet, sneuvelt bij het lezen. Hoe goed het bedrijf zelf ook is.
         Waarom dat misgaat, en hoe je het herkent, staat in{" "}
         <A href="/kennis/waarom-ai-je-website-niet-begrijpt">
           Waarom AI je website niet begrijpt
@@ -70,7 +70,7 @@ const artikel: KennisArtikel = {
         <LI>
           <strong className="text-navy">ChatGPT</strong> haalt zijn bronnen
           breder op dan de top van Google. Ook een site die niet op pagina
-          één staat, kan geciteerd worden — als de tekst maar duidelijk en
+          één staat, kan geciteerd worden, als de tekst maar duidelijk en
           concreet is.
         </LI>
         <LI>
@@ -85,7 +85,7 @@ const artikel: KennisArtikel = {
       <UL>
         <LI>
           <strong className="text-navy">Je eigen website.</strong> Wie je
-          bent, wat je doet, voor wie en waar — concreet en bovenaan.
+          bent, wat je doet, voor wie en waar. Concreet en bovenaan.
           Aangevuld met <A href="/kennis/wat-is-json-ld">JSON-LD</A> zodat
           machines het niet hoeven te raden.
         </LI>
@@ -120,7 +120,7 @@ const artikel: KennisArtikel = {
     {
       vraag: "Waarom noemt ChatGPT mijn concurrent wel en mij niet?",
       antwoord:
-        "Meestal omdat de concurrent duidelijker beschreven staat: concretere website, meer reviews, meer externe vermeldingen, of alle drie. Dat is te achterhalen door beide websites en vermeldingen naast elkaar te leggen — en daarna te repareren.",
+        "Meestal omdat de concurrent duidelijker beschreven staat: concretere website, meer reviews, meer externe vermeldingen, of alle drie. Dat is te achterhalen door beide websites en vermeldingen naast elkaar te leggen. En daarna te repareren.",
     },
     {
       vraag: "Hoe controleer ik wat ChatGPT over mijn bedrijf zegt?",

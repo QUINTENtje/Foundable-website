@@ -10,7 +10,7 @@ const artikel: KennisArtikel = {
   gepubliceerd: "2026-07-07",
   leestijdMin: 6,
   intro:
-    "Een website kan er voor mensen prima uitzien en voor AI onleesbaar zijn. AI ziet je design niet, je foto's nauwelijks en je bedoelingen al helemaal niet. Het leest tekst en code. Gaat het dáár mis, dan slaat AI je over — hoe mooi je site ook is.",
+    "Een website kan er voor mensen prima uitzien en voor AI onleesbaar zijn. AI ziet je design niet, je foto's nauwelijks en je bedoelingen al helemaal niet. Het leest tekst en code. Gaat het dáár mis, dan slaat AI je over. Hoe mooi je site ook is.",
   content: (
     <>
       <H2>De vijf patronen die het vaakst misgaan</H2>
@@ -42,7 +42,7 @@ const artikel: KennisArtikel = {
         Geen prijsindicatie, geen plaatsnaam, geen doelgroep. AI vult
         ontbrekende feiten niet voor je in. Krijgt het de vraag &ldquo;wat
         kost een salestraining?&rdquo;, dan citeert het een site waar een
-        bedrag staat — en dat bedrijf wordt genoemd, niet jij.
+        bedrag staat. Dat bedrijf wordt genoemd, niet jij.
       </P>
 
       <H3>3. Tekst in afbeeldingen</H3>
@@ -75,7 +75,7 @@ const artikel: KennisArtikel = {
         <LI>
           <strong className="text-navy">De voorleestest.</strong> Lees de
           tekst van je homepage hardop voor aan iemand die je bedrijf niet
-          kent — alleen de tekst, zonder beelden erbij. Kan die persoon na
+          kent. Alleen de tekst, zonder beelden erbij. Kan die persoon na
           30 seconden zeggen wat je verkoopt, voor wie en waar? Dan kan AI
           het ook.
         </LI>
@@ -96,8 +96,8 @@ const artikel: KennisArtikel = {
         beeld in plaats van een gevoel, check dan je{" "}
         <A href="/kennis/ai-visibility-score-uitgelegd">
           AI Visibility Score
-        </A>{" "}
-        — 20 checkpoints, gratis.
+        </A>
+        : 20 checkpoints, gratis.
       </P>
     </>
   ),

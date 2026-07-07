@@ -10,12 +10,12 @@ const artikel: KennisArtikel = {
   gepubliceerd: "2026-07-07",
   leestijdMin: 5,
   intro:
-    "De AI Visibility Score meet hoe goed AI-systemen zoals ChatGPT, Perplexity en Google AI je website kunnen lezen, begrijpen en vertrouwen. De meting bestaat uit 20 checkpoints van elk 5 punten, verdeeld over vijf categorieën. Samen geven ze een score van 0 tot 100 — en vooral een lijst van wat er precies ontbreekt.",
+    "De AI Visibility Score meet hoe goed AI-systemen zoals ChatGPT, Perplexity en Google AI je website kunnen lezen, begrijpen en vertrouwen. De meting bestaat uit 20 checkpoints van elk 5 punten, verdeeld over vijf categorieën. Samen geven ze een score van 0 tot 100. En vooral een lijst van wat er precies ontbreekt.",
   content: (
     <>
       <H2>De vijf categorieën</H2>
 
-      <H3>Gestructureerde data — 25 punten</H3>
+      <H3>Gestructureerde data (25 punten)</H3>
       <P>
         Heeft je site <A href="/kennis/wat-is-json-ld">JSON-LD</A>, klopt het
         type bij jouw soort bedrijf, staan naam, adres en telefoonnummer in
@@ -24,7 +24,7 @@ const artikel: KennisArtikel = {
         meeste gokwerk bespaart.
       </P>
 
-      <H3>Entiteitsduidelijkheid — 20 punten</H3>
+      <H3>Entiteitsduidelijkheid (20 punten)</H3>
       <P>
         Staat je bedrijfsnaam prominent bovenaan, is je locatie of regio
         expliciet benoemd, is binnen de eerste 100 woorden duidelijk wat je
@@ -32,7 +32,7 @@ const artikel: KennisArtikel = {
         <A href="/kennis/wat-is-geo">GEO</A>: wie, wat, waar, voor wie.
       </P>
 
-      <H3>Contentstructuur — 20 punten</H3>
+      <H3>Contentstructuur (20 punten)</H3>
       <P>
         Zijn er FAQ-vragen met echte antwoorden, zijn je zinnen kort genoeg
         om te citeren, staan er concrete feiten op de pagina (prijzen,
@@ -41,7 +41,7 @@ const artikel: KennisArtikel = {
         begrijpelijk zijn.
       </P>
 
-      <H3>Technische crawlbaarheid — 20 punten</H3>
+      <H3>Technische crawlbaarheid (20 punten)</H3>
       <P>
         Worden AI-crawlers zoals GPTBot en PerplexityBot niet geblokkeerd,
         ontbreekt een noindex-tag, is je tekst leesbaar zonder JavaScript en
@@ -49,7 +49,7 @@ const artikel: KennisArtikel = {
         rest.
       </P>
 
-      <H3>Autoriteitssignalen — 15 punten</H3>
+      <H3>Autoriteitssignalen (15 punten)</H3>
       <P>
         Staan er reviews of testimonials op je site, is er een over-pagina
         die vertelt wie erachter zit, en is je contactinformatie makkelijk te
@@ -105,12 +105,12 @@ const artikel: KennisArtikel = {
     {
       vraag: "Meet de score mijn hele website?",
       antwoord:
-        "De tool analyseert de pagina van de URL die je opgeeft — meestal je homepage. Dat is bewust: die pagina bepaalt het eerste beeld dat AI van je bedrijf krijgt. In de volledige GEO-audit kijken we breder dan één pagina.",
+        "De tool analyseert de pagina van de URL die je opgeeft, meestal je homepage. Dat is bewust: die pagina bepaalt het eerste beeld dat AI van je bedrijf krijgt. In de volledige GEO-audit kijken we breder dan één pagina.",
     },
     {
       vraag: "Is een hoge score een garantie dat ChatGPT me aanbeveelt?",
       antwoord:
-        "Nee, en wees voorzichtig met wie dat wél belooft. De score meet of AI je website kán lezen en begrijpen — dat is de voorwaarde. Of je daarna ook aanbevolen wordt, hangt mede af van reviews, concurrentie en hoe vaak je buiten je eigen site om genoemd wordt.",
+        "Nee, en wees voorzichtig met wie dat wél belooft. De score meet of AI je website kán lezen en begrijpen. Dat is de voorwaarde. Of je daarna ook aanbevolen wordt, hangt mede af van reviews, concurrentie en hoe vaak je buiten je eigen site om genoemd wordt.",
     },
     {
       vraag: "Hoe vaak moet ik de score opnieuw checken?",

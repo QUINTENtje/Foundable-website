@@ -10,7 +10,7 @@ const artikel: KennisArtikel = {
   gepubliceerd: "2026-07-07",
   leestijdMin: 4,
   intro:
-    "SEO zorgt dat je website gevonden wordt in de lijst met zoekresultaten. GEO zorgt dat je bedrijf genoemd wordt in het antwoord van een AI. Bij SEO concurreer je om een positie op een pagina met tien blauwe links. Bij GEO concurreer je om een plek in het antwoord zelf — en daar passen maar een paar namen in.",
+    "SEO zorgt dat je website gevonden wordt in de lijst met zoekresultaten. GEO zorgt dat je bedrijf genoemd wordt in het antwoord van een AI. Bij SEO concurreer je om een positie op een pagina met tien blauwe links. Bij GEO concurreer je om een plek in het antwoord zelf. En daar passen maar een paar namen in.",
   content: (
     <>
       <H2>De kern in één tabel</H2>
@@ -78,8 +78,9 @@ const artikel: KennisArtikel = {
       <H2>Dus: SEO of GEO?</H2>
       <P>
         Allebei, maar de verhouding hangt af van waar jouw klanten zoeken.
-        Verkoop je iets wat mensen op advies kiezen — een trainer, advocaat
-        of consultant — dan verschuift die keuze nu het snelst naar AI. Hoe
+        Verkoop je iets wat mensen op advies kiezen, zoals een trainer,
+        advocaat of consultant, dan verschuift die keuze nu het snelst naar
+        AI. Hoe
         AI die keuze precies maakt, lees je in{" "}
         <A href="/kennis/hoe-kiest-chatgpt-bedrijven">
           Hoe kiest ChatGPT welke bedrijven het aanbeveelt?

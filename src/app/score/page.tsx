@@ -84,11 +84,11 @@ export default function ScorePage() {
             </p>
             <ul className="space-y-2">
               {[
-                "Structuur en techniek: heeft je site JSON-LD, correcte meta-tags en een logische opbouw?",
-                "Content duidelijkheid: snapt AI wie je bent, wat je doet en voor wie?",
-                "Feiten en specificiteit: staan er concrete prijzen, cijfers en USP's op je site?",
-                "Vertrouwen en autoriteit: zijn er reviews, certificeringen en duidelijke contactgegevens?",
-                "Lokale herkenbaarheid: weet AI waar je zit en welk gebied je bedient?",
+                "Gestructureerde data: heeft je site JSON-LD dat klopt, met naam, adres, telefoon en een FAQ-schema?",
+                "Entiteitsduidelijkheid: is direct duidelijk wie je bent, wat je doet, waar je zit en voor wie je werkt?",
+                "Contentstructuur: korte zinnen, concrete feiten, lijsten en echte FAQ-vragen met antwoorden?",
+                "Technische crawlbaarheid: kunnen AI-crawlers erbij en is je tekst leesbaar zonder JavaScript?",
+                "Autoriteitssignalen: staan er reviews op je site, is er een over-pagina en zijn je contactgegevens vindbaar?",
               ].map((item) => (
                 <li key={item} className="flex items-start gap-3 text-sm text-text-light">
                   <svg className="mt-0.5 h-5 w-5 flex-shrink-0 text-accent" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
