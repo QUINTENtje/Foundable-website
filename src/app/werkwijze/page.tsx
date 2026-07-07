@@ -51,7 +51,7 @@ const howToSchema = {
       "@type": "HowToStep",
       position: 4,
       name: "Je ontvangt het pakket",
-      text: "Binnen 14 werkdagen ontvang je per mail het volledige pakket: auditrapport, Content Optimization PDF, JSON-LD code, implementatiegids en tips om beter gevonden te worden. De tweede termijn (de resterende 50%) ontvang je tegelijk.",
+      text: "Binnen 2 weken ontvang je per mail het volledige pakket: auditrapport, Content Optimization PDF, JSON-LD code, implementatiegids en tips om beter gevonden te worden. De tweede termijn (de resterende 50%) ontvang je tegelijk.",
     },
     {
       "@type": "HowToStep",
@@ -137,7 +137,7 @@ export default function WerkwijzePage() {
               Je ontvangt het pakket
             </h2>
             <p className="mt-3 text-text-light leading-relaxed">
-              Binnen 14 werkdagen ontvang je per mail het volledige pakket:
+              Binnen 2 weken ontvang je per mail het volledige pakket:
               auditrapport, Content Optimization PDF, JSON-LD code,
               implementatiegids en tips om beter gevonden te
               worden. De tweede termijn (de resterende 50%) ontvang je

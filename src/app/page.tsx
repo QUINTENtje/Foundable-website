@@ -255,7 +255,7 @@ function Pricing() {
                   Betaling: 50% bij start, 50% bij oplevering
                 </p>
                 <p className="text-sm text-text-light">
-                  Doorlooptijd: gemiddeld 5&ndash;7 werkdagen
+                  Doorlooptijd: 2 weken
                 </p>
               </div>
 
