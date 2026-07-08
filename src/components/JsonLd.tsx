@@ -12,7 +12,6 @@ export default function JsonLd({ data }: JsonLdProps) {
 }
 
 // Sitewide entiteits-graaf: gedeeld op elke pagina via de root layout.
-// sameAs (LinkedIn) wordt toegevoegd zodra de URL's bekend zijn.
 export const siteGraph = {
   "@context": "https://schema.org",
   "@graph": [
@@ -21,6 +20,7 @@ export const siteGraph = {
       "@id": "https://www.foundable.nl/#organization",
       name: "Foundable",
       url: "https://www.foundable.nl",
+      sameAs: ["https://www.linkedin.com/company/foundable-nl"],
       logo: "https://www.foundable.nl/logo.png",
       email: "quinten@foundable.nl",
       telephone: "+31 6 38389591",
@@ -66,6 +66,7 @@ export const siteGraph = {
       "@id": "https://www.foundable.nl/#quinten-orij",
       name: "Quinten Orij",
       url: "https://www.foundable.nl/over",
+      sameAs: ["https://www.linkedin.com/in/quintenorij"],
       jobTitle: "Oprichter van Foundable, GEO-specialist",
       image: "https://www.foundable.nl/quinten.jpg",
       worksFor: { "@id": "https://www.foundable.nl/#organization" },
