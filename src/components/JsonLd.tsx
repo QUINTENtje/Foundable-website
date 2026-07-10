@@ -16,11 +16,26 @@ export const siteGraph = {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "WebSite",
+      "@id": "https://www.foundable.nl/#website",
+      url: "https://www.foundable.nl",
+      name: "Foundable",
+      alternateName: "Foundable.nl",
+      inLanguage: "nl-NL",
+      publisher: { "@id": "https://www.foundable.nl/#organization" },
+    },
+    {
       "@type": "ProfessionalService",
       "@id": "https://www.foundable.nl/#organization",
       name: "Foundable",
+      alternateName: "Foundable.nl",
       url: "https://www.foundable.nl",
       sameAs: ["https://www.linkedin.com/company/foundable-nl"],
+      identifier: {
+        "@type": "PropertyValue",
+        propertyID: "KvK",
+        value: "96898267",
+      },
       logo: "https://www.foundable.nl/logo.png",
       email: "quinten@foundable.nl",
       telephone: "+31 6 38389591",
