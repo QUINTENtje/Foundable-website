@@ -5,6 +5,7 @@ import hoeKiestChatgpt from "./hoe-kiest-chatgpt";
 import watIsJsonLd from "./wat-is-json-ld";
 import waaromAiNietBegrijpt from "./waarom-ai-je-website-niet-begrijpt";
 import scoreUitgelegd from "./ai-visibility-score-uitgelegd";
+import hubspotVerkeerAi from "./hubspot-verkeer-ai";
 
 export type { KennisArtikel, FaqItem } from "./types";
 
@@ -16,6 +17,7 @@ export const artikelen: KennisArtikel[] = [
   waaromAiNietBegrijpt,
   watIsJsonLd,
   scoreUitgelegd,
+  hubspotVerkeerAi,
 ];
 
 export function getArtikel(slug: string): KennisArtikel | undefined {
