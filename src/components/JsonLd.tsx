@@ -30,7 +30,10 @@ export const siteGraph = {
       name: "Foundable",
       alternateName: "Foundable.nl",
       url: "https://www.foundable.nl",
-      sameAs: ["https://www.linkedin.com/company/foundable-nl"],
+      sameAs: [
+        "https://www.linkedin.com/company/foundable-nl",
+        "https://www.google.com/maps?cid=7591528248257612358",
+      ],
       identifier: {
         "@type": "PropertyValue",
         propertyID: "KvK",
