@@ -4,7 +4,7 @@ import JsonLd from "@/components/JsonLd";
 import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
-  title: "Zo werkt de GEO-audit \u2014 Foundable",
+  title: "Zo werkt de GEO-audit · Foundable",
   description:
     "Wij geven AI alles wat het nodig heeft om jou te begrijpen. Geen verkoopgesprek, geen lange intake. In vijf stappen klaar.",
   alternates: {
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     locale: "nl_NL",
     siteName: "Foundable",
     url: "https://www.foundable.nl/werkwijze",
-    title: "Zo werkt de GEO-audit \u2014 Foundable",
+    title: "Zo werkt de GEO-audit · Foundable",
     description:
       "Wij geven AI alles wat het nodig heeft om jou te begrijpen. Geen verkoopgesprek, geen lange intake. In vijf stappen klaar.",
     images: [{ url: "/logo.png" }],

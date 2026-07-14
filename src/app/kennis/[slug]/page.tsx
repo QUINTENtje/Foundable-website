@@ -25,7 +25,7 @@ export async function generateMetadata({
   if (!artikel) return {};
 
   return {
-    title: `${artikel.titel} — Foundable`,
+    title: `${artikel.titel} · Foundable`,
     description: artikel.description,
     alternates: {
       canonical: `/kennis/${artikel.slug}`,
@@ -35,7 +35,7 @@ export async function generateMetadata({
       locale: "nl_NL",
       siteName: "Foundable",
       url: `https://www.foundable.nl/kennis/${artikel.slug}`,
-      title: `${artikel.titel} — Foundable`,
+      title: `${artikel.titel} · Foundable`,
       description: artikel.description,
       publishedTime: artikel.gepubliceerd,
       authors: ["Quinten Orij"],

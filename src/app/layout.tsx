@@ -12,7 +12,7 @@ const geistSans = Geist({
 
 export const metadata: Metadata = {
   title: {
-    default: "Foundable — GEO-audit: word gevonden in het AI-tijdperk",
+    default: "Foundable · GEO-audit: word gevonden in het AI-tijdperk",
     template: "%s",
   },
   description:
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "nl_NL",
     siteName: "Foundable",
-    title: "Foundable — GEO-audit: word gevonden in het AI-tijdperk",
+    title: "Foundable · GEO-audit: word gevonden in het AI-tijdperk",
     description:
       "Foundable zorgt dat ChatGPT, Perplexity, Claude en Google AI jouw website begrijpen en aanbevelen. Done-for-you GEO-audit.",
     url: "https://www.foundable.nl",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Foundable — GEO-audit: word gevonden in het AI-tijdperk",
+    title: "Foundable · GEO-audit: word gevonden in het AI-tijdperk",
     description:
       "Foundable zorgt dat ChatGPT, Perplexity, Claude en Google AI jouw website begrijpen en aanbevelen. Done-for-you GEO-audit.",
     images: ["/logo.png"],

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Contact \u2014 Foundable",
+  title: "Contact · Foundable",
   description:
     "Neem contact op met Foundable. We reageren binnen \u00e9\u00e9n werkdag.",
   alternates: {
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: "nl_NL",
     siteName: "Foundable",
     url: "https://www.foundable.nl/contact",
-    title: "Contact \u2014 Foundable",
+    title: "Contact · Foundable",
     description:
       "Neem contact op met Foundable. We reageren binnen \u00e9\u00e9n werkdag.",
     images: [{ url: "/logo.png" }],

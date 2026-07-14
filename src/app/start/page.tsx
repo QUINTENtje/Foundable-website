@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Start je GEO-audit — Foundable",
+  title: "Start je GEO-audit · Foundable",
   description:
     "Start in vijf minuten je GEO-audit. Eén vraag beantwoorden, de rest doen wij. Tijdelijke introductieprijs €499 (normaal €999) excl. BTW, alles inbegrepen.",
   alternates: {
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     locale: "nl_NL",
     siteName: "Foundable",
     url: "https://www.foundable.nl/start",
-    title: "Start je GEO-audit — Foundable",
+    title: "Start je GEO-audit · Foundable",
     description:
       "Start in vijf minuten je GEO-audit. Eén vraag beantwoorden, de rest doen wij. Tijdelijke introductieprijs €499 (normaal €999) excl. BTW, alles inbegrepen.",
     images: [{ url: "/logo.png" }],

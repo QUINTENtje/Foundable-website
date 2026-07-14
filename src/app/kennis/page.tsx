@@ -5,7 +5,7 @@ import Reveal from "@/components/Reveal";
 import { artikelen, formatDatum } from "@/content/kennis";
 
 export const metadata: Metadata = {
-  title: "Kennis over GEO en AI-zichtbaarheid — Foundable",
+  title: "Kennis over GEO en AI-zichtbaarheid · Foundable",
   description:
     "Hoe AI-systemen websites lezen en bedrijven kiezen, uitgelegd zonder verkooppraatjes. Over GEO, JSON-LD, ChatGPT-aanbevelingen en de AI Visibility Score.",
   alternates: {
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     locale: "nl_NL",
     siteName: "Foundable",
     url: "https://www.foundable.nl/kennis",
-    title: "Kennis over GEO en AI-zichtbaarheid — Foundable",
+    title: "Kennis over GEO en AI-zichtbaarheid · Foundable",
     description:
       "Hoe AI-systemen websites lezen en bedrijven kiezen, uitgelegd zonder verkooppraatjes.",
     images: [{ url: "/logo.png" }],

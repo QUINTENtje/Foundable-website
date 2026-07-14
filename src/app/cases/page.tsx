@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Cases \u2014 Foundable",
+  title: "Cases · Foundable",
   description:
     "Bekijk hoe Foundable Nederlandse bedrijven zichtbaar heeft gemaakt in ChatGPT, Perplexity en Google AI.",
   alternates: {
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     locale: "nl_NL",
     siteName: "Foundable",
     url: "https://www.foundable.nl/cases",
-    title: "Cases \u2014 Foundable",
+    title: "Cases · Foundable",
     description:
       "Bekijk hoe Foundable Nederlandse bedrijven zichtbaar heeft gemaakt in ChatGPT, Perplexity en Google AI.",
     images: [{ url: "/logo.png" }],

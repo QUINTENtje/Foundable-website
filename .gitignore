@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# render-checks: opgeslagen HTML van de crawlbaarheidstest (browser vs GPTBot).
+# Werkbestanden, horen niet in de repo en niet in public/.
+*-view.html
