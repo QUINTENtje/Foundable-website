@@ -319,7 +319,13 @@ function CasesPreview() {
           Bedrijven die al gevonden worden
         </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <CaseCard
+            name="Klaas Kroezen"
+            sector="Salestraining en keynotes"
+            result="Zijn site was al sterk gebouwd. De audit vond wat er nog ontbrak en de belangrijkste punten hebben we samen in &eacute;&eacute;n middag doorgevoerd. Zijn review: een 5,0 op Google."
+            href="/cases#klaas-kroezen"
+          />
           <CaseCard
             name="Ory aan Zee"
             sector="Vakantieverhuur"

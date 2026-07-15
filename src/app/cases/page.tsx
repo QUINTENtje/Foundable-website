@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import JsonLd from "@/components/JsonLd";
 
 export const metadata: Metadata = {
   title: "Cases · Foundable",
   description:
-    "Bekijk hoe Foundable Nederlandse bedrijven zichtbaar heeft gemaakt in ChatGPT, Perplexity en Google AI.",
+    "Drie cases, drie niches, plus de review van salestrainer Klaas Kroezen: zo maakt Foundable websites begrijpelijk voor ChatGPT, Perplexity en Google AI.",
   alternates: {
     canonical: "/cases",
   },
@@ -14,14 +15,53 @@ export const metadata: Metadata = {
     url: "https://www.foundable.nl/cases",
     title: "Cases · Foundable",
     description:
-      "Bekijk hoe Foundable Nederlandse bedrijven zichtbaar heeft gemaakt in ChatGPT, Perplexity en Google AI.",
+      "Drie cases, drie niches, plus de review van salestrainer Klaas Kroezen: zo maakt Foundable websites begrijpelijk voor ChatGPT, Perplexity en Google AI.",
     images: [{ url: "/logo.png" }],
   },
+};
+
+// Klaas' Google-review van 14-07-2026, woordelijk overgenomen. De tweede
+// node koppelt de review terug aan het organisatieschema uit de root layout.
+const klaasReviewJsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Review",
+      "@id": "https://www.foundable.nl/cases#review-klaas-kroezen",
+      itemReviewed: {
+        "@type": "ProfessionalService",
+        "@id": "https://www.foundable.nl/#organization",
+        name: "Foundable",
+      },
+      author: {
+        "@type": "Person",
+        name: "Klaas Kroezen",
+        url: "https://www.klaaskroezen.nl",
+      },
+      datePublished: "2026-07-14",
+      inLanguage: "nl-NL",
+      reviewBody:
+        "Via AI krijg ik steeds meer opdrachten. Maar hoe goed ben ik daar eigenlijk vindbaar? En kun je daar invloed op krijgen? Daar heeft Quinten mij bij geholpen.\n\nHij maakte een helder rapport over hoe ik er nu voorsta. Daarna zijn we er samen doorheen gegaan en hebben we de aanbevelingen meteen toegepast. Aan het einde van de sessie was er al echt iets veranderd.\n\nQuinten legt rustig uit, denkt met je mee en weet waar hij het over heeft. Ik zou hem zo aanraden.",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: "5",
+        bestRating: "5",
+        worstRating: "1",
+      },
+    },
+    {
+      "@type": "ProfessionalService",
+      "@id": "https://www.foundable.nl/#organization",
+      review: { "@id": "https://www.foundable.nl/cases#review-klaas-kroezen" },
+    },
+  ],
 };
 
 export default function CasesPage() {
   return (
     <>
+      <JsonLd data={klaasReviewJsonLd} />
+
       {/* Hero */}
       <section className="relative overflow-hidden py-16 sm:py-24 bg-bg">
         <div className="aurora" aria-hidden="true">
@@ -33,14 +73,125 @@ export default function CasesPage() {
             Bedrijven die AI nu begrijpt.
           </h1>
           <p className="mt-4 text-lg text-text-light">
-            Twee cases. Twee verschillende niches. Hetzelfde resultaat: een
+            Drie cases. Drie verschillende niches. Hetzelfde resultaat: een
             website die AI volledig begrijpt.
           </p>
         </div>
       </section>
 
-      {/* Case 1 - Ory aan Zee */}
-      <section id="ory-aan-zee" className="py-16 sm:py-20 bg-bg-alt scroll-mt-20">
+      {/* Case 1 - Klaas Kroezen */}
+      <section
+        id="klaas-kroezen"
+        className="py-16 sm:py-20 bg-bg-alt scroll-mt-20"
+      >
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+          <p className="text-sm font-semibold text-accent uppercase tracking-wide">
+            Salestraining en keynotes, Castricum
+          </p>
+          <h2 className="mt-2 text-3xl font-bold text-navy">Klaas Kroezen</h2>
+
+          <div className="mt-8 space-y-6">
+            <div>
+              <h3 className="text-lg font-bold text-navy">Uitdaging</h3>
+              <p className="mt-2 text-text-light leading-relaxed">
+                Klaas Kroezen is salestrainer en spreker, met meer dan 25 jaar
+                ervaring en een eigen boek. Via AI krijgt hij steeds meer
+                opdrachten binnen. Juist daarom wilde hij precies weten hoe AI
+                hem nu leest, en of je daar zelf iets aan kunt doen. Zijn site
+                was al met veel zorg gebouwd. De vraag was dus niet of het
+                goed zat, maar wat er nog ontbrak.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold text-navy">Aanpak</h3>
+              <p className="mt-2 text-text-light leading-relaxed">
+                We legden de site langs de AI Visibility Score en het eerlijke
+                antwoord was: 100 van de 100. De basis stond, en dat hebben we
+                ook gewoon zo gezegd. Alleen zegt zo&rsquo;n score niet of
+                alles eruit is gehaald. In de volledige audit vonden we de
+                punten die overbleven. Twee pagina&rsquo;s hadden bijvoorbeeld
+                een zichtbare FAQ, maar misten het FAQ-schema waarmee AI die
+                vragen en antwoorden ook herkent.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold text-navy">Resultaat</h3>
+              <p className="mt-2 text-text-light leading-relaxed">
+                We hebben de audit bij Klaas aan tafel besproken en de
+                belangrijkste punten diezelfde middag samen doorgevoerd. Geen
+                rapport voor in een la, maar een site die er direct beter voor
+                staat. En Klaas weet nu waar zijn volgende groei zit: niet in
+                meer techniek, maar in vaker genoemd worden buiten zijn eigen
+                site. Meer reviews bijvoorbeeld, en artikelen op andere
+                plekken.
+              </p>
+            </div>
+          </div>
+
+          {/* Review */}
+          <figure className="mt-10 rounded-2xl border border-border bg-white p-8">
+            <div
+              className="flex items-center gap-1"
+              role="img"
+              aria-label="Beoordeling: 5 van 5 sterren"
+            >
+              {[0, 1, 2, 3, 4].map((i) => (
+                <svg
+                  key={i}
+                  className="h-5 w-5 text-amber"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.958a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.367 2.446a1 1 0 00-.364 1.118l1.287 3.957c.3.922-.755 1.688-1.539 1.118l-3.366-2.445a1 1 0 00-1.176 0l-3.366 2.445c-.783.57-1.838-.196-1.539-1.118l1.287-3.957a1 1 0 00-.363-1.118L2.063 9.385c-.783-.57-.38-1.81.588-1.81h4.162a1 1 0 00.951-.69l1.285-3.958z" />
+                </svg>
+              ))}
+            </div>
+            <blockquote className="mt-4 space-y-3 text-navy leading-relaxed">
+              <p>
+                Via AI krijg ik steeds meer opdrachten. Maar hoe goed ben ik
+                daar eigenlijk vindbaar? En kun je daar invloed op krijgen?
+                Daar heeft Quinten mij bij geholpen.
+              </p>
+              <p>
+                Hij maakte een helder rapport over hoe ik er nu voorsta.
+                Daarna zijn we er samen doorheen gegaan en hebben we de
+                aanbevelingen meteen toegepast. Aan het einde van de sessie
+                was er al echt iets veranderd.
+              </p>
+              <p>
+                Quinten legt rustig uit, denkt met je mee en weet waar hij het
+                over heeft. Ik zou hem zo aanraden.
+              </p>
+            </blockquote>
+            <figcaption className="mt-5 text-sm text-text-light">
+              <a
+                href="https://www.klaaskroezen.nl"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-navy hover:text-accent transition-colors"
+              >
+                Klaas Kroezen
+              </a>
+              , salestrainer en spreker &middot;{" "}
+              <a
+                href="https://www.google.com/maps?cid=7591528248257612358"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-accent transition-colors"
+              >
+                review op ons Google Bedrijfsprofiel
+              </a>
+              , juli 2026
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+
+      {/* Case 2 - Ory aan Zee */}
+      <section id="ory-aan-zee" className="py-16 sm:py-20 bg-bg scroll-mt-20">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           <p className="text-sm font-semibold text-accent uppercase tracking-wide">
             Vakantieverhuur, Noord-Holland
@@ -86,8 +237,8 @@ export default function CasesPage() {
         </div>
       </section>
 
-      {/* Case 2 - Bootzeil.nl */}
-      <section id="bootzeil" className="py-16 sm:py-20 bg-bg scroll-mt-20">
+      {/* Case 3 - Bootzeil.nl */}
+      <section id="bootzeil" className="py-16 sm:py-20 bg-bg-alt scroll-mt-20">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           <p className="text-sm font-semibold text-accent uppercase tracking-wide">
             Maatwerk bootzeilen en dekzeilen, Haarlem
