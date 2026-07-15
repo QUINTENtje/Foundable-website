@@ -109,10 +109,13 @@ export default function CasesPage() {
                 We legden de site langs de AI Visibility Score en het eerlijke
                 antwoord was: 100 van de 100. De basis stond, en dat hebben we
                 ook gewoon zo gezegd. Alleen zegt zo&rsquo;n score niet of
-                alles eruit is gehaald. In de volledige audit vonden we de
-                punten die overbleven. Twee pagina&rsquo;s hadden bijvoorbeeld
-                een zichtbare FAQ, maar misten het FAQ-schema waarmee AI die
-                vragen en antwoorden ook herkent.
+                alles eruit is gehaald. Op de site zelf vonden we nog een paar
+                punten, zoals twee pagina&rsquo;s met een zichtbare FAQ maar
+                zonder het FAQ-schema waarmee AI die vragen en antwoorden ook
+                herkent. Daarna zijn we vooral buiten de site gaan kijken.
+                Want of AI je noemt hangt maar deels af van je eigen
+                pagina&rsquo;s; het kijkt net zo hard naar wat anderen over je
+                schrijven.
               </p>
             </div>
 
@@ -122,10 +125,9 @@ export default function CasesPage() {
                 We hebben de audit bij Klaas aan tafel besproken en de
                 belangrijkste punten diezelfde middag samen doorgevoerd. Geen
                 rapport voor in een la, maar een site die er direct beter voor
-                staat. En Klaas weet nu waar zijn volgende groei zit: niet in
-                meer techniek, maar in vaker genoemd worden buiten zijn eigen
-                site. Meer reviews bijvoorbeeld, en artikelen op andere
-                plekken.
+                staat. En voor de wereld buiten zijn site ligt er een concreet
+                lijstje, van meer reviews verzamelen tot vaker opduiken in
+                artikelen op andere sites. Daar zit zijn volgende groei.
               </p>
             </div>
           </div>
