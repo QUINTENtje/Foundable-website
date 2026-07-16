@@ -24,7 +24,7 @@ export const metadata: Metadata = {
 const steps = [
   {
     title: "Je vraagt de audit aan",
-    text: "Vul het formulier hieronder in. Meer dan je naam, e-mailadres en website-adres hoeft niet.",
+    text: "Vul het formulier hieronder in.",
   },
   {
     title: "Wij kijken eerst zelf naar je site",
