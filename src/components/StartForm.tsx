@@ -69,7 +69,7 @@ export default function StartForm() {
         <p className="mt-3 text-text-light leading-relaxed">
           Je krijgt binnen twee werkdagen persoonlijk antwoord van Quinten:
           wat hem opvalt aan je website, en de betaallink om te starten.
-          Alles per mail.
+          Alles gaat per mail.
         </p>
       </div>
     );

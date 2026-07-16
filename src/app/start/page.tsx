@@ -5,7 +5,7 @@ import StartForm from "@/components/StartForm";
 export const metadata: Metadata = {
   title: "Start je GEO-audit · Foundable",
   description:
-    "Vraag de GEO-audit aan zonder verkoopgesprek. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site, en de betaallink om te starten. €499 excl. BTW, tijdelijke introductieprijs.",
+    "Vraag de GEO-audit aan met een kort formulier. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site, en de betaallink om te starten. €499 excl. BTW, tijdelijke introductieprijs.",
   alternates: {
     canonical: "/start",
   },
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     url: "https://www.foundable.nl/start",
     title: "Start je GEO-audit · Foundable",
     description:
-      "Vraag de GEO-audit aan zonder verkoopgesprek. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site, en de betaallink om te starten. €499 excl. BTW, tijdelijke introductieprijs.",
+      "Vraag de GEO-audit aan met een kort formulier. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site, en de betaallink om te starten. €499 excl. BTW, tijdelijke introductieprijs.",
     images: [{ url: "/logo.png" }],
   },
 };
@@ -50,8 +50,8 @@ export default function StartPage() {
             Start je GEO-audit
           </h1>
           <p className="mt-4 text-lg text-text-light leading-relaxed">
-            Geen verkoopgesprek, geen telefoontjes. Je vraagt de audit aan met
-            het formulier hieronder, de rest gaat per mail.
+            Je vraagt de audit aan met het formulier hieronder, de rest gaat
+            per mail.
           </p>
           <p className="mt-4 text-sm text-text-light">
             <span className="line-through">&euro;999</span>{" "}

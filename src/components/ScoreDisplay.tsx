@@ -99,7 +99,7 @@ export default function ScoreDisplay({ result }: { result: ScoreResult }) {
           </Link>
         </div>
         <p className="mt-4 text-xs text-white/50">
-          Alles per mail. Geen verkoopgesprek.
+          Alles gaat per mail.
         </p>
       </div>
     </div>
