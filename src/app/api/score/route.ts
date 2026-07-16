@@ -92,6 +92,15 @@ function b(val: boolean): number {
   return val ? 5 : 0;
 }
 
+function escapeHtml(s: string): string {
+  return s
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
 function calculateScores(cp: Checkpoints) {
   const categories = [
     {
@@ -195,7 +204,7 @@ const text = extractText(html);
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { url, name, email, company, sector } = body;
+    const { url, name, email, company, sector, source } = body;
 
     if (!url || !name || !email) {
       return Response.json(
@@ -261,11 +270,12 @@ Geef je analyse als JSON.`;
         html: `
           <h2>Nieuwe AI Visibility Score aanvraag</h2>
           <table style="border-collapse:collapse;font-family:sans-serif;">
-            <tr><td style="padding:8px 16px 8px 0;font-weight:bold;">Naam:</td><td style="padding:8px 0;">${name}</td></tr>
-            <tr><td style="padding:8px 16px 8px 0;font-weight:bold;">E-mail:</td><td style="padding:8px 0;"><a href="mailto:${email}">${email}</a></td></tr>
-            ${company ? `<tr><td style="padding:8px 16px 8px 0;font-weight:bold;">Bedrijf:</td><td style="padding:8px 0;">${company}</td></tr>` : ""}
-            ${sector ? `<tr><td style="padding:8px 16px 8px 0;font-weight:bold;">Sector:</td><td style="padding:8px 0;">${sector}</td></tr>` : ""}
-            <tr><td style="padding:8px 16px 8px 0;font-weight:bold;">Website:</td><td style="padding:8px 0;"><a href="${url}">${url}</a></td></tr>
+            <tr><td style="padding:8px 16px 8px 0;font-weight:bold;">Naam:</td><td style="padding:8px 0;">${escapeHtml(String(name))}</td></tr>
+            <tr><td style="padding:8px 16px 8px 0;font-weight:bold;">E-mail:</td><td style="padding:8px 0;"><a href="mailto:${escapeHtml(String(email))}">${escapeHtml(String(email))}</a></td></tr>
+            ${company ? `<tr><td style="padding:8px 16px 8px 0;font-weight:bold;">Bedrijf:</td><td style="padding:8px 0;">${escapeHtml(String(company))}</td></tr>` : ""}
+            ${sector ? `<tr><td style="padding:8px 16px 8px 0;font-weight:bold;">Sector:</td><td style="padding:8px 0;">${escapeHtml(String(sector))}</td></tr>` : ""}
+            ${source ? `<tr><td style="padding:8px 16px 8px 0;font-weight:bold;">Gevonden via:</td><td style="padding:8px 0;">${escapeHtml(String(source))}</td></tr>` : ""}
+            <tr><td style="padding:8px 16px 8px 0;font-weight:bold;">Website:</td><td style="padding:8px 0;"><a href="${escapeHtml(String(url))}">${escapeHtml(String(url))}</a></td></tr>
             <tr><td style="padding:8px 16px 8px 0;font-weight:bold;">Score:</td><td style="padding:8px 0;"><strong>${totalScore}/100 — ${label}</strong></td></tr>
           </table>
         `,

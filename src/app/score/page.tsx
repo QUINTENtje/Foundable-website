@@ -20,6 +20,7 @@ export default function ScorePage() {
   const [email, setEmail] = useState("");
   const [company, setCompany] = useState("");
   const [sector, setSector] = useState("");
+  const [source, setSource] = useState("");
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<ScoreResult | null>(null);
   const [error, setError] = useState("");
@@ -34,7 +35,7 @@ export default function ScorePage() {
       const res = await fetch("/api/score", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ url, name, email, company, sector }),
+        body: JSON.stringify({ url, name, email, company, sector, source }),
       });
 
       if (!res.ok) {
@@ -198,6 +199,32 @@ export default function ScorePage() {
                 />
               </div>
 
+              <div>
+                <label
+                  htmlFor="source"
+                  className="block text-sm font-medium text-navy mb-1"
+                >
+                  Hoe heb je ons gevonden? (optioneel)
+                </label>
+                <select
+                  id="source"
+                  value={source}
+                  onChange={(e) => setSource(e.target.value)}
+                  className="w-full rounded-lg border border-border px-4 py-3 text-text focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent bg-white"
+                >
+                  <option value="">Maak een keuze</option>
+                  <option value="Google">Via Google</option>
+                  <option value="ChatGPT of een andere AI">
+                    Via ChatGPT of een andere AI
+                  </option>
+                  <option value="LinkedIn">Via LinkedIn</option>
+                  <option value="Aanbeveling">
+                    Iemand raadde Foundable aan
+                  </option>
+                  <option value="Anders">Anders</option>
+                </select>
+              </div>
+
               {error && (
                 <p className="text-red-600 text-sm">{error}</p>
               )}
@@ -223,6 +250,7 @@ export default function ScorePage() {
                 setEmail("");
                 setCompany("");
                 setSector("");
+                setSource("");
               }}
               className="mt-6 w-full text-center text-sm text-text-light hover:text-navy transition-colors"
             >
