@@ -5,6 +5,11 @@ import Link from "next/link";
 interface ScoreResult {
   totalScore: number;
   label: string;
+  categories: {
+    name: string;
+    score: number;
+    maxScore: number;
+  }[];
 }
 
 function getLabelStyle(label: string) {
@@ -38,26 +43,64 @@ export default function ScoreDisplay({ result }: { result: ScoreResult }) {
         </div>
       </div>
 
+      {/* Categorie-uitsplitsing */}
+      {result.categories && result.categories.length > 0 && (
+        <div className="rounded-2xl bg-bg-alt border border-border p-6 space-y-4">
+          {result.categories.map((cat) => (
+            <div key={cat.name}>
+              <div className="flex items-baseline justify-between gap-4">
+                <p className="text-sm font-medium text-navy">{cat.name}</p>
+                <p className="text-sm text-text-light whitespace-nowrap">
+                  {cat.score}/{cat.maxScore}
+                </p>
+              </div>
+              <div className="mt-1.5 h-1.5 w-full rounded-full bg-border">
+                <div
+                  className="h-1.5 rounded-full bg-accent"
+                  style={{
+                    width: `${Math.round((cat.score / cat.maxScore) * 100)}%`,
+                  }}
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
       {/* CTA */}
       <div className="glow-radial rounded-2xl bg-navy p-8 text-center">
         <h3 className="text-2xl font-bold text-white">
           Wil je dit volledig laten aanpakken?
         </h3>
         <p className="mt-3 text-white/70 max-w-lg mx-auto">
-          Foundable levert een compleet GEO-auditpakket. Geen vage adviezen,
-          maar concrete deliverables die je direct kunt implementeren.
+          De score meet of AI je website kan lezen. De audit lost dat voor je
+          op: herschreven teksten, de ontbrekende code en een stappenplan voor
+          jouw platform. En omdat AI ook kijkt naar wat anderen over je
+          schrijven, krijg je er tips bij om buiten je site vaker genoemd te
+          worden.
         </p>
         <p className="mt-2 text-sm text-white/50">
           <span className="line-through">&euro;999</span>{" "}
           <span className="font-semibold text-white">&euro;499 excl. BTW</span>{" "}
           &middot; tijdelijke introductieprijs
         </p>
-        <Link
-          href="/werkwijze"
-          className="glow-accent mt-6 inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-base font-semibold text-white hover:bg-accent-hover"
-        >
-          Bekijk het pakket
-        </Link>
+        <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
+          <Link
+            href="/start"
+            className="glow-accent inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-base font-semibold text-white hover:bg-accent-hover"
+          >
+            Start je audit
+          </Link>
+          <Link
+            href="/werkwijze"
+            className="inline-flex items-center justify-center rounded-lg border border-white/20 px-6 py-3 text-base font-semibold text-white/90 hover:bg-white/10"
+          >
+            Eerst zien hoe het werkt
+          </Link>
+        </div>
+        <p className="mt-4 text-xs text-white/50">
+          Alles per mail. Geen verkoopgesprek.
+        </p>
       </div>
     </div>
   );
