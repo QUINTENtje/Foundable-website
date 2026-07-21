@@ -38,7 +38,7 @@ const products = {
       },
       {
         title: "Na je betaling gaan we meten",
-        text: "De vragenlijst lever je zelf aan, of wij maken er een. Daarna kijken we over 270 echte antwoorden hoe vaak AI je noemt. Binnen een week ligt het A4 als PDF in je mailbox: de cijfers, wat AI over je vertelt, je AI Visibility Score en de top 10 namen die AI in jouw vak noemt. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
+        text: "Wij maken 30 representatieve vragen voor jouw vak, een eigen vragenlijst aanleveren kan op aanvraag. Daarna kijken we over 270 echte antwoorden hoe vaak AI je noemt. Binnen een week ligt het A4 als PDF in je mailbox: de cijfers, wat AI over je vertelt, je AI Visibility Score en de top 10 namen die AI in jouw vak noemt. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
       },
     ],
   },

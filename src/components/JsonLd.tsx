@@ -70,7 +70,7 @@ export const siteGraph = {
           "@type": "Offer",
           name: "De meting",
           description:
-            "Eenmalige AI-zichtbaarheidsmeting over 270 echte antwoorden: hoe vaak AI je noemt, wat AI over je vertelt, de AI Visibility Score van je website en de top 10 namen die AI in jouw vak noemt. De vragenlijst lever je zelf aan, of Foundable stelt er een op. Eén A4, geleverd per mail. Telt binnen 3 maanden volledig als aanbetaling op elke audit.",
+            "Eenmalige AI-zichtbaarheidsmeting over 270 echte antwoorden: hoe vaak AI je noemt, wat AI over je vertelt, de AI Visibility Score van je website en de top 10 namen die AI in jouw vak noemt. Foundable maakt 30 representatieve vragen voor het vak, een eigen vragenlijst aanleveren kan op aanvraag. Eén A4, geleverd per mail. Telt binnen 3 maanden volledig als aanbetaling op elke audit.",
           price: "147.50",
           priceCurrency: "EUR",
           priceSpecification: {
