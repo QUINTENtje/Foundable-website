@@ -70,7 +70,7 @@ export const siteGraph = {
           "@type": "Offer",
           name: "De meting",
           description:
-            "Eenmalige AI-zichtbaarheidsmeting: hoe vaak AI je noemt in echte antwoorden, wat AI over je vertelt, de AI Visibility Score van je website en de vijf namen die AI in jouw vak wél noemt. Eén A4, geleverd per mail. Telt binnen 3 maanden volledig als aanbetaling op elke audit.",
+            "Eenmalige AI-zichtbaarheidsmeting over 270 echte antwoorden: hoe vaak AI je noemt, wat AI over je vertelt, de AI Visibility Score van je website en de top 10 namen die AI in jouw vak noemt. De vragenlijst lever je zelf aan, of Foundable stelt er een op. Eén A4, geleverd per mail. Telt binnen 3 maanden volledig als aanbetaling op elke audit.",
           price: "147.50",
           priceCurrency: "EUR",
           priceSpecification: {
@@ -85,7 +85,7 @@ export const siteGraph = {
           "@type": "Offer",
           name: "GEO-audit",
           description:
-            "Done-for-you GEO-audit: AI Visibility Score, JSON-LD code, Content Optimization, implementatiegids, PowerPoint-rapport en tips om beter aanbevolen te worden door AI. Inclusief nulmeting vooraf en nameting na 90 dagen.",
+            "Done-for-you GEO-audit: nieuwe teksten voor de site die AI begrijpt, JSON-LD code, platform-specifieke implementatiegids en een analyse waar buiten de site de grootste winst te halen valt. Inclusief nulmeting vooraf en nameting na 90 dagen.",
           price: "499",
           priceCurrency: "EUR",
           priceSpecification: {
@@ -100,7 +100,7 @@ export const siteGraph = {
           "@type": "Offer",
           name: "GEO-audit met nazorg",
           description:
-            "De volledige GEO-audit plus twee bijstuurrondes: na 3 en na 6 maanden opnieuw meten, de site nalopen en de verbeterpunten zo aanleveren dat de bouwer ze direct kan plaatsen.",
+            "De volledige GEO-audit plus twee bijstuurrondes: na 3 en na 6 maanden opnieuw meten, de site nalopen en de verbeterpunten meteen uitwerken.",
           price: "875",
           priceCurrency: "EUR",
           priceSpecification: {

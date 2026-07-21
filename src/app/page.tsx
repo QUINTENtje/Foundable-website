@@ -106,7 +106,7 @@ function Problem() {
 function Deliverables() {
   const deliverables = [
     {
-      title: "PowerPoint Auditrapport (15 slides)",
+      title: "Auditrapport",
       description:
         "Je ziet precies hoe AI jouw website nu leest. Je krijgt een overzicht van wat ontbreekt, wat onduidelijk is en wat er als eerste moet veranderen. Inclusief prioriteitenlijst.",
       icon: (
@@ -116,7 +116,7 @@ function Deliverables() {
       ),
     },
     {
-      title: "Content Optimization PDF",
+      title: "Nieuwe teksten voor je site die AI begrijpt",
       description:
         "We analyseren de teksten op jouw website en leveren verbeterde versies die AI w\u00e9l begrijpt. Jij hoeft ze alleen te kopi\u00ebren.",
       icon: (
@@ -146,9 +146,9 @@ function Deliverables() {
       ),
     },
     {
-      title: "Tips om beter aanbevolen te worden door AI",
+      title: "Analyse: de grootste winst buiten je site",
       description:
-        "AI-zichtbaarheid gaat verder dan je website. Je leert hoe je via reviews, vermeldingen en externe bronnen je autoriteit opbouwt bij ChatGPT, Perplexity en Google AI.",
+        "AI kijkt verder dan je website: reviews, vermeldingen en externe bronnen tellen mee. Je krijgt een analyse waar voor jou de grootste winst te halen valt, met tips hoe je die pakt.",
       icon: (
         <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941" />
@@ -242,12 +242,13 @@ function Pricing() {
       tagline: "Weet waar je staat",
       listPrice: "€295",
       price: "€147,50",
-      meta: ["Eenmalig, alles per mail"],
+      meta: [],
       items: [
-        "Hoe vaak AI je noemt in echte antwoorden",
+        "Hoe vaak AI je noemt, gemeten over 270 echte antwoorden",
         "Wat AI over je vertelt, en of dat klopt",
         "De AI Visibility Score van je website",
-        "De vijf namen die AI in jouw vak wél noemt",
+        "De top 10 namen die AI in jouw vak noemt",
+        "De vragenlijst lever je zelf aan, of wij maken er een",
         "Eén A4 met de cijfers en de logische vervolgstap",
       ],
       note: "Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
@@ -261,14 +262,13 @@ function Pricing() {
       price: "€499",
       meta: ["Betaling: 50% bij start, 50% bij oplevering", "Doorlooptijd: 2 weken"],
       items: [
-        "PowerPoint auditrapport (15 slides)",
-        "Content Optimization PDF",
+        "Nieuwe teksten voor je site die AI begrijpt",
         "JSON-LD structured data code",
         "Platform-specifieke implementatiegids",
-        "Tips om beter aanbevolen te worden door AI",
+        "Analyse waar buiten je site de grootste winst te halen valt, met tips hoe je die pakt",
         "Nulmeting vooraf, nameting na 90 dagen",
       ],
-      note: "Je ziet zwart op wit wat het werk heeft gedaan.",
+      note: "",
       cta: { label: "Start je audit", href: "/start" },
       featured: true,
     },
@@ -282,9 +282,9 @@ function Pricing() {
         "Alles uit de audit",
         "Na 3 maanden: opnieuw meten en je site nalopen",
         "Na 6 maanden nog een ronde",
-        "Verbeterpunten zo aangeleverd dat je bouwer ze direct kan plaatsen",
+        "Verbeterpunten per ronde meteen uitgewerkt",
       ],
-      note: "AI beweegt traag. Juist in die eerste maanden is bijsturen waar de winst zit.",
+      note: "In de eerste maanden wordt duidelijk waar AI je oppakt en waar nog niet. Precies daar sturen we bij.",
       cta: { label: "Vraag de audit met nazorg aan", href: "/start?keuze=nazorg" },
       featured: false,
     },
@@ -341,9 +341,11 @@ function Pricing() {
                   ))}
                 </ul>
 
-                <p className="mt-5 text-sm text-text-light leading-relaxed">
-                  {tier.note}
-                </p>
+                {tier.note && (
+                  <p className="mt-5 text-sm text-text-light leading-relaxed">
+                    {tier.note}
+                  </p>
+                )}
 
                 <div className="mt-auto pt-6">
                   <Link
@@ -470,7 +472,7 @@ const faqJsonLd = {
       name: "Kan ik eerst alleen laten meten waar ik sta?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Ja, dat is de meting. Je krijgt één A4 met hoe vaak AI je noemt, wat AI over je vertelt, je AI Visibility Score en de vijf namen die AI in jouw vak wél noemt. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
+        text: "Ja, dat is de meting. We kijken over 270 echte antwoorden hoe vaak AI je noemt en wat AI over je vertelt. Je krijgt één A4 met die cijfers, je AI Visibility Score en de top 10 namen die AI in jouw vak noemt. De vragenlijst lever je zelf aan, of wij maken er een. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
       },
     },
     {
@@ -478,7 +480,7 @@ const faqJsonLd = {
       name: "Wat is het verschil tussen de audit en de audit met nazorg?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Bij de audit meten we vooraf en op dag 90 opnieuw, zodat je zwart op wit ziet wat het werk heeft gedaan. Bij de audit met nazorg komen we daarna nog twee keer terug: na 3 en na 6 maanden meten we opnieuw, lopen we je site na en leveren we de verbeterpunten zo aan dat je bouwer ze direct kan plaatsen. AI beweegt traag, dus juist in die eerste maanden is bijsturen waar de winst zit.",
+        text: "Bij de audit meten we vooraf en op dag 90 opnieuw, zodat je het verschil ziet. Bij de audit met nazorg komen we daarna nog twee keer terug: na 3 en na 6 maanden meten we opnieuw, lopen we je site na en werken we de verbeterpunten meteen voor je uit. In die eerste maanden wordt duidelijk waar AI je oppakt en waar nog niet, en precies daar sturen we bij.",
       },
     },
     {

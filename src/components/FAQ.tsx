@@ -31,12 +31,12 @@ const faqs: FAQItem[] = [
   {
     question: "Kan ik eerst alleen laten meten waar ik sta?",
     answer:
-      "Ja, dat is de meting. Je krijgt één A4 met hoe vaak AI je noemt, wat AI over je vertelt, je AI Visibility Score en de vijf namen die AI in jouw vak wél noemt. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
+      "Ja, dat is de meting. We kijken over 270 echte antwoorden hoe vaak AI je noemt en wat AI over je vertelt. Je krijgt één A4 met die cijfers, je AI Visibility Score en de top 10 namen die AI in jouw vak noemt. De vragenlijst lever je zelf aan, of wij maken er een. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
   },
   {
     question: "Wat is het verschil tussen de audit en de audit met nazorg?",
     answer:
-      "Bij de audit meten we vooraf en op dag 90 opnieuw, zodat je zwart op wit ziet wat het werk heeft gedaan. Bij de audit met nazorg komen we daarna nog twee keer terug: na 3 en na 6 maanden meten we opnieuw, lopen we je site na en leveren we de verbeterpunten zo aan dat je bouwer ze direct kan plaatsen. AI beweegt traag, dus juist in die eerste maanden is bijsturen waar de winst zit.",
+      "Bij de audit meten we vooraf en op dag 90 opnieuw, zodat je het verschil ziet. Bij de audit met nazorg komen we daarna nog twee keer terug: na 3 en na 6 maanden meten we opnieuw, lopen we je site na en werken we de verbeterpunten meteen voor je uit. In die eerste maanden wordt duidelijk waar AI je oppakt en waar nog niet, en precies daar sturen we bij.",
   },
   {
     question: "Garanderen jullie dat ik aanbevolen word door ChatGPT?",
