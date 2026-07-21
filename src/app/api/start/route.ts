@@ -12,7 +12,7 @@ function escapeHtml(s: string): string {
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { name, email, url, platform, message } = body;
+    const { keuze, name, email, url, platform, message } = body;
 
     if (!name || !email || !url) {
       return Response.json(
@@ -21,7 +21,10 @@ export async function POST(request: Request) {
       );
     }
 
+    const product = typeof keuze === "string" && keuze ? keuze : "De audit";
+
     const rows: [string, string][] = [
+      ["Keuze", product],
       ["Naam", name],
       ["E-mail", email],
       ["Website", url],
@@ -41,9 +44,9 @@ export async function POST(request: Request) {
       from: "Foundable <noreply@foundable.nl>",
       to: "quinten@foundable.nl",
       replyTo: email,
-      subject: `Audit-aanvraag — ${name}`,
+      subject: `Aanvraag ${product.replace(/^De /, "").toLowerCase()} — ${name}`,
       html: `
-        <h2>Nieuwe audit-aanvraag via /start</h2>
+        <h2>Nieuwe aanvraag via /start: ${escapeHtml(product)}</h2>
         <table style="border-collapse:collapse;font-family:sans-serif;">${tableRows}</table>
         <p style="font-family:sans-serif;color:#666;">Opvolgen per mail met observaties en de betaallink. Sjabloon: berichten/opvolg-start-aanvraag.md in de vault.</p>
       `,

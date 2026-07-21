@@ -44,7 +44,7 @@ export const siteGraph = {
       logo: "https://www.foundable.nl/logo.png",
       email: "quinten@foundable.nl",
       telephone: "+31 6 38389591",
-      priceRange: "€499–€999 excl. BTW",
+      priceRange: "€147,50–€875 excl. BTW",
       areaServed: { "@type": "Country", name: "Nederland" },
       foundingLocation: "Amsterdam, Nederland",
       founder: { "@id": "https://www.foundable.nl/#quinten-orij" },
@@ -65,21 +65,53 @@ export const siteGraph = {
         "JSON-LD",
         "ChatGPT-zichtbaarheid",
       ],
-      makesOffer: {
-        "@type": "Offer",
-        name: "GEO-audit",
-        description:
-          "Done-for-you GEO-audit: AI Visibility Score, JSON-LD code, Content Optimization, implementatiegids, PowerPoint-rapport en tips om beter aanbevolen te worden door AI.",
-        price: "499",
-        priceCurrency: "EUR",
-        priceSpecification: {
-          "@type": "PriceSpecification",
+      makesOffer: [
+        {
+          "@type": "Offer",
+          name: "De meting",
+          description:
+            "Eenmalige AI-zichtbaarheidsmeting: hoe vaak AI je noemt in echte antwoorden, wat AI over je vertelt, de AI Visibility Score van je website en de vijf namen die AI in jouw vak wél noemt. Eén A4, geleverd per mail. Telt binnen 3 maanden volledig als aanbetaling op elke audit.",
+          price: "147.50",
+          priceCurrency: "EUR",
+          priceSpecification: {
+            "@type": "PriceSpecification",
+            price: "147.50",
+            priceCurrency: "EUR",
+            valueAddedTaxIncluded: false,
+            description: "Tijdelijke introductieprijs, normaal €295 excl. BTW.",
+          },
+        },
+        {
+          "@type": "Offer",
+          name: "GEO-audit",
+          description:
+            "Done-for-you GEO-audit: AI Visibility Score, JSON-LD code, Content Optimization, implementatiegids, PowerPoint-rapport en tips om beter aanbevolen te worden door AI. Inclusief nulmeting vooraf en nameting na 90 dagen.",
           price: "499",
           priceCurrency: "EUR",
-          valueAddedTaxIncluded: false,
-          description: "Tijdelijke introductieprijs, normaal €999 excl. BTW.",
+          priceSpecification: {
+            "@type": "PriceSpecification",
+            price: "499",
+            priceCurrency: "EUR",
+            valueAddedTaxIncluded: false,
+            description: "Tijdelijke introductieprijs, normaal €999 excl. BTW.",
+          },
         },
-      },
+        {
+          "@type": "Offer",
+          name: "GEO-audit met nazorg",
+          description:
+            "De volledige GEO-audit plus twee bijstuurrondes: na 3 en na 6 maanden opnieuw meten, de site nalopen en de verbeterpunten zo aanleveren dat de bouwer ze direct kan plaatsen.",
+          price: "875",
+          priceCurrency: "EUR",
+          priceSpecification: {
+            "@type": "PriceSpecification",
+            price: "875",
+            priceCurrency: "EUR",
+            valueAddedTaxIncluded: false,
+            description: "Tijdelijke introductieprijs, normaal €1.750 excl. BTW.",
+          },
+        },
+      ],
     },
     {
       "@type": "Person",

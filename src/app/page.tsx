@@ -221,90 +221,174 @@ function Promise() {
 }
 
 /* ───────── Pricing ───────── */
+function Check() {
+  return (
+    <svg
+      className="mt-0.5 h-5 w-5 flex-shrink-0 text-accent"
+      fill="none"
+      viewBox="0 0 24 24"
+      strokeWidth={2}
+      stroke="currentColor"
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+    </svg>
+  );
+}
+
 function Pricing() {
+  const tiers = [
+    {
+      name: "De meting",
+      tagline: "Weet waar je staat",
+      listPrice: "€295",
+      price: "€147,50",
+      meta: ["Eenmalig, alles per mail"],
+      items: [
+        "Hoe vaak AI je noemt in echte antwoorden",
+        "Wat AI over je vertelt, en of dat klopt",
+        "De AI Visibility Score van je website",
+        "De vijf namen die AI in jouw vak wél noemt",
+        "Eén A4 met de cijfers en de logische vervolgstap",
+      ],
+      note: "Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
+      cta: { label: "Vraag de meting aan", href: "/start?keuze=meting" },
+      featured: false,
+    },
+    {
+      name: "De audit",
+      tagline: "Het volledige pakket",
+      listPrice: "€999",
+      price: "€499",
+      meta: ["Betaling: 50% bij start, 50% bij oplevering", "Doorlooptijd: 2 weken"],
+      items: [
+        "PowerPoint auditrapport (15 slides)",
+        "Content Optimization PDF",
+        "JSON-LD structured data code",
+        "Platform-specifieke implementatiegids",
+        "Tips om beter aanbevolen te worden door AI",
+        "Nulmeting vooraf, nameting na 90 dagen",
+      ],
+      note: "Je ziet zwart op wit wat het werk heeft gedaan.",
+      cta: { label: "Start je audit", href: "/start" },
+      featured: true,
+    },
+    {
+      name: "De audit met nazorg",
+      tagline: "De audit, plus twee bijstuurrondes",
+      listPrice: "€1.750",
+      price: "€875",
+      meta: ["Betaling: 50% bij start, 50% bij oplevering"],
+      items: [
+        "Alles uit de audit",
+        "Na 3 maanden: opnieuw meten en je site nalopen",
+        "Na 6 maanden nog een ronde",
+        "Verbeterpunten zo aangeleverd dat je bouwer ze direct kan plaatsen",
+      ],
+      note: "AI beweegt traag. Juist in die eerste maanden is bijsturen waar de winst zit.",
+      cta: { label: "Vraag de audit met nazorg aan", href: "/start?keuze=nazorg" },
+      featured: false,
+    },
+  ];
+
   return (
     <section className="py-20 sm:py-28 bg-bg-alt">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-navy">
-            E&eacute;n prijs. Alles inbegrepen.
+            Drie manieren om te starten.
           </h2>
+          <span className="mt-5 inline-flex items-center gap-2 rounded-full bg-accent/10 px-4 py-1.5 text-sm font-semibold text-accent">
+            <span className="h-2 w-2 rounded-full bg-accent animate-pulse" />
+            Tijdelijke introductiekorting &middot; 50% op alles
+          </span>
         </div>
 
-        <Reveal className="mt-12 mx-auto max-w-lg">
-          {/* Gradient-rand met glow */}
-          <div className="rounded-[1.1rem] bg-gradient-to-br from-accent/60 via-amber/40 to-navy/30 p-[1.5px] shadow-[0_30px_70px_-30px_rgba(249,115,22,0.45)]">
-            <div className="rounded-2xl bg-white p-8">
-              <div className="text-center">
-                <span className="inline-flex items-center gap-2 rounded-full bg-accent/10 px-4 py-1.5 text-sm font-semibold text-accent">
-                  <span className="h-2 w-2 rounded-full bg-accent animate-pulse" />
-                  Tijdelijke introductiekorting &middot; 50%
-                </span>
+        <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch max-w-5xl mx-auto">
+          {tiers.map((tier, i) => {
+            const card = (
+              <div className="flex h-full flex-col rounded-2xl bg-white p-8">
+                <div className="text-center">
+                  <h3 className="text-xl font-bold text-navy">{tier.name}</h3>
+                  <p className="mt-1 text-sm text-text-light">{tier.tagline}</p>
 
-                <p className="mt-5 flex items-end justify-center gap-3">
-                  <span className="text-2xl font-semibold text-text-light line-through decoration-2">
-                    &euro;999
-                  </span>
-                  <span className="shimmer text-6xl font-bold leading-none">
-                    &euro;499
-                  </span>
-                </p>
-                <p className="mt-1 text-text-light">excl. BTW</p>
-
-                <p className="mt-4 text-sm text-text-light">
-                  Betaling: 50% bij start, 50% bij oplevering
-                </p>
-                <p className="text-sm text-text-light">
-                  Doorlooptijd: 2 weken
-                </p>
-              </div>
-
-              <ul className="mt-8 space-y-3 text-left">
-                {[
-                  "PowerPoint auditrapport (15 slides)",
-                  "Content Optimization PDF",
-                  "JSON-LD structured data code",
-                  "Platform-specifieke implementatiegids",
-                  "Tips om beter aanbevolen te worden door AI",
-                ].map((item) => (
-                  <li key={item} className="flex items-start gap-3">
-                    <svg
-                      className="mt-0.5 h-5 w-5 flex-shrink-0 text-accent"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth={2}
-                      stroke="currentColor"
+                  <p className="mt-5 flex items-end justify-center gap-3">
+                    <span className="text-lg font-semibold text-text-light line-through decoration-2">
+                      {tier.listPrice}
+                    </span>
+                    <span
+                      className={`${tier.featured ? "shimmer" : "text-navy"} text-4xl font-bold leading-none`}
                     >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M4.5 12.75l6 6 9-13.5"
-                      />
-                    </svg>
-                    <span className="text-text">{item}</span>
-                  </li>
-                ))}
-              </ul>
+                      {tier.price}
+                    </span>
+                  </p>
+                  <p className="mt-1 text-sm text-text-light">excl. BTW</p>
 
-              <Link
-                href="/score"
-                className="glow-accent mt-8 inline-flex w-full items-center justify-center rounded-lg bg-accent px-6 py-3.5 text-base font-semibold text-white hover:bg-accent-hover"
-              >
-                Start met je gratis AI Visibility Score
-              </Link>
-              <Link
-                href="/start"
-                className="mt-3 inline-flex w-full items-center justify-center rounded-lg bg-navy px-6 py-3.5 text-base font-semibold text-white hover:bg-navy-light transition-colors"
-              >
-                Start je audit voor &euro;499
-              </Link>
-            </div>
-          </div>
+                  <div className="mt-3 space-y-0.5">
+                    {tier.meta.map((line) => (
+                      <p key={line} className="text-sm text-text-light">
+                        {line}
+                      </p>
+                    ))}
+                  </div>
+                </div>
 
-          <p className="mt-4 text-center text-sm text-text-light">
-            Geen abonnement. Geen maandelijkse kosten. Eenmalig.
-          </p>
-        </Reveal>
+                <ul className="mt-6 space-y-3 text-left">
+                  {tier.items.map((item) => (
+                    <li key={item} className="flex items-start gap-3">
+                      <Check />
+                      <span className="text-sm text-text">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+
+                <p className="mt-5 text-sm text-text-light leading-relaxed">
+                  {tier.note}
+                </p>
+
+                <div className="mt-auto pt-6">
+                  <Link
+                    href={tier.cta.href}
+                    className={
+                      tier.featured
+                        ? "glow-accent inline-flex w-full items-center justify-center rounded-lg bg-accent px-6 py-3.5 text-base font-semibold text-white hover:bg-accent-hover"
+                        : "inline-flex w-full items-center justify-center rounded-lg bg-navy px-5 py-3 text-sm font-semibold text-white hover:bg-navy-light transition-colors"
+                    }
+                  >
+                    {tier.cta.label}
+                  </Link>
+                </div>
+              </div>
+            );
+
+            return (
+              <Reveal key={tier.name} delay={i * 70} className="h-full">
+                {tier.featured ? (
+                  <div className="h-full rounded-[1.1rem] bg-gradient-to-br from-accent/60 via-amber/40 to-navy/30 p-[1.5px] shadow-[0_30px_70px_-30px_rgba(249,115,22,0.45)]">
+                    {card}
+                  </div>
+                ) : (
+                  <div className="h-full rounded-2xl border border-border shadow-sm">
+                    {card}
+                  </div>
+                )}
+              </Reveal>
+            );
+          })}
+        </div>
+
+        <p className="mt-6 text-center text-sm text-text-light">
+          Geen abonnement. Geen maandelijkse kosten. Eenmalig.
+        </p>
+        <p className="mt-2 text-center text-sm text-text-light">
+          Liever eerst gratis kijken waar je staat? Vraag de{" "}
+          <Link
+            href="/score"
+            className="text-accent hover:text-accent-hover transition-colors"
+          >
+            gratis AI Visibility Score
+          </Link>{" "}
+          aan.
+        </p>
       </div>
     </section>
   );
@@ -379,6 +463,22 @@ const faqJsonLd = {
       acceptedAnswer: {
         "@type": "Answer",
         text: "Dat verschilt per website en per zoekmachine. Sommige klanten zien al binnen enkele weken een verschil in hoe AI hun bedrijf beschrijft. Een garantie op snelheid geven we niet, maar je website is na de audit aantoonbaar beter begrijpelijk voor AI.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Kan ik eerst alleen laten meten waar ik sta?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Ja, dat is de meting. Je krijgt één A4 met hoe vaak AI je noemt, wat AI over je vertelt, je AI Visibility Score en de vijf namen die AI in jouw vak wél noemt. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Wat is het verschil tussen de audit en de audit met nazorg?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Bij de audit meten we vooraf en op dag 90 opnieuw, zodat je zwart op wit ziet wat het werk heeft gedaan. Bij de audit met nazorg komen we daarna nog twee keer terug: na 3 en na 6 maanden meten we opnieuw, lopen we je site na en leveren we de verbeterpunten zo aan dat je bouwer ze direct kan plaatsen. AI beweegt traag, dus juist in die eerste maanden is bijsturen waar de winst zit.",
       },
     },
     {

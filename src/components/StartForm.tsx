@@ -5,7 +5,14 @@ import { useState } from "react";
 const inputClass =
   "w-full rounded-lg border border-border px-4 py-3 text-text focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent";
 
-export default function StartForm() {
+const keuzes = ["De meting", "De audit", "De audit met nazorg"] as const;
+
+export default function StartForm({
+  initialKeuze = "De audit",
+}: {
+  initialKeuze?: string;
+}) {
+  const [keuze, setKeuze] = useState(initialKeuze);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [url, setUrl] = useState("");
@@ -24,7 +31,7 @@ export default function StartForm() {
       const res = await fetch("/api/start", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ name, email, url, platform, message }),
+        body: JSON.stringify({ keuze, name, email, url, platform, message }),
       });
 
       if (!res.ok) {
@@ -77,6 +84,29 @@ export default function StartForm() {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-5">
+      <div>
+        <label htmlFor="keuze" className="block text-sm font-medium text-navy mb-1">
+          Waar wil je mee starten? *
+        </label>
+        <select
+          id="keuze"
+          required
+          value={keuze}
+          onChange={(e) => setKeuze(e.target.value)}
+          className={inputClass}
+        >
+          {keuzes.map((k) => (
+            <option key={k} value={k}>
+              {k === "De meting"
+                ? "De meting · €147,50 excl. BTW"
+                : k === "De audit"
+                  ? "De audit · €499 excl. BTW"
+                  : "De audit met nazorg · €875 excl. BTW"}
+            </option>
+          ))}
+        </select>
+      </div>
+
       <div>
         <label htmlFor="name" className="block text-sm font-medium text-navy mb-1">
           Naam *
@@ -157,7 +187,7 @@ export default function StartForm() {
         disabled={loading}
         className="glow-accent w-full rounded-lg bg-accent px-6 py-3.5 text-base font-semibold text-white hover:bg-accent-hover disabled:opacity-60 disabled:cursor-not-allowed"
       >
-        {loading ? "Versturen..." : "Vraag de audit aan"}
+        {loading ? "Versturen..." : `Vraag ${keuze.toLowerCase()} aan`}
       </button>
     </form>
   );

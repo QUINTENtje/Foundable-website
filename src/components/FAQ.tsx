@@ -29,6 +29,16 @@ const faqs: FAQItem[] = [
       "Dat verschilt per website en per zoekmachine. Sommige klanten zien al binnen enkele weken een verschil in hoe AI hun bedrijf beschrijft. Een garantie op snelheid geven we niet, maar je website is na de audit aantoonbaar beter begrijpelijk voor AI.",
   },
   {
+    question: "Kan ik eerst alleen laten meten waar ik sta?",
+    answer:
+      "Ja, dat is de meting. Je krijgt één A4 met hoe vaak AI je noemt, wat AI over je vertelt, je AI Visibility Score en de vijf namen die AI in jouw vak wél noemt. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
+  },
+  {
+    question: "Wat is het verschil tussen de audit en de audit met nazorg?",
+    answer:
+      "Bij de audit meten we vooraf en op dag 90 opnieuw, zodat je zwart op wit ziet wat het werk heeft gedaan. Bij de audit met nazorg komen we daarna nog twee keer terug: na 3 en na 6 maanden meten we opnieuw, lopen we je site na en leveren we de verbeterpunten zo aan dat je bouwer ze direct kan plaatsen. AI beweegt traag, dus juist in die eerste maanden is bijsturen waar de winst zit.",
+  },
+  {
     question: "Garanderen jullie dat ik aanbevolen word door ChatGPT?",
     answer:
       "Nee. Dat doet niemand die eerlijk is. Hoe prominent je verschijnt hangt ook af van externe factoren zoals reviews, concurrentie en vermeldingen. Wat we w\u00e9l garanderen: we geven AI alles wat het nodig heeft om jou te begrijpen. De rest bouw je stap voor stap op met onze tips.",
