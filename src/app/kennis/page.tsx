@@ -7,7 +7,7 @@ import { artikelen, formatDatum } from "@/content/kennis";
 export const metadata: Metadata = {
   title: "Kennis over GEO en AI-zichtbaarheid · Foundable",
   description:
-    "Hoe AI-systemen websites lezen en bedrijven kiezen, uitgelegd zonder verkooppraatjes. Over GEO, JSON-LD, ChatGPT-aanbevelingen en de AI Visibility Score.",
+    "Hoe AI-systemen websites lezen en bedrijven kiezen, in gewone taal uitgelegd. Over GEO, JSON-LD, ChatGPT-aanbevelingen en de AI Visibility Score.",
   alternates: {
     canonical: "/kennis",
   },
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     url: "https://www.foundable.nl/kennis",
     title: "Kennis over GEO en AI-zichtbaarheid · Foundable",
     description:
-      "Hoe AI-systemen websites lezen en bedrijven kiezen, uitgelegd zonder verkooppraatjes.",
+      "Hoe AI-systemen websites lezen en bedrijven kiezen, in gewone taal uitgelegd.",
     images: [{ url: "/logo.png" }],
   },
 };
@@ -60,8 +60,8 @@ export default function KennisPage() {
             Snappen hoe AI kiest.
           </h1>
           <p className="mt-4 text-lg text-text-light max-w-2xl mx-auto">
-            Hoe AI-systemen websites lezen en bedrijven aanbevelen, uitgelegd
-            zonder verkooppraatjes. Dezelfde kennis die we in elke audit
+            Hoe AI-systemen websites lezen en bedrijven aanbevelen, in gewone
+            taal uitgelegd. Dezelfde kennis die we in elke audit
             gebruiken.
           </p>
         </div>

@@ -4,9 +4,9 @@ import JsonLd from "@/components/JsonLd";
 import Reveal from "@/components/Reveal";
 
 export const metadata: Metadata = {
-  title: "Zo werkt de GEO-audit · Foundable",
+  title: "Zo werkt het · Foundable",
   description:
-    "Wij geven AI alles wat het nodig heeft om jou te begrijpen. Geen verkoopgesprek, geen lange intake. In vijf stappen klaar.",
+    "Kies de meting, de audit of de audit met nazorg en vul een kort formulier in. Je kunt vandaag nog beginnen, alles gaat per mail. In vijf stappen klaar.",
   alternates: {
     canonical: "/werkwijze",
   },
@@ -15,9 +15,9 @@ export const metadata: Metadata = {
     locale: "nl_NL",
     siteName: "Foundable",
     url: "https://www.foundable.nl/werkwijze",
-    title: "Zo werkt de GEO-audit · Foundable",
+    title: "Zo werkt het · Foundable",
     description:
-      "Wij geven AI alles wat het nodig heeft om jou te begrijpen. Geen verkoopgesprek, geen lange intake. In vijf stappen klaar.",
+      "Kies de meting, de audit of de audit met nazorg en vul een kort formulier in. Je kunt vandaag nog beginnen, alles gaat per mail. In vijf stappen klaar.",
     images: [{ url: "/logo.png" }],
   },
 };
@@ -25,42 +25,111 @@ export const metadata: Metadata = {
 const howToSchema = {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  name: "Zo werkt de GEO-audit van Foundable",
+  name: "Zo werkt Foundable",
   description:
-    "De GEO-audit van Foundable in vijf stappen: van gratis AI Visibility Score tot revisie.",
+    "De werkwijze van Foundable in vijf stappen: aanvragen, persoonlijke mail, betaling, levering per mail en revisie.",
   step: [
     {
       "@type": "HowToStep",
       position: 1,
-      name: "Check je gratis AI Visibility Score",
-      text: "Vul je URL in en zie direct hoe zichtbaar je website is voor AI, inclusief concrete verbeterpunten. Geen verplichtingen.",
+      name: "Kies wat bij je past",
+      text: "Je kiest de meting, de audit of de audit met nazorg en vult een kort formulier in. Dat is alles, je kunt vandaag nog beginnen. Eerst weten waar je staat? De gratis AI Visibility Score kan altijd vooraf.",
     },
     {
       "@type": "HowToStep",
       position: 2,
       name: "Je hoort persoonlijk van ons",
-      text: "We bekijken je website en nemen contact op. Geen geautomatiseerde mail, geen verkoopgesprek. Als we denken dat een audit wat voor je doet, laten we je weten wat we zien.",
+      text: "We bekijken je website en je krijgt binnen twee werkdagen een persoonlijke mail: wat ons opvalt aan je site, en de betaallink om te starten. Denken we dat het je te weinig oplevert, dan zeggen we dat ook gewoon.",
     },
     {
       "@type": "HowToStep",
       position: 3,
-      name: "De audit begint",
-      text: "Je betaalt de eerste termijn (50% van het totaal) en wij gaan aan de slag.",
+      name: "Na je betaling gaan we aan de slag",
+      text: "Bij de audit betaal je de eerste helft (50%) en gaan wij aan het werk. De meting betaal je in één keer, daarna gaan we meteen meten.",
     },
     {
       "@type": "HowToStep",
       position: 4,
-      name: "Je ontvangt het pakket",
-      text: "Binnen 2 weken ontvang je per mail het volledige pakket: auditrapport, nieuwe teksten voor je site die AI begrijpt, JSON-LD code, implementatiegids en een analyse waar buiten je site de grootste winst te halen valt. De tweede termijn (de resterende 50%) ontvang je tegelijk.",
+      name: "Je ontvangt alles per mail",
+      text: "De meting ligt binnen een week als A4 in je mailbox. De audit binnen 2 weken, als volledig pakket: auditrapport, nieuwe teksten voor je site die AI begrijpt, JSON-LD code, implementatiegids en een analyse waar buiten je site de grootste winst te halen valt. De tweede helft betaal je bij oplevering.",
     },
     {
       "@type": "HowToStep",
       position: 5,
-      name: "Revisie",
-      text: "Je hebt 14 dagen om feedback te geven. Wij verwerken dat in twee revisierondes.",
+      name: "Revisie en vervolg",
+      text: "Je hebt 14 dagen om feedback te geven, wij verwerken dat in twee revisierondes. Koos je de audit met nazorg? Dan komen we na 3 en na 6 maanden terug om opnieuw te meten en bij te sturen.",
     },
   ],
 };
+
+const steps = [
+  {
+    title: "Kies wat bij je past",
+    text: (
+      <>
+        Je kiest{" "}
+        <Link
+          href="/start"
+          className="text-accent hover:text-accent-hover transition-colors"
+        >
+          de meting, de audit of de audit met nazorg
+        </Link>{" "}
+        en vult een kort formulier in. Dat is alles, je kunt vandaag nog
+        beginnen. Eerst weten waar je staat? De{" "}
+        <Link
+          href="/score"
+          className="text-accent hover:text-accent-hover transition-colors"
+        >
+          gratis AI Visibility Score
+        </Link>{" "}
+        kan altijd vooraf.
+      </>
+    ),
+  },
+  {
+    title: "Je hoort persoonlijk van ons",
+    text: (
+      <>
+        We bekijken je website en je krijgt binnen twee werkdagen een
+        persoonlijke mail: wat ons opvalt aan je site, en de betaallink om
+        te starten. Denken we dat het je te weinig oplevert, dan zeggen we
+        dat ook gewoon.
+      </>
+    ),
+  },
+  {
+    title: "Na je betaling gaan we aan de slag",
+    text: (
+      <>
+        Bij de audit betaal je de eerste helft (50%) en gaan wij aan het
+        werk. De meting betaal je in &eacute;&eacute;n keer, daarna gaan we
+        meteen meten.
+      </>
+    ),
+  },
+  {
+    title: "Je ontvangt alles per mail",
+    text: (
+      <>
+        De meting ligt binnen een week als A4 in je mailbox. De audit binnen
+        2 weken, als volledig pakket: auditrapport, nieuwe teksten voor je
+        site die AI begrijpt, JSON-LD code, implementatiegids en een analyse
+        waar buiten je site de grootste winst te halen valt. De tweede helft
+        betaal je bij oplevering.
+      </>
+    ),
+  },
+  {
+    title: "Revisie en vervolg",
+    text: (
+      <>
+        Je hebt 14 dagen om feedback te geven, wij verwerken dat in twee
+        revisierondes. Koos je de audit met nazorg? Dan komen we na 3 en na
+        6 maanden terug om opnieuw te meten en bij te sturen.
+      </>
+    ),
+  },
+];
 
 export default function WerkwijzePage() {
   return (
@@ -85,79 +154,17 @@ export default function WerkwijzePage() {
       {/* Steps */}
       <section className="py-16 sm:py-24 bg-bg-alt">
         <Reveal className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 space-y-16">
-          {/* Step 1 */}
-          <div className="relative pl-16">
-            <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-white font-bold text-lg shadow-[0_8px_20px_-6px_rgba(249,115,22,0.6)]">
-              1
+          {steps.map((step, i) => (
+            <div key={step.title} className="relative pl-16">
+              <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-white font-bold text-lg shadow-[0_8px_20px_-6px_rgba(249,115,22,0.6)]">
+                {i + 1}
+              </div>
+              <h2 className="text-2xl font-bold text-navy">{step.title}</h2>
+              <p className="mt-3 text-text-light leading-relaxed">
+                {step.text}
+              </p>
             </div>
-            <h2 className="text-2xl font-bold text-navy">
-              Check je gratis AI Visibility Score
-            </h2>
-            <p className="mt-3 text-text-light leading-relaxed">
-              Vul je URL in en zie direct hoe zichtbaar je website is voor
-              AI, inclusief concrete verbeterpunten. Geen verplichtingen.
-            </p>
-          </div>
-
-          {/* Step 2 */}
-          <div className="relative pl-16">
-            <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-white font-bold text-lg shadow-[0_8px_20px_-6px_rgba(249,115,22,0.6)]">
-              2
-            </div>
-            <h2 className="text-2xl font-bold text-navy">
-              Je hoort persoonlijk van ons
-            </h2>
-            <p className="mt-3 text-text-light leading-relaxed">
-              We bekijken je website en nemen contact op. Geen geautomatiseerde
-              mail, geen verkoopgesprek. Als we denken dat een audit wat voor je
-              doet, laten we je weten wat we zien.
-            </p>
-          </div>
-
-          {/* Step 3 */}
-          <div className="relative pl-16">
-            <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-white font-bold text-lg shadow-[0_8px_20px_-6px_rgba(249,115,22,0.6)]">
-              3
-            </div>
-            <h2 className="text-2xl font-bold text-navy">
-              De audit begint
-            </h2>
-            <p className="mt-3 text-text-light leading-relaxed">
-              Je betaalt de eerste termijn (50% van het totaal) en wij gaan
-              aan de slag.
-            </p>
-          </div>
-
-          {/* Step 4 */}
-          <div className="relative pl-16">
-            <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-white font-bold text-lg shadow-[0_8px_20px_-6px_rgba(249,115,22,0.6)]">
-              4
-            </div>
-            <h2 className="text-2xl font-bold text-navy">
-              Je ontvangt het pakket
-            </h2>
-            <p className="mt-3 text-text-light leading-relaxed">
-              Binnen 2 weken ontvang je per mail het volledige pakket:
-              auditrapport, nieuwe teksten voor je site die AI begrijpt,
-              JSON-LD code, implementatiegids en een analyse waar buiten
-              je site de grootste winst te halen valt. De tweede termijn
-              (de resterende 50%) ontvang je tegelijk.
-            </p>
-          </div>
-
-          {/* Step 5 */}
-          <div className="relative pl-16">
-            <div className="absolute left-0 top-0 flex h-12 w-12 items-center justify-center rounded-full bg-accent text-white font-bold text-lg shadow-[0_8px_20px_-6px_rgba(249,115,22,0.6)]">
-              5
-            </div>
-            <h2 className="text-2xl font-bold text-navy">
-              Revisie
-            </h2>
-            <p className="mt-3 text-text-light leading-relaxed">
-              Je hebt 14 dagen om feedback te geven. Wij verwerken dat in twee
-              revisierondes.
-            </p>
-          </div>
+          ))}
         </Reveal>
       </section>
 
@@ -182,11 +189,21 @@ export default function WerkwijzePage() {
       <section className="py-16 sm:py-24 bg-bg">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
           <Link
-            href="/score"
+            href="/start"
             className="glow-accent inline-flex items-center justify-center rounded-lg bg-accent px-8 py-4 text-lg font-semibold text-white hover:bg-accent-hover"
           >
-            Vraag je gratis AI Visibility Score aan
+            Begin vandaag nog
           </Link>
+          <p className="mt-4 text-sm text-text-light">
+            Liever eerst kijken waar je staat? Vraag de{" "}
+            <Link
+              href="/score"
+              className="text-accent hover:text-accent-hover transition-colors"
+            >
+              gratis AI Visibility Score
+            </Link>{" "}
+            aan.
+          </p>
         </div>
       </section>
     </>
