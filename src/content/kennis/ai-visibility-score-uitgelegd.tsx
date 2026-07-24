@@ -10,7 +10,7 @@ const artikel: KennisArtikel = {
   gepubliceerd: "2026-07-07",
   leestijdMin: 5,
   intro:
-    "De AI Visibility Score meet hoe goed AI-systemen zoals ChatGPT, Perplexity en Google AI je website kunnen lezen, begrijpen en vertrouwen. De meting bestaat uit 20 checkpoints van elk 5 punten, verdeeld over vijf categorieën. Samen geven ze een score van 0 tot 100. En vooral een lijst van wat er precies ontbreekt.",
+    "De AI Visibility Score meet hoe goed AI-systemen zoals ChatGPT, Claude en Gemini je website kunnen lezen, begrijpen en vertrouwen. De meting bestaat uit 20 checkpoints van elk 5 punten, verdeeld over vijf categorieën. Samen geven ze een score van 0 tot 100. En vooral een lijst van wat er precies ontbreekt.",
   content: (
     <>
       <H2>De vijf categorieën</H2>
@@ -53,7 +53,7 @@ const artikel: KennisArtikel = {
       <P>
         Staan er reviews of testimonials op je site, is er een over-pagina
         die vertelt wie erachter zit, en is je contactinformatie makkelijk te
-        vinden? Vertrouwen is voor AI een reden om je wél of niet aan te
+        vinden? Vertrouwen is voor AI een reden om je wel of niet aan te
         bevelen.
       </P>
 
@@ -110,7 +110,7 @@ const artikel: KennisArtikel = {
     {
       vraag: "Is een hoge score een garantie dat ChatGPT me aanbeveelt?",
       antwoord:
-        "Nee, en wees voorzichtig met wie dat wél belooft. De score meet of AI je website kán lezen en begrijpen. Dat is de voorwaarde. Of je daarna ook aanbevolen wordt, hangt mede af van reviews, concurrentie en hoe vaak je buiten je eigen site om genoemd wordt.",
+        "Nee, en wees voorzichtig met wie dat wel belooft. De score meet of AI je website kan lezen en begrijpen. Dat is de voorwaarde. Of je daarna ook aanbevolen wordt, hangt mede af van reviews, concurrentie en hoe vaak je buiten je eigen site om genoemd wordt.",
     },
     {
       vraag: "Hoe vaak moet ik de score opnieuw checken?",

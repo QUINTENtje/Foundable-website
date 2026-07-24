@@ -10,7 +10,7 @@ const artikel: KennisArtikel = {
   gepubliceerd: "2026-07-07",
   leestijdMin: 6,
   intro:
-    "Een website kan er voor mensen prima uitzien en voor AI onleesbaar zijn. AI ziet je design niet, je foto's nauwelijks en je bedoelingen al helemaal niet. Het leest tekst en code. Gaat het dáár mis, dan slaat AI je over. Hoe mooi je site ook is.",
+    "Een website kan er voor mensen prima uitzien en voor AI onleesbaar zijn. AI ziet je design niet, je foto's nauwelijks en je bedoelingen al helemaal niet. Het leest tekst en code. Gaat het daar mis, dan slaat AI je over. Hoe mooi je site ook is.",
   content: (
     <>
       <H2>De vijf patronen die het vaakst misgaan</H2>
@@ -105,7 +105,7 @@ const artikel: KennisArtikel = {
     {
       vraag: "Mijn site staat vol foto's. Is dat erg?",
       antwoord:
-        "Foto's zijn prima en voor bezoekers zelfs belangrijk. Het gaat mis als kerninformatie alléén in beeld bestaat: een banner met je slogan, een menukaart als afbeelding, een gescande prijslijst. Zorg dat alles wat AI moet weten ook als gewone tekst op de pagina staat.",
+        "Foto's zijn prima en voor bezoekers zelfs belangrijk. Het gaat mis als kerninformatie alleen in beeld bestaat: een banner met je slogan, een menukaart als afbeelding, een gescande prijslijst. Zorg dat alles wat AI moet weten ook als gewone tekst op de pagina staat.",
     },
     {
       vraag: "Leest AI mijn PDF-brochure?",

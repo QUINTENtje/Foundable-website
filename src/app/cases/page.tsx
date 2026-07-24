@@ -4,7 +4,7 @@ import JsonLd from "@/components/JsonLd";
 export const metadata: Metadata = {
   title: "Cases · Foundable",
   description:
-    "Drie cases, drie niches, plus de review van salestrainer Klaas Kroezen: zo maakt Foundable websites begrijpelijk voor ChatGPT, Perplexity en Google AI.",
+    "Drie cases, drie niches, plus de review van salestrainer Klaas Kroezen: zo maakt Foundable websites begrijpelijk voor ChatGPT, Claude en Gemini.",
   alternates: {
     canonical: "/cases",
   },
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     url: "https://www.foundable.nl/cases",
     title: "Cases · Foundable",
     description:
-      "Drie cases, drie niches, plus de review van salestrainer Klaas Kroezen: zo maakt Foundable websites begrijpelijk voor ChatGPT, Perplexity en Google AI.",
+      "Drie cases, drie niches, plus de review van salestrainer Klaas Kroezen: zo maakt Foundable websites begrijpelijk voor ChatGPT, Claude en Gemini.",
     images: [{ url: "/logo.png" }],
   },
 };
@@ -216,7 +216,7 @@ export default function CasesPage() {
             <div>
               <h3 className="text-lg font-bold text-navy">Aanpak</h3>
               <p className="mt-2 text-text-light leading-relaxed">
-                We brachten met de AI Visibility Score in kaart wat AI w&eacute;l
+                We brachten met de AI Visibility Score in kaart wat AI wel
                 en niet begreep: 20 checkpoints over structuur,
                 duidelijkheid en techniek. De locatie, sfeer, doelgroep en
                 unieke kenmerken van de woningen waren nauwelijks concreet
@@ -230,8 +230,8 @@ export default function CasesPage() {
               <h3 className="text-lg font-bold text-navy">Resultaat</h3>
               <p className="mt-2 text-text-light leading-relaxed">
                 AI begrijpt nu wie Ory aan Zee is, waar het ligt, wat het kost
-                en voor wie het geschikt is. Alles wat ChatGPT, Perplexity en
-                Google AI van de site zelf nodig hebben om een aanbeveling te
+                en voor wie het geschikt is. Alles wat ChatGPT, Claude en
+                Gemini van de site zelf nodig hebben om een aanbeveling te
                 doen, staat er nu.
               </p>
             </div>
@@ -254,7 +254,7 @@ export default function CasesPage() {
                 Bootzeil.nl maakt maatwerk zeilen en dekzeilen voor boten. Een
                 technische niche met veel vakjargon. De website was informatief
                 voor insiders, maar voor AI onbegrijpelijk. Termen als
-                &lsquo;dacron&rsquo; en &lsquo;laminate zeil&rsquo; zeggen een
+                &lsquo;dacron&rsquo; en &lsquo;laminaatzeil&rsquo; zeggen een
                 AI niets als er geen context bij staat.
               </p>
             </div>

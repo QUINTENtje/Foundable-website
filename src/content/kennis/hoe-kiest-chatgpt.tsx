@@ -10,7 +10,7 @@ const artikel: KennisArtikel = {
   gepubliceerd: "2026-07-07",
   leestijdMin: 6,
   intro:
-    "ChatGPT heeft geen lijst met beste bedrijven klaarliggen. Het stelt bij elke vraag opnieuw een antwoord samen uit twee bronnen: wat het model geleerd heeft uit trainingsdata, en wat het live op het web vindt. In beide gevallen wint het bedrijf dat het duidelijkst beschreven staat, op de eigen website én daarbuiten.",
+    "ChatGPT heeft geen lijst met beste bedrijven klaarliggen. Het stelt bij elke vraag opnieuw een antwoord samen uit twee bronnen: wat het model geleerd heeft uit trainingsdata, en wat het live op het web vindt. In beide gevallen wint het bedrijf dat het duidelijkst beschreven staat, op de eigen website en daarbuiten.",
   content: (
     <>
       <H2>Twee routes naar een aanbeveling</H2>
@@ -26,7 +26,7 @@ const artikel: KennisArtikel = {
         Stelt iemand een vraag waar actuele informatie voor nodig is, dan
         zoekt ChatGPT op het web en leest het een handvol pagina&rsquo;s. Wat
         het daar aantreft, bepaalt het antwoord van dat moment. Deze route
-        kun je dus wél snel beïnvloeden.
+        kun je dus wel snel beïnvloeden.
       </P>
 
       <H2>Wat er gebeurt als ChatGPT zoekt</H2>
@@ -37,7 +37,7 @@ const artikel: KennisArtikel = {
         </LI>
         <LI>Daar komt een lijst pagina&rsquo;s uit; een handvol wordt echt gelezen.</LI>
         <LI>
-          Het model leest de tékst van die pagina&rsquo;s. Design, foto&rsquo;s en
+          Het model leest de tekst van die pagina&rsquo;s. Design, foto&rsquo;s en
           animaties ziet het niet of nauwelijks.
         </LI>
         <LI>
@@ -115,7 +115,7 @@ const artikel: KennisArtikel = {
     {
       vraag: "Kan ik betalen om aanbevolen te worden door ChatGPT?",
       antwoord:
-        "Nee. Er is geen advertentieplek te koop in het organische antwoord van ChatGPT, Perplexity of Google AI. Wie je een gegarandeerde plek in AI-antwoorden verkoopt, overdrijft. Wat wél kan: je website en externe vermeldingen zo inrichten dat AI je vanzelf begrijpt en meeneemt.",
+        "Nee. Er is geen advertentieplek te koop in het organische antwoord van ChatGPT, Claude of Gemini. Wie je een gegarandeerde plek in AI-antwoorden verkoopt, overdrijft. Wat wel kan: je website en externe vermeldingen zo inrichten dat AI je vanzelf begrijpt en meeneemt.",
     },
     {
       vraag: "Waarom noemt ChatGPT mijn concurrent wel en mij niet?",

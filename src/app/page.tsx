@@ -32,7 +32,7 @@ function Hero() {
           </h1>
 
           <p className="mt-6 text-lg sm:text-xl text-text-light max-w-2xl leading-relaxed">
-            ChatGPT, Perplexity en Google AI bepalen steeds vaker wie klanten
+            ChatGPT, Claude en Gemini bepalen steeds vaker wie klanten
             bellen. Foundable analyseert jouw website en levert alles wat AI
             nodig heeft om jou te begrijpen. Geen vage adviezen, maar een
             compleet pakket dat klaar is om te plaatsen: de teksten en de
@@ -59,7 +59,7 @@ function Hero() {
           </div>
 
           <p className="mt-6 text-sm text-text-light">
-            Done-for-you GEO-audit.{" "}
+            De complete GEO-audit.{" "}
             <span className="line-through">&euro;999</span>{" "}
             <span className="font-semibold text-navy">&euro;499 excl. BTW</span>.
             Tijdelijke introductieprijs.
@@ -119,7 +119,7 @@ function Deliverables() {
     {
       title: "Nieuwe teksten voor je site die AI begrijpt",
       description:
-        "We analyseren de teksten op jouw website en leveren verbeterde versies die AI w\u00e9l begrijpt, geschreven in jouw eigen toon. Jij hoeft ze alleen te kopi\u00ebren.",
+        "We analyseren de teksten op jouw website en leveren verbeterde versies die AI wel begrijpt, geschreven in jouw eigen toon. Jij hoeft ze alleen te kopi\u00ebren.",
       icon: (
         <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
@@ -127,7 +127,7 @@ function Deliverables() {
       ),
     },
     {
-      title: "JSON-LD Structured Data code",
+      title: "JSON-LD structured data code",
       description:
         "Structured data vertelt AI wie je bent, wat je doet en waar je zit. Wij schrijven de code. Jij of je developer plakt hem in de website. Dat is alles.",
       icon: (
@@ -166,8 +166,7 @@ function Deliverables() {
             Een compleet pakket. Geen losse tips.
           </h2>
           <p className="mt-4 text-lg text-text-light">
-            Een done-for-you GEO-audit die ervoor zorgt dat AI jouw website
-            &eacute;cht begrijpt.
+            Een complete GEO-audit die ervoor zorgt dat AI jouw website echt begrijpt.
           </p>
         </Reveal>
 
@@ -184,7 +183,7 @@ function Deliverables() {
         </div>
 
         <p className="mt-12 text-center text-text-light">
-          De deliverables zijn &eacute;&eacute;n geheel, geen losse lijstjes.
+          De onderdelen zijn &eacute;&eacute;n geheel, geen losse lijstjes.
           Samen vertellen ze AI precies wie je bent.
         </p>
       </div>
@@ -211,7 +210,7 @@ function Promise() {
         <p className="mt-6 text-sm text-white/50 max-w-2xl mx-auto leading-relaxed">
           We garanderen geen aanbevelingen. Hoe prominent je verschijnt in
           ChatGPT hangt ook af van je reviews, concurrentie en hoe vaak je
-          online vermeld wordt. Wat we w&eacute;l garanderen: na deze audit
+          online vermeld wordt. Wat we wel garanderen: na deze audit
           heeft AI geen excuus meer om jou niet te begrijpen. Geen enkele stap
           is een garantie, maar samen verschuiven ze de kans duidelijk in jouw
           voordeel.
@@ -458,7 +457,7 @@ const faqJsonLd = {
       name: "Krijg ik alleen advies of doen jullie het ook?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Je krijgt geen lijstje waar je zelf mee aan de slag moet. De nieuwe teksten en de code zijn al gemaakt als je het pakket ontvangt. Het enige wat nog moet gebeuren is plaatsen. Daarvoor krijg je een gids die per punt laat zien waar het in jouw platform moet staan: kopi\u00ebren en plakken, voor jou of je websitebouwer. Alles komt kant-en-klaar naar je toe en je hoeft ons geen inloggegevens te geven. Loop je ergens vast, dan help ik je er per mail doorheen tot alles staat. Heb je geen websitebouwer en zie je op tegen het plaatsen? Zeg dat bij je aanvraag, dan zoeken we samen de handigste route.",
+        text: "Wij doen het. De nieuwe teksten en de code zijn al gemaakt als je het pakket ontvangt. Het enige wat nog moet gebeuren is plaatsen. Daarvoor krijg je een gids die per punt laat zien waar het in jouw platform moet staan: kopi\u00ebren en plakken, voor jou of je websitebouwer. Alles komt kant-en-klaar naar je toe en je hoeft ons geen inloggegevens te geven. Loop je ergens vast, dan help ik je er per mail doorheen tot alles staat. Heb je geen websitebouwer en zie je op tegen het plaatsen? Zeg dat bij je aanvraag, dan zoeken we samen de handigste route.",
       },
     },
     {
@@ -490,7 +489,7 @@ const faqJsonLd = {
       name: "Kan ik eerst alleen laten meten waar ik sta?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Ja, dat is de meting. We kijken over 270 echte antwoorden hoe vaak AI je noemt en wat AI over je vertelt. Je krijgt één A4 met die cijfers, je AI Visibility Score en de top 10 namen die AI in jouw vak noemt. Wij maken 30 representatieve vragen voor jouw vak, een eigen vragenlijst aanleveren kan op aanvraag. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
+        text: "Ja, dat is de meting. We kijken over 270 echte antwoorden hoe vaak AI je noemt en wat AI over je vertelt. Je krijgt één A4 met die cijfers, je AI Visibility Score en de top 10 namen die AI in jouw vak noemt. Wij maken 30 representatieve vragen voor jouw vak. Een eigen vragenlijst aanleveren kan op aanvraag. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
       },
     },
     {
@@ -522,7 +521,7 @@ const faqJsonLd = {
       name: "Garanderen jullie dat ik aanbevolen word door ChatGPT?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Nee. Dat doet niemand die eerlijk is. Hoe prominent je verschijnt hangt ook af van externe factoren zoals reviews, concurrentie en vermeldingen. Wat we w\u00e9l garanderen: we geven AI alles wat het nodig heeft om jou te begrijpen. De rest bouw je stap voor stap op met onze tips.",
+        text: "Nee. Dat doet niemand die eerlijk is. Hoe prominent je verschijnt hangt ook af van externe factoren zoals reviews, concurrentie en vermeldingen. Wat we wel garanderen: we geven AI alles wat het nodig heeft om jou te begrijpen. De rest bouw je stap voor stap op met onze tips.",
       },
     },
     {

@@ -71,7 +71,7 @@ const artikel: KennisArtikel = {
         Ook oude gewoontes werken anders uit. Zoekwoorden herhalen hielp
         vroeger bij Google en werd hooguit genegeerd. In AI-antwoorden werkt
         het averechts: het Princeton-onderzoek naar GEO (KDD 2024) mat er een
-        dáling van zichtbaarheid mee van zo&rsquo;n 10%. Wat wél werkt:
+        daling van zichtbaarheid mee van zo&rsquo;n 10%. Wat wel werkt:
         bronnen noemen, concrete cijfers geven en helder schrijven.
       </P>
 

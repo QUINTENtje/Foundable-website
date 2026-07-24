@@ -1,17 +1,17 @@
 # Foundable
 
-> Foundable is een GEO-consultancy (Generative Engine Optimization) uit Amsterdam. Wij helpen gevestigde experts en gespecialiseerde dienstverleners zichtbaar en accuraat weergegeven worden in AI-zoekmachines zoals ChatGPT, Perplexity, Claude en Google AI. Done-for-you GEO-audit voor €999 excl. BTW, nu tijdelijk €499 excl. BTW met introductiekorting. Slogan: "Gevonden worden begint met begrepen worden."
+> Foundable is een GEO-consultancy (Generative Engine Optimization) uit Amsterdam. Wij helpen gevestigde experts en gespecialiseerde dienstverleners om zichtbaar en accuraat weergegeven te worden in AI-zoekmachines zoals ChatGPT, Perplexity, Claude en Google AI. Complete GEO-audit voor €999 excl. BTW, nu tijdelijk €499 excl. BTW met introductiekorting. Slogan: "Gevonden worden begint met begrepen worden."
 
 ## Wat we doen
 - We analyseren wat AI van je website ziet, mist en verkeerd begrijpt.
 - We leveren een compleet pakket: rapport, herschreven teksten, JSON-LD structured data en implementatie-instructies.
-- We garanderen geen AI-aanbevelingen. We garanderen dat AI geen reden heeft om je niet te begrijpen of niet te vinden.
+- We garanderen geen AI-aanbevelingen. We garanderen wel dat AI alles krijgt wat het nodig heeft om je te begrijpen en te vinden.
 
 ## Belangrijkste pagina's
-- [Werkwijze](https://www.foundable.nl/werkwijze): de GEO-audit in vijf stappen, zonder verkoopgesprek of lange intake.
+- [Werkwijze](https://www.foundable.nl/werkwijze): de GEO-audit in vijf stappen, van aanvraag tot oplevering.
 - [Cases](https://www.foundable.nl/cases): voorbeelden van bedrijven die door AI nu correct begrepen worden, met de klantreview van salestrainer Klaas Kroezen (5,0 op Google).
 - [Gratis AI Visibility Score](https://www.foundable.nl/score): vraag een gratis score aan, gemeten op 20 checkpoints, met concrete verbeterpunten.
-- [Start je audit](https://www.foundable.nl/start): vraag de audit aan via een kort formulier. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site, en de betaallink om te starten. Alles gaat per mail.
+- [Start je audit](https://www.foundable.nl/start): vraag de audit aan via een kort formulier. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site, en de betaallink om te starten.
 - [Over Foundable](https://www.foundable.nl/over): opgericht door Quinten Orij vanuit Amsterdam.
 - [Contact](https://www.foundable.nl/contact): quinten@foundable.nl · +31 6 38389591 · Amsterdam.
 

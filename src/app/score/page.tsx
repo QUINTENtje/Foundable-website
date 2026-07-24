@@ -81,7 +81,7 @@ export default function ScorePage() {
           <div className="rounded-2xl bg-bg-alt border border-border p-8">
             <h2 className="text-xl font-bold text-navy mb-4">Wat is de AI Visibility Score?</h2>
             <p className="text-text-light leading-relaxed mb-4">
-              De AI Visibility Score laat zien hoe goed AI-zoekmachines zoals ChatGPT, Perplexity en Google AI jouw website kunnen lezen en begrijpen. We lopen 20 checkpoints na, verdeeld over vijf categorie&euml;n die samen goed zijn voor 100 punten:
+              De AI Visibility Score laat zien hoe goed AI-zoekmachines zoals ChatGPT, Claude en Gemini jouw website kunnen lezen en begrijpen. We lopen 20 checkpoints na, verdeeld over vijf categorie&euml;n die samen goed zijn voor 100 punten:
             </p>
             <ul className="space-y-2">
               {[

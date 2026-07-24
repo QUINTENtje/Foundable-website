@@ -5,7 +5,7 @@ const artikel: KennisArtikel = {
   slug: "wat-is-geo",
   titel: "Wat is GEO? Generative Engine Optimization uitgelegd",
   description:
-    "GEO staat voor Generative Engine Optimization: je website zo inrichten dat AI-systemen zoals ChatGPT, Perplexity en Google AI je begrijpen en aanbevelen.",
+    "GEO staat voor Generative Engine Optimization: je website zo inrichten dat AI-systemen zoals ChatGPT, Claude en Gemini je begrijpen en aanbevelen.",
   categorie: "Basis",
   gepubliceerd: "2026-07-07",
   leestijdMin: 5,
@@ -25,7 +25,7 @@ const artikel: KennisArtikel = {
         Ook binnen Google zelf verschuift het. Bij bijna de helft van de
         zoekopdrachten verschijnt inmiddels een AI-samenvatting boven de
         gewone resultaten. Mensen lezen het antwoord en klikken minder vaak
-        door. Je Google-positie zegt dus steeds minder over hoe vaak je écht
+        door. Je Google-positie zegt dus steeds minder over hoe vaak je echt
         gezien wordt.
       </P>
 
@@ -46,8 +46,8 @@ const artikel: KennisArtikel = {
         ]}
       />
       <P>
-        Even interessant is wat níet werkte: het oude trucje van zoekwoorden
-        herhalen (keyword stuffing) verláágde de zichtbaarheid in
+        Even interessant is wat niet werkte: het oude trucje van zoekwoorden
+        herhalen (keyword stuffing) verlaagde de zichtbaarheid in
         AI-antwoorden met zo&rsquo;n 10%. AI beloont duidelijkheid en feiten,
         geen trucs.
       </P>
@@ -67,7 +67,7 @@ const artikel: KennisArtikel = {
         <LI>
           <strong className="text-navy">Concrete feiten.</strong> Prijzen,
           locatie, doelgroep, cijfers. AI vult ontbrekende feiten niet in;
-          het kiest een bedrijf waar ze wél staan.
+          het kiest een bedrijf waar ze wel staan.
         </LI>
         <LI>
           <strong className="text-navy">Structuur.</strong> Koppen die de

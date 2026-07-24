@@ -21,7 +21,7 @@ const faqs: FAQItem[] = [
   {
     question: "Krijg ik alleen advies of doen jullie het ook?",
     answer:
-      "Je krijgt geen lijstje waar je zelf mee aan de slag moet. De nieuwe teksten en de code zijn al gemaakt als je het pakket ontvangt. Het enige wat nog moet gebeuren is plaatsen. Daarvoor krijg je een gids die per punt laat zien waar het in jouw platform moet staan: kopi\u00ebren en plakken, voor jou of je websitebouwer. Alles komt kant-en-klaar naar je toe en je hoeft ons geen inloggegevens te geven. Loop je ergens vast, dan help ik je er per mail doorheen tot alles staat. Heb je geen websitebouwer en zie je op tegen het plaatsen? Zeg dat bij je aanvraag, dan zoeken we samen de handigste route.",
+      "Wij doen het. De nieuwe teksten en de code zijn al gemaakt als je het pakket ontvangt. Het enige wat nog moet gebeuren is plaatsen. Daarvoor krijg je een gids die per punt laat zien waar het in jouw platform moet staan: kopi\u00ebren en plakken, voor jou of je websitebouwer. Alles komt kant-en-klaar naar je toe en je hoeft ons geen inloggegevens te geven. Loop je ergens vast, dan help ik je er per mail doorheen tot alles staat. Heb je geen websitebouwer en zie je op tegen het plaatsen? Zeg dat bij je aanvraag, dan zoeken we samen de handigste route.",
   },
   {
     question: "Wat verandert er aan mijn site? Zien mijn bezoekers dat?",
@@ -41,7 +41,7 @@ const faqs: FAQItem[] = [
   {
     question: "Kan ik eerst alleen laten meten waar ik sta?",
     answer:
-      "Ja, dat is de meting. We kijken over 270 echte antwoorden hoe vaak AI je noemt en wat AI over je vertelt. Je krijgt één A4 met die cijfers, je AI Visibility Score en de top 10 namen die AI in jouw vak noemt. Wij maken 30 representatieve vragen voor jouw vak, een eigen vragenlijst aanleveren kan op aanvraag. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
+      "Ja, dat is de meting. We kijken over 270 echte antwoorden hoe vaak AI je noemt en wat AI over je vertelt. Je krijgt één A4 met die cijfers, je AI Visibility Score en de top 10 namen die AI in jouw vak noemt. Wij maken 30 representatieve vragen voor jouw vak. Een eigen vragenlijst aanleveren kan op aanvraag. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
   },
   {
     question: "Wat is het verschil tussen de audit en de audit met nazorg?",
@@ -61,7 +61,7 @@ const faqs: FAQItem[] = [
   {
     question: "Garanderen jullie dat ik aanbevolen word door ChatGPT?",
     answer:
-      "Nee. Dat doet niemand die eerlijk is. Hoe prominent je verschijnt hangt ook af van externe factoren zoals reviews, concurrentie en vermeldingen. Wat we w\u00e9l garanderen: we geven AI alles wat het nodig heeft om jou te begrijpen. De rest bouw je stap voor stap op met onze tips.",
+      "Nee. Dat doet niemand die eerlijk is. Hoe prominent je verschijnt hangt ook af van externe factoren zoals reviews, concurrentie en vermeldingen. Wat we wel garanderen: we geven AI alles wat het nodig heeft om jou te begrijpen. De rest bouw je stap voor stap op met onze tips.",
   },
   {
     question: "Voor wie is dit geschikt?",

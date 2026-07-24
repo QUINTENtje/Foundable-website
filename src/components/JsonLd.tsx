@@ -56,7 +56,7 @@ export const siteGraph = {
         addressCountry: "NL",
       },
       description:
-        "Foundable is een GEO-consultancy (Generative Engine Optimization) in Amsterdam. Foundable helpt gevestigde experts en gespecialiseerde dienstverleners zichtbaar en accuraat weergegeven worden in AI-zoekmachines zoals ChatGPT, Perplexity, Claude en Google AI, via een done-for-you GEO-audit.",
+        "Foundable is een GEO-consultancy (Generative Engine Optimization) in Amsterdam. Foundable helpt gevestigde experts en gespecialiseerde dienstverleners om zichtbaar en accuraat weergegeven te worden in AI-zoekmachines zoals ChatGPT, Perplexity, Claude en Google AI, via een complete GEO-audit.",
       knowsAbout: [
         "GEO",
         "Generative Engine Optimization",
@@ -70,7 +70,7 @@ export const siteGraph = {
           "@type": "Offer",
           name: "De meting",
           description:
-            "Eenmalige AI-zichtbaarheidsmeting over 270 echte antwoorden: hoe vaak AI je noemt, wat AI over je vertelt, de AI Visibility Score van je website en de top 10 namen die AI in jouw vak noemt. Foundable maakt 30 representatieve vragen voor het vak, een eigen vragenlijst aanleveren kan op aanvraag. Eén A4, geleverd per mail. Telt binnen 3 maanden volledig als aanbetaling op elke audit.",
+            "Eenmalige AI-zichtbaarheidsmeting over 270 echte antwoorden: hoe vaak AI je noemt, wat AI over je vertelt, de AI Visibility Score van je website en de top 10 namen die AI in jouw vak noemt. Foundable maakt 30 representatieve vragen voor het vak. Een eigen vragenlijst aanleveren kan op aanvraag. Eén A4, geleverd per mail. Telt binnen 3 maanden volledig als aanbetaling op elke audit.",
           price: "147.50",
           priceCurrency: "EUR",
           priceSpecification: {
@@ -85,7 +85,7 @@ export const siteGraph = {
           "@type": "Offer",
           name: "GEO-audit",
           description:
-            "Done-for-you GEO-audit: nieuwe teksten voor de site die AI begrijpt, JSON-LD-code, platformspecifieke implementatiegids en een analyse waar buiten de site de grootste winst te halen valt. Inclusief nulmeting vooraf en nameting na 90 dagen.",
+            "Complete GEO-audit: nieuwe teksten voor de site die AI begrijpt, JSON-LD-code, platformspecifieke implementatiegids en een analyse waar buiten de site de grootste winst te halen valt. Inclusief nulmeting vooraf en nameting na 90 dagen.",
           price: "499",
           priceCurrency: "EUR",
           priceSpecification: {

@@ -5,12 +5,12 @@ const artikel: KennisArtikel = {
   slug: "wat-is-json-ld",
   titel: "Wat is JSON-LD en waarom heeft je website het nodig?",
   description:
-    "JSON-LD is een klein blok code dat machines in één keer vertelt wie je bent, wat je doet en waar je zit. Bezoekers zien het niet, AI leest het wél.",
+    "JSON-LD is een klein blok code dat machines in één keer vertelt wie je bent, wat je doet en waar je zit. Bezoekers zien het niet, AI leest het wel.",
   categorie: "Techniek",
   gepubliceerd: "2026-07-07",
   leestijdMin: 5,
   intro:
-    "JSON-LD is een klein blok code in je website dat machines in één keer vertelt wie je bent, wat je doet, waar je zit en wat het kost. Bezoekers zien er niets van. Zoekmachines en AI-systemen lezen het wél. Zij hoeven daardoor niet te gokken wat voor bedrijf je bent.",
+    "JSON-LD is een klein blok code in je website dat machines in één keer vertelt wie je bent, wat je doet, waar je zit en wat het kost. Bezoekers zien er niets van. Zoekmachines en AI-systemen lezen het wel. Zij hoeven daardoor niet te gokken wat voor bedrijf je bent.",
   content: (
     <>
       <H2>Hoe het eruitziet</H2>
