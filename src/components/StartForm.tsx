@@ -75,8 +75,7 @@ export default function StartForm({
         </h2>
         <p className="mt-3 text-text-light leading-relaxed">
           Je krijgt binnen twee werkdagen persoonlijk antwoord van Quinten:
-          wat hem opvalt aan je website, en de betaallink om te starten.
-          Alles gaat per mail.
+          wat hem opvalt aan je website en de betaallink om te starten.
         </p>
       </div>
     );
@@ -139,7 +138,7 @@ export default function StartForm({
 
       <div>
         <label htmlFor="url" className="block text-sm font-medium text-navy mb-1">
-          Website URL *
+          Website-URL *
         </label>
         <input
           id="url"

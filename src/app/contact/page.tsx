@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ContactForm from "@/components/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact · Foundable",
@@ -31,7 +32,7 @@ export default function ContactPage() {
           </h1>
           <p className="mt-4 text-lg text-text-light">
             Vragen, of loop je ergens vast? E&eacute;n berichtje en ik kijk met
-            je mee. We reageren binnen &eacute;&eacute;n werkdag.
+            je mee. Je krijgt binnen &eacute;&eacute;n werkdag antwoord.
           </p>
         </div>
       </section>
@@ -82,7 +83,7 @@ export default function ContactPage() {
               <div className="mt-10 rounded-xl bg-bg-alt border border-border p-6">
                 <p className="text-text-light leading-relaxed">
                   Liever direct starten? Vraag je gratis AI Visibility Score
-                  aan, dan nemen we daarna contact op.
+                  aan, dan nemen we contact met je op.
                 </p>
                 <Link
                   href="/score"
@@ -98,70 +99,7 @@ export default function ContactPage() {
               <h2 className="text-2xl font-bold text-navy mb-6">
                 Stuur een bericht
               </h2>
-              <form
-                action="mailto:quinten@foundable.nl"
-                method="POST"
-                encType="text/plain"
-                className="space-y-5"
-              >
-                <div>
-                  <label
-                    htmlFor="contact-name"
-                    className="block text-sm font-medium text-navy mb-1"
-                  >
-                    Naam
-                  </label>
-                  <input
-                    id="contact-name"
-                    name="Naam"
-                    type="text"
-                    required
-                    placeholder="Je naam"
-                    className="w-full rounded-lg border border-border px-4 py-3 text-text focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
-                  />
-                </div>
-
-                <div>
-                  <label
-                    htmlFor="contact-email"
-                    className="block text-sm font-medium text-navy mb-1"
-                  >
-                    E-mailadres
-                  </label>
-                  <input
-                    id="contact-email"
-                    name="Email"
-                    type="email"
-                    required
-                    placeholder="je@email.nl"
-                    className="w-full rounded-lg border border-border px-4 py-3 text-text focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
-                  />
-                </div>
-
-                <div>
-                  <label
-                    htmlFor="contact-message"
-                    className="block text-sm font-medium text-navy mb-1"
-                  >
-                    Bericht
-                  </label>
-                  <textarea
-                    id="contact-message"
-                    name="Bericht"
-                    required
-                    rows={5}
-                    placeholder="Je bericht..."
-                    className="w-full rounded-lg border border-border px-4 py-3 text-text focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent resize-y"
-                  />
-                </div>
-
-                <button
-                  type="submit"
-                  className="w-full rounded-lg bg-accent px-6 py-3.5 text-base font-semibold text-white hover:bg-accent-hover transition-colors"
-                >
-                  Stuur bericht
-                </button>
-              </form>
+              <ContactForm />
             </div>
           </div>
         </div>

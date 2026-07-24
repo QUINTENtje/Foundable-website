@@ -220,9 +220,9 @@ export default function CasesPage() {
                 en niet begreep: 20 checkpoints over structuur,
                 duidelijkheid en techniek. De locatie, sfeer, doelgroep en
                 unieke kenmerken van de woningen waren nauwelijks concreet
-                beschreven. We herschreven de teksten, voegden specifieke feiten
-                toe en implementeerden JSON-LD structured data met alle relevante
-                informatie.
+                beschreven. We herschreven de teksten, vulden ze aan met
+                concrete feiten en leverden JSON-LD structured data aan met
+                alle relevante informatie, klaar om te plaatsen.
               </p>
             </div>
 
@@ -230,9 +230,9 @@ export default function CasesPage() {
               <h3 className="text-lg font-bold text-navy">Resultaat</h3>
               <p className="mt-2 text-text-light leading-relaxed">
                 AI begrijpt nu wie Ory aan Zee is, waar het ligt, wat het kost
-                en voor wie het geschikt is. De website voldoet aan alle
-                criteria die ChatGPT, Perplexity en Google AI gebruiken om een
-                aanbeveling te doen.
+                en voor wie het geschikt is. Alles wat ChatGPT, Perplexity en
+                Google AI van de site zelf nodig hebben om een aanbeveling te
+                doen, staat er nu.
               </p>
             </div>
           </div>
@@ -255,7 +255,7 @@ export default function CasesPage() {
                 technische niche met veel vakjargon. De website was informatief
                 voor insiders, maar voor AI onbegrijpelijk. Termen als
                 &lsquo;dacron&rsquo; en &lsquo;laminate zeil&rsquo; zeggen een
-                zoekmachine niets als er geen context bij staat.
+                AI niets als er geen context bij staat.
               </p>
             </div>
 
@@ -276,7 +276,7 @@ export default function CasesPage() {
               <p className="mt-2 text-text-light leading-relaxed">
                 AI begrijpt nu wat Bootzeil.nl maakt, voor wie, in welke regio
                 en wat een klant kan verwachten. De technische expertise is
-                behouden, maar nu ook leesbaar voor de zoekmachines die
+                behouden, maar nu ook leesbaar voor de AI-systemen die
                 de aanbevelingen doen.
               </p>
             </div>

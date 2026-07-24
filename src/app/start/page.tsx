@@ -58,7 +58,7 @@ const products = {
       },
       {
         title: "Na je aanbetaling gaan we aan de slag",
-        text: "Binnen 2 weken ligt het complete pakket in je mailbox. De tweede helft betaal je bij oplevering.",
+        text: "Binnen 2 weken ligt het complete pakket in je mailbox: de nieuwe teksten en de code zijn al gemaakt, plaatsen is kopiëren en plakken met de gids erbij. Loop je ergens vast, dan help ik je er per mail doorheen. De tweede helft betaal je bij oplevering.",
       },
     ],
   },
@@ -78,7 +78,7 @@ const products = {
       },
       {
         title: "Na je aanbetaling gaan we aan de slag",
-        text: "Binnen 2 weken ligt het complete pakket in je mailbox. De tweede helft betaal je bij oplevering. Daarna komen we na 3 en na 6 maanden terug om opnieuw te meten en bij te sturen.",
+        text: "Binnen 2 weken ligt het complete pakket in je mailbox: de nieuwe teksten en de code zijn al gemaakt, plaatsen is kopiëren en plakken met de gids erbij. De tweede helft betaal je bij oplevering. Daarna komen we na 3 en na 6 maanden terug om opnieuw te meten en bij te sturen.",
       },
     ],
   },
@@ -111,7 +111,7 @@ export default async function StartPage({
           </h1>
           <p className="mt-4 text-lg text-text-light leading-relaxed">
             Je vraagt {product.keuze.toLowerCase()} aan met het formulier
-            hieronder, de rest gaat per mail.
+            hieronder. Daarna hoor je persoonlijk van ons.
           </p>
           <p className="mt-4 text-sm text-text-light">
             <span className="line-through">{product.listPrice}</span>{" "}

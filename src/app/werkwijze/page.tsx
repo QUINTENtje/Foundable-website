@@ -6,7 +6,7 @@ import Reveal from "@/components/Reveal";
 export const metadata: Metadata = {
   title: "Zo werkt het · Foundable",
   description:
-    "Kies de meting, de audit of de audit met nazorg en vul een kort formulier in. Je kunt vandaag nog beginnen, alles gaat per mail. In vijf stappen klaar.",
+    "Kies de meting, de audit of de audit met nazorg en vul een kort formulier in. Binnen twee werkdagen persoonlijk antwoord, in vijf stappen klaar.",
   alternates: {
     canonical: "/werkwijze",
   },
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://www.foundable.nl/werkwijze",
     title: "Zo werkt het · Foundable",
     description:
-      "Kies de meting, de audit of de audit met nazorg en vul een kort formulier in. Je kunt vandaag nog beginnen, alles gaat per mail. In vijf stappen klaar.",
+      "Kies de meting, de audit of de audit met nazorg en vul een kort formulier in. Binnen twee werkdagen persoonlijk antwoord, in vijf stappen klaar.",
     images: [{ url: "/logo.png" }],
   },
 };
@@ -45,19 +45,19 @@ const howToSchema = {
       "@type": "HowToStep",
       position: 3,
       name: "Na je betaling gaan we aan de slag",
-      text: "Bij de audit betaal je de eerste helft (50%) en gaan wij aan het werk. De meting betaal je in één keer, daarna gaan we meteen meten.",
+      text: "Bij de audit betaal je de eerste helft (50%) en gaan wij aan het werk. De audit begint met een nulmeting: dertig vragen die jouw klanten aan AI zouden stellen, zodat je straks precies ziet wat er verandert. Kies je de losse meting, dan betaal je die in één keer en gaan we meteen meten.",
     },
     {
       "@type": "HowToStep",
       position: 4,
       name: "Je ontvangt alles per mail",
-      text: "De meting ligt binnen een week als A4 in je mailbox. De audit binnen 2 weken, als volledig pakket: auditrapport, nieuwe teksten voor je site die AI begrijpt, JSON-LD code, implementatiegids en een analyse waar buiten je site de grootste winst te halen valt. De tweede helft betaal je bij oplevering.",
+      text: "De meting ligt binnen een week als A4 in je mailbox. De audit binnen 2 weken, als volledig pakket: auditrapport, nieuwe teksten voor je site die AI begrijpt, JSON-LD-code, implementatiegids en een analyse waar buiten je site de grootste winst te halen valt. Alles staat klaar om te kopiëren en te plakken, de gids laat per punt zien waar het in jouw platform moet staan. Loop je bij het plaatsen ergens vast, dan help ik je er per mail doorheen tot alles staat. De tweede helft betaal je bij oplevering.",
     },
     {
       "@type": "HowToStep",
       position: 5,
       name: "Revisie en vervolg",
-      text: "Je hebt 14 dagen om feedback te geven, wij verwerken dat in twee revisierondes. Koos je de audit met nazorg? Dan komen we na 3 en na 6 maanden terug om opnieuw te meten en bij te sturen.",
+      text: "Je hebt 14 dagen om feedback te geven, wij verwerken dat in twee revisierondes. Op dag 90 draaien we de nulmeting precies opnieuw, zodat je het verschil in cijfers ziet. Koos je de audit met nazorg? Dan komen we ook na 3 en na 6 maanden terug om opnieuw te meten en bij te sturen.",
     },
   ],
 };
@@ -102,8 +102,10 @@ const steps = [
     text: (
       <>
         Bij de audit betaal je de eerste helft (50%) en gaan wij aan het
-        werk. De meting betaal je in &eacute;&eacute;n keer, daarna gaan we
-        meteen meten.
+        werk. De audit begint met een nulmeting: dertig vragen die jouw
+        klanten aan AI zouden stellen, zodat je straks precies ziet wat er
+        verandert. Kies je de losse meting, dan betaal je die in
+        &eacute;&eacute;n keer en gaan we meteen meten.
       </>
     ),
   },
@@ -113,9 +115,12 @@ const steps = [
       <>
         De meting ligt binnen een week als A4 in je mailbox. De audit binnen
         2 weken, als volledig pakket: auditrapport, nieuwe teksten voor je
-        site die AI begrijpt, JSON-LD code, implementatiegids en een analyse
-        waar buiten je site de grootste winst te halen valt. De tweede helft
-        betaal je bij oplevering.
+        site die AI begrijpt, JSON-LD-code, implementatiegids en een analyse
+        waar buiten je site de grootste winst te halen valt. Alles staat
+        klaar om te kopi&euml;ren en te plakken, de gids laat per punt zien
+        waar het in jouw platform moet staan. Loop je bij het plaatsen
+        ergens vast, dan help ik je er per mail doorheen tot alles staat. De
+        tweede helft betaal je bij oplevering.
       </>
     ),
   },
@@ -124,8 +129,10 @@ const steps = [
     text: (
       <>
         Je hebt 14 dagen om feedback te geven, wij verwerken dat in twee
-        revisierondes. Koos je de audit met nazorg? Dan komen we na 3 en na
-        6 maanden terug om opnieuw te meten en bij te sturen.
+        revisierondes. Op dag 90 draaien we de nulmeting precies opnieuw,
+        zodat je het verschil in cijfers ziet. Koos je de audit met nazorg?
+        Dan komen we ook na 3 en na 6 maanden terug om opnieuw te meten en
+        bij te sturen.
       </>
     ),
   },

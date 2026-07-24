@@ -116,7 +116,7 @@ export default function ScorePage() {
                   htmlFor="url"
                   className="block text-sm font-medium text-navy mb-1"
                 >
-                  Website URL *
+                  Website-URL *
                 </label>
                 <input
                   id="url"

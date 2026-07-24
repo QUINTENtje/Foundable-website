@@ -75,9 +75,9 @@ export default function OverPage() {
                 </p>
                 <p>
                   Het idee ontstond toen mijn moeder vroeg of ze beter vindbaar
-                  kon worden via AI. Ik was al vanaf het ontstaan van AI er
-                  intensief mee bezig, en dit leek me een mooie uitdaging. Dus
-                  ben ik hem aangegaan.
+                  kon worden via AI. Ik was zelf al vanaf het begin intensief
+                  met AI bezig en dit leek me een mooie uitdaging. Dus die ben
+                  ik aangegaan.
                 </p>
                 <p>
                   Daarna hoorde ik van meer ondernemers om me heen dat ze
@@ -100,8 +100,8 @@ export default function OverPage() {
             <p>
               Foundable is gevestigd in Amsterdam en helpt Nederlandse
               bedrijven vindbaar worden voor AI. Geen vage adviezen en geen
-              moeilijke techniek, maar een compleet pakket dat je direct
-              kunt implementeren.
+              moeilijke techniek, maar een compleet pakket dat klaar is om
+              te plaatsen: de teksten en de code zijn al gemaakt.
             </p>
             <p>
               Na onze audit heeft AI geen reden meer om jou niet te begrijpen.
