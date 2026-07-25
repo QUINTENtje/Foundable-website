@@ -4,7 +4,7 @@ import JsonLd from "@/components/JsonLd";
 export const metadata: Metadata = {
   title: "Cases · Foundable",
   description:
-    "Drie cases, drie niches, plus de review van salestrainer Klaas Kroezen: zo maakt Foundable websites begrijpelijk voor ChatGPT, Claude en Gemini.",
+    "Drie cases, drie niches, plus twee reviews van klanten: zo maakt Foundable websites begrijpelijk voor ChatGPT, Claude en Gemini.",
   alternates: {
     canonical: "/cases",
   },
@@ -15,14 +15,15 @@ export const metadata: Metadata = {
     url: "https://www.foundable.nl/cases",
     title: "Cases · Foundable",
     description:
-      "Drie cases, drie niches, plus de review van salestrainer Klaas Kroezen: zo maakt Foundable websites begrijpelijk voor ChatGPT, Claude en Gemini.",
+      "Drie cases, drie niches, plus twee reviews van klanten: zo maakt Foundable websites begrijpelijk voor ChatGPT, Claude en Gemini.",
     images: [{ url: "/logo.png" }],
   },
 };
 
-// Klaas' Google-review van 14-07-2026, woordelijk overgenomen. De tweede
-// node koppelt de review terug aan het organisatieschema uit de root layout.
-const klaasReviewJsonLd = {
+// De Google-reviews van Klaas (14-07-2026) en Marianne van Ory aan Zee
+// (22-07-2026), allebei woordelijk overgenomen. De laatste node koppelt ze
+// terug aan het organisatieschema uit de root layout.
+const reviewsJsonLd = {
   "@context": "https://schema.org",
   "@graph": [
     {
@@ -50,17 +51,88 @@ const klaasReviewJsonLd = {
       },
     },
     {
+      "@type": "Review",
+      "@id": "https://www.foundable.nl/cases#review-ory-aan-zee",
+      itemReviewed: {
+        "@type": "ProfessionalService",
+        "@id": "https://www.foundable.nl/#organization",
+        name: "Foundable",
+      },
+      author: {
+        "@type": "Person",
+        name: "Marianne",
+        affiliation: {
+          "@type": "LodgingBusiness",
+          name: "Ory aan Zee",
+          url: "https://www.oryaanzee.nl",
+        },
+      },
+      datePublished: "2026-07-22",
+      inLanguage: "nl-NL",
+      reviewBody:
+        "Ik ben erg tevreden over de samenwerking met Foundable. Na de uitgebreide audit van mijn website kreeg ik heel concrete verbeterpunten voor zowel de teksten als de technische code. Veel daarvan waren zaken waar ik zelf nooit aan gedacht zou hebben.\n\nZo bleek dat algemene omschrijvingen als “dicht bij het strand” voor zoekmachines en AI veel minder duidelijk te zijn dan concrete informatie, zoals “op 50 meter van het strand”. Foundable heeft mij geholpen om de informatie op mijn website veel specifieker en beter vindbaar te maken.\n\nDe adviezen werden niet alleen duidelijk uitgelegd, maar zo aangeleverd dat ik het makkelijk kon aanpassen op mijn website. Al binnen korte tijd merkte ik dat oa ChatGPT mijn bedrijf en aanbod beter begreep en relevanter kon aanbevelen.\n\nAbsoluut een aanrader voor bedrijven die beter gevonden willen worden via AI en online zoekmachines.",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: "5",
+        bestRating: "5",
+        worstRating: "1",
+      },
+    },
+    {
       "@type": "ProfessionalService",
       "@id": "https://www.foundable.nl/#organization",
-      review: { "@id": "https://www.foundable.nl/cases#review-klaas-kroezen" },
+      review: [
+        { "@id": "https://www.foundable.nl/cases#review-klaas-kroezen" },
+        { "@id": "https://www.foundable.nl/cases#review-ory-aan-zee" },
+      ],
     },
   ],
 };
 
+// Sterrenrij plus citaat; de figcaption verschilt per review en komt binnen
+// als children.
+function ReviewQuote({
+  paragraphs,
+  children,
+}: {
+  paragraphs: string[];
+  children: React.ReactNode;
+}) {
+  return (
+    <figure className="mt-10 rounded-2xl border border-border bg-white p-8">
+      <div
+        className="flex items-center gap-1"
+        role="img"
+        aria-label="Beoordeling: 5 van 5 sterren"
+      >
+        {[0, 1, 2, 3, 4].map((i) => (
+          <svg
+            key={i}
+            className="h-5 w-5 text-amber"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+            aria-hidden="true"
+          >
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.958a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.367 2.446a1 1 0 00-.364 1.118l1.287 3.957c.3.922-.755 1.688-1.539 1.118l-3.366-2.445a1 1 0 00-1.176 0l-3.366 2.445c-.783.57-1.838-.196-1.539-1.118l1.287-3.957a1 1 0 00-.363-1.118L2.063 9.385c-.783-.57-.38-1.81.588-1.81h4.162a1 1 0 00.951-.69l1.285-3.958z" />
+          </svg>
+        ))}
+      </div>
+      <blockquote className="mt-4 space-y-3 text-navy leading-relaxed">
+        {paragraphs.map((text, i) => (
+          <p key={i}>{text}</p>
+        ))}
+      </blockquote>
+      <figcaption className="mt-5 text-sm text-text-light">
+        {children}
+      </figcaption>
+    </figure>
+  );
+}
+
 export default function CasesPage() {
   return (
     <>
-      <JsonLd data={klaasReviewJsonLd} />
+      <JsonLd data={reviewsJsonLd} />
 
       {/* Hero */}
       <section className="relative overflow-hidden py-16 sm:py-24 bg-bg">
@@ -133,62 +205,32 @@ export default function CasesPage() {
           </div>
 
           {/* Review */}
-          <figure className="mt-10 rounded-2xl border border-border bg-white p-8">
-            <div
-              className="flex items-center gap-1"
-              role="img"
-              aria-label="Beoordeling: 5 van 5 sterren"
+          <ReviewQuote
+            paragraphs={[
+              "Via AI krijg ik steeds meer opdrachten. Maar hoe goed ben ik daar eigenlijk vindbaar? En kun je daar invloed op krijgen? Daar heeft Quinten mij bij geholpen.",
+              "Hij maakte een helder rapport over hoe ik er nu voorsta. Daarna zijn we er samen doorheen gegaan en hebben we de aanbevelingen meteen toegepast. Aan het einde van de sessie was er al echt iets veranderd.",
+              "Quinten legt rustig uit, denkt met je mee en weet waar hij het over heeft. Ik zou hem zo aanraden.",
+            ]}
+          >
+            <a
+              href="https://www.klaaskroezen.nl"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-navy hover:text-accent transition-colors"
             >
-              {[0, 1, 2, 3, 4].map((i) => (
-                <svg
-                  key={i}
-                  className="h-5 w-5 text-amber"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                  aria-hidden="true"
-                >
-                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.958a1 1 0 00.95.69h4.162c.969 0 1.371 1.24.588 1.81l-3.367 2.446a1 1 0 00-.364 1.118l1.287 3.957c.3.922-.755 1.688-1.539 1.118l-3.366-2.445a1 1 0 00-1.176 0l-3.366 2.445c-.783.57-1.838-.196-1.539-1.118l1.287-3.957a1 1 0 00-.363-1.118L2.063 9.385c-.783-.57-.38-1.81.588-1.81h4.162a1 1 0 00.951-.69l1.285-3.958z" />
-                </svg>
-              ))}
-            </div>
-            <blockquote className="mt-4 space-y-3 text-navy leading-relaxed">
-              <p>
-                Via AI krijg ik steeds meer opdrachten. Maar hoe goed ben ik
-                daar eigenlijk vindbaar? En kun je daar invloed op krijgen?
-                Daar heeft Quinten mij bij geholpen.
-              </p>
-              <p>
-                Hij maakte een helder rapport over hoe ik er nu voorsta.
-                Daarna zijn we er samen doorheen gegaan en hebben we de
-                aanbevelingen meteen toegepast. Aan het einde van de sessie
-                was er al echt iets veranderd.
-              </p>
-              <p>
-                Quinten legt rustig uit, denkt met je mee en weet waar hij het
-                over heeft. Ik zou hem zo aanraden.
-              </p>
-            </blockquote>
-            <figcaption className="mt-5 text-sm text-text-light">
-              <a
-                href="https://www.klaaskroezen.nl"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-semibold text-navy hover:text-accent transition-colors"
-              >
-                Klaas Kroezen
-              </a>
-              , salestrainer en spreker &middot;{" "}
-              <a
-                href="https://www.google.com/maps?cid=7591528248257612358"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline hover:text-accent transition-colors"
-              >
-                review op ons Google Bedrijfsprofiel
-              </a>
-              , juli 2026
-            </figcaption>
-          </figure>
+              Klaas Kroezen
+            </a>
+            , salestrainer en spreker &middot;{" "}
+            <a
+              href="https://www.google.com/maps?cid=7591528248257612358"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-accent transition-colors"
+            >
+              review op ons Google Bedrijfsprofiel
+            </a>
+            , juli 2026
+          </ReviewQuote>
         </div>
       </section>
 
@@ -236,6 +278,36 @@ export default function CasesPage() {
               </p>
             </div>
           </div>
+
+          {/* Review */}
+          <ReviewQuote
+            paragraphs={[
+              "Ik ben erg tevreden over de samenwerking met Foundable. Na de uitgebreide audit van mijn website kreeg ik heel concrete verbeterpunten voor zowel de teksten als de technische code. Veel daarvan waren zaken waar ik zelf nooit aan gedacht zou hebben.",
+              "Zo bleek dat algemene omschrijvingen als “dicht bij het strand” voor zoekmachines en AI veel minder duidelijk te zijn dan concrete informatie, zoals “op 50 meter van het strand”. Foundable heeft mij geholpen om de informatie op mijn website veel specifieker en beter vindbaar te maken.",
+              "De adviezen werden niet alleen duidelijk uitgelegd, maar zo aangeleverd dat ik het makkelijk kon aanpassen op mijn website. Al binnen korte tijd merkte ik dat oa ChatGPT mijn bedrijf en aanbod beter begreep en relevanter kon aanbevelen.",
+              "Absoluut een aanrader voor bedrijven die beter gevonden willen worden via AI en online zoekmachines.",
+            ]}
+          >
+            <span className="font-semibold text-navy">Marianne</span>,{" "}
+            <a
+              href="https://www.oryaanzee.nl"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-accent transition-colors"
+            >
+              Ory aan Zee
+            </a>{" "}
+            &middot;{" "}
+            <a
+              href="https://www.google.com/maps?cid=7591528248257612358"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-accent transition-colors"
+            >
+              review op ons Google Bedrijfsprofiel
+            </a>
+            , juli 2026
+          </ReviewQuote>
         </div>
       </section>
 

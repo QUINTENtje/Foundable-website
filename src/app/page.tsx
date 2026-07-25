@@ -93,6 +93,14 @@ function Problem() {
               geschreven? Dan kiest AI gewoon iemand anders.
             </p>
             <p>
+              Vaag betekent daarbij iets heel alledaags. Een vakantiehuis dat
+              &lsquo;dicht bij het strand&rsquo; ligt, klinkt prima. Alleen
+              weet AI daar niks mee te beginnen. &lsquo;Op 50 meter van het
+              strand&rsquo; wel, want dat is een feit waarmee het je kan
+              aanbevelen. Dat verschil zit op bijna elke pagina van bijna elke
+              website.
+            </p>
+            <p>
               Wie nu alleen op Google inzet, mist een steeds groter publiek. En
               wie straks wil inhalen, heeft een achterstand.
             </p>
@@ -416,7 +424,7 @@ function CasesPreview() {
           <CaseCard
             name="Ory aan Zee"
             sector="Vakantieverhuur"
-            result="AI begrijpt nu de locatie, sfeer en doelgroep van Ory aan Zee volledig en heeft alles om het bij de juiste zoekopdrachten aan te bevelen."
+            result="Sfeerwoorden vervangen door concrete feiten over de locatie, de prijs en voor wie de woningen geschikt zijn. Haar review: ook een 5,0 op Google."
             href="/cases#ory-aan-zee"
           />
           <CaseCard
