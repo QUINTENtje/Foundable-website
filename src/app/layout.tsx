@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     template: "%s",
   },
   description:
-    "Foundable zorgt dat ChatGPT, Perplexity, Claude en Google AI jouw website begrijpen en aanbevelen. De complete GEO-audit, kant-en-klaar aangeleverd. Vraag gratis je AI Visibility Score aan.",
+    "Foundable zorgt dat ChatGPT, Claude en Gemini je bedrijf vinden en begrijpen. Eerst meten wat AI over je kan lezen, dan alles kant-en-klaar aangeleverd.",
   metadataBase: new URL("https://www.foundable.nl"),
   alternates: {
     canonical: "./",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     siteName: "Foundable",
     title: "Foundable · GEO-audit: word gevonden in het AI-tijdperk",
     description:
-      "Foundable zorgt dat ChatGPT, Perplexity, Claude en Google AI jouw website begrijpen en aanbevelen. De complete GEO-audit, kant-en-klaar aangeleverd.",
+      "Foundable zorgt dat ChatGPT, Claude en Gemini je bedrijf vinden en begrijpen. Eerst meten wat AI over je kan lezen, dan alles kant-en-klaar aangeleverd.",
     url: "https://www.foundable.nl",
     images: [{ url: "/logo.png" }],
   },
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Foundable · GEO-audit: word gevonden in het AI-tijdperk",
     description:
-      "Foundable zorgt dat ChatGPT, Perplexity, Claude en Google AI jouw website begrijpen en aanbevelen. De complete GEO-audit, kant-en-klaar aangeleverd.",
+      "Foundable zorgt dat ChatGPT, Claude en Gemini je bedrijf vinden en begrijpen. Eerst meten wat AI over je kan lezen, dan alles kant-en-klaar aangeleverd.",
     images: ["/logo.png"],
   },
 };
