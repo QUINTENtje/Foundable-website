@@ -62,7 +62,7 @@ function Hero() {
             De complete GEO-audit.{" "}
             <span className="line-through">&euro;999</span>{" "}
             <span className="font-semibold text-navy">&euro;499 excl. BTW</span>.
-            Tijdelijke introductieprijs.
+            Introductieprijs t/m zondag 16 augustus.
           </p>
         </div>
       </div>
@@ -308,7 +308,8 @@ function Pricing() {
           </h2>
           <span className="mt-5 inline-flex items-center gap-2 rounded-full bg-accent/10 px-4 py-1.5 text-sm font-semibold text-accent">
             <span className="h-2 w-2 rounded-full bg-accent animate-pulse" />
-            Tijdelijke introductiekorting &middot; 50% op alles
+            Introductiekorting &middot; 50% op alles &middot; t/m zondag 16
+            augustus
           </span>
         </div>
 

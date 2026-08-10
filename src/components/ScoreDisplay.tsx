@@ -82,7 +82,7 @@ export default function ScoreDisplay({ result }: { result: ScoreResult }) {
         <p className="mt-2 text-sm text-white/50">
           <span className="line-through">&euro;999</span>{" "}
           <span className="font-semibold text-white">&euro;499 excl. BTW</span>{" "}
-          &middot; tijdelijke introductieprijs
+          &middot; introductieprijs t/m zondag 16 augustus
         </p>
         <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
           <Link

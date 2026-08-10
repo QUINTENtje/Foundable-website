@@ -5,7 +5,7 @@ import StartForm from "@/components/StartForm";
 export const metadata: Metadata = {
   title: "Start je GEO-audit · Foundable",
   description:
-    "Vraag de GEO-audit aan met een kort formulier. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site, en de betaallink om te starten. €499 excl. BTW, tijdelijke introductieprijs.",
+    "Vraag de GEO-audit aan met een kort formulier. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site, en de betaallink om te starten. €499 excl. BTW, introductieprijs t/m 16 augustus.",
   alternates: {
     canonical: "/start",
   },
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     url: "https://www.foundable.nl/start",
     title: "Start je GEO-audit · Foundable",
     description:
-      "Vraag de GEO-audit aan met een kort formulier. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site, en de betaallink om te starten. €499 excl. BTW, tijdelijke introductieprijs.",
+      "Vraag de GEO-audit aan met een kort formulier. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site, en de betaallink om te starten. €499 excl. BTW, introductieprijs t/m 16 augustus.",
     images: [{ url: "/logo.png" }],
   },
 };
@@ -118,7 +118,8 @@ export default async function StartPage({
             <span className="font-semibold text-navy">
               {product.price} excl. BTW
             </span>{" "}
-            &middot; tijdelijke introductieprijs &middot; alles inbegrepen
+            &middot; introductieprijs t/m zondag 16 augustus &middot; alles
+            inbegrepen
           </p>
         </div>
       </section>
