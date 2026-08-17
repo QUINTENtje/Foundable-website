@@ -145,8 +145,8 @@ export default function CasesPage() {
             Bedrijven die AI nu begrijpt.
           </h1>
           <p className="mt-4 text-lg text-text-light">
-            Drie cases. Drie verschillende niches. Hetzelfde resultaat: een
-            website die AI volledig begrijpt.
+            Drie cases. Drie verschillende niches. Steeds dezelfde vraag: wat
+            leest AI hier, en wat mist het nog?
           </p>
         </div>
       </section>
@@ -336,20 +336,24 @@ export default function CasesPage() {
               <p className="mt-2 text-text-light leading-relaxed">
                 We analyseerden de site met de AI Visibility Score: 20
                 checkpoints die laten zien wat AI mist, verkeerd leest of niet
-                kan plaatsen. Daarna herschreven we de content in begrijpelijke
-                taal zonder het vakmanschap te verliezen. JSON-LD structured data
-                zorgde voor gestructureerde feiten over diensten, werkgebied en
-                contactgegevens.
+                kan plaatsen. Daar kwamen zes punten uit, van begrijpelijke
+                taal naast het vakjargon tot de JSON-LD-code die AI vertelt
+                wat Bootzeil maakt, voor wie en waar. Alles kant-en-klaar,
+                zodat hun eigen bouwer het kon plaatsen.
               </p>
             </div>
 
             <div>
               <h3 className="text-lg font-bold text-navy">Resultaat</h3>
               <p className="mt-2 text-text-light leading-relaxed">
-                AI begrijpt nu wat Bootzeil.nl maakt, voor wie, in welke regio
-                en wat een klant kan verwachten. De technische expertise is
-                behouden, maar nu ook leesbaar voor de AI-systemen die
-                de aanbevelingen doen.
+                Bootzeil kon er meteen mee aan de slag. Hun Google-reviews
+                staan nu op de site, de vragen van kopers staan met antwoord
+                op de productpagina&rsquo;s in code die AI als vraag en
+                antwoord leest, de producten hebben een prijs in de codelaag
+                en er is een llms.txt die AI in &eacute;&eacute;n keer
+                vertelt wat er te vinden is. Bij de hermeting drie maanden
+                later was de score gestegen. De technische expertise is
+                behouden, en AI kan er nu bij.
               </p>
             </div>
           </div>

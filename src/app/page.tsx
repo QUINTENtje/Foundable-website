@@ -433,7 +433,7 @@ function CasesPreview() {
           <CaseCard
             name="Bootzeil.nl"
             sector="Maatwerk bootzeilen en dekzeilen"
-            result="Een technische niche met veel jargon. Na de audit weet AI precies wat Bootzeil.nl aanbiedt en voor wie."
+            result="Een technische niche met veel jargon. Ze plaatsten de punten uit de audit zelf: hun reviews, de vragen van kopers met antwoord en de prijzen zijn nu leesbaar voor AI."
             href="/cases#bootzeil"
           />
         </div>
