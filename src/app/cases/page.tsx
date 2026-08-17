@@ -146,7 +146,7 @@ export default function CasesPage() {
           </h1>
           <p className="mt-4 text-lg text-text-light">
             Drie cases. Drie verschillende niches. Steeds dezelfde vraag: wat
-            leest AI hier, en wat mist het nog?
+            leest AI hier en wat mist het nog?
           </p>
         </div>
       </section>
@@ -353,7 +353,7 @@ export default function CasesPage() {
                 en er is een llms.txt die AI in &eacute;&eacute;n keer
                 vertelt wat er te vinden is. Bij de hermeting drie maanden
                 later was de score gestegen. De technische expertise is
-                behouden, en AI kan er nu bij.
+                behouden en AI kan er nu bij.
               </p>
             </div>
           </div>
