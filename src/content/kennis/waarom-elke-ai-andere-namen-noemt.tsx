@@ -35,6 +35,15 @@ const artikel: KennisArtikel = {
         andere nog niet, dan zie je dat direct terug in de antwoorden.
       </P>
       <P>
+        Hoe hard dat kan uitpakken merkte ik aan mijn eigen site. Die stond
+        maandenlang goed in Google en tegelijk nergens in Bing. Er was niets
+        kapot: ik had hem bij Google aangemeld en bij Bing vergeten. Copilot
+        haalt zijn informatie uit Bing, dus daar kon ik ook niet genoemd
+        worden. Aanmelden bij Bing Webmaster Tools was zo gebeurd en de
+        sitemap werd diezelfde dag opgehaald. Nu staat foundable.nl er
+        gewoon in.
+      </P>
+      <P>
         Daarnaast speelt het geheugen uit de training mee. Elk model is
         getraind op andere teksten, tot een ander moment. Een naam die in dat
         geheugen zit komt sneller boven, ook als het systeem verder niets
