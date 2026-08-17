@@ -42,6 +42,7 @@ export const siteGraph = {
         value: "96898267",
       },
       logo: "https://www.foundable.nl/logo.png",
+      image: "https://www.foundable.nl/quinten.jpg",
       email: "quinten@foundable.nl",
       telephone: "+31 6 38389591",
       priceRange: "€295–€1.750 excl. BTW",
