@@ -4,7 +4,7 @@
 
 ## Wat we doen
 - We analyseren wat AI van je website ziet, mist en verkeerd begrijpt.
-- We leveren een compleet pakket: rapport, herschreven teksten, JSON-LD structured data en implementatie-instructies.
+- We leveren een compleet pakket: je acties op volgorde, herschreven teksten, een kant-en-klare FAQ, JSON-LD structured data en een implementatiegids voor jouw platform.
 - We garanderen geen AI-aanbevelingen. We garanderen wel dat AI alles krijgt wat het nodig heeft om je te begrijpen en te vinden.
 
 ## Belangrijkste pagina's

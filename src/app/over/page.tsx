@@ -6,7 +6,7 @@ import JsonLd from "@/components/JsonLd";
 export const metadata: Metadata = {
   title: "Over Foundable · GEO-specialist in Amsterdam",
   description:
-    "Foundable helpt Nederlandse bedrijven vindbaar worden voor AI. Opgericht door Quinten Orij vanuit Amsterdam.",
+    "Foundable helpt gevestigde experts en gespecialiseerde dienstverleners vindbaar worden voor AI. Opgericht door Quinten Orij vanuit Amsterdam.",
   alternates: {
     canonical: "/over",
   },
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://www.foundable.nl/over",
     title: "Over Foundable · GEO-specialist in Amsterdam",
     description:
-      "Foundable helpt Nederlandse bedrijven vindbaar worden voor AI. Opgericht door Quinten Orij vanuit Amsterdam.",
+      "Foundable helpt gevestigde experts en gespecialiseerde dienstverleners vindbaar worden voor AI. Opgericht door Quinten Orij vanuit Amsterdam.",
     images: [{ url: "/logo.png" }],
   },
 };

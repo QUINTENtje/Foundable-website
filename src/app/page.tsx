@@ -114,12 +114,12 @@ function Problem() {
 function Deliverables() {
   const deliverables = [
     {
-      title: "Auditrapport",
+      title: "Begin hier",
       description:
-        "Je ziet precies hoe AI jouw website nu leest. Je krijgt een overzicht van wat ontbreekt, wat onduidelijk is en wat er als eerste moet veranderen. Inclusief prioriteitenlijst.",
+        "De kortste route door het pakket: je acties op volgorde, met de grootste winst bovenaan. Wie alleen dit document afwerkt, heeft het grootste gat al gedicht.",
       icon: (
         <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6" />
+          <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0ZM3.75 12h.007v.008H3.75V12Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0ZM3.75 17.25h.007v.008H3.75v-.008Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
         </svg>
       ),
     },
@@ -130,6 +130,16 @@ function Deliverables() {
       icon: (
         <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+        </svg>
+      ),
+    },
+    {
+      title: "Kant-en-klare FAQ",
+      description:
+        "Tien vragen die jouw klanten echt stellen, met de antwoorden erbij. De tekst is woordelijk gelijk aan het codeblok, dus wat je bezoeker leest is wat AI leest.",
+      icon: (
+        <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
         </svg>
       ),
     },
@@ -250,11 +260,11 @@ function Pricing() {
       price: "€295",
       meta: [],
       items: [
-        "Hoe vaak AI je noemt, gemeten over 270 echte antwoorden",
+        "Hoe vaak AI je noemt, gemeten over 225 echte antwoorden",
         "Wat AI over je vertelt, en of dat klopt",
         "De AI Visibility Score van je website",
         "De top 10 namen die AI in jouw vak noemt",
-        "Wij maken 30 representatieve vragen voor jouw vak, eigen vragenlijst kan op aanvraag",
+        "Twintig vragen die jouw klanten stellen plus vijf over jou, eigen vragenlijst kan op aanvraag",
         "Eén A4 met de cijfers en de logische vervolgstap",
       ],
       note: "Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
@@ -267,8 +277,9 @@ function Pricing() {
       price: "€999",
       meta: ["Betaling: 50% bij start, 50% bij oplevering", "Doorlooptijd: 2 weken"],
       items: [
-        "Auditrapport: wat AI nu ziet, mist en verkeerd begrijpt",
+        "Begin hier: je acties op volgorde, de grootste winst bovenaan",
         "Nieuwe teksten voor je site die AI begrijpt",
+        "Kant-en-klare FAQ voor op je site",
         "JSON-LD structured data code",
         "Platformspecifieke implementatiegids",
         "Analyse waar buiten je site de grootste winst te halen valt, met tips hoe je die pakt",
@@ -449,7 +460,7 @@ const faqJsonLd = {
       name: "Hoe werkt de audit precies?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket met rapport, herschreven teksten, JSON-LD-code, implementatie-instructies en een analyse waar buiten je site de grootste winst te halen valt. Jij hoeft maar \u00e9\u00e9n vraag te beantwoorden. De rest doen wij.",
+        text: "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket: je acties op volgorde, herschreven teksten, een kant-en-klare FAQ, JSON-LD-code, een implementatiegids voor jouw platform en een analyse waar buiten je site de grootste winst te halen valt. Jij hoeft maar \u00e9\u00e9n vraag te beantwoorden. De rest doen wij.",
       },
     },
     {
@@ -481,7 +492,7 @@ const faqJsonLd = {
       name: "Hoe meten jullie of het werkt?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Met echte cijfers. Vooraf stellen we AI dertig vragen die jouw klanten zouden kunnen stellen, elk meerdere keren aan ChatGPT, Claude en Gemini. Dat zijn samen 270 echte antwoorden, waarin we tellen hoe vaak jij genoemd wordt en lezen wat AI over je vertelt. Op dag 90 draaien we precies dezelfde meting opnieuw. Dan zie je het verschil gewoon in cijfers. Hoe snel dat gaat verschilt per AI-systeem.",
+        text: "Met echte cijfers. Vooraf stellen we AI twintig vragen die jouw klanten zouden kunnen stellen, plus vijf vragen over jou. Elke vraag stellen we drie keer aan ChatGPT, Claude en Gemini, de drie die jouw klanten het meest gebruiken. Dat zijn samen 225 echte antwoorden, waarin we tellen hoe vaak jij genoemd wordt en lezen wat AI over je vertelt. Op dag 90 draaien we precies dezelfde meting opnieuw. Dan zie je het verschil gewoon in cijfers. Het werk helpt ook in systemen die we niet meten, zoals Perplexity. Hoe snel het gaat verschilt per AI-systeem.",
       },
     },
     {
@@ -489,7 +500,7 @@ const faqJsonLd = {
       name: "Kan ik eerst alleen laten meten waar ik sta?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Ja, dat is de meting. We kijken over 270 echte antwoorden hoe vaak AI je noemt en wat AI over je vertelt. Je krijgt één A4 met die cijfers, je AI Visibility Score en de top 10 namen die AI in jouw vak noemt. Wij maken 30 representatieve vragen voor jouw vak. Een eigen vragenlijst aanleveren kan op aanvraag. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
+        text: "Ja, dat is de meting. We kijken over 225 echte antwoorden hoe vaak AI je noemt en wat AI over je vertelt. Je krijgt één A4 met die cijfers, je AI Visibility Score en de top 10 namen die AI in jouw vak noemt. Wij maken de vragen voor jouw vak: twintig die je klanten stellen, plus vijf over jou. Een eigen vragenlijst aanleveren kan op aanvraag. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
       },
     },
     {

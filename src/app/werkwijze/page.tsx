@@ -45,13 +45,13 @@ const howToSchema = {
       "@type": "HowToStep",
       position: 3,
       name: "Na je betaling gaan we aan de slag",
-      text: "Bij de audit betaal je de eerste helft (50%) en gaan wij aan het werk. De audit begint met een nulmeting: dertig vragen die jouw klanten aan AI zouden stellen, zodat je straks precies ziet wat er verandert. Kies je de losse meting, dan betaal je die in één keer en gaan we meteen meten.",
+      text: "Bij de audit betaal je de eerste helft (50%) en gaan wij aan het werk. De audit begint met een nulmeting: twintig vragen die jouw klanten aan AI zouden stellen, plus vijf over jou, zodat je straks precies ziet wat er verandert. Kies je de losse meting, dan betaal je die in één keer en gaan we meteen meten.",
     },
     {
       "@type": "HowToStep",
       position: 4,
       name: "Je ontvangt alles per mail",
-      text: "De meting ligt binnen een week als A4 in je mailbox. De audit binnen 2 weken, als volledig pakket: auditrapport, nieuwe teksten voor je site die AI begrijpt, JSON-LD-code, implementatiegids en een analyse waar buiten je site de grootste winst te halen valt. Alles staat klaar om te kopiëren en te plakken, de gids laat per punt zien waar het in jouw platform moet staan. Loop je bij het plaatsen ergens vast, dan help ik je er per mail doorheen tot alles staat. De tweede helft betaal je bij oplevering.",
+      text: "De meting ligt binnen een week als A4 in je mailbox. De audit binnen 2 weken, als volledig pakket: je acties op volgorde, nieuwe teksten voor je site die AI begrijpt, een kant-en-klare FAQ, JSON-LD-code, implementatiegids en een analyse waar buiten je site de grootste winst te halen valt. Alles staat klaar om te kopiëren en te plakken, de gids laat per punt zien waar het in jouw platform moet staan. Loop je bij het plaatsen ergens vast, dan help ik je er per mail doorheen tot alles staat. De tweede helft betaal je bij oplevering.",
     },
     {
       "@type": "HowToStep",
@@ -102,10 +102,10 @@ const steps = [
     text: (
       <>
         Bij de audit betaal je de eerste helft (50%) en gaan wij aan het
-        werk. De audit begint met een nulmeting: dertig vragen die jouw
-        klanten aan AI zouden stellen, zodat je straks precies ziet wat er
-        verandert. Kies je de losse meting, dan betaal je die in
-        &eacute;&eacute;n keer en gaan we meteen meten.
+        werk. De audit begint met een nulmeting: twintig vragen die jouw
+        klanten aan AI zouden stellen, plus vijf over jou, zodat je straks
+        precies ziet wat er verandert. Kies je de losse meting, dan betaal
+        je die in &eacute;&eacute;n keer en gaan we meteen meten.
       </>
     ),
   },
@@ -114,9 +114,10 @@ const steps = [
     text: (
       <>
         De meting ligt binnen een week als A4 in je mailbox. De audit binnen
-        2 weken, als volledig pakket: auditrapport, nieuwe teksten voor je
-        site die AI begrijpt, JSON-LD-code, implementatiegids en een analyse
-        waar buiten je site de grootste winst te halen valt. Alles staat
+        2 weken, als volledig pakket: je acties op volgorde, nieuwe teksten
+        voor je site die AI begrijpt, een kant-en-klare FAQ, JSON-LD-code,
+        implementatiegids en een analyse waar buiten je site de grootste
+        winst te halen valt. Alles staat
         klaar om te kopi&euml;ren en te plakken, de gids laat per punt zien
         waar het in jouw platform moet staan. Loop je bij het plaatsen
         ergens vast, dan help ik je er per mail doorheen tot alles staat. De

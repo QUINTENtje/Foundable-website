@@ -16,7 +16,7 @@ const faqs: FAQItem[] = [
   {
     question: "Hoe werkt de audit precies?",
     answer:
-      "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket met rapport, herschreven teksten, JSON-LD-code, implementatie-instructies en een analyse waar buiten je site de grootste winst te halen valt. Jij hoeft maar \u00e9\u00e9n vraag te beantwoorden. De rest doen wij.",
+      "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket: je acties op volgorde, herschreven teksten, een kant-en-klare FAQ, JSON-LD-code, een implementatiegids voor jouw platform en een analyse waar buiten je site de grootste winst te halen valt. Jij hoeft maar \u00e9\u00e9n vraag te beantwoorden. De rest doen wij.",
   },
   {
     question: "Krijg ik alleen advies of doen jullie het ook?",
@@ -36,12 +36,12 @@ const faqs: FAQItem[] = [
   {
     question: "Hoe meten jullie of het werkt?",
     answer:
-      "Met echte cijfers. Vooraf stellen we AI dertig vragen die jouw klanten zouden kunnen stellen, elk meerdere keren aan ChatGPT, Claude en Gemini. Dat zijn samen 270 echte antwoorden, waarin we tellen hoe vaak jij genoemd wordt en lezen wat AI over je vertelt. Op dag 90 draaien we precies dezelfde meting opnieuw. Dan zie je het verschil gewoon in cijfers. Hoe snel dat gaat verschilt per AI-systeem.",
+      "Met echte cijfers. Vooraf stellen we AI twintig vragen die jouw klanten zouden kunnen stellen, plus vijf vragen over jou. Elke vraag stellen we drie keer aan ChatGPT, Claude en Gemini, de drie die jouw klanten het meest gebruiken. Dat zijn samen 225 echte antwoorden, waarin we tellen hoe vaak jij genoemd wordt en lezen wat AI over je vertelt. Op dag 90 draaien we precies dezelfde meting opnieuw. Dan zie je het verschil gewoon in cijfers. Het werk helpt ook in systemen die we niet meten, zoals Perplexity. Hoe snel het gaat verschilt per AI-systeem.",
   },
   {
     question: "Kan ik eerst alleen laten meten waar ik sta?",
     answer:
-      "Ja, dat is de meting. We kijken over 270 echte antwoorden hoe vaak AI je noemt en wat AI over je vertelt. Je krijgt één A4 met die cijfers, je AI Visibility Score en de top 10 namen die AI in jouw vak noemt. Wij maken 30 representatieve vragen voor jouw vak. Een eigen vragenlijst aanleveren kan op aanvraag. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
+      "Ja, dat is de meting. We kijken over 225 echte antwoorden hoe vaak AI je noemt en wat AI over je vertelt. Je krijgt één A4 met die cijfers, je AI Visibility Score en de top 10 namen die AI in jouw vak noemt. Wij maken de vragen voor jouw vak: twintig die je klanten stellen, plus vijf over jou. Een eigen vragenlijst aanleveren kan op aanvraag. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
   },
   {
     question: "Wat is het verschil tussen de audit en de audit met nazorg?",
