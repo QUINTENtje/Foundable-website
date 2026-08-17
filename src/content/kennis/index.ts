@@ -5,7 +5,6 @@ import hoeKiestChatgpt from "./hoe-kiest-chatgpt";
 import elkeAiAndereNamen from "./waarom-elke-ai-andere-namen-noemt";
 import watIsJsonLd from "./wat-is-json-ld";
 import waaromAiNietBegrijpt from "./waarom-ai-je-website-niet-begrijpt";
-import scoreUitgelegd from "./ai-visibility-score-uitgelegd";
 import hubspotVerkeerAi from "./hubspot-verkeer-ai";
 
 export type { KennisArtikel, FaqItem } from "./types";
@@ -18,7 +17,6 @@ export const artikelen: KennisArtikel[] = [
   elkeAiAndereNamen,
   waaromAiNietBegrijpt,
   watIsJsonLd,
-  scoreUitgelegd,
   hubspotVerkeerAi,
 ];
 

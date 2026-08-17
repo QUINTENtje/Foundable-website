@@ -80,9 +80,7 @@ const artikel: KennisArtikel = {
         </A>
       </P>
       <P>
-        Wil je weten of je site nu leesbaar is voor AI, dan geeft de{" "}
-        <A href="/score">gratis AI Visibility Score</A> je dat in een paar
-        minuten. Wil je weten hoe vaak AI je op dit moment echt noemt, dan is{" "}
+        Wil je weten hoe vaak AI je op dit moment echt noemt, dan is{" "}
         <A href="/start?keuze=meting">de meting</A> daarvoor: 225 antwoorden
         over de drie systemen, met per systeem het cijfer erbij.
       </P>

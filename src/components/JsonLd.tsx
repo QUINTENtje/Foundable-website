@@ -71,7 +71,7 @@ export const siteGraph = {
           "@type": "Offer",
           name: "De meting",
           description:
-            "Eenmalige AI-zichtbaarheidsmeting over 225 echte antwoorden: hoe vaak AI je noemt, wat AI over je vertelt, de AI Visibility Score van je website en de top 10 namen die AI in jouw vak noemt. Foundable maakt de vragen voor het vak: twintig die klanten stellen, plus vijf over het bedrijf zelf. Gemeten op ChatGPT, Claude en Gemini. Een eigen vragenlijst aanleveren kan op aanvraag. Eén A4, geleverd per mail. Telt binnen 3 maanden volledig als aanbetaling op elke audit.",
+            "Eenmalige AI-zichtbaarheidsmeting over 225 echte antwoorden: hoe vaak AI je noemt, wat AI over je vertelt en de top 10 namen die AI in jouw vak noemt. Foundable maakt de vragen voor het vak: twintig die klanten stellen, plus vijf over het bedrijf zelf. Gemeten op ChatGPT, Claude en Gemini. Een eigen vragenlijst aanleveren kan op aanvraag. Eén A4, geleverd per mail. Telt binnen 3 maanden volledig als aanbetaling op elke audit.",
           price: "295",
           priceCurrency: "EUR",
           priceSpecification: {

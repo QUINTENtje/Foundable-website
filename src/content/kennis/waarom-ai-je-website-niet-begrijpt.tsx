@@ -93,11 +93,9 @@ const artikel: KennisArtikel = {
         maar schrijfwerk. Concreter formuleren, feiten toevoegen, structuur
         aanbrengen en de techniek bevestigen met{" "}
         <A href="/kennis/wat-is-json-ld">JSON-LD</A>. Wil je een gemeten
-        beeld in plaats van een gevoel, check dan je{" "}
-        <A href="/kennis/ai-visibility-score-uitgelegd">
-          AI Visibility Score
-        </A>
-        : 20 checkpoints, gratis.
+        beeld in plaats van een gevoel, dan telt{" "}
+        <A href="/start?keuze=meting">de meting</A> hoe vaak AI je nu
+        werkelijk noemt.
       </P>
     </>
   ),

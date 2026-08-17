@@ -33,7 +33,7 @@ const howToSchema = {
       "@type": "HowToStep",
       position: 1,
       name: "Kies wat bij je past",
-      text: "Je kiest de meting, de audit of de audit met nazorg en vult een kort formulier in. Dat is alles, je kunt vandaag nog beginnen. Eerst weten waar je staat? De gratis AI Visibility Score kan altijd vooraf.",
+      text: "Je kiest de meting, de audit of de audit met nazorg en vult een kort formulier in. Dat is alles, je kunt vandaag nog beginnen. Weet je nog niet welke bij je past, zet dat er dan bij.",
     },
     {
       "@type": "HowToStep",
@@ -75,14 +75,7 @@ const steps = [
           de meting, de audit of de audit met nazorg
         </Link>{" "}
         en vult een kort formulier in. Dat is alles, je kunt vandaag nog
-        beginnen. Eerst weten waar je staat? De{" "}
-        <Link
-          href="/score"
-          className="text-accent hover:text-accent-hover transition-colors"
-        >
-          gratis AI Visibility Score
-        </Link>{" "}
-        kan altijd vooraf.
+        beginnen. Weet je nog niet welke bij je past, zet dat er dan bij.
       </>
     ),
   },
@@ -203,14 +196,8 @@ export default function WerkwijzePage() {
             Begin vandaag nog
           </Link>
           <p className="mt-4 text-sm text-text-light">
-            Liever eerst kijken waar je staat? Vraag de{" "}
-            <Link
-              href="/score"
-              className="text-accent hover:text-accent-hover transition-colors"
-            >
-              gratis AI Visibility Score
-            </Link>{" "}
-            aan.
+            We kijken eerst zelf naar je site en je hoort wat ons opvalt
+            voordat je betaalt.
           </p>
         </div>
       </section>

@@ -8,7 +8,6 @@ const navItems = [
   { label: "Werkwijze", href: "/werkwijze" },
   { label: "Cases", href: "/cases" },
   { label: "Kennis", href: "/kennis" },
-  { label: "AI Visibility Score", href: "/score" },
   { label: "Contact", href: "/contact" },
   { label: "Over", href: "/over" },
 ];
@@ -49,10 +48,10 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="/score"
+              href="/start"
               className="glow-accent rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent-hover"
             >
-              Gratis score aanvragen
+              Start je GEO-audit
             </Link>
           </div>
 
@@ -100,11 +99,11 @@ export default function Navbar() {
               </Link>
             ))}
             <Link
-              href="/score"
+              href="/start"
               className="mt-3 block rounded-lg bg-accent px-5 py-2.5 text-center text-sm font-semibold text-white hover:bg-accent-hover"
               onClick={() => setMobileOpen(false)}
             >
-              Gratis score aanvragen
+              Start je GEO-audit
             </Link>
           </div>
         )}

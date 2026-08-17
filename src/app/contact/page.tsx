@@ -97,14 +97,14 @@ export default function ContactPage() {
 
               <div className="mt-10 rounded-xl bg-bg-alt border border-border p-6">
                 <p className="text-text-light leading-relaxed">
-                  Liever direct starten? Vraag je gratis AI Visibility Score
-                  aan, dan nemen we contact met je op.
+                  Liever direct starten? Vul het formulier op de startpagina
+                  in, dan kijken we naar je site en hoor je van ons.
                 </p>
                 <Link
-                  href="/score"
+                  href="/start"
                   className="glow-accent mt-4 inline-flex items-center justify-center rounded-lg bg-accent px-5 py-2.5 text-sm font-semibold text-white hover:bg-accent-hover"
                 >
-                  Gratis score aanvragen
+                  Start je GEO-audit
                 </Link>
               </div>
             </div>

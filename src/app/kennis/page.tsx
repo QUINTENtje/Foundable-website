@@ -7,7 +7,7 @@ import { artikelen, formatDatum } from "@/content/kennis";
 export const metadata: Metadata = {
   title: "Kennis over GEO en AI-zichtbaarheid · Foundable",
   description:
-    "Hoe AI-systemen websites lezen en bedrijven kiezen, in gewone taal uitgelegd. Over GEO, JSON-LD, ChatGPT-aanbevelingen en de AI Visibility Score.",
+    "Hoe AI-systemen websites lezen en bedrijven kiezen, in gewone taal uitgelegd. Over GEO, JSON-LD en waarom elke AI andere bedrijven noemt.",
   alternates: {
     canonical: "/kennis",
   },
@@ -105,14 +105,14 @@ export default function KennisPage() {
             Liever weten waar jouw website staat?
           </p>
           <p className="mt-4 text-lg text-white/70 max-w-xl mx-auto">
-            Check je gratis AI Visibility Score: 20 checkpoints, direct
-            resultaat.
+            We kijken naar je site en je hoort van ons wat ons opvalt,
+            voordat je iets betaalt.
           </p>
           <Link
-            href="/score"
+            href="/start"
             className="glow-accent mt-8 inline-flex items-center justify-center rounded-lg bg-accent px-8 py-4 text-lg font-semibold text-white hover:bg-accent-hover"
           >
-            Check je gratis score
+            Start je GEO-audit
           </Link>
         </div>
       </section>

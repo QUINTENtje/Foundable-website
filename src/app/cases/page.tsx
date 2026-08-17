@@ -178,9 +178,8 @@ export default function CasesPage() {
             <div>
               <h3 className="text-lg font-bold text-navy">Aanpak</h3>
               <p className="mt-2 text-text-light leading-relaxed">
-                We legden de site langs de AI Visibility Score en het eerlijke
-                antwoord was: 100 van de 100. De basis stond en dat hebben we
-                ook gewoon zo gezegd. Alleen zegt zo&rsquo;n score niet of
+                We liepen de site helemaal na en het eerlijke antwoord was dat
+                de basis er gewoon stond. Dat hebben we ook zo gezegd. Alleen zegt zo&rsquo;n score niet of
                 alles eruit is gehaald. Op de site zelf vonden we nog een paar
                 punten, zoals twee pagina&rsquo;s met een zichtbare FAQ maar
                 zonder het FAQ-schema waarmee AI die vragen en antwoorden ook
@@ -258,9 +257,8 @@ export default function CasesPage() {
             <div>
               <h3 className="text-lg font-bold text-navy">Aanpak</h3>
               <p className="mt-2 text-text-light leading-relaxed">
-                We brachten met de AI Visibility Score in kaart wat AI wel
-                en niet begreep: 20 checkpoints over structuur,
-                duidelijkheid en techniek. De locatie, sfeer, doelgroep en
+                We brachten in kaart wat AI wel en niet begreep van de site:
+                structuur, duidelijkheid en techniek. De locatie, sfeer, doelgroep en
                 unieke kenmerken van de woningen waren nauwelijks concreet
                 beschreven. We herschreven de teksten, vulden ze aan met
                 concrete feiten en leverden JSON-LD structured data aan met
@@ -334,8 +332,7 @@ export default function CasesPage() {
             <div>
               <h3 className="text-lg font-bold text-navy">Aanpak</h3>
               <p className="mt-2 text-text-light leading-relaxed">
-                We analyseerden de site met de AI Visibility Score: 20
-                checkpoints die laten zien wat AI mist, verkeerd leest of niet
+                We liepen de site na op wat AI mist, verkeerd leest of niet
                 kan plaatsen. Daar kwamen zes punten uit, van begrijpelijke
                 taal naast het vakjargon tot de JSON-LD-code die AI vertelt
                 wat Bootzeil maakt, voor wie en waar. Alles stond klaar om

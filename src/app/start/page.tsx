@@ -37,7 +37,7 @@ const products = {
       },
       {
         title: "Na je betaling gaan we meten",
-        text: "Wij maken de vragen voor jouw vak: twintig die je klanten stellen, plus vijf over jou. Een eigen vragenlijst aanleveren kan op aanvraag. Daarna kijken we over 225 echte antwoorden hoe vaak AI je noemt. Binnen een week ligt het A4 als PDF in je mailbox: de cijfers, wat AI over je vertelt, je AI Visibility Score en de top 10 namen die AI in jouw vak noemt. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
+        text: "Wij maken de vragen voor jouw vak: twintig die je klanten stellen, plus vijf over jou. Een eigen vragenlijst aanleveren kan op aanvraag. Daarna kijken we over 225 echte antwoorden hoe vaak AI je noemt. Binnen een week ligt het A4 als PDF in je mailbox: de cijfers, wat AI over je vertelt en de top 10 namen die AI in jouw vak noemt. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
       },
     ],
   },
@@ -141,14 +141,7 @@ export default async function StartPage({
         <div className="mx-auto max-w-xl px-4 sm:px-6 lg:px-8">
           <StartForm initialKeuze={product.keuze} />
           <p className="mt-8 text-center text-sm text-text-light">
-            Liever eerst weten waar je staat? Vraag de{" "}
-            <Link
-              href="/score"
-              className="text-accent hover:text-accent-hover transition-colors"
-            >
-              gratis AI Visibility Score
-            </Link>{" "}
-            aan. Vragen? Mail naar{" "}
+            Vragen? Mail naar{" "}
             <a
               href="mailto:quinten@foundable.nl"
               className="text-accent hover:text-accent-hover transition-colors"

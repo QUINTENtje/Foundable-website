@@ -9,7 +9,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/werkwijze",
     "/cases",
     "/kennis",
-    "/score",
     "/over",
     "/start",
     "/contact",

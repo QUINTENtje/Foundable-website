@@ -45,10 +45,10 @@ function Hero() {
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4">
             <Link
-              href="/score"
+              href="/start"
               className="glow-accent inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3.5 text-base font-semibold text-white hover:bg-accent-hover"
             >
-              Vraag je gratis AI Visibility Score aan
+              Start je GEO-audit
             </Link>
             <Link
               href="/werkwijze"
@@ -262,7 +262,6 @@ function Pricing() {
       items: [
         "Hoe vaak AI je noemt, gemeten over 225 echte antwoorden",
         "Wat AI over je vertelt en of dat klopt",
-        "De AI Visibility Score van je website",
         "De top 10 namen die AI in jouw vak noemt",
         "Twintig vragen die jouw klanten stellen plus vijf over jou, eigen vragenlijst kan op aanvraag",
         "Eén A4 met de cijfers en de logische vervolgstap",
@@ -394,14 +393,8 @@ function Pricing() {
           Geen abonnement. Geen maandelijkse kosten. Eenmalig.
         </p>
         <p className="mt-2 text-center text-sm text-text-light">
-          Liever eerst gratis kijken waar je staat? Vraag de{" "}
-          <Link
-            href="/score"
-            className="text-accent hover:text-accent-hover transition-colors"
-          >
-            gratis AI Visibility Score
-          </Link>{" "}
-          aan.
+          Nog niet zeker welke past? Vul het formulier in en we kijken eerst
+          naar je site. Je hoort van ons wat ons opvalt voordat je betaalt.
         </p>
       </div>
     </section>
@@ -500,7 +493,7 @@ const faqJsonLd = {
       name: "Kan ik eerst alleen laten meten waar ik sta?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Ja, dat is de meting. We kijken over 225 echte antwoorden hoe vaak AI je noemt en wat AI over je vertelt. Je krijgt één A4 met die cijfers, je AI Visibility Score en de top 10 namen die AI in jouw vak noemt. Wij maken de vragen voor jouw vak: twintig die je klanten stellen, plus vijf over jou. Een eigen vragenlijst aanleveren kan op aanvraag. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
+        text: "Ja, dat is de meting. We kijken over 225 echte antwoorden hoe vaak AI je noemt en wat AI over je vertelt. Je krijgt één A4 met die cijfers en de top 10 namen die AI in jouw vak noemt. Wij maken de vragen voor jouw vak: twintig die je klanten stellen, plus vijf over jou. Een eigen vragenlijst aanleveren kan op aanvraag. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
       },
     },
     {

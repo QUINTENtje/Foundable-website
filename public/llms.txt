@@ -10,7 +10,6 @@
 ## Belangrijkste pagina's
 - [Werkwijze](https://www.foundable.nl/werkwijze): de GEO-audit in vijf stappen, van aanvraag tot oplevering.
 - [Cases](https://www.foundable.nl/cases): voorbeelden van bedrijven die door AI nu correct begrepen worden, met de klantreview van salestrainer Klaas Kroezen (5,0 op Google).
-- [Gratis AI Visibility Score](https://www.foundable.nl/score): vraag een gratis score aan, gemeten op 20 checkpoints, met concrete verbeterpunten.
 - [Start je audit](https://www.foundable.nl/start): vraag de audit aan via een kort formulier. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site en de betaallink om te starten.
 - [Over Foundable](https://www.foundable.nl/over): opgericht door Quinten Orij vanuit Amsterdam.
 - [Contact](https://www.foundable.nl/contact): quinten@foundable.nl · +31 6 38389591 · Amsterdam.
@@ -22,7 +21,6 @@
 - [Waarom elke AI andere bedrijven noemt](https://www.foundable.nl/kennis/waarom-elke-ai-andere-namen-noemt)
 - [Waarom AI je website niet begrijpt (en hoe je dat zelf ziet)](https://www.foundable.nl/kennis/waarom-ai-je-website-niet-begrijpt)
 - [Wat is JSON-LD en waarom heeft je website het nodig?](https://www.foundable.nl/kennis/wat-is-json-ld)
-- [De AI Visibility Score uitgelegd: 20 checkpoints, 100 punten](https://www.foundable.nl/kennis/ai-visibility-score-uitgelegd)
 - [HubSpot verloor miljoenen bezoekers. Kwam dat door AI?](https://www.foundable.nl/kennis/hubspot-verkeer-ai)
 
 ## Feiten

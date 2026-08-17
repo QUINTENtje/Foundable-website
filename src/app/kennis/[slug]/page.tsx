@@ -177,14 +177,14 @@ export default async function KennisArtikelPage({ params }: PageProps) {
             Benieuwd hoe goed AI jouw website begrijpt?
           </p>
           <p className="mt-3 text-white/70">
-            Check je gratis AI Visibility Score. 20 checkpoints, direct
-            resultaat, geen verplichtingen.
+            We kijken naar je site en je hoort van ons wat ons opvalt,
+            voordat je iets betaalt.
           </p>
           <Link
-            href="/score"
+            href="/start"
             className="glow-accent mt-8 inline-flex items-center justify-center rounded-lg bg-accent px-8 py-4 text-base font-semibold text-white hover:bg-accent-hover"
           >
-            Check je gratis score
+            Start je GEO-audit
           </Link>
         </div>
       </section>

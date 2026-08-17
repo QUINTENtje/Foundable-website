@@ -29,7 +29,7 @@ export default function Footer() {
                 { label: "Werkwijze", href: "/werkwijze" },
                 { label: "Cases", href: "/cases" },
                 { label: "Kennis", href: "/kennis" },
-                { label: "Score aanvragen", href: "/score" },
+                { label: "Start je audit", href: "/start" },
                 { label: "Contact", href: "/contact" },
               ].map((item) => (
                 <li key={item.href}>

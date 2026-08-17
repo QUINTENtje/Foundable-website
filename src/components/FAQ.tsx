@@ -41,7 +41,7 @@ const faqs: FAQItem[] = [
   {
     question: "Kan ik eerst alleen laten meten waar ik sta?",
     answer:
-      "Ja, dat is de meting. We kijken over 225 echte antwoorden hoe vaak AI je noemt en wat AI over je vertelt. Je krijgt één A4 met die cijfers, je AI Visibility Score en de top 10 namen die AI in jouw vak noemt. Wij maken de vragen voor jouw vak: twintig die je klanten stellen, plus vijf over jou. Een eigen vragenlijst aanleveren kan op aanvraag. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
+      "Ja, dat is de meting. We kijken over 225 echte antwoorden hoe vaak AI je noemt en wat AI over je vertelt. Je krijgt één A4 met die cijfers en de top 10 namen die AI in jouw vak noemt. Wij maken de vragen voor jouw vak: twintig die je klanten stellen, plus vijf over jou. Een eigen vragenlijst aanleveren kan op aanvraag. Doe je binnen 3 maanden een audit, dan telt de meting volledig als aanbetaling.",
   },
   {
     question: "Wat is het verschil tussen de audit en de audit met nazorg?",
