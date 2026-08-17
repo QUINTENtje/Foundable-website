@@ -57,8 +57,10 @@ export default async function KennisArtikelPage({ params }: PageProps) {
     "@type": "Article",
     headline: artikel.titel,
     description: artikel.description,
-    datePublished: artikel.gepubliceerd,
-    dateModified: artikel.gepubliceerd,
+    // Schema.org wil een volledige tijdstempel met tijdzone. 08:00 UTC valt in
+    // Nederland zowel 's zomers als 's winters op dezelfde kalenderdag.
+    datePublished: `${artikel.gepubliceerd}T08:00:00Z`,
+    dateModified: `${artikel.gepubliceerd}T08:00:00Z`,
     inLanguage: "nl-NL",
     mainEntityOfPage: url,
     author: { "@id": "https://www.foundable.nl/#quinten-orij" },
