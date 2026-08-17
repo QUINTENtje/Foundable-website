@@ -16,8 +16,9 @@ const artikel: KennisArtikel = {
       <H2>Waarom GEO nu speelt</H2>
       <P>
         Steeds meer mensen stellen hun vraag niet meer aan Google, maar aan een
-        AI. Ze vragen ChatGPT om een goede arbeidsrechtadvocaat in Utrecht, of
-        Perplexity welke salestrainer bij hun team past. Ze krijgen direct een
+        AI. Ze vragen ChatGPT om een goede arbeidsrechtadvocaat in Utrecht.
+        Of ze vragen Perplexity welke salestrainer bij hun team past. Ze
+        krijgen direct een
         antwoord met een paar namen erin. Wie in dat antwoord staat, wordt
         gebeld. Wie er niet in staat, bestaat voor die klant simpelweg niet.
       </P>
