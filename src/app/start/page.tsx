@@ -5,7 +5,7 @@ import StartForm from "@/components/StartForm";
 export const metadata: Metadata = {
   title: "Start je GEO-audit · Foundable",
   description:
-    "Vraag de GEO-audit aan met een kort formulier. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site, en de betaallink om te starten. €499 excl. BTW, introductieprijs t/m 16 augustus.",
+    "Vraag de GEO-audit aan met een kort formulier. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site, en de betaallink om te starten. €999 excl. BTW, vaste prijs.",
   alternates: {
     canonical: "/start",
   },
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     url: "https://www.foundable.nl/start",
     title: "Start je GEO-audit · Foundable",
     description:
-      "Vraag de GEO-audit aan met een kort formulier. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site, en de betaallink om te starten. €499 excl. BTW, introductieprijs t/m 16 augustus.",
+      "Vraag de GEO-audit aan met een kort formulier. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site, en de betaallink om te starten. €999 excl. BTW, vaste prijs.",
     images: [{ url: "/logo.png" }],
   },
 };
@@ -25,8 +25,7 @@ const products = {
   meting: {
     keuze: "De meting",
     h1: "Start met de meting",
-    listPrice: "€295",
-    price: "€147,50",
+    price: "€295",
     steps: [
       {
         title: "Je vraagt de meting aan",
@@ -34,7 +33,7 @@ const products = {
       },
       {
         title: "Wij kijken eerst zelf naar je site",
-        text: "Je krijgt binnen twee werkdagen een persoonlijke mail terug: wat ons opvalt aan je website, en de betaallink voor de meting (€147,50 excl. BTW). Denken we dat de meting je te weinig oplevert, dan zeggen we dat ook gewoon.",
+        text: "Je krijgt binnen twee werkdagen een persoonlijke mail terug: wat ons opvalt aan je website, en de betaallink voor de meting (€295 excl. BTW). Denken we dat de meting je te weinig oplevert, dan zeggen we dat ook gewoon.",
       },
       {
         title: "Na je betaling gaan we meten",
@@ -45,8 +44,7 @@ const products = {
   audit: {
     keuze: "De audit",
     h1: "Start je GEO-audit",
-    listPrice: "€999",
-    price: "€499",
+    price: "€999",
     steps: [
       {
         title: "Je vraagt de audit aan",
@@ -54,7 +52,7 @@ const products = {
       },
       {
         title: "Wij kijken eerst zelf naar je site",
-        text: "Je krijgt binnen twee werkdagen een persoonlijke mail terug: wat ons opvalt aan je website, en de betaallink voor de eerste helft (€249,50 excl. BTW). Denken we dat de audit je te weinig oplevert, dan zeggen we dat ook gewoon.",
+        text: "Je krijgt binnen twee werkdagen een persoonlijke mail terug: wat ons opvalt aan je website, en de betaallink voor de eerste helft (€499,50 excl. BTW). Denken we dat de audit je te weinig oplevert, dan zeggen we dat ook gewoon.",
       },
       {
         title: "Na je aanbetaling gaan we aan de slag",
@@ -65,8 +63,7 @@ const products = {
   nazorg: {
     keuze: "De audit met nazorg",
     h1: "Start je audit met nazorg",
-    listPrice: "€1.750",
-    price: "€875",
+    price: "€1.750",
     steps: [
       {
         title: "Je vraagt de audit met nazorg aan",
@@ -74,7 +71,7 @@ const products = {
       },
       {
         title: "Wij kijken eerst zelf naar je site",
-        text: "Je krijgt binnen twee werkdagen een persoonlijke mail terug: wat ons opvalt aan je website, en de betaallink voor de eerste helft (€437,50 excl. BTW). Denken we dat de audit je te weinig oplevert, dan zeggen we dat ook gewoon.",
+        text: "Je krijgt binnen twee werkdagen een persoonlijke mail terug: wat ons opvalt aan je website, en de betaallink voor de eerste helft (€875 excl. BTW). Denken we dat de audit je te weinig oplevert, dan zeggen we dat ook gewoon.",
       },
       {
         title: "Na je aanbetaling gaan we aan de slag",
@@ -114,12 +111,10 @@ export default async function StartPage({
             hieronder. Daarna hoor je persoonlijk van ons.
           </p>
           <p className="mt-4 text-sm text-text-light">
-            <span className="line-through">{product.listPrice}</span>{" "}
             <span className="font-semibold text-navy">
               {product.price} excl. BTW
             </span>{" "}
-            &middot; introductieprijs t/m zondag 16 augustus &middot; alles
-            inbegrepen
+            &middot; vaste prijs &middot; alles inbegrepen
           </p>
         </div>
       </section>

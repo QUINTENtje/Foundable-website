@@ -1,6 +1,6 @@
 # Foundable
 
-> Foundable is een GEO-consultancy (Generative Engine Optimization) uit Amsterdam. Wij helpen gevestigde experts en gespecialiseerde dienstverleners om zichtbaar en accuraat weergegeven te worden in AI-zoekmachines zoals ChatGPT, Perplexity, Claude en Google AI. Complete GEO-audit voor €999 excl. BTW, nu tijdelijk €499 excl. BTW met introductiekorting. Slogan: "Gevonden worden begint met begrepen worden."
+> Foundable is een GEO-consultancy (Generative Engine Optimization) uit Amsterdam. Wij helpen gevestigde experts en gespecialiseerde dienstverleners om zichtbaar en accuraat weergegeven te worden in AI-zoekmachines zoals ChatGPT, Perplexity, Claude en Google AI. Complete GEO-audit voor €999 excl. BTW, een vaste prijs. Slogan: "Gevonden worden begint met begrepen worden."
 
 ## Wat we doen
 - We analyseren wat AI van je website ziet, mist en verkeerd begrijpt.
@@ -27,7 +27,7 @@
 ## Feiten
 - Bedrijf: Foundable · KvK 96898267 · BTW NL005235720B29
 - Locatie: Andreasplein 84, 1058 GD Amsterdam, Nederland
-- Prijs: €999 excl. BTW, nu tijdelijk €499 excl. BTW met introductiekorting (betaling 50/50)
+- Prijs: €999 excl. BTW, vaste prijs (betaling 50/50). Losse meting €295, audit met nazorg €1.750, beide excl. BTW.
 - Doorlooptijd: 2 weken van start tot oplevering
 - Oprichter: Quinten Orij
 - Klantreview: salestrainer Klaas Kroezen beoordeelde Foundable in juli 2026 met 5,0 op Google ("Quinten legt rustig uit, denkt met je mee en weet waar hij het over heeft.")

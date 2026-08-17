@@ -60,9 +60,8 @@ function Hero() {
 
           <p className="mt-6 text-sm text-text-light">
             De complete GEO-audit.{" "}
-            <span className="line-through">&euro;999</span>{" "}
-            <span className="font-semibold text-navy">&euro;499 excl. BTW</span>.
-            Introductieprijs t/m zondag 16 augustus.
+            <span className="font-semibold text-navy">&euro;999 excl. BTW</span>.
+            Vaste prijs.
           </p>
         </div>
       </div>
@@ -248,8 +247,7 @@ function Pricing() {
     {
       name: "De meting",
       tagline: "Weet waar je staat",
-      listPrice: "€295",
-      price: "€147,50",
+      price: "€295",
       meta: [],
       items: [
         "Hoe vaak AI je noemt, gemeten over 270 echte antwoorden",
@@ -266,8 +264,7 @@ function Pricing() {
     {
       name: "De audit",
       tagline: "Het volledige pakket",
-      listPrice: "€999",
-      price: "€499",
+      price: "€999",
       meta: ["Betaling: 50% bij start, 50% bij oplevering", "Doorlooptijd: 2 weken"],
       items: [
         "Auditrapport: wat AI nu ziet, mist en verkeerd begrijpt",
@@ -284,8 +281,7 @@ function Pricing() {
     {
       name: "De audit met nazorg",
       tagline: "De audit, plus twee bijstuurrondes",
-      listPrice: "€1.750",
-      price: "€875",
+      price: "€1.750",
       meta: ["Betaling: 50% bij start, 50% bij oplevering"],
       items: [
         "Alles uit de audit",
@@ -306,11 +302,9 @@ function Pricing() {
           <h2 className="text-3xl sm:text-4xl font-bold text-navy">
             Drie manieren om te starten.
           </h2>
-          <span className="mt-5 inline-flex items-center gap-2 rounded-full bg-accent/10 px-4 py-1.5 text-sm font-semibold text-accent">
-            <span className="h-2 w-2 rounded-full bg-accent animate-pulse" />
-            Introductiekorting &middot; 50% op alles &middot; t/m zondag 16
-            augustus
-          </span>
+          <p className="mt-5 text-lg text-text-light">
+            Vaste prijzen, alles inbegrepen.
+          </p>
         </div>
 
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-6 items-stretch max-w-5xl mx-auto">
@@ -321,10 +315,7 @@ function Pricing() {
                   <h3 className="text-xl font-bold text-navy">{tier.name}</h3>
                   <p className="mt-1 text-sm text-text-light">{tier.tagline}</p>
 
-                  <p className="mt-5 flex items-end justify-center gap-3">
-                    <span className="text-lg font-semibold text-text-light line-through decoration-2">
-                      {tier.listPrice}
-                    </span>
+                  <p className="mt-5 flex items-end justify-center">
                     <span
                       className={`${tier.featured ? "shimmer" : "text-navy"} text-4xl font-bold leading-none`}
                     >

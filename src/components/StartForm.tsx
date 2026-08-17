@@ -97,10 +97,10 @@ export default function StartForm({
           {keuzes.map((k) => (
             <option key={k} value={k}>
               {k === "De meting"
-                ? "De meting · €147,50 excl. BTW"
+                ? "De meting · €295 excl. BTW"
                 : k === "De audit"
-                  ? "De audit · €499 excl. BTW"
-                  : "De audit met nazorg · €875 excl. BTW"}
+                  ? "De audit · €999 excl. BTW"
+                  : "De audit met nazorg · €1.750 excl. BTW"}
             </option>
           ))}
         </select>
