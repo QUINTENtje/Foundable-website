@@ -83,6 +83,24 @@ export default function Footer() {
                   LinkedIn
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://www.google.com/maps?cid=7591528248257612358"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 hover:text-white transition-colors"
+                >
+                  <svg
+                    className="h-4 w-4"
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 2.25a8.25 8.25 0 0 0-8.25 8.25c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 0 0 2.683 2.282c.36.253.744.5 1.144.742l.07.04.028.016a.76.76 0 0 0 .723 0l.028-.015.071-.041c.4-.242.784-.489 1.145-.742a19.58 19.58 0 0 0 2.682-2.282c1.944-1.99 3.963-4.981 3.963-8.827A8.25 8.25 0 0 0 12 2.25Zm0 5.25a3 3 0 1 1 0 6 3 3 0 0 1 0-6Z" />
+                  </svg>
+                  Google Bedrijfsprofiel
+                </a>
+              </li>
             </ul>
           </div>
         </div>
