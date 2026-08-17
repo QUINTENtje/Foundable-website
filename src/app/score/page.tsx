@@ -70,7 +70,7 @@ export default function ScorePage() {
           </h1>
           <p className="mt-4 text-lg text-text-light max-w-2xl mx-auto">
             Vul je website-URL in. Wij analyseren hoe goed AI jouw bedrijf
-            begrijpt, en wat er beter kan. Gratis, zonder verplichtingen.
+            begrijpt en wat er beter kan. Gratis, zonder verplichtingen.
           </p>
         </div>
       </section>

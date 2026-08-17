@@ -81,13 +81,13 @@ function Problem() {
           <div className="mt-8 space-y-6 text-lg text-text-light leading-relaxed">
             <p>
               Google is nog steeds groot. Maar steeds meer mensen stellen hun
-              vraag aan ChatGPT, Claude, Perplexity of Google AI, en krijgen
+              vraag aan ChatGPT, Claude, Perplexity of Google AI. Ze krijgen
               direct een antwoord, zonder door te klikken naar een website.
             </p>
             <p>
               Je Google-positie zegt niets over hoe zichtbaar je bent in die
               antwoorden. Want AI werkt anders dan Google. Het zoekt niet naar
-              je website. Het leest hem, en beslist op basis daarvan wie
+              je website. Het leest hem en beslist op basis daarvan wie
               het aanbeveelt. Is je website vaag, onvolledig of slecht
               geschreven? Dan kiest AI gewoon iemand anders.
             </p>
@@ -261,7 +261,7 @@ function Pricing() {
       meta: [],
       items: [
         "Hoe vaak AI je noemt, gemeten over 225 echte antwoorden",
-        "Wat AI over je vertelt, en of dat klopt",
+        "Wat AI over je vertelt en of dat klopt",
         "De AI Visibility Score van je website",
         "De top 10 namen die AI in jouw vak noemt",
         "Twintig vragen die jouw klanten stellen plus vijf over jou, eigen vragenlijst kan op aanvraag",

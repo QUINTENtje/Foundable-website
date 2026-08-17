@@ -31,8 +31,8 @@ export default function ContactPage() {
             Neem contact op
           </h1>
           <p className="mt-4 text-lg text-text-light">
-            Vragen, of loop je ergens vast? E&eacute;n berichtje en ik kijk met
-            je mee. Je krijgt binnen twee werkdagen antwoord.
+            Heb je een vraag of loop je ergens vast? E&eacute;n berichtje en ik
+            kijk met je mee. Je krijgt binnen twee werkdagen antwoord.
           </p>
         </div>
       </section>

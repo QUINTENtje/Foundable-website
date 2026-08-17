@@ -28,7 +28,7 @@ const artikel: KennisArtikel = {
       <P>
         Staat je bedrijfsnaam prominent bovenaan, is je locatie of regio
         expliciet benoemd, is binnen de eerste 100 woorden duidelijk wat je
-        doet, en staat er voor wie je werkt? Dit is de kern van{" "}
+        doet en staat er voor wie je werkt? Dit is de kern van{" "}
         <A href="/kennis/wat-is-geo">GEO</A>: wie, wat, waar, voor wie.
       </P>
 
@@ -52,7 +52,7 @@ const artikel: KennisArtikel = {
       <H3>Autoriteitssignalen (15 punten)</H3>
       <P>
         Staan er reviews of testimonials op je site, is er een over-pagina
-        die vertelt wie erachter zit, en is je contactinformatie makkelijk te
+        die vertelt wie erachter zit en is je contactinformatie makkelijk te
         vinden? Vertrouwen is voor AI een reden om je wel of niet aan te
         bevelen.
       </P>
@@ -88,14 +88,14 @@ const artikel: KennisArtikel = {
       <P>
         Elk checkpoint is 5 punten of 0 punten, nooit iets ertussenin. Dat is
         een bewuste keuze. &ldquo;Een beetje JSON-LD&rdquo; bestaat niet voor
-        een machine: het werkt, of het werkt niet. Door binair te meten zie
+        een machine: het werkt of het werkt niet. Door binair te meten zie
         je precies welke punten je laat liggen en wat je te doen staat. Geen
         vaag rapportcijfer, maar een takenlijst.
       </P>
 
       <H2>Check je eigen score</H2>
       <P>
-        De meting is gratis en duurt een paar minuten: URL invullen, en je
+        De meting is gratis en duurt een paar minuten: je vult je URL in en
         ziet direct je score per categorie.{" "}
         <A href="/score">Check hier je AI Visibility Score</A>.
       </P>
@@ -110,12 +110,12 @@ const artikel: KennisArtikel = {
     {
       vraag: "Is een hoge score een garantie dat ChatGPT me aanbeveelt?",
       antwoord:
-        "Nee, en wees voorzichtig met wie dat wel belooft. De score meet of AI je website kan lezen en begrijpen. Dat is de voorwaarde. Of je daarna ook aanbevolen wordt, hangt mede af van reviews, concurrentie en hoe vaak je buiten je eigen site om genoemd wordt.",
+        "Nee. Wees voorzichtig met wie dat wel belooft. De score meet of AI je website kan lezen en begrijpen. Dat is de voorwaarde. Of je daarna ook aanbevolen wordt, hangt mede af van reviews, concurrentie en hoe vaak je buiten je eigen site om genoemd wordt.",
     },
     {
       vraag: "Hoe vaak moet ik de score opnieuw checken?",
       antwoord:
-        "Na elke serieuze aanpassing aan je website, en verder is eens per kwartaal genoeg. De checkpoints veranderen niet elke week; jouw website meestal ook niet.",
+        "Na elke serieuze aanpassing aan je website. Verder is eens per kwartaal genoeg. De checkpoints veranderen niet elke week; jouw website meestal ook niet.",
     },
   ],
 };

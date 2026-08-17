@@ -81,7 +81,7 @@ const artikel: KennisArtikel = {
         </LI>
         <LI>
           <strong className="text-navy">Toegankelijkheid.</strong> Tekst die
-          leesbaar is zonder JavaScript-fratsen, en AI-crawlers die niet
+          leesbaar is zonder JavaScript-fratsen en AI-crawlers die niet
           geblokkeerd worden in je robots.txt.
         </LI>
       </UL>

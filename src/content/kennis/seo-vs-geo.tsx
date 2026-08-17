@@ -92,7 +92,7 @@ const artikel: KennisArtikel = {
     {
       vraag: "Vervangt GEO mijn SEO?",
       antwoord:
-        "Nee. SEO blijft belangrijk zolang mensen googelen, en Google AI Overviews bouwt zelfs voort op de gewone rankings. GEO komt erbovenop: het zorgt dat je ook zichtbaar bent waar het antwoord de klik vervangt.",
+        "Nee. SEO blijft belangrijk zolang mensen googelen. Google AI Overviews bouwt zelfs voort op de gewone rankings. GEO komt erbovenop: het zorgt dat je ook zichtbaar bent waar het antwoord de klik vervangt.",
     },
     {
       vraag: "Ik sta bovenaan in Google. Ben ik dan ook zichtbaar in ChatGPT?",

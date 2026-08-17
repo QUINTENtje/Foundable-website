@@ -169,7 +169,7 @@ export default function CasesPage() {
                 Klaas Kroezen is salestrainer en spreker, met meer dan 25 jaar
                 ervaring en een eigen boek. Via AI krijgt hij steeds meer
                 opdrachten binnen. Juist daarom wilde hij precies weten hoe AI
-                hem nu leest, en of je daar zelf iets aan kunt doen. Zijn site
+                hem nu leest en of je daar zelf iets aan kunt doen. Zijn site
                 was al met veel zorg gebouwd. De vraag was dus niet of het
                 goed zat, maar wat er nog ontbrak.
               </p>
@@ -179,7 +179,7 @@ export default function CasesPage() {
               <h3 className="text-lg font-bold text-navy">Aanpak</h3>
               <p className="mt-2 text-text-light leading-relaxed">
                 We legden de site langs de AI Visibility Score en het eerlijke
-                antwoord was: 100 van de 100. De basis stond, en dat hebben we
+                antwoord was: 100 van de 100. De basis stond en dat hebben we
                 ook gewoon zo gezegd. Alleen zegt zo&rsquo;n score niet of
                 alles eruit is gehaald. Op de site zelf vonden we nog een paar
                 punten, zoals twee pagina&rsquo;s met een zichtbare FAQ maar

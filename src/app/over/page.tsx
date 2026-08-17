@@ -107,8 +107,8 @@ export default function OverPage() {
               Na onze audit heeft AI geen reden meer om jou niet te begrijpen.
             </p>
             <p className="text-navy font-medium">
-              Vragen, of loop je ergens vast? E&eacute;n berichtje en ik kijk
-              met je mee.
+              Heb je een vraag of loop je ergens vast? E&eacute;n berichtje en
+              ik kijk met je mee.
             </p>
           </div>
         </div>

@@ -5,7 +5,7 @@ import StartForm from "@/components/StartForm";
 export const metadata: Metadata = {
   title: "Start je GEO-audit · Foundable",
   description:
-    "Vraag de GEO-audit aan met een kort formulier. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site, en de betaallink om te starten. €999 excl. BTW, vaste prijs.",
+    "Vraag de GEO-audit aan met een kort formulier. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site en de betaallink om te starten. €999 excl. BTW, vaste prijs.",
   alternates: {
     canonical: "/start",
   },
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     url: "https://www.foundable.nl/start",
     title: "Start je GEO-audit · Foundable",
     description:
-      "Vraag de GEO-audit aan met een kort formulier. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site, en de betaallink om te starten. €999 excl. BTW, vaste prijs.",
+      "Vraag de GEO-audit aan met een kort formulier. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site en de betaallink om te starten. €999 excl. BTW, vaste prijs.",
     images: [{ url: "/logo.png" }],
   },
 };
@@ -33,7 +33,7 @@ const products = {
       },
       {
         title: "Wij kijken eerst zelf naar je site",
-        text: "Je krijgt binnen twee werkdagen een persoonlijke mail terug: wat ons opvalt aan je website, en de betaallink voor de meting (€295 excl. BTW). Denken we dat de meting je te weinig oplevert, dan zeggen we dat ook gewoon.",
+        text: "Je krijgt binnen twee werkdagen een persoonlijke mail terug: wat ons opvalt aan je website en de betaallink voor de meting (€295 excl. BTW). Denken we dat de meting je te weinig oplevert, dan zeggen we dat ook gewoon.",
       },
       {
         title: "Na je betaling gaan we meten",
@@ -52,7 +52,7 @@ const products = {
       },
       {
         title: "Wij kijken eerst zelf naar je site",
-        text: "Je krijgt binnen twee werkdagen een persoonlijke mail terug: wat ons opvalt aan je website, en de betaallink voor de eerste helft (€499,50 excl. BTW). Denken we dat de audit je te weinig oplevert, dan zeggen we dat ook gewoon.",
+        text: "Je krijgt binnen twee werkdagen een persoonlijke mail terug: wat ons opvalt aan je website en de betaallink voor de eerste helft (€499,50 excl. BTW). Denken we dat de audit je te weinig oplevert, dan zeggen we dat ook gewoon.",
       },
       {
         title: "Na je aanbetaling gaan we aan de slag",
@@ -71,7 +71,7 @@ const products = {
       },
       {
         title: "Wij kijken eerst zelf naar je site",
-        text: "Je krijgt binnen twee werkdagen een persoonlijke mail terug: wat ons opvalt aan je website, en de betaallink voor de eerste helft (€875 excl. BTW). Denken we dat de audit je te weinig oplevert, dan zeggen we dat ook gewoon.",
+        text: "Je krijgt binnen twee werkdagen een persoonlijke mail terug: wat ons opvalt aan je website en de betaallink voor de eerste helft (€875 excl. BTW). Denken we dat de audit je te weinig oplevert, dan zeggen we dat ook gewoon.",
       },
       {
         title: "Na je aanbetaling gaan we aan de slag",

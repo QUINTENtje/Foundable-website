@@ -10,7 +10,7 @@ const artikel: KennisArtikel = {
   gepubliceerd: "2026-07-07",
   leestijdMin: 6,
   intro:
-    "ChatGPT heeft geen lijst met beste bedrijven klaarliggen. Het stelt bij elke vraag opnieuw een antwoord samen uit twee bronnen: wat het model geleerd heeft uit trainingsdata, en wat het live op het web vindt. In beide gevallen wint het bedrijf dat het duidelijkst beschreven staat, op de eigen website en daarbuiten.",
+    "ChatGPT heeft geen lijst met beste bedrijven klaarliggen. Het stelt bij elke vraag opnieuw een antwoord samen uit twee bronnen: wat het model geleerd heeft uit trainingsdata en wat het live op het web vindt. In beide gevallen wint het bedrijf dat het duidelijkst beschreven staat, op de eigen website en daarbuiten.",
   content: (
     <>
       <H2>Twee routes naar een aanbeveling</H2>
@@ -22,7 +22,7 @@ const artikel: KennisArtikel = {
         zit pas in een volgende trainingsronde.
       </P>
       <P>
-        De tweede route is live zoeken, en die telt inmiddels het zwaarst.
+        De tweede route is live zoeken en die telt inmiddels het zwaarst.
         Stelt iemand een vraag waar actuele informatie voor nodig is, dan
         zoekt ChatGPT op het web en leest het een handvol pagina&rsquo;s. Wat
         het daar aantreft, bepaalt het antwoord van dat moment. Deze route
@@ -48,7 +48,7 @@ const artikel: KennisArtikel = {
       <P>
         Elke stap is een filter. Een website die vaag is over wat het bedrijf
         doet, sneuvelt bij het lezen. Hoe goed het bedrijf zelf ook is.
-        Waarom dat misgaat, en hoe je het herkent, staat in{" "}
+        Waarom dat misgaat en hoe je het herkent, staat in{" "}
         <A href="/kennis/waarom-ai-je-website-niet-begrijpt">
           Waarom AI je website niet begrijpt
         </A>
@@ -120,7 +120,7 @@ const artikel: KennisArtikel = {
     {
       vraag: "Waarom noemt ChatGPT mijn concurrent wel en mij niet?",
       antwoord:
-        "Meestal omdat de concurrent duidelijker beschreven staat: concretere website, meer reviews, meer externe vermeldingen, of alle drie. Dat is te achterhalen door beide websites en vermeldingen naast elkaar te leggen. En daarna te repareren.",
+        "Meestal omdat de concurrent duidelijker beschreven staat: concretere website, meer reviews, meer externe vermeldingen of alle drie. Dat is te achterhalen door beide websites en vermeldingen naast elkaar te leggen. En daarna te repareren.",
     },
     {
       vraag: "Hoe controleer ik wat ChatGPT over mijn bedrijf zegt?",

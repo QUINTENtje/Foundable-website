@@ -44,11 +44,11 @@ const artikel: KennisArtikel = {
 
       <H2>Waarom het werkt</H2>
       <P>
-        Je websitetekst is geschreven voor mensen, en dat hoort ook zo.
-        Maar een machine die uit lopende tekst moet afleiden wat je
-        telefoonnummer is, of je in Utrecht zit of daar alleen een klant
-        had, en of &ldquo;vanaf &euro;150&rdquo; per uur of per traject is:
-        die maakt fouten. JSON-LD haalt dat gokwerk weg. De feiten staan er
+        Je websitetekst is geschreven voor mensen en dat hoort ook zo.
+        Maar een machine moet die feiten uit lopende tekst zien te halen.
+        Zit je in Utrecht of had je daar alleen een klant? Is &ldquo;vanaf
+        &euro;150&rdquo; per uur of per traject? Zulke dingen leest een
+        machine mis. JSON-LD haalt dat gokwerk weg. De feiten staan er
         eenduidig, op een vaste plek, in een vorm die machines feilloos
         lezen.
       </P>
@@ -93,7 +93,7 @@ const artikel: KennisArtikel = {
       <P>
         JSON-LD is een bevestiging van wat zichtbaar op je pagina staat, geen
         truc om iets anders te lijken. Schema dat niet klopt met je zichtbare
-        tekst wordt genegeerd, en bij misbruik werkt het tegen je. De
+        tekst wordt genegeerd en bij misbruik werkt het tegen je. De
         volgorde is dus altijd: eerst je verhaal en je feiten op de pagina op
         orde, dan de code die het bevestigt. Hoe dat samenspel eruitziet,
         lees je in <A href="/kennis/wat-is-geo">Wat is GEO?</A>

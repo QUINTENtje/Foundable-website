@@ -5,7 +5,7 @@ const artikel: KennisArtikel = {
   slug: "waarom-ai-je-website-niet-begrijpt",
   titel: "Waarom AI je website niet begrijpt (en hoe je dat zelf ziet)",
   description:
-    "Een website kan er voor mensen prima uitzien en voor AI onleesbaar zijn. De vijf patronen die het vaakst misgaan, en twee tests die je vandaag kunt doen.",
+    "Een website kan er voor mensen prima uitzien en voor AI onleesbaar zijn. De vijf patronen die het vaakst misgaan en twee tests die je vandaag kunt doen.",
   categorie: "Praktijk",
   gepubliceerd: "2026-07-07",
   leestijdMin: 6,
@@ -91,7 +91,7 @@ const artikel: KennisArtikel = {
       <P>
         Het goede nieuws: de meeste van deze punten zijn geen verbouwing,
         maar schrijfwerk. Concreter formuleren, feiten toevoegen, structuur
-        aanbrengen, en de techniek bevestigen met{" "}
+        aanbrengen en de techniek bevestigen met{" "}
         <A href="/kennis/wat-is-json-ld">JSON-LD</A>. Wil je een gemeten
         beeld in plaats van een gevoel, check dan je{" "}
         <A href="/kennis/ai-visibility-score-uitgelegd">

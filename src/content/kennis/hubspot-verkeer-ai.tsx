@@ -10,7 +10,7 @@ const artikel: KennisArtikel = {
   gepubliceerd: "2026-07-14",
   leestijdMin: 5,
   intro:
-    "Deels, maar minder dan je overal leest. HubSpot ging van 13,5 miljoen organische bezoekers in november 2024 naar 8,6 miljoen een maand later, en zakte daarna verder. Het internet wees naar AI. De timing wijst vooral naar Google, dat in diezelfde weken twee updates uitrolde. En de pagina's die het hardst wegvielen gingen over beroemde citaten en ontslagbrieven, onderwerpen waar HubSpot niks mee te maken heeft. Dat maakt dit verhaal minder eng en een stuk bruikbaarder.",
+    "Deels, maar minder dan je overal leest. HubSpot ging van 13,5 miljoen organische bezoekers in november 2024 naar 8,6 miljoen een maand later. Daarna zakte het verder. Het internet wees naar AI. De timing wijst vooral naar Google, dat in diezelfde weken twee updates uitrolde. En de pagina's die het hardst wegvielen gingen over beroemde citaten en ontslagbrieven, onderwerpen waar HubSpot niks mee te maken heeft. Dat maakt dit verhaal minder eng en een stuk bruikbaarder.",
   content: (
     <>
       <H2>Wat er gebeurde</H2>
@@ -48,12 +48,12 @@ const artikel: KennisArtikel = {
         schrijven van een ontslagbrief en over voorbeelden van
         sollicitatiebrieven. HubSpot verkoopt software voor marketing en sales.
         Met ontslagbrieven hebben ze niks te maken. Die pagina&rsquo;s stonden
-        er omdat er zoekverkeer op zat, en om geen andere reden. Dat is het type
+        er omdat er zoekverkeer op zat en om geen andere reden. Dat is het type
         pagina dat Google in december wegzette.
       </P>
       <P>
         AI Overviews speelt zeker mee. Google beantwoordt informatieve vragen
-        nu bovenaan zelf, en dat kost klikken aan iedereen die het van dat soort
+        nu bovenaan zelf. Dat kost klikken aan iedereen die het van dat soort
         vragen moest hebben. Maar wie de hele crash op AI schuift, stapt over de
         simpelere verklaring heen die er direct naast ligt.
       </P>
@@ -63,10 +63,10 @@ const artikel: KennisArtikel = {
         Kipp Bodnar, de marketingbaas van HubSpot, schreef er een stuk over. Hij
         bevestigt de daling in klikken uit zoekmachines en zegt erbij dat dat
         voor iedereen geldt. Zijn punt: HubSpot verlegde zijn koers al sinds
-        2020 richting YouTube, podcasts en social, en kocht The Hustle.
+        2020 richting YouTube, podcasts en social. Ze kochten The Hustle.
         Zoekverkeer was volgens hem allang niet meer waar ze op stuurden. Hij
         zegt ook dat de zoekwoorden waarmee mensen echt kopen het onverminderd
-        goed doen, en dat hun content juist goed opduikt in AI-antwoorden.
+        goed doen en dat hun content juist goed opduikt in AI-antwoorden.
       </P>
       <P>
         Daar zit een portie eigen straatje schoonvegen bij, want niemand zegt
@@ -101,7 +101,7 @@ const artikel: KennisArtikel = {
       </P>
       <P>
         HubSpot moest snoeien. Jouw werk is duidelijk maken wie je bent. Dat is
-        een makkelijkere opgave, en het is waar een GEO-audit over gaat. Hoe AI
+        een makkelijkere opgave en het is waar een GEO-audit over gaat. Hoe AI
         die keuze maakt, lees je in{" "}
         <A href="/kennis/hoe-kiest-chatgpt-bedrijven">
           Hoe kiest ChatGPT welke bedrijven het aanbeveelt?
@@ -118,12 +118,12 @@ const artikel: KennisArtikel = {
     {
       vraag: "Kwam het nou door AI of door Google?",
       antwoord:
-        "Allebei, en de timing wijst het eerst naar Google. De core update en de spamupdate van december 2024 vielen samen met de grootste daling. AI Overviews speelt mee op de langere lijn, omdat Google informatieve vragen nu zelf bovenaan beantwoordt en dat klikken kost aan iedereen die het van dat soort vragen moest hebben.",
+        "Allebei. De timing wijst het eerst naar Google. De core update en de spamupdate van december 2024 vielen samen met de grootste daling. AI Overviews speelt mee op de langere lijn, omdat Google informatieve vragen nu zelf bovenaan beantwoordt en dat klikken kost aan iedereen die het van dat soort vragen moest hebben.",
     },
     {
       vraag: "HubSpot zegt zelf dat het een keuze was. Klopt dat?",
       antwoord:
-        "Deels. Ze zijn sinds 2020 inderdaad verschoven naar YouTube, podcasts en The Hustle, en hun marketingbaas bevestigt dat de zoekwoorden waarop mensen kopen het goed blijven doen. Tegelijk raak je niet vrijwillig miljoenen bezoekers in één maand kwijt. Het eerlijke antwoord is dat allebei waar is.",
+        "Deels. Ze zijn sinds 2020 inderdaad verschoven naar YouTube, podcasts en The Hustle. Hun marketingbaas bevestigt dat de zoekwoorden waarop mensen kopen het goed blijven doen. Tegelijk raak je niet vrijwillig miljoenen bezoekers in één maand kwijt. Het eerlijke antwoord is dat allebei waar is.",
     },
   ],
 };

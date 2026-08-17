@@ -39,7 +39,7 @@ const howToSchema = {
       "@type": "HowToStep",
       position: 2,
       name: "Je hoort persoonlijk van ons",
-      text: "We bekijken je website en je krijgt binnen twee werkdagen een persoonlijke mail: wat ons opvalt aan je site, en de betaallink om te starten. Denken we dat het je te weinig oplevert, dan zeggen we dat ook gewoon.",
+      text: "We bekijken je website en je krijgt binnen twee werkdagen een persoonlijke mail: wat ons opvalt aan je site en de betaallink om te starten. Denken we dat het je te weinig oplevert, dan zeggen we dat ook gewoon.",
     },
     {
       "@type": "HowToStep",
@@ -91,7 +91,7 @@ const steps = [
     text: (
       <>
         We bekijken je website en je krijgt binnen twee werkdagen een
-        persoonlijke mail: wat ons opvalt aan je site, en de betaallink om
+        persoonlijke mail: wat ons opvalt aan je site en de betaallink om
         te starten. Denken we dat het je te weinig oplevert, dan zeggen we
         dat ook gewoon.
       </>
