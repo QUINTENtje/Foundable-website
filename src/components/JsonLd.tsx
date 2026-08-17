@@ -85,7 +85,7 @@ export const siteGraph = {
           "@type": "Offer",
           name: "GEO-audit",
           description:
-            "Complete GEO-audit: de acties op volgorde, nieuwe teksten voor de site die AI begrijpt, een kant-en-klare FAQ, JSON-LD-code, platformspecifieke implementatiegids en een analyse waar buiten de site de grootste winst te halen valt. Inclusief nulmeting vooraf en nameting na 90 dagen.",
+            "Complete GEO-audit: de acties op volgorde, nieuwe teksten voor de site die AI begrijpt, een FAQ voor op je site, JSON-LD-code, platformspecifieke implementatiegids en een analyse waar buiten de site de grootste winst te halen valt. Inclusief nulmeting vooraf en nameting na 90 dagen.",
           price: "999",
           priceCurrency: "EUR",
           priceSpecification: {

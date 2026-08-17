@@ -51,7 +51,7 @@ const howToSchema = {
       "@type": "HowToStep",
       position: 4,
       name: "Je ontvangt alles per mail",
-      text: "De meting ligt binnen een week als A4 in je mailbox. De audit binnen 2 weken, als volledig pakket: je acties op volgorde, nieuwe teksten voor je site die AI begrijpt, een kant-en-klare FAQ, JSON-LD-code, implementatiegids en een analyse waar buiten je site de grootste winst te halen valt. Alles staat klaar om te kopiëren en te plakken, de gids laat per punt zien waar het in jouw platform moet staan. Loop je bij het plaatsen ergens vast, dan help ik je er per mail doorheen tot alles staat. De tweede helft betaal je bij oplevering.",
+      text: "De meting ligt binnen een week als A4 in je mailbox. De audit binnen 2 weken, als volledig pakket: je acties op volgorde, nieuwe teksten voor je site die AI begrijpt, een FAQ voor op je site, JSON-LD-code, implementatiegids en een analyse waar buiten je site de grootste winst te halen valt. Alles staat klaar om te kopiëren en te plakken, de gids laat per punt zien waar het in jouw platform moet staan. Loop je bij het plaatsen ergens vast, dan help ik je er per mail doorheen tot alles staat. De tweede helft betaal je bij oplevering.",
     },
     {
       "@type": "HowToStep",
@@ -115,7 +115,7 @@ const steps = [
       <>
         De meting ligt binnen een week als A4 in je mailbox. De audit binnen
         2 weken, als volledig pakket: je acties op volgorde, nieuwe teksten
-        voor je site die AI begrijpt, een kant-en-klare FAQ, JSON-LD-code,
+        voor je site die AI begrijpt, een FAQ voor op je site, JSON-LD-code,
         implementatiegids en een analyse waar buiten je site de grootste
         winst te halen valt. Alles staat
         klaar om te kopi&euml;ren en te plakken, de gids laat per punt zien

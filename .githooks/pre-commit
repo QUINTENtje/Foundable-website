@@ -1,0 +1,4 @@
+#!/bin/sh
+# Draait de taalcheck over de regels die deze commit toevoegt.
+# Aanzetten na een verse clone:  git config core.hooksPath .githooks
+exec python3 "$(git rev-parse --show-toplevel)/scripts/taalcheck.py"

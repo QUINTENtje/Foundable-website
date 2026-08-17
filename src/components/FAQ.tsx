@@ -16,12 +16,12 @@ const faqs: FAQItem[] = [
   {
     question: "Hoe werkt de audit precies?",
     answer:
-      "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket: je acties op volgorde, herschreven teksten, een kant-en-klare FAQ, JSON-LD-code, een implementatiegids voor jouw platform en een analyse waar buiten je site de grootste winst te halen valt. Jij hoeft maar \u00e9\u00e9n vraag te beantwoorden. De rest doen wij.",
+      "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket: je acties op volgorde, herschreven teksten, een FAQ voor op je site, JSON-LD-code, een implementatiegids voor jouw platform en een analyse waar buiten je site de grootste winst te halen valt. Jij hoeft maar \u00e9\u00e9n vraag te beantwoorden. De rest doen wij.",
   },
   {
     question: "Krijg ik alleen advies of doen jullie het ook?",
     answer:
-      "Wij doen het. De nieuwe teksten en de code zijn al gemaakt als je het pakket ontvangt. Het enige wat nog moet gebeuren is plaatsen. Daarvoor krijg je een gids die per punt laat zien waar het in jouw platform moet staan: kopi\u00ebren en plakken, voor jou of je websitebouwer. Alles komt kant-en-klaar naar je toe en je hoeft ons geen inloggegevens te geven. Loop je ergens vast, dan help ik je er per mail doorheen tot alles staat. Heb je geen websitebouwer en zie je op tegen het plaatsen? Zeg dat bij je aanvraag, dan zoeken we samen de handigste route.",
+      "Wij doen het. De nieuwe teksten en de code zijn al gemaakt als je het pakket ontvangt. Het enige wat nog moet gebeuren is plaatsen. Daarvoor krijg je een gids die per punt laat zien waar het in jouw platform moet staan: kopi\u00ebren en plakken, voor jou of je websitebouwer. Je krijgt alles klaar om te plaatsen en je hoeft ons geen inloggegevens te geven. Loop je ergens vast, dan help ik je er per mail doorheen tot alles staat. Heb je geen websitebouwer en zie je op tegen het plaatsen? Zeg dat bij je aanvraag, dan zoeken we samen de handigste route.",
   },
   {
     question: "Wat verandert er aan mijn site? Zien mijn bezoekers dat?",

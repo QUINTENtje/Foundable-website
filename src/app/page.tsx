@@ -134,7 +134,7 @@ function Deliverables() {
       ),
     },
     {
-      title: "Kant-en-klare FAQ",
+      title: "FAQ voor op je site",
       description:
         "Tien vragen die jouw klanten echt stellen, met de antwoorden erbij. De tekst is woordelijk gelijk aan het codeblok, dus wat je bezoeker leest is wat AI leest.",
       icon: (
@@ -279,7 +279,7 @@ function Pricing() {
       items: [
         "Begin hier: je acties op volgorde, de grootste winst bovenaan",
         "Nieuwe teksten voor je site die AI begrijpt",
-        "Kant-en-klare FAQ voor op je site",
+        "FAQ met vragen en antwoorden voor op je site",
         "JSON-LD structured data code",
         "Platformspecifieke implementatiegids",
         "Analyse waar buiten je site de grootste winst te halen valt, met tips hoe je die pakt",
@@ -460,7 +460,7 @@ const faqJsonLd = {
       name: "Hoe werkt de audit precies?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket: je acties op volgorde, herschreven teksten, een kant-en-klare FAQ, JSON-LD-code, een implementatiegids voor jouw platform en een analyse waar buiten je site de grootste winst te halen valt. Jij hoeft maar \u00e9\u00e9n vraag te beantwoorden. De rest doen wij.",
+        text: "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket: je acties op volgorde, herschreven teksten, een FAQ voor op je site, JSON-LD-code, een implementatiegids voor jouw platform en een analyse waar buiten je site de grootste winst te halen valt. Jij hoeft maar \u00e9\u00e9n vraag te beantwoorden. De rest doen wij.",
       },
     },
     {
@@ -468,7 +468,7 @@ const faqJsonLd = {
       name: "Krijg ik alleen advies of doen jullie het ook?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Wij doen het. De nieuwe teksten en de code zijn al gemaakt als je het pakket ontvangt. Het enige wat nog moet gebeuren is plaatsen. Daarvoor krijg je een gids die per punt laat zien waar het in jouw platform moet staan: kopi\u00ebren en plakken, voor jou of je websitebouwer. Alles komt kant-en-klaar naar je toe en je hoeft ons geen inloggegevens te geven. Loop je ergens vast, dan help ik je er per mail doorheen tot alles staat. Heb je geen websitebouwer en zie je op tegen het plaatsen? Zeg dat bij je aanvraag, dan zoeken we samen de handigste route.",
+        text: "Wij doen het. De nieuwe teksten en de code zijn al gemaakt als je het pakket ontvangt. Het enige wat nog moet gebeuren is plaatsen. Daarvoor krijg je een gids die per punt laat zien waar het in jouw platform moet staan: kopi\u00ebren en plakken, voor jou of je websitebouwer. Je krijgt alles klaar om te plaatsen en je hoeft ons geen inloggegevens te geven. Loop je ergens vast, dan help ik je er per mail doorheen tot alles staat. Heb je geen websitebouwer en zie je op tegen het plaatsen? Zeg dat bij je aanvraag, dan zoeken we samen de handigste route.",
       },
     },
     {

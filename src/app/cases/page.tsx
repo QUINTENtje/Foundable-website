@@ -338,8 +338,8 @@ export default function CasesPage() {
                 checkpoints die laten zien wat AI mist, verkeerd leest of niet
                 kan plaatsen. Daar kwamen zes punten uit, van begrijpelijke
                 taal naast het vakjargon tot de JSON-LD-code die AI vertelt
-                wat Bootzeil maakt, voor wie en waar. Alles kant-en-klaar,
-                zodat hun eigen bouwer het kon plaatsen.
+                wat Bootzeil maakt, voor wie en waar. Alles stond klaar om
+                geplaatst te worden.
               </p>
             </div>
 
