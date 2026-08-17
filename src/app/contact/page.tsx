@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactForm";
 export const metadata: Metadata = {
   title: "Contact · Foundable",
   description:
-    "Neem contact op met Foundable. We reageren binnen \u00e9\u00e9n werkdag.",
+    "Neem contact op met Foundable. We reageren binnen twee werkdagen.",
   alternates: {
     canonical: "/contact",
   },
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     url: "https://www.foundable.nl/contact",
     title: "Contact · Foundable",
     description:
-      "Neem contact op met Foundable. We reageren binnen \u00e9\u00e9n werkdag.",
+      "Neem contact op met Foundable. We reageren binnen twee werkdagen.",
     images: [{ url: "/logo.png" }],
   },
 };
@@ -32,7 +32,7 @@ export default function ContactPage() {
           </h1>
           <p className="mt-4 text-lg text-text-light">
             Vragen, of loop je ergens vast? E&eacute;n berichtje en ik kijk met
-            je mee. Je krijgt binnen &eacute;&eacute;n werkdag antwoord.
+            je mee. Je krijgt binnen twee werkdagen antwoord.
           </p>
         </div>
       </section>
@@ -77,6 +77,21 @@ export default function ContactPage() {
                 <div>
                   <dt className="text-sm font-semibold text-navy">KvK</dt>
                   <dd className="text-text-light">96898267</dd>
+                </div>
+                <div>
+                  <dt className="text-sm font-semibold text-navy">
+                    Google Bedrijfsprofiel
+                  </dt>
+                  <dd>
+                    <a
+                      href="https://www.google.com/maps?cid=7591528248257612358"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-accent hover:text-accent-hover transition-colors"
+                    >
+                      Foundable op Google
+                    </a>
+                  </dd>
                 </div>
               </dl>
 
