@@ -2,6 +2,7 @@ import type { KennisArtikel } from "./types";
 import watIsGeo from "./wat-is-geo";
 import seoVsGeo from "./seo-vs-geo";
 import hoeKiestChatgpt from "./hoe-kiest-chatgpt";
+import elkeAiAndereNamen from "./waarom-elke-ai-andere-namen-noemt";
 import watIsJsonLd from "./wat-is-json-ld";
 import waaromAiNietBegrijpt from "./waarom-ai-je-website-niet-begrijpt";
 import scoreUitgelegd from "./ai-visibility-score-uitgelegd";
@@ -14,6 +15,7 @@ export const artikelen: KennisArtikel[] = [
   watIsGeo,
   seoVsGeo,
   hoeKiestChatgpt,
+  elkeAiAndereNamen,
   waaromAiNietBegrijpt,
   watIsJsonLd,
   scoreUitgelegd,

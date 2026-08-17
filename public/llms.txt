@@ -19,6 +19,7 @@
 - [Wat is GEO? Generative Engine Optimization uitgelegd](https://www.foundable.nl/kennis/wat-is-geo)
 - [SEO vs. GEO: wat is het verschil?](https://www.foundable.nl/kennis/seo-vs-geo)
 - [Hoe kiest ChatGPT welke bedrijven het aanbeveelt?](https://www.foundable.nl/kennis/hoe-kiest-chatgpt-bedrijven)
+- [Waarom elke AI andere bedrijven noemt](https://www.foundable.nl/kennis/waarom-elke-ai-andere-namen-noemt)
 - [Waarom AI je website niet begrijpt (en hoe je dat zelf ziet)](https://www.foundable.nl/kennis/waarom-ai-je-website-niet-begrijpt)
 - [Wat is JSON-LD en waarom heeft je website het nodig?](https://www.foundable.nl/kennis/wat-is-json-ld)
 - [De AI Visibility Score uitgelegd: 20 checkpoints, 100 punten](https://www.foundable.nl/kennis/ai-visibility-score-uitgelegd)

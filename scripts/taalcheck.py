@@ -81,8 +81,11 @@ def toegevoegde_regels() -> dict[str, str]:
 
 
 def alle_bestanden() -> dict[str, str]:
-    paden = subprocess.run(["git", "ls-files"], capture_output=True,
-                           text=True, check=True).stdout.split()
+    # --others erbij, anders slaat de check nieuwe bestanden over die nog niet
+    # in git zitten. Precies waar het bij het eerste kennisartikel misging.
+    paden = subprocess.run(
+        ["git", "ls-files", "--cached", "--others", "--exclude-standard"],
+        capture_output=True, text=True, check=True).stdout.split()
     uit = {}
     for pad in paden:
         if telt_mee(pad):
