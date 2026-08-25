@@ -99,6 +99,21 @@ export const siteGraph = {
         },
         {
           "@type": "Offer",
+          name: "GEO-audit met inbouw",
+          description:
+            "De volledige GEO-audit, waarbij Foundable alles ook zelf op de website plaatst: de teksten, de JSON-LD-code, de titels en de omschrijvingen uit de implementatiegids, gevolgd door een nacheck. Werkt bij sites in een gangbaar CMS zoals WordPress, Wix of Squarespace. Gaat per mail, de klant geeft daarvoor toegang als medewerker en keurt de zichtbare teksten vooraf goed.",
+          price: "1495",
+          priceCurrency: "EUR",
+          priceSpecification: {
+            "@type": "PriceSpecification",
+            price: "1495",
+            priceCurrency: "EUR",
+            valueAddedTaxIncluded: false,
+            description: "Vaste prijs, excl. BTW. Betaling 50/50.",
+          },
+        },
+        {
+          "@type": "Offer",
           name: "GEO-audit met nazorg",
           description:
             "De volledige GEO-audit plus twee bijstuurrondes: na 3 en na 6 maanden opnieuw meten, de site nalopen en de verbeterpunten meteen uitwerken.",

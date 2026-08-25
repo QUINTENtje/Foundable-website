@@ -5,7 +5,12 @@ import { useState } from "react";
 const inputClass =
   "w-full rounded-lg border border-border px-4 py-3 text-text focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent";
 
-const keuzes = ["De meting", "De audit", "De audit met nazorg"] as const;
+const keuzes = [
+  { waarde: "De meting", label: "De meting · €295 excl. BTW" },
+  { waarde: "De audit", label: "De audit · €999 excl. BTW" },
+  { waarde: "De audit met inbouw", label: "De audit met inbouw · €1.495 excl. BTW" },
+  { waarde: "De audit met nazorg", label: "De audit met nazorg · €1.750 excl. BTW" },
+] as const;
 
 export default function StartForm({
   initialKeuze = "De audit",
@@ -95,12 +100,8 @@ export default function StartForm({
           className={inputClass}
         >
           {keuzes.map((k) => (
-            <option key={k} value={k}>
-              {k === "De meting"
-                ? "De meting · €295 excl. BTW"
-                : k === "De audit"
-                  ? "De audit · €999 excl. BTW"
-                  : "De audit met nazorg · €1.750 excl. BTW"}
+            <option key={k.waarde} value={k.waarde}>
+              {k.label}
             </option>
           ))}
         </select>

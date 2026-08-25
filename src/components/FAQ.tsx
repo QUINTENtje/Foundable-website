@@ -21,7 +21,7 @@ const faqs: FAQItem[] = [
   {
     question: "Krijg ik alleen advies of doen jullie het ook?",
     answer:
-      "Wij doen het. De nieuwe teksten en de code zijn al gemaakt als je het pakket ontvangt. Het enige wat nog moet gebeuren is plaatsen. Daarvoor krijg je een gids die per punt laat zien waar het in jouw platform moet staan: kopi\u00ebren en plakken, voor jou of je websitebouwer. Je krijgt alles klaar om te plaatsen en je hoeft ons geen inloggegevens te geven. Loop je ergens vast, dan help ik je er per mail doorheen tot alles staat. Heb je geen websitebouwer en zie je op tegen het plaatsen? Zeg dat bij je aanvraag, dan zoeken we samen de handigste route.",
+      "Wij doen het. De nieuwe teksten en de code zijn al gemaakt als je het pakket ontvangt. Het enige wat nog moet gebeuren is plaatsen. Daarvoor krijg je een gids die per punt laat zien waar het in jouw platform moet staan: kopi\u00ebren en plakken, voor jou of je websitebouwer. Je krijgt alles klaar om te plaatsen en je hoeft ons geen inloggegevens te geven. Loop je ergens vast, dan help ik je er per mail doorheen tot alles staat. Heb je geen websitebouwer en zie je op tegen het plaatsen? Dan doen wij het: bij de audit met inbouw zetten wij alles zelf op je site.",
   },
   {
     question: "Wat verandert er aan mijn site? Zien mijn bezoekers dat?",
@@ -47,6 +47,11 @@ const faqs: FAQItem[] = [
     question: "Wat is het verschil tussen de audit en de audit met nazorg?",
     answer:
       "Bij de audit meten we vooraf en op dag 90 opnieuw, zodat je het verschil ziet. Bij de audit met nazorg komen we daarna nog twee keer terug: na 3 en na 6 maanden meten we opnieuw, lopen we je site na en werken we de verbeterpunten meteen voor je uit. In die eerste maanden wordt duidelijk waar AI je oppakt en waar nog niet. Precies daar sturen we bij.",
+  },
+  {
+    question: "Kunnen jullie het ook op mijn site zetten?",
+    answer:
+      "Ja, dat is de audit met inbouw: €1.495 excl. BTW. Je nodigt ons uit als medewerker in je website en wij plaatsen alles uit de implementatiegids. De teksten, de code, de titels en de omschrijvingen. Als alles staat lopen we het nog een keer na. De zichtbare teksten krijg je eerst ter goedkeuring, want het blijft jouw verhaal. Dit kan bij sites in een gangbaar systeem zoals WordPress, Wix of Squarespace. Draait je site op maatwerk van een developer? Dan lever je het aan bij degene die je site beheert en kijken we samen wat handig is. Koos je eerst de gewone audit, dan kun je de inbouw later alsnog bijboeken voor €500.",
   },
   {
     question: "Mijn site is al goed geoptimaliseerd. Wat levert dit mij dan op?",

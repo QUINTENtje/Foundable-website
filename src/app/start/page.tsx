@@ -60,6 +60,25 @@ const products = {
       },
     ],
   },
+  inbouw: {
+    keuze: "De audit met inbouw",
+    h1: "Start je audit met inbouw",
+    price: "€1.495",
+    steps: [
+      {
+        title: "Je vraagt de audit met inbouw aan",
+        text: "Vul het formulier hieronder in. Zet er even bij waar je site op draait, want wij plaatsen alles zelf in systemen zoals WordPress, Wix of Squarespace.",
+      },
+      {
+        title: "Wij kijken eerst zelf naar je site",
+        text: "Je krijgt binnen twee werkdagen een persoonlijke mail terug: wat ons opvalt aan je website en de betaallink voor de eerste helft (€747,50 excl. BTW). Denken we dat de audit je te weinig oplevert, dan zeggen we dat ook gewoon.",
+      },
+      {
+        title: "Na je aanbetaling gaan we aan de slag",
+        text: "Binnen 2 weken is het complete pakket klaar: de nieuwe teksten en de code. Daarna plaatsen wij het zelf op je site. Je nodigt ons uit als medewerker in je website en wij doen het klikwerk, alles per mail. De zichtbare teksten krijg je eerst ter goedkeuring, want het blijft jouw verhaal. Als alles staat lopen we het nog een keer na en krijg je het pakket voor je eigen administratie. De tweede helft betaal je bij oplevering.",
+      },
+    ],
+  },
   nazorg: {
     keuze: "De audit met nazorg",
     h1: "Start je audit met nazorg",
@@ -90,9 +109,11 @@ export default async function StartPage({
   const product =
     keuze === "meting"
       ? products.meting
-      : keuze === "nazorg"
-        ? products.nazorg
-        : products.audit;
+      : keuze === "inbouw"
+        ? products.inbouw
+        : keuze === "nazorg"
+          ? products.nazorg
+          : products.audit;
 
   return (
     <>

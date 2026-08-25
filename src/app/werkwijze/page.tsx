@@ -6,7 +6,7 @@ import Reveal from "@/components/Reveal";
 export const metadata: Metadata = {
   title: "Zo werkt het · Foundable",
   description:
-    "Kies de meting, de audit of de audit met nazorg en vul een kort formulier in. Binnen twee werkdagen persoonlijk antwoord, in vijf stappen klaar.",
+    "Kies de meting of de audit, met inbouw of nazorg als je dat wilt. Vul een kort formulier in en je hoort binnen twee werkdagen persoonlijk van ons. In vijf stappen klaar.",
   alternates: {
     canonical: "/werkwijze",
   },
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     url: "https://www.foundable.nl/werkwijze",
     title: "Zo werkt het · Foundable",
     description:
-      "Kies de meting, de audit of de audit met nazorg en vul een kort formulier in. Binnen twee werkdagen persoonlijk antwoord, in vijf stappen klaar.",
+      "Kies de meting of de audit, met inbouw of nazorg als je dat wilt. Vul een kort formulier in en je hoort binnen twee werkdagen persoonlijk van ons. In vijf stappen klaar.",
     images: [{ url: "/logo.png" }],
   },
 };
@@ -33,7 +33,7 @@ const howToSchema = {
       "@type": "HowToStep",
       position: 1,
       name: "Kies wat bij je past",
-      text: "Je kiest de meting, de audit of de audit met nazorg en vult een kort formulier in. Dat is alles, je kunt vandaag nog beginnen. Weet je nog niet welke bij je past, zet dat er dan bij.",
+      text: "Je kiest de meting of de audit en vult een kort formulier in. Bij de audit geef je aan of wij alles ook voor je plaatsen of dat we na 3 en na 6 maanden terugkomen om bij te sturen. Dat is alles, je kunt vandaag nog beginnen. Weet je nog niet welke bij je past, zet dat er dan bij.",
     },
     {
       "@type": "HowToStep",
@@ -51,7 +51,7 @@ const howToSchema = {
       "@type": "HowToStep",
       position: 4,
       name: "Je ontvangt alles per mail",
-      text: "De meting ligt binnen een week als A4 in je mailbox. De audit binnen 2 weken, als volledig pakket: je acties op volgorde, nieuwe teksten voor je site die AI begrijpt, een FAQ voor op je site, JSON-LD-code, implementatiegids en een analyse waar buiten je site de grootste winst te halen valt. Alles staat klaar om te kopiëren en te plakken, de gids laat per punt zien waar het in jouw platform moet staan. Loop je bij het plaatsen ergens vast, dan help ik je er per mail doorheen tot alles staat. De tweede helft betaal je bij oplevering.",
+      text: "De meting ligt binnen een week als A4 in je mailbox. De audit binnen 2 weken, als volledig pakket: je acties op volgorde, nieuwe teksten voor je site die AI begrijpt, een FAQ voor op je site, JSON-LD-code, implementatiegids en een analyse waar buiten je site de grootste winst te halen valt. Alles staat klaar om te kopiëren en te plakken, de gids laat per punt zien waar het in jouw platform moet staan. Loop je bij het plaatsen ergens vast, dan help ik je er per mail doorheen tot alles staat. Koos je de audit met inbouw? Dan plaatsen wij alles zelf op je site, zodra jij de zichtbare teksten hebt goedgekeurd. De tweede helft betaal je bij oplevering.",
     },
     {
       "@type": "HowToStep",
@@ -72,10 +72,12 @@ const steps = [
           href="/start"
           className="text-accent hover:text-accent-hover transition-colors"
         >
-          de meting, de audit of de audit met nazorg
+          de meting of de audit
         </Link>{" "}
-        en vult een kort formulier in. Dat is alles, je kunt vandaag nog
-        beginnen. Weet je nog niet welke bij je past, zet dat er dan bij.
+        en vult een kort formulier in. Bij de audit geef je aan of wij alles
+        ook voor je plaatsen of dat we na 3 en na 6 maanden terugkomen om bij
+        te sturen. Dat is alles, je kunt vandaag nog beginnen. Weet je nog
+        niet welke bij je past, zet dat er dan bij.
       </>
     ),
   },
@@ -113,8 +115,10 @@ const steps = [
         winst te halen valt. Alles staat
         klaar om te kopi&euml;ren en te plakken, de gids laat per punt zien
         waar het in jouw platform moet staan. Loop je bij het plaatsen
-        ergens vast, dan help ik je er per mail doorheen tot alles staat. De
-        tweede helft betaal je bij oplevering.
+        ergens vast, dan help ik je er per mail doorheen tot alles staat.
+        Koos je de audit met inbouw? Dan plaatsen wij alles zelf op je site,
+        zodra jij de zichtbare teksten hebt goedgekeurd. De tweede helft
+        betaal je bij oplevering.
       </>
     ),
   },
