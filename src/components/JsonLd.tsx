@@ -35,6 +35,7 @@ export const siteGraph = {
       sameAs: [
         "https://www.linkedin.com/company/foundable-nl",
         "https://www.google.com/maps?cid=7591528248257612358",
+        "https://www.sortlist.nl/agency/foundable",
       ],
       identifier: {
         "@type": "PropertyValue",
