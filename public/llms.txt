@@ -22,11 +22,13 @@
 - [Waarom AI je website niet begrijpt (en hoe je dat zelf ziet)](https://www.foundable.nl/kennis/waarom-ai-je-website-niet-begrijpt)
 - [Wat is JSON-LD en waarom heeft je website het nodig?](https://www.foundable.nl/kennis/wat-is-json-ld)
 - [HubSpot verloor miljoenen bezoekers. Kwam dat door AI?](https://www.foundable.nl/kennis/hubspot-verkeer-ai)
+- [Hoe kies je een GEO-bureau?](https://www.foundable.nl/kennis/geo-bureau-kiezen)
+- [Wat kost zichtbaar worden in AI?](https://www.foundable.nl/kennis/wat-kost-zichtbaar-worden-in-ai)
 
 ## Feiten
 - Bedrijf: Foundable · KvK 96898267 · BTW NL005235720B29
 - Locatie: Andreasplein 84, 1058 GD Amsterdam, Nederland
-- Prijs: €999 excl. BTW, vaste prijs (betaling 50/50). Losse meting €295, audit met nazorg €1.750, beide excl. BTW.
+- Prijs: €999 excl. BTW, vaste prijs (betaling 50/50). Losse meting €295, audit met inbouw €1.495, audit met nazorg €1.750, alle bedragen excl. BTW.
 - Doorlooptijd: 2 weken van start tot oplevering
 - Oprichter: Quinten Orij
 - Klantreview: salestrainer Klaas Kroezen beoordeelde Foundable in juli 2026 met 5,0 op Google ("Quinten legt rustig uit, denkt met je mee en weet waar hij het over heeft.")

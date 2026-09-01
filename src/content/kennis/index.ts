@@ -6,6 +6,8 @@ import elkeAiAndereNamen from "./waarom-elke-ai-andere-namen-noemt";
 import watIsJsonLd from "./wat-is-json-ld";
 import waaromAiNietBegrijpt from "./waarom-ai-je-website-niet-begrijpt";
 import hubspotVerkeerAi from "./hubspot-verkeer-ai";
+import geoBureauKiezen from "./geo-bureau-kiezen";
+import watKostZichtbaarWorden from "./wat-kost-zichtbaar-worden-in-ai";
 
 export type { KennisArtikel, FaqItem } from "./types";
 
@@ -18,6 +20,8 @@ export const artikelen: KennisArtikel[] = [
   waaromAiNietBegrijpt,
   watIsJsonLd,
   hubspotVerkeerAi,
+  geoBureauKiezen,
+  watKostZichtbaarWorden,
 ];
 
 export function getArtikel(slug: string): KennisArtikel | undefined {
