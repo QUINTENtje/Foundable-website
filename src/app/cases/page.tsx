@@ -4,7 +4,7 @@ import JsonLd from "@/components/JsonLd";
 export const metadata: Metadata = {
   title: "Cases · Foundable",
   description:
-    "Drie cases, drie niches, plus twee reviews van klanten: zo maakt Foundable websites begrijpelijk voor ChatGPT, Claude en Gemini.",
+    "Vier cases, vier niches, plus drie reviews van klanten: zo maakt Foundable websites begrijpelijk voor ChatGPT, Claude en Gemini.",
   alternates: {
     canonical: "/cases",
   },
@@ -15,14 +15,15 @@ export const metadata: Metadata = {
     url: "https://www.foundable.nl/cases",
     title: "Cases · Foundable",
     description:
-      "Drie cases, drie niches, plus twee reviews van klanten: zo maakt Foundable websites begrijpelijk voor ChatGPT, Claude en Gemini.",
+      "Vier cases, vier niches, plus drie reviews van klanten: zo maakt Foundable websites begrijpelijk voor ChatGPT, Claude en Gemini.",
     images: [{ url: "/logo.png" }],
   },
 };
 
-// De Google-reviews van Klaas (14-07-2026) en Marianne van Ory aan Zee
-// (22-07-2026), allebei woordelijk overgenomen. De laatste node koppelt ze
-// terug aan het organisatieschema uit de root layout.
+// De Google-reviews van Klaas (14-07-2026), Marianne van Ory aan Zee
+// (22-07-2026) en Jochem Uytdehaage (07-09-2026), alle drie woordelijk
+// overgenomen. De laatste node koppelt ze terug aan het organisatieschema
+// uit de root layout.
 const reviewsJsonLd = {
   "@context": "https://schema.org",
   "@graph": [
@@ -79,10 +80,35 @@ const reviewsJsonLd = {
       },
     },
     {
+      "@type": "Review",
+      "@id": "https://www.foundable.nl/cases#review-jochem-uytdehaage",
+      itemReviewed: {
+        "@type": "ProfessionalService",
+        "@id": "https://www.foundable.nl/#organization",
+        name: "Foundable",
+      },
+      author: {
+        "@type": "Person",
+        name: "Jochem Uytdehaage",
+        url: "https://www.deuytdhaaging.nl",
+      },
+      datePublished: "2026-09-07",
+      inLanguage: "nl-NL",
+      reviewBody:
+        "Mail op zakelijke email ontvangen van Quinten van Foundable. Hij reageerde direct op mijn vragen en al snel heeft hij mijn site doorgelicht en nog veel fijner, ook heeft hij hem geholpen om de site in orde te maken! Ging soepel. En heel fijn, hij reageert adequaat! En is ook proactief om zaken uit te zoeken.",
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: "5",
+        bestRating: "5",
+        worstRating: "1",
+      },
+    },
+    {
       "@type": "ProfessionalService",
       "@id": "https://www.foundable.nl/#organization",
       review: [
         { "@id": "https://www.foundable.nl/cases#review-klaas-kroezen" },
+        { "@id": "https://www.foundable.nl/cases#review-jochem-uytdehaage" },
         { "@id": "https://www.foundable.nl/cases#review-ory-aan-zee" },
       ],
     },
@@ -145,7 +171,7 @@ export default function CasesPage() {
             Bedrijven die AI nu begrijpt.
           </h1>
           <p className="mt-4 text-lg text-text-light">
-            Drie cases. Drie verschillende niches. Steeds dezelfde vraag: wat
+            Vier cases. Vier verschillende niches. Steeds dezelfde vraag: wat
             leest AI hier en wat mist het nog?
           </p>
         </div>
@@ -233,8 +259,94 @@ export default function CasesPage() {
         </div>
       </section>
 
-      {/* Case 2 - Ory aan Zee */}
-      <section id="ory-aan-zee" className="py-16 sm:py-20 bg-bg scroll-mt-20">
+      {/* Case 2 - Jochem Uytdehaage */}
+      <section
+        id="jochem-uytdehaage"
+        className="py-16 sm:py-20 bg-bg scroll-mt-20"
+      >
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+          <p className="text-sm font-semibold text-accent uppercase tracking-wide">
+            Spreker en trainer over vitaliteit, Blaricum
+          </p>
+          <h2 className="mt-2 text-3xl font-bold text-navy">
+            Jochem Uytdehaage
+          </h2>
+
+          <div className="mt-8 space-y-6">
+            <div>
+              <h3 className="text-lg font-bold text-navy">Uitdaging</h3>
+              <p className="mt-2 text-text-light leading-relaxed">
+                Jochem Uytdehaage werd olympisch kampioen op de schaats. Nu
+                spreekt en traint hij over energie, vitaliteit en herstel,
+                onder de naam De Uytdhaaging. Wie zijn naam intikt krijgt van
+                AI een keurig antwoord. Maar bedrijven die een spreker over
+                vitaliteit zoeken, kregen hem niet te horen: op die vragen
+                kwam hij in onze meting geen enkele keer voor. AI kende de
+                schaatser, de spreker nog niet.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold text-navy">Aanpak</h3>
+              <p className="mt-2 text-text-light leading-relaxed">
+                We legden zijn site en de code eronder naast wat AI over hem
+                zegt. De kern zat in &eacute;&eacute;n ding: nergens stond
+                dat De Uytdhaaging en Jochem Uytdehaage dezelfde zijn. De
+                code noemde alleen het bedrijf, bijna elke pagina droeg
+                dezelfde titel en zijn vitaliteitspagina was via het menu
+                niet te bereiken. Dat hebben we niet alleen opgeschreven,
+                maar ook zelf ingebouwd: de code die AI vertelt wie hij is
+                en welk boek hij schreef, per pagina een eigen titel en
+                omschrijving, een pagina met de vragen die bedrijven hem
+                stellen, een gevulde over-ons-pagina en werkende
+                bestelknoppen voor zijn boek.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold text-navy">Resultaat</h3>
+              <p className="mt-2 text-text-light leading-relaxed">
+                Alles staat live op zijn eigen site, in het systeem waar hij
+                al mee werkte. AI kan nu lezen wie er achter De Uytdhaaging
+                zit, welk boek hij schreef en waar hij over spreekt. Buiten
+                zijn site pakt hij zelf een kort lijstje op, van zijn
+                LinkedIn-kop tot de sprekersbureaus die naar hem kunnen
+                verwijzen. Eind oktober meten we opnieuw, met dezelfde vragen
+                als bij de start.
+              </p>
+            </div>
+          </div>
+
+          {/* Review */}
+          <ReviewQuote
+            paragraphs={[
+              "Mail op zakelijke email ontvangen van Quinten van Foundable. Hij reageerde direct op mijn vragen en al snel heeft hij mijn site doorgelicht en nog veel fijner, ook heeft hij hem geholpen om de site in orde te maken! Ging soepel. En heel fijn, hij reageert adequaat! En is ook proactief om zaken uit te zoeken.",
+            ]}
+          >
+            <a
+              href="https://www.deuytdhaaging.nl"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-navy hover:text-accent transition-colors"
+            >
+              Jochem Uytdehaage
+            </a>
+            , spreker en trainer over vitaliteit &middot;{" "}
+            <a
+              href="https://www.google.com/maps?cid=7591528248257612358"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-accent transition-colors"
+            >
+              review op ons Google Bedrijfsprofiel
+            </a>
+            , september 2026
+          </ReviewQuote>
+        </div>
+      </section>
+
+      {/* Case 3 - Ory aan Zee */}
+      <section id="ory-aan-zee" className="py-16 sm:py-20 bg-bg-alt scroll-mt-20">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           <p className="text-sm font-semibold text-accent uppercase tracking-wide">
             Vakantieverhuur, Noord-Holland
@@ -309,8 +421,8 @@ export default function CasesPage() {
         </div>
       </section>
 
-      {/* Case 3 - Bootzeil.nl */}
-      <section id="bootzeil" className="py-16 sm:py-20 bg-bg-alt scroll-mt-20">
+      {/* Case 4 - Bootzeil.nl */}
+      <section id="bootzeil" className="py-16 sm:py-20 bg-bg scroll-mt-20">
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           <p className="text-sm font-semibold text-accent uppercase tracking-wide">
             Maatwerk bootzeilen en dekzeilen, Haarlem
