@@ -107,8 +107,8 @@ const reviewsJsonLd = {
       "@type": "ProfessionalService",
       "@id": "https://www.foundable.nl/#organization",
       review: [
-        { "@id": "https://www.foundable.nl/cases#review-klaas-kroezen" },
         { "@id": "https://www.foundable.nl/cases#review-jochem-uytdehaage" },
+        { "@id": "https://www.foundable.nl/cases#review-klaas-kroezen" },
         { "@id": "https://www.foundable.nl/cases#review-ory-aan-zee" },
       ],
     },
@@ -177,92 +177,10 @@ export default function CasesPage() {
         </div>
       </section>
 
-      {/* Case 1 - Klaas Kroezen */}
-      <section
-        id="klaas-kroezen"
-        className="py-16 sm:py-20 bg-bg-alt scroll-mt-20"
-      >
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
-          <p className="text-sm font-semibold text-accent uppercase tracking-wide">
-            Salestraining en keynotes, Castricum
-          </p>
-          <h2 className="mt-2 text-3xl font-bold text-navy">Klaas Kroezen</h2>
-
-          <div className="mt-8 space-y-6">
-            <div>
-              <h3 className="text-lg font-bold text-navy">Uitdaging</h3>
-              <p className="mt-2 text-text-light leading-relaxed">
-                Klaas Kroezen is salestrainer en spreker, met meer dan 25 jaar
-                ervaring en een eigen boek. Via AI krijgt hij steeds meer
-                opdrachten binnen. Juist daarom wilde hij precies weten hoe AI
-                hem nu leest en of je daar zelf iets aan kunt doen. Zijn site
-                was al met veel zorg gebouwd. De vraag was dus niet of het
-                goed zat, maar wat er nog ontbrak.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-bold text-navy">Aanpak</h3>
-              <p className="mt-2 text-text-light leading-relaxed">
-                We liepen de site helemaal na en het eerlijke antwoord was dat
-                de basis er gewoon stond. Dat hebben we ook zo gezegd. Alleen zegt zo&rsquo;n score niet of
-                alles eruit is gehaald. Op de site zelf vonden we nog een paar
-                punten, zoals twee pagina&rsquo;s met een zichtbare FAQ maar
-                zonder het FAQ-schema waarmee AI die vragen en antwoorden ook
-                herkent. Daarna zijn we vooral buiten de site gaan kijken.
-                Want of AI je noemt hangt maar deels af van je eigen
-                pagina&rsquo;s; het kijkt net zo hard naar wat anderen over je
-                schrijven.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-lg font-bold text-navy">Resultaat</h3>
-              <p className="mt-2 text-text-light leading-relaxed">
-                We hebben de audit bij Klaas aan tafel besproken en de
-                belangrijkste punten diezelfde middag samen doorgevoerd. Geen
-                rapport voor in een la, maar een site die er direct beter voor
-                staat. En voor de wereld buiten zijn site ligt er een concreet
-                lijstje, van meer reviews verzamelen tot vaker opduiken in
-                artikelen op andere sites. Daar zit zijn volgende groei.
-              </p>
-            </div>
-          </div>
-
-          {/* Review */}
-          <ReviewQuote
-            paragraphs={[
-              "Via AI krijg ik steeds meer opdrachten. Maar hoe goed ben ik daar eigenlijk vindbaar? En kun je daar invloed op krijgen? Daar heeft Quinten mij bij geholpen.",
-              "Hij maakte een helder rapport over hoe ik er nu voorsta. Daarna zijn we er samen doorheen gegaan en hebben we de aanbevelingen meteen toegepast. Aan het einde van de sessie was er al echt iets veranderd.",
-              "Quinten legt rustig uit, denkt met je mee en weet waar hij het over heeft. Ik zou hem zo aanraden.",
-            ]}
-          >
-            <a
-              href="https://www.klaaskroezen.nl"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold text-navy hover:text-accent transition-colors"
-            >
-              Klaas Kroezen
-            </a>
-            , salestrainer en spreker &middot;{" "}
-            <a
-              href="https://www.google.com/maps?cid=7591528248257612358"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="underline hover:text-accent transition-colors"
-            >
-              review op ons Google Bedrijfsprofiel
-            </a>
-            , juli 2026
-          </ReviewQuote>
-        </div>
-      </section>
-
-      {/* Case 2 - Jochem Uytdehaage */}
+      {/* Case 1 - Jochem Uytdehaage */}
       <section
         id="jochem-uytdehaage"
-        className="py-16 sm:py-20 bg-bg scroll-mt-20"
+        className="py-16 sm:py-20 bg-bg-alt scroll-mt-20"
       >
         <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           <p className="text-sm font-semibold text-accent uppercase tracking-wide">
@@ -341,6 +259,88 @@ export default function CasesPage() {
               review op ons Google Bedrijfsprofiel
             </a>
             , september 2026
+          </ReviewQuote>
+        </div>
+      </section>
+
+      {/* Case 2 - Klaas Kroezen */}
+      <section
+        id="klaas-kroezen"
+        className="py-16 sm:py-20 bg-bg scroll-mt-20"
+      >
+        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+          <p className="text-sm font-semibold text-accent uppercase tracking-wide">
+            Salestraining en keynotes, Castricum
+          </p>
+          <h2 className="mt-2 text-3xl font-bold text-navy">Klaas Kroezen</h2>
+
+          <div className="mt-8 space-y-6">
+            <div>
+              <h3 className="text-lg font-bold text-navy">Uitdaging</h3>
+              <p className="mt-2 text-text-light leading-relaxed">
+                Klaas Kroezen is salestrainer en spreker, met meer dan 25 jaar
+                ervaring en een eigen boek. Via AI krijgt hij steeds meer
+                opdrachten binnen. Juist daarom wilde hij precies weten hoe AI
+                hem nu leest en of je daar zelf iets aan kunt doen. Zijn site
+                was al met veel zorg gebouwd. De vraag was dus niet of het
+                goed zat, maar wat er nog ontbrak.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold text-navy">Aanpak</h3>
+              <p className="mt-2 text-text-light leading-relaxed">
+                We liepen de site helemaal na en het eerlijke antwoord was dat
+                de basis er gewoon stond. Dat hebben we ook zo gezegd. Alleen zegt zo&rsquo;n score niet of
+                alles eruit is gehaald. Op de site zelf vonden we nog een paar
+                punten, zoals twee pagina&rsquo;s met een zichtbare FAQ maar
+                zonder het FAQ-schema waarmee AI die vragen en antwoorden ook
+                herkent. Daarna zijn we vooral buiten de site gaan kijken.
+                Want of AI je noemt hangt maar deels af van je eigen
+                pagina&rsquo;s; het kijkt net zo hard naar wat anderen over je
+                schrijven.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-lg font-bold text-navy">Resultaat</h3>
+              <p className="mt-2 text-text-light leading-relaxed">
+                We hebben de audit bij Klaas aan tafel besproken en de
+                belangrijkste punten diezelfde middag samen doorgevoerd. Geen
+                rapport voor in een la, maar een site die er direct beter voor
+                staat. En voor de wereld buiten zijn site ligt er een concreet
+                lijstje, van meer reviews verzamelen tot vaker opduiken in
+                artikelen op andere sites. Daar zit zijn volgende groei.
+              </p>
+            </div>
+          </div>
+
+          {/* Review */}
+          <ReviewQuote
+            paragraphs={[
+              "Via AI krijg ik steeds meer opdrachten. Maar hoe goed ben ik daar eigenlijk vindbaar? En kun je daar invloed op krijgen? Daar heeft Quinten mij bij geholpen.",
+              "Hij maakte een helder rapport over hoe ik er nu voorsta. Daarna zijn we er samen doorheen gegaan en hebben we de aanbevelingen meteen toegepast. Aan het einde van de sessie was er al echt iets veranderd.",
+              "Quinten legt rustig uit, denkt met je mee en weet waar hij het over heeft. Ik zou hem zo aanraden.",
+            ]}
+          >
+            <a
+              href="https://www.klaaskroezen.nl"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-navy hover:text-accent transition-colors"
+            >
+              Klaas Kroezen
+            </a>
+            , salestrainer en spreker &middot;{" "}
+            <a
+              href="https://www.google.com/maps?cid=7591528248257612358"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline hover:text-accent transition-colors"
+            >
+              review op ons Google Bedrijfsprofiel
+            </a>
+            , juli 2026
           </ReviewQuote>
         </div>
       </section>

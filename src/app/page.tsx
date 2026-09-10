@@ -423,16 +423,16 @@ function CasesPreview() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <CaseCard
-            name="Klaas Kroezen"
-            sector="Salestraining en keynotes"
-            result="Zijn site was al sterk gebouwd. De audit vond wat er nog ontbrak en de belangrijkste punten hebben we samen in &eacute;&eacute;n middag doorgevoerd. Zijn review: een 5,0 op Google."
-            href="/cases#klaas-kroezen"
-          />
-          <CaseCard
             name="Jochem Uytdehaage"
             sector="Spreker en trainer over vitaliteit"
             result="AI kende de schaatser, de spreker nog niet. Zijn site vertelt nu ook in de code wie hij is, welk boek hij schreef en waar hij over spreekt, door ons ingebouwd. Zijn review: een 5,0 op Google."
             href="/cases#jochem-uytdehaage"
+          />
+          <CaseCard
+            name="Klaas Kroezen"
+            sector="Salestraining en keynotes"
+            result="Zijn site was al sterk gebouwd. De audit vond wat er nog ontbrak en de belangrijkste punten hebben we samen in &eacute;&eacute;n middag doorgevoerd. Zijn review: een 5,0 op Google."
+            href="/cases#klaas-kroezen"
           />
           <CaseCard
             name="Ory aan Zee"
