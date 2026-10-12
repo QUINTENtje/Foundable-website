@@ -8,6 +8,7 @@ import waaromAiNietBegrijpt from "./waarom-ai-je-website-niet-begrijpt";
 import hubspotVerkeerAi from "./hubspot-verkeer-ai";
 import geoBureauKiezen from "./geo-bureau-kiezen";
 import watKostZichtbaarWorden from "./wat-kost-zichtbaar-worden-in-ai";
+import kentMaarNietAanraadt from "./waarom-ai-je-kent-maar-niet-aanraadt";
 
 export type { KennisArtikel, FaqItem } from "./types";
 
@@ -22,6 +23,7 @@ export const artikelen: KennisArtikel[] = [
   hubspotVerkeerAi,
   geoBureauKiezen,
   watKostZichtbaarWorden,
+  kentMaarNietAanraadt,
 ];
 
 export function getArtikel(slug: string): KennisArtikel | undefined {
