@@ -13,11 +13,12 @@ const keuzes = [
 ] as const;
 
 export default function StartForm({
-  initialKeuze = "De audit",
+  keuze,
+  onKeuzeChange,
 }: {
-  initialKeuze?: string;
+  keuze: string;
+  onKeuzeChange: (keuze: string) => void;
 }) {
-  const [keuze, setKeuze] = useState(initialKeuze);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [url, setUrl] = useState("");
@@ -96,7 +97,7 @@ export default function StartForm({
           id="keuze"
           required
           value={keuze}
-          onChange={(e) => setKeuze(e.target.value)}
+          onChange={(e) => onKeuzeChange(e.target.value)}
           className={inputClass}
         >
           {keuzes.map((k) => (
