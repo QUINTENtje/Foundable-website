@@ -229,7 +229,7 @@ export default function CasesPage() {
                 zit, welk boek hij schreef en waar hij over spreekt. Buiten
                 zijn site pakt hij zelf een kort lijstje op, van zijn
                 LinkedIn-kop tot de sprekersbureaus die naar hem kunnen
-                verwijzen. Eind oktober meten we opnieuw, met dezelfde vragen
+                verwijzen. Eind november meten we opnieuw, met dezelfde vragen
                 als bij de start.
               </p>
             </div>
@@ -291,8 +291,9 @@ export default function CasesPage() {
               <h3 className="text-lg font-bold text-navy">Aanpak</h3>
               <p className="mt-2 text-text-light leading-relaxed">
                 We liepen de site helemaal na en het eerlijke antwoord was dat
-                de basis er gewoon stond. Dat hebben we ook zo gezegd. Alleen zegt zo&rsquo;n score niet of
-                alles eruit is gehaald. Op de site zelf vonden we nog een paar
+                de basis er gewoon stond. Dat hebben we ook zo gezegd. Alleen
+                zegt dat nog niet of alles eruit is gehaald. Op de site zelf
+                vonden we nog een paar
                 punten, zoals twee pagina&rsquo;s met een zichtbare FAQ maar
                 zonder het FAQ-schema waarmee AI die vragen en antwoorden ook
                 herkent. Daarna zijn we vooral buiten de site gaan kijken.
@@ -460,8 +461,7 @@ export default function CasesPage() {
                 op de productpagina&rsquo;s in code die AI als vraag en
                 antwoord leest, de producten hebben een prijs in de codelaag
                 en er is een llms.txt die AI in &eacute;&eacute;n keer
-                vertelt wat er te vinden is. Bij de hermeting drie maanden
-                later was de score gestegen. De technische expertise is
+                vertelt wat er te vinden is. De technische expertise is
                 behouden en AI kan er nu bij.
               </p>
             </div>

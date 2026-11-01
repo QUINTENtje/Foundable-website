@@ -8,6 +8,7 @@ const artikel: KennisArtikel = {
     "JSON-LD is een klein blok code dat machines in één keer vertelt wie je bent, wat je doet en waar je zit. Bezoekers zien het niet, AI leest het wel.",
   categorie: "Techniek",
   gepubliceerd: "2026-07-07",
+  bijgewerkt: "2026-11-01",
   leestijdMin: 5,
   intro:
     "JSON-LD is een klein blok code in je website dat machines in één keer vertelt wie je bent, wat je doet, waar je zit en wat het kost. Bezoekers zien er niets van. Zoekmachines en AI-systemen lezen het wel. Zij hoeven daardoor niet te gokken wat voor bedrijf je bent.",
@@ -53,10 +54,9 @@ const artikel: KennisArtikel = {
         lezen.
       </P>
       <P>
-        Voor Google levert het bovendien rich results op: sterretjes,
-        FAQ-uitklappers en bedrijfsinformatie direct in de zoekresultaten.
-        Voor AI-systemen is het de kortste route naar een juist beeld van je
-        bedrijf.
+        Voor Google levert het bovendien rich results op: sterretjes en
+        bedrijfsinformatie direct in de zoekresultaten. Voor AI-systemen is
+        het de kortste route naar een juist beeld van je bedrijf.
       </P>
 
       <H2>Welke schema-types heb je nodig als dienstverlener?</H2>

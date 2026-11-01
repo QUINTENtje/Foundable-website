@@ -8,6 +8,7 @@ const artikel: KennisArtikel = {
     "GEO staat voor Generative Engine Optimization: je website zo inrichten dat AI-systemen zoals ChatGPT, Claude en Gemini je begrijpen en aanbevelen.",
   categorie: "Basis",
   gepubliceerd: "2026-07-07",
+  bijgewerkt: "2026-11-01",
   leestijdMin: 5,
   intro:
     "GEO staat voor Generative Engine Optimization: je website zo inrichten dat AI-systemen zoals ChatGPT, Perplexity, Claude en Google AI begrijpen wie je bent, wat je doet en voor wie. Het doel is niet hoger in de zoekresultaten komen. Het doel is genoemd worden in het antwoord dat een AI geeft.",
@@ -41,9 +42,9 @@ const artikel: KennisArtikel = {
       </P>
       <StatRij
         stats={[
-          { waarde: "+40%", label: "zichtbaarheid door bronnen te citeren" },
-          { waarde: "+37%", label: "door concrete cijfers toe te voegen" },
-          { waarde: "+30%", label: "door citaten van experts op te nemen" },
+          { waarde: "+41%", label: "zichtbaarheid door citaten toe te voegen" },
+          { waarde: "+31%", label: "door concrete cijfers toe te voegen" },
+          { waarde: "+27%", label: "door je bronnen te noemen" },
         ]}
       />
       <P>

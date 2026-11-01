@@ -136,7 +136,7 @@ function Deliverables() {
     {
       title: "FAQ voor op je site",
       description:
-        "Tien vragen die jouw klanten echt stellen, met de antwoorden erbij. De tekst is woordelijk gelijk aan het codeblok, dus wat je bezoeker leest is wat AI leest.",
+        "Twaalf vragen die jouw klanten echt stellen, met de antwoorden erbij. De tekst is woordelijk gelijk aan het codeblok, dus wat je bezoeker leest is wat AI leest.",
       icon: (
         <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
@@ -418,7 +418,7 @@ function CasesPreview() {
     <section className="py-20 sm:py-28 bg-bg">
       <Reveal className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl sm:text-4xl font-bold text-navy text-center mb-12">
-          Bedrijven die al gevonden worden
+          Bedrijven die AI nu begrijpt
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
