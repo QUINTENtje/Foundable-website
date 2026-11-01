@@ -156,7 +156,7 @@ function Deliverables() {
     {
       title: "Platformspecifieke implementatiegids",
       description:
-        "Alle aanbevelingen zijn stap voor stap uitgewerkt voor jouw platform. Of je nou WordPress, Shopify of iets anders gebruikt, het staat erin.",
+        "Alle aanbevelingen zijn stap voor stap uitgewerkt voor jouw platform. Of je nou WordPress, Shopify of iets anders gebruikt, het staat erin. Losse foutjes op je site, zoals knoppen die nergens heen gaan, krijg je er als tips bij.",
       icon: (
         <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15a2.25 2.25 0 0 1 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" />
@@ -274,7 +274,7 @@ function Pricing() {
       name: "De audit",
       tagline: "Het volledige pakket",
       price: "€999",
-      meta: ["Betaling: 50% bij start, 50% bij oplevering", "Doorlooptijd: 2 weken"],
+      meta: ["Betaling: 50% bij start, 50% bij oplevering", "Doorlooptijd: 2 weken na je akkoord op de vragen"],
       items: [
         "Begin hier: je acties op volgorde, de grootste winst bovenaan",
         "Nieuwe teksten voor je site die AI begrijpt",
@@ -470,7 +470,7 @@ const faqJsonLd = {
       name: "Hoe werkt de audit precies?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket: je acties op volgorde, herschreven teksten, een FAQ voor op je site, JSON-LD-code, een implementatiegids voor jouw platform en een analyse waar buiten je site de grootste winst te halen valt. Jij hoeft maar \u00e9\u00e9n vraag te beantwoorden. De rest doen wij.",
+        text: "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket: je acties op volgorde, herschreven teksten, een FAQ voor op je site, JSON-LD-code, een implementatiegids voor jouw platform en een analyse waar buiten je site de grootste winst te halen valt. Jij keurt de vragen en de nieuwe teksten goed. De rest doen wij.",
       },
     },
     {
@@ -494,7 +494,7 @@ const faqJsonLd = {
       name: "Wat moet ik zelf doen?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Weinig. Vooraf beantwoord je \u00e9\u00e9n vraag: welke klant of dienst wil je het meest aantrekken via AI? Daarna gaan wij aan het werk. Na levering is het plaatsen kopi\u00ebren en plakken met de gids erbij. De meeste punten zijn een paar minuten werk. En je websitebouwer kan het ook van je overnemen.",
+        text: "Weinig. Vooraf vertel je welke klant of dienst je het meest wilt aantrekken via AI en kijk je de vragen voor de meting na. Daarna gaan wij aan het werk. De nieuwe teksten krijg je eerst te zien. Na levering is het plaatsen kopi\u00ebren en plakken met de gids erbij. De meeste punten zijn een paar minuten werk. Je websitebouwer kan het ook van je overnemen.",
       },
     },
     {

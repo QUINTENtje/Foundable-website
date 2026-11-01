@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "Zo werkt het · Foundable",
     description:
       "Kies de meting of de audit, met inbouw of nazorg als je dat wilt. Vul een kort formulier in en je hoort binnen twee werkdagen persoonlijk van ons. In vijf stappen klaar.",
-    images: [{ url: "/logo.png" }],
+    images: [{ url: "/og.png", width: 1200, height: 630 }],
   },
 };
 
@@ -45,13 +45,13 @@ const howToSchema = {
       "@type": "HowToStep",
       position: 3,
       name: "Na je betaling gaan we aan de slag",
-      text: "Bij de audit betaal je de eerste helft (50%) en gaan wij aan het werk. De audit begint met een nulmeting: twintig vragen die jouw klanten aan AI zouden stellen, plus vijf over jou, zodat je straks precies ziet wat er verandert. Kies je de losse meting, dan betaal je die in één keer en gaan we meteen meten.",
+      text: "Bij de audit betaal je de eerste helft (50%) en gaan wij aan het werk. De audit begint met een nulmeting: twintig vragen die jouw klanten aan AI zouden stellen, plus vijf over jou, zodat je straks precies ziet wat er verandert. Kies je de losse meting, dan betaal je die in één keer. In allebei de gevallen krijg je de vragen eerst te zien en meten we zodra jij ze hebt goedgekeurd.",
     },
     {
       "@type": "HowToStep",
       position: 4,
       name: "Je ontvangt alles per mail",
-      text: "De meting ligt binnen een week als A4 in je mailbox. De audit binnen 2 weken, als volledig pakket: je acties op volgorde, nieuwe teksten voor je site die AI begrijpt, een FAQ voor op je site, JSON-LD-code, implementatiegids en een analyse waar buiten je site de grootste winst te halen valt. Alles staat klaar om te kopiëren en te plakken, de gids laat per punt zien waar het in jouw platform moet staan. Loop je bij het plaatsen ergens vast, dan help ik je er per mail doorheen tot alles staat. Koos je de audit met inbouw? Dan plaatsen wij alles zelf op je site, zodra jij de zichtbare teksten hebt goedgekeurd. De tweede helft betaal je bij oplevering.",
+      text: "Zodra je de vragen hebt goedgekeurd, ligt de meting binnen een week als A4 in je mailbox. De audit ligt er binnen 2 weken als volledig pakket: je acties op volgorde, nieuwe teksten voor je site die AI begrijpt, een FAQ voor op je site, JSON-LD-code, implementatiegids en een analyse waar buiten je site de grootste winst te halen valt. Alles staat klaar om te kopiëren en te plakken, de gids laat per punt zien waar het in jouw platform moet staan. Loop je bij het plaatsen ergens vast, dan help ik je er per mail doorheen tot alles staat. Koos je de audit met inbouw? Dan plaatsen wij alles zelf op je site, zodra jij de zichtbare teksten hebt goedgekeurd. De tweede helft betaal je bij oplevering.",
     },
     {
       "@type": "HowToStep",
@@ -100,7 +100,8 @@ const steps = [
         werk. De audit begint met een nulmeting: twintig vragen die jouw
         klanten aan AI zouden stellen, plus vijf over jou, zodat je straks
         precies ziet wat er verandert. Kies je de losse meting, dan betaal
-        je die in &eacute;&eacute;n keer en gaan we meteen meten.
+        je die in &eacute;&eacute;n keer. In allebei de gevallen krijg je de
+        vragen eerst te zien en meten we zodra jij ze hebt goedgekeurd.
       </>
     ),
   },
@@ -108,8 +109,9 @@ const steps = [
     title: "Je ontvangt alles per mail",
     text: (
       <>
-        De meting ligt binnen een week als A4 in je mailbox. De audit binnen
-        2 weken, als volledig pakket: je acties op volgorde, nieuwe teksten
+        Zodra je de vragen hebt goedgekeurd, ligt de meting binnen een week
+        als A4 in je mailbox. De audit ligt er binnen 2 weken als volledig
+        pakket: je acties op volgorde, nieuwe teksten
         voor je site die AI begrijpt, een FAQ voor op je site, JSON-LD-code,
         implementatiegids en een analyse waar buiten je site de grootste
         winst te halen valt. Alles staat

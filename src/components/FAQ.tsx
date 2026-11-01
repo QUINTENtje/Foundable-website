@@ -12,7 +12,7 @@ const faqs: FAQItem[] = [
   {
     question: "Hoe werkt de audit precies?",
     answer:
-      "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket: je acties op volgorde, herschreven teksten, een FAQ voor op je site, JSON-LD-code, een implementatiegids voor jouw platform en een analyse waar buiten je site de grootste winst te halen valt. Jij hoeft maar \u00e9\u00e9n vraag te beantwoorden. De rest doen wij.",
+      "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket: je acties op volgorde, herschreven teksten, een FAQ voor op je site, JSON-LD-code, een implementatiegids voor jouw platform en een analyse waar buiten je site de grootste winst te halen valt. Jij keurt de vragen en de nieuwe teksten goed. De rest doen wij.",
   },
   {
     question: "Krijg ik alleen advies of doen jullie het ook?",
@@ -27,7 +27,7 @@ const faqs: FAQItem[] = [
   {
     question: "Wat moet ik zelf doen?",
     answer:
-      "Weinig. Vooraf beantwoord je \u00e9\u00e9n vraag: welke klant of dienst wil je het meest aantrekken via AI? Daarna gaan wij aan het werk. Na levering is het plaatsen kopi\u00ebren en plakken met de gids erbij. De meeste punten zijn een paar minuten werk. En je websitebouwer kan het ook van je overnemen.",
+      "Weinig. Vooraf vertel je welke klant of dienst je het meest wilt aantrekken via AI en kijk je de vragen voor de meting na. Daarna gaan wij aan het werk. De nieuwe teksten krijg je eerst te zien. Na levering is het plaatsen kopi\u00ebren en plakken met de gids erbij. De meeste punten zijn een paar minuten werk. Je websitebouwer kan het ook van je overnemen.",
   },
   {
     question: "Hoe meten jullie of het werkt?",
