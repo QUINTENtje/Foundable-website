@@ -126,7 +126,8 @@ const artikel: KennisArtikel = {
         </A>{" "}
         Wil je weten hoe het voor al jouw vragen uitpakt, bij alle drie de
         modellen? Dat laat <A href="/start?keuze=meting">de meting</A> zien: 225
-        antwoorden, met per model het cijfer erbij.
+        antwoorden, met per model het cijfer erbij. Hoe dat in zijn werk gaat,
+        staat in de <A href="/werkwijze">werkwijze</A>.
       </P>
 
       <H2>Zo heb ik gemeten</H2>

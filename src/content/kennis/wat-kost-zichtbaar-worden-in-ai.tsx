@@ -83,7 +83,9 @@ const artikel: KennisArtikel = {
         Alle bedragen zijn excl. BTW en eenmalig. Betaling gaat in twee
         helften: 50% bij de start en 50% bij de oplevering. Doe je binnen drie
         maanden na de meting een audit, dan telt de meting volledig als
-        aanbetaling.
+        aanbetaling. Hoe dat in vijf stappen gaat, lees je in de{" "}
+        <A href="/werkwijze">werkwijze</A>. Wat we bij klanten deden, staat bij
+        de <A href="/cases">cases</A>.
       </P>
 
       <H2>Waar de prijs van afhangt</H2>

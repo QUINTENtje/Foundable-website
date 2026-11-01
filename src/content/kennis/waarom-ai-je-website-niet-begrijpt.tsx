@@ -95,7 +95,8 @@ const artikel: KennisArtikel = {
         <A href="/kennis/wat-is-json-ld">JSON-LD</A>. Wil je een gemeten
         beeld in plaats van een gevoel, dan telt{" "}
         <A href="/start?keuze=meting">de meting</A> hoe vaak AI je nu
-        werkelijk noemt.
+        werkelijk noemt. Hoe dat er bij anderen uitzag, zie je bij de{" "}
+        <A href="/cases">cases</A>.
       </P>
     </>
   ),

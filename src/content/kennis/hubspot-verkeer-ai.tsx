@@ -101,8 +101,10 @@ const artikel: KennisArtikel = {
       </P>
       <P>
         HubSpot moest snoeien. Jouw werk is duidelijk maken wie je bent. Dat is
-        een makkelijkere opgave en het is waar een GEO-audit over gaat. Hoe AI
-        die keuze maakt, lees je in{" "}
+        een makkelijkere opgave en het is waar een{" "}
+        <A href="/werkwijze">GEO-audit</A> over gaat. Hoe dat er bij anderen
+        uitzag, zie je bij de <A href="/cases">cases</A>. Hoe AI die keuze
+        maakt, lees je in{" "}
         <A href="/kennis/hoe-kiest-chatgpt-bedrijven">
           Hoe kiest ChatGPT welke bedrijven het aanbeveelt?
         </A>
