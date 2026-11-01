@@ -1,7 +1,3 @@
-"use client";
-
-import { useState } from "react";
-
 interface FAQItem {
   question: string;
   answer: string;
@@ -80,9 +76,10 @@ const faqs: FAQItem[] = [
   },
 ];
 
+/* Met <details> staan de antwoorden altijd in de HTML, ook als ze dicht zijn.
+   Zo lezen modellen en zoekmachines de vraag en het antwoord samen, zonder
+   klik. Dezelfde name zorgt dat er één tegelijk open staat. */
 export default function FAQ() {
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
-
   return (
     <section className="py-20 sm:py-28 bg-bg-alt">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
@@ -91,22 +88,18 @@ export default function FAQ() {
         </h2>
 
         <div className="space-y-3">
-          {faqs.map((faq, i) => (
-            <div
-              key={i}
-              className="rounded-xl border border-border bg-white overflow-hidden"
+          {faqs.map((faq) => (
+            <details
+              key={faq.question}
+              name="faq"
+              className="group rounded-xl border border-border bg-white overflow-hidden"
             >
-              <button
-                onClick={() => setOpenIndex(openIndex === i ? null : i)}
-                className="w-full flex items-center justify-between px-6 py-4 text-left"
-              >
+              <summary className="w-full flex items-center justify-between px-6 py-4 text-left cursor-pointer list-none [&::-webkit-details-marker]:hidden">
                 <span className="font-semibold text-navy pr-4">
                   {faq.question}
                 </span>
                 <svg
-                  className={`h-5 w-5 flex-shrink-0 text-text-light transition-transform ${
-                    openIndex === i ? "rotate-180" : ""
-                  }`}
+                  className="h-5 w-5 flex-shrink-0 text-text-light transition-transform group-open:rotate-180"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={2}
@@ -118,13 +111,11 @@ export default function FAQ() {
                     d="M19.5 8.25l-7.5 7.5-7.5-7.5"
                   />
                 </svg>
-              </button>
-              {openIndex === i && (
-                <div className="px-6 pb-4 text-text-light leading-relaxed">
-                  {faq.answer}
-                </div>
-              )}
-            </div>
+              </summary>
+              <div className="px-6 pb-4 text-text-light leading-relaxed">
+                {faq.answer}
+              </div>
+            </details>
           ))}
         </div>
       </div>
