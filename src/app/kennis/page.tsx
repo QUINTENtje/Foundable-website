@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "Kennis over GEO en AI-zichtbaarheid · Foundable",
     description:
       "Hoe AI-systemen websites lezen en bedrijven kiezen, in gewone taal uitgelegd.",
-    images: [{ url: "/logo.png" }],
+    images: [{ url: "/og.png", width: 1200, height: 630 }],
   },
 };
 

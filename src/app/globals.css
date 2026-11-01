@@ -217,3 +217,11 @@ html {
     scroll-behavior: auto;
   }
 }
+
+/* Zonder JavaScript komt Reveal niet in actie, dan staat alles gewoon in beeld. */
+@media (scripting: none) {
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
+}

@@ -30,14 +30,14 @@ export const metadata: Metadata = {
     description:
       "Foundable zorgt dat ChatGPT, Claude en Gemini je bedrijf vinden en begrijpen. Eerst meten wat AI over je kan lezen, dan alles klaar om te plaatsen.",
     url: "https://www.foundable.nl",
-    images: [{ url: "/logo.png" }],
+    images: [{ url: "/og.png", width: 1200, height: 630 }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Foundable · GEO-audit: word gevonden in het AI-tijdperk",
     description:
       "Foundable zorgt dat ChatGPT, Claude en Gemini je bedrijf vinden en begrijpen. Eerst meten wat AI over je kan lezen, dan alles klaar om te plaatsen.",
-    images: ["/logo.png"],
+    images: ["/og.png"],
   },
 };
 

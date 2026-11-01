@@ -29,6 +29,7 @@ export default function Footer() {
                 { label: "Werkwijze", href: "/werkwijze" },
                 { label: "Cases", href: "/cases" },
                 { label: "Kennis", href: "/kennis" },
+                { label: "Over", href: "/over" },
                 { label: "Start je audit", href: "/start" },
                 { label: "Contact", href: "/contact" },
                 { label: "Privacy", href: "/privacy" },

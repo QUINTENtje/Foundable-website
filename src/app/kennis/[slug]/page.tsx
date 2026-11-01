@@ -39,7 +39,7 @@ export async function generateMetadata({
       description: artikel.description,
       publishedTime: artikel.gepubliceerd,
       authors: ["Quinten Orij"],
-      images: [{ url: "/logo.png" }],
+      images: [{ url: "/og.png", width: 1200, height: 630 }],
     },
   };
 }

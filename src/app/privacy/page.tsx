@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: "Privacyverklaring · Foundable",
     description:
       "Welke gegevens Foundable gebruikt, waarom dat gebeurt en welke rechten je hebt.",
-    images: [{ url: "/logo.png" }],
+    images: [{ url: "/og.png", width: 1200, height: 630 }],
   },
 };
 

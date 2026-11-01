@@ -46,7 +46,7 @@ export default function StartContent({
       </section>
 
       {/* Zo werkt het */}
-      <section className="pb-12 sm:pb-16 bg-bg">
+      <section className="pt-8 sm:pt-12 pb-12 sm:pb-16 bg-bg">
         <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:px-8 space-y-8">
           {product.steps.map((step, i) => (
             <div key={step.title} className="relative pl-16">

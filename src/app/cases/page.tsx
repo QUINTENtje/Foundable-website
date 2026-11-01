@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: "Cases · Foundable",
     description:
       "Vier cases, vier niches, plus drie reviews van klanten: zo maakt Foundable websites begrijpelijk voor ChatGPT, Claude en Gemini.",
-    images: [{ url: "/logo.png" }],
+    images: [{ url: "/og.png", width: 1200, height: 630 }],
   },
 };
 

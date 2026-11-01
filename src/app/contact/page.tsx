@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     title: "Contact · Foundable",
     description:
       "Neem contact op met Foundable. We reageren binnen twee werkdagen.",
-    images: [{ url: "/logo.png" }],
+    images: [{ url: "/og.png", width: 1200, height: 630 }],
   },
 };
 

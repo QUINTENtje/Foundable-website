@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "Over Foundable · GEO-specialist in Amsterdam",
     description:
       "Foundable helpt gevestigde experts en gespecialiseerde dienstverleners vindbaar worden voor AI. Opgericht door Quinten Orij vanuit Amsterdam.",
-    images: [{ url: "/logo.png" }],
+    images: [{ url: "/og.png", width: 1200, height: 630 }],
   },
 };
 
@@ -43,7 +43,7 @@ export default function OverPage() {
         </div>
         <div className="relative mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-navy leading-tight">
-            Wij geven AI alles wat het nodig heeft om jou te begrijpen.
+            Wie er achter Foundable zit
           </h1>
         </div>
       </section>
