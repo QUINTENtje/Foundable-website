@@ -31,6 +31,7 @@ export default function Footer() {
                 { label: "Kennis", href: "/kennis" },
                 { label: "Start je audit", href: "/start" },
                 { label: "Contact", href: "/contact" },
+                { label: "Privacy", href: "/privacy" },
               ].map((item) => (
                 <li key={item.href}>
                   <Link
@@ -64,7 +65,7 @@ export default function Footer() {
                   +31 6 38389591
                 </a>
               </li>
-              <li>Amsterdam, Nederland</li>
+              <li>Andreasplein 84, 1058 GD Amsterdam</li>
               <li>
                 <a
                   href="https://www.linkedin.com/company/foundable-nl"

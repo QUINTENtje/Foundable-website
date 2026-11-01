@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 
 const inputClass =
@@ -190,6 +191,14 @@ export default function StartForm({
       >
         {loading ? "Versturen..." : `Vraag ${keuze.toLowerCase()} aan`}
       </button>
+
+      <p className="text-sm text-text-light">
+        Hoe ik met je gegevens omga, lees je in de{" "}
+        <Link href="/privacy" className="underline hover:text-navy">
+          privacyverklaring
+        </Link>
+        .
+      </p>
     </form>
   );
 }

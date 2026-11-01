@@ -69,10 +69,10 @@ export default function ContactPage() {
                   </dd>
                 </div>
                 <div>
-                  <dt className="text-sm font-semibold text-navy">
-                    Vestigingsplaats
-                  </dt>
-                  <dd className="text-text-light">Amsterdam, Nederland</dd>
+                  <dt className="text-sm font-semibold text-navy">Adres</dt>
+                  <dd className="text-text-light">
+                    Andreasplein 84, 1058 GD Amsterdam
+                  </dd>
                 </div>
                 <div>
                   <dt className="text-sm font-semibold text-navy">KvK</dt>
