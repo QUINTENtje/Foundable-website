@@ -87,8 +87,7 @@ const artikel: KennisArtikel = {
       <P>
         Een goed antwoord noemt echte AI-antwoorden: dezelfde vragen aan
         meerdere modellen gesteld, voor en na het werk, met aantallen erbij.
-        Wij meten bijvoorbeeld over 225 antwoorden per ronde. Zo zie je zwart
-        op wit of je vaker genoemd wordt.
+        Wij meten bijvoorbeeld over 225 antwoorden per ronde.
       </P>
 
       <H2>Waar Foundable staat</H2>
