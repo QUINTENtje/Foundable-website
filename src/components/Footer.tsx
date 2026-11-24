@@ -1,11 +1,12 @@
 import Link from "next/link";
 import Logo from "@/components/Logo";
+import { dienstPaginas } from "@/content/diensten";
 
 export default function Footer() {
   return (
     <footer className="bg-navy text-white/70">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div>
             <div className="mb-3">
@@ -40,6 +41,23 @@ export default function Footer() {
                     className="text-sm hover:text-white transition-colors"
                   >
                     {item.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Diensten */}
+          <div>
+            <h3 className="text-sm font-semibold text-white mb-4">Diensten</h3>
+            <ul className="space-y-2">
+              {dienstPaginas.map((d) => (
+                <li key={d.slug}>
+                  <Link
+                    href={`/${d.slug}`}
+                    className="text-sm hover:text-white transition-colors"
+                  >
+                    {d.naam}
                   </Link>
                 </li>
               ))}

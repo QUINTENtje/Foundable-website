@@ -186,6 +186,13 @@ export default async function KennisArtikelPage({ params }: PageProps) {
           >
             Start je GEO-audit
           </Link>
+          <p className="mt-4 text-sm text-white/70">
+            Of lees eerst{" "}
+            <Link href="/geo-bureau" className="font-medium text-white underline underline-offset-4 hover:text-white/90">
+              wat Foundable als GEO-bureau doet
+            </Link>
+            .
+          </p>
         </div>
       </section>
 

@@ -98,6 +98,10 @@ const artikel: KennisArtikel = {
         loslaten: vraag ChatGPT naar Foundable, tik foundable.nl/llms.txt in
         en bekijk onze broncode. Zo hoort het bij iedereen die je overweegt.
       </P>
+      <P>
+        Hoe we werken en wat het kost, lees je op onze pagina{" "}
+        <A href="/geo-bureau">GEO-bureau</A>.
+      </P>
     </>
   ),
   faq: [

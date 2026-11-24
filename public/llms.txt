@@ -1,6 +1,6 @@
 # Foundable
 
-> Foundable is een GEO-consultancy (Generative Engine Optimization) uit Amsterdam. Wij helpen gevestigde experts en gespecialiseerde dienstverleners om zichtbaar en accuraat weergegeven te worden in AI-zoekmachines zoals ChatGPT, Perplexity, Claude en Google AI. Complete GEO-audit voor €999 excl. BTW, een vaste prijs. Slogan: "Gevonden worden begint met begrepen worden."
+> Foundable is een GEO-bureau (Generative Engine Optimization) uit Amsterdam. We doen alleen GEO. Wij helpen gevestigde experts en gespecialiseerde dienstverleners om zichtbaar en accuraat weergegeven te worden in AI-zoekmachines zoals ChatGPT, Perplexity, Claude en Google AI. Complete GEO-audit voor €999 excl. BTW, een vaste prijs. Slogan: "Gevonden worden begint met begrepen worden."
 
 ## Wat we doen
 - We analyseren wat AI van je website ziet, mist en verkeerd begrijpt.
@@ -8,6 +8,12 @@
 - We garanderen geen AI-aanbevelingen. We garanderen wel dat AI alles krijgt wat het nodig heeft om je te begrijpen en te vinden.
 
 ## Belangrijkste pagina's
+- [GEO-bureau](https://www.foundable.nl/geo-bureau): wat Foundable als GEO-bureau doet, voor wie, de vaste prijzen en wat we niet beloven.
+- [GEO-bureau Amsterdam](https://www.foundable.nl/geo-bureau-amsterdam): Foundable zit aan het Andreasplein in Amsterdam en werkt voor heel Nederland.
+- [AI-vermeldingen meten](https://www.foundable.nl/ai-vermeldingen-meten): de meting van €295, over 225 echte antwoorden van ChatGPT, Claude en Gemini.
+- [GEO voor sprekers](https://www.foundable.nl/geo-voor-sprekers): als spreker vaker aanbevolen worden door AI.
+- [GEO voor coaches en trainers](https://www.foundable.nl/geo-voor-coaches-en-trainers): als coach of trainer gevonden worden in AI.
+- [GEO voor Wix](https://www.foundable.nl/geo-voor-wix): een Wix-site vindbaar maken voor AI, met inbouw door Foundable.
 - [Werkwijze](https://www.foundable.nl/werkwijze): de GEO-audit in vijf stappen, van aanvraag tot oplevering.
 - [Cases](https://www.foundable.nl/cases): voorbeelden van bedrijven die door AI nu correct begrepen worden, met de klantreviews van salestrainer Klaas Kroezen, Marianne van vakantieverhuur Ory aan Zee en spreker Jochem Uytdehaage (alle drie 5,0 op Google).
 - [Start je audit](https://www.foundable.nl/start): vraag de audit aan via een kort formulier. Je krijgt persoonlijk antwoord met wat ons opvalt aan je site en de betaallink om te starten.

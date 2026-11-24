@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { artikelen } from "@/content/kennis";
+import { dienstPaginas, dienstPaginasBijgewerkt } from "@/content/diensten";
 
 const base = "https://www.foundable.nl";
 
@@ -33,5 +34,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...paginas, ...kennisArtikelen];
+  /* Dienstpagina's: elk beantwoordt een koopvraag, zoals "GEO-bureau" of
+     "GEO-bureau Amsterdam". Even zwaar als de vaste pagina's. */
+  const diensten: MetadataRoute.Sitemap = dienstPaginas.map((d) => ({
+    url: `${base}/${d.slug}`,
+    lastModified: dienstPaginasBijgewerkt,
+    changeFrequency: "monthly",
+    priority: d.slug === "geo-bureau" ? 0.9 : 0.7,
+  }));
+
+  return [...paginas, ...diensten, ...kennisArtikelen];
 }

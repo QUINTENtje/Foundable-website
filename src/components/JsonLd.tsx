@@ -59,7 +59,7 @@ export const siteGraph = {
         addressCountry: "NL",
       },
       description:
-        "Foundable is een GEO-consultancy (Generative Engine Optimization) in Amsterdam. Foundable helpt gevestigde experts en gespecialiseerde dienstverleners om zichtbaar en accuraat weergegeven te worden in AI-zoekmachines zoals ChatGPT, Perplexity, Claude en Google AI, via een complete GEO-audit.",
+        "Foundable is een GEO-bureau (Generative Engine Optimization) in Amsterdam. Foundable helpt gevestigde experts en gespecialiseerde dienstverleners om zichtbaar en accuraat weergegeven te worden in AI-zoekmachines zoals ChatGPT, Perplexity, Claude en Google AI, via een complete GEO-audit.",
       knowsAbout: [
         "GEO",
         "Generative Engine Optimization",
