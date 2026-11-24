@@ -38,6 +38,7 @@ export const siteGraph = {
         "https://www.sortlist.nl/agency/foundable",
         "https://clutch.co/profile/foundable",
         "https://www.designrush.com/agency/profile/foundable",
+        "https://feedbax.ai/profile/foundable",
       ],
       identifier: {
         "@type": "PropertyValue",
