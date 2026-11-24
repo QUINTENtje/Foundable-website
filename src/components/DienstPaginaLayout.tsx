@@ -5,14 +5,14 @@ import type { DienstPagina } from "@/content/diensten/types";
 const base = "https://www.foundable.nl";
 
 const prijzen = [
-  { naam: "De meting", prijs: "€295", wat: "Hoe vaak AI je noemt, over 225 echte antwoorden", href: "/start?keuze=meting" },
-  { naam: "De audit", prijs: "€999", wat: "Alles klaar om te plaatsen, met nameting na 90 dagen", href: "/start" },
-  { naam: "De audit met inbouw", prijs: "€1.495", wat: "Wij zetten alles zelf op je site", href: "/start?keuze=inbouw" },
-  { naam: "De audit met nazorg", prijs: "€1.750", wat: "Plus opnieuw meten en bijsturen na 3 en 6 maanden", href: "/start?keuze=nazorg" },
+  { naam: "De meting", prijs: "€295", wat: "Hoe vaak AI je noemt: 25 vragen, elk drie keer aan ChatGPT, Claude en Gemini", href: "/start?keuze=meting" },
+  { naam: "De audit", prijs: "€999", wat: "Alles klaar om te plaatsen, met een meting vooraf en een nameting na 90 dagen", href: "/start" },
+  { naam: "De audit met inbouw", prijs: "€1.495", wat: "De audit, waarbij wij alles zelf op je site zetten", href: "/start?keuze=inbouw" },
+  { naam: "De audit met nazorg", prijs: "€1.750", wat: "De audit, plus opnieuw meten en bijsturen na 3 en 6 maanden", href: "/start?keuze=nazorg" },
 ];
 
-/* Vaste prijzen op elke dienstpagina: een prijs is precies het soort feit
-   dat AI overneemt, en bijna geen bureau noemt hem. */
+/* Vaste prijzen op elke dienstpagina. Een prijs is het soort feit dat AI
+   overneemt. Bijna geen bureau noemt hem. */
 function Prijzen() {
   return (
     <section className="py-16 sm:py-20 bg-bg-alt">
@@ -21,7 +21,7 @@ function Prijzen() {
           Vaste prijzen
         </h2>
         <p className="mt-3 text-center text-text-light">
-          Alle prijzen excl. btw en eenmalig. Geen abonnement.
+          Alle prijzen zijn excl. btw en eenmalig, zonder abonnement.
         </p>
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-4">
           {prijzen.map((p) => (
@@ -37,8 +37,8 @@ function Prijzen() {
           ))}
         </div>
         <p className="mt-6 text-center text-sm text-text-light">
-          Doe je binnen 3 maanden na de meting een audit, dan telt de meting
-          volledig als aanbetaling.
+          Twijfel je? Begin met de meting. Kies je binnen 3 maanden alsnog de
+          audit, dan gaat de €295 van de prijs af.
         </p>
       </div>
     </section>

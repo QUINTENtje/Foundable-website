@@ -9,14 +9,14 @@ const aiVermeldingenMeten: DienstPagina = {
   naam: "AI-vermeldingen meten",
   h1: "Laat meten hoe vaak AI je bedrijf noemt",
   intro:
-    "Wil je weten of ChatGPT je bedrijf noemt? Met de meting stellen we ChatGPT, Claude en Gemini de vragen die jouw klanten stellen, elke vraag drie keer. Dat zijn 225 echte antwoorden. Je krijgt één A4 met hoe vaak AI je noemt, wat het over je vertelt en welke namen het in jouw vak noemt. De meting kost €295.",
+    "Wil je weten of ChatGPT je bedrijf noemt? We stellen ChatGPT, Claude en Gemini 25 vragen die je klanten zouden kunnen stellen, elke vraag drie keer per AI. Zo krijg je 225 antwoorden. De uitslag krijg je op één A4: hoe vaak AI je noemt, wat het over je vertelt en welke namen het in jouw vak noemt. De meting kost €295.",
   cta: { label: "Vraag de meting aan", href: "/start?keuze=meting" },
   content: (
     <>
       <H2>Wat we meten</H2>
       <UL>
         <LI>
-          Twintig vragen die je klanten stellen, zonder je naam erin. Zo zie je
+          Twintig vragen die je klanten zouden kunnen stellen, zonder je naam erin. Zo zie je
           of AI je uit zichzelf noemt.
         </LI>
         <LI>
@@ -24,10 +24,10 @@ const aiVermeldingenMeten: DienstPagina = {
           klopt.
         </LI>
         <LI>
-          Elke vraag drie keer, aan ChatGPT, Claude en Gemini. Dat zijn de drie
-          die jouw klanten het meest gebruiken.
+          Elke vraag stellen we drie keer aan ChatGPT, drie keer aan Claude en
+          drie keer aan Gemini.
         </LI>
-        <LI>De top 10 namen die AI in jouw vak noemt.</LI>
+        <LI>De top 10 namen die AI in jouw vak noemt. Dan zie je wie AI wel aanraadt.</LI>
       </UL>
 
       <H2>Waarom drie keer per vraag</H2>
@@ -44,40 +44,41 @@ const aiVermeldingenMeten: DienstPagina = {
         <LI>Wij maken de vragen voor jouw vak. Jij kijkt ze na.</LI>
         <LI>
           Binnen een week nadat je de vragen hebt goedgekeurd, heb je de
-          uitslag als A4 in je mailbox.
+          uitslag in je mailbox.
         </LI>
         <LI>
-          Doe je binnen 3 maanden een audit, dan telt de €295 volledig als
-          aanbetaling.
+          Kies je binnen 3 maanden alsnog de audit? Dan gaat de €295 van de
+          prijs af.
         </LI>
       </UL>
 
-      <H2>Eenmalig, geen abonnement</H2>
+      <H2>Eenmalig</H2>
       <P>
-        De meting is eenmalig. Elke maand laten meten bieden we niet aan. Wil
-        je later zien wat er veranderd is? Bij de audit meten we op dag 90
-        opnieuw. Bij de audit met nazorg ook na 3 en 6 maanden.
+        De meting is eenmalig, zonder abonnement. Een maandelijkse meting
+        bieden we niet aan. In de audit zit een meting vooraf en een nameting
+        op dag 90. Bij de audit met nazorg meten we ook na 3 en 6 maanden.
       </P>
     </>
   ),
   faq: [
     {
       vraag: "Wat kost een meting van je AI-zichtbaarheid?",
-      antwoord: "€295 excl. btw, eenmalig. Doe je binnen 3 maanden een audit, dan telt dat bedrag volledig als aanbetaling.",
+      antwoord:
+        "€295 excl. btw, eenmalig. Kies je binnen 3 maanden alsnog de audit, dan gaat dat bedrag van de prijs af.",
     },
     {
-      vraag: "Welke AI-systemen meten jullie?",
+      vraag: "Welke AI-modellen meten jullie?",
       antwoord:
-        "ChatGPT, Claude en Gemini. Perplexity en Copilot meten we niet. Het werk uit een audit helpt ook in systemen die we niet meten.",
+        "ChatGPT, Claude en Gemini. Perplexity en Copilot meten we niet. Wat je na een audit aanpast, helpt ook bij modellen die we niet meten, zoals Perplexity.",
     },
     {
       vraag: "Kan ik mijn eigen vragen aanleveren?",
       antwoord: "Ja, op aanvraag. Standaard maken wij de vragen voor jouw vak en kijk jij ze na.",
     },
     {
-      vraag: "Meten jullie ook elke maand?",
+      vraag: "Wat doe ik als AI me niet noemt?",
       antwoord:
-        "Nee. De meting is eenmalig. Bij de audit meten we op dag 90 opnieuw. Bij de audit met nazorg meten we ook na 3 en 6 maanden.",
+        "Dan zie je in de uitslag wie AI wel noemt. In de audit zoeken we uit waarom dat zo is en wat je eraan kunt doen, op je site en daarbuiten.",
     },
   ],
 };

@@ -37,6 +37,7 @@ export const siteGraph = {
         "https://www.google.com/maps?cid=7591528248257612358",
         "https://www.sortlist.nl/agency/foundable",
         "https://clutch.co/profile/foundable",
+        "https://www.designrush.com/agency/profile/foundable",
       ],
       identifier: {
         "@type": "PropertyValue",

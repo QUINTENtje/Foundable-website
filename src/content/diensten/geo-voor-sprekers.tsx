@@ -9,47 +9,51 @@ const geoVoorSprekers: DienstPagina = {
   naam: "GEO voor sprekers",
   h1: "Als spreker vaker aanbevolen worden door AI",
   intro:
-    "Een organisator die een spreker zoekt, vraagt het steeds vaker eerst aan ChatGPT. AI noemt dan de sprekers die het bij dat onderwerp het duidelijkst tegenkomt. Foundable zorgt dat jij daartussen staat, met je onderwerpen, je publiek en je ervaring helder voor AI.",
+    "Een organisator die een spreker zoekt, vraagt het steeds vaker eerst aan ChatGPT. ChatGPT noemt dan de sprekers die online het duidelijkst bij dat onderwerp horen. Foundable helpt je daartussen te komen. We maken je onderwerpen, je publiek en je ervaring duidelijk voor AI. Een meting kost €295 en de audit €999.",
   content: (
     <>
-      <H2>AI kent je vaak wel</H2>
+      <H2>AI kent je vaak wel, maar noemt je niet</H2>
       <P>
-        In ons onderzoek naar 81 Nederlandse experts wist AI in ruim 9 van de
-        10 antwoorden wie we bedoelden als we iemand omschreven. Vroegen we wie
-        we moesten inhuren, dan stond diezelfde expert in ongeveer een kwart
-        van de antwoorden. Bekend zijn is dus iets anders dan aanbevolen
-        worden. Meer daarover in{" "}
-        <A href="/kennis/waarom-ai-je-kent-maar-niet-aanraadt">Waarom AI je wel kent maar niet aanraadt</A>.
+        We vroegen ChatGPT, Claude en Gemini naar Nederlandse experts:
+        trainers, sprekers, auteurs, coaches en adviseurs. Omschreven we
+        iemand, dan wist AI in ruim 9 van de 10 antwoorden wie we bedoelden.
+        Vroegen we wie we moesten inhuren, dan noemde AI diezelfde expert in
+        ongeveer een kwart van de antwoorden. Bekend zijn is dus iets anders
+        dan aanbevolen worden.
       </P>
 
-      <H2>Waar AI kijkt bij een sprekersvraag</H2>
+      <H2>Sprekersbureaus tellen mee</H2>
       <P>
-        Bij een vraag naar een spreker zoekt AI op het onderwerp, zoals
-        duurzaamheid of leiderschap. Het leest dan je eigen site, maar ook de
-        overzichten van anderen, zoals sprekersbureaus. Staat jouw onderwerp
-        nergens helder, dan noemt AI iemand anders.
+        In datzelfde onderzoek noemde AI ook experts zonder dat hun eigen site
+        voorbijkwam. Dan stond er vaak een sprekersbureau of boekingssite
+        tussen de bronnen. AI neemt namen dus
+        ook over van de plekken waar organisatoren al zoeken. Een goed profiel
+        bij een bureau telt mee, op het juiste onderwerp. Het hele onderzoek
+        lees je in{" "}
+        <A href="/kennis/waarom-ai-je-kent-maar-niet-aanraadt">Waarom AI je wel kent maar niet aanraadt</A>.
       </P>
 
       <H2>Wat we voor sprekers doen</H2>
       <UL>
         <LI>
           Je site zo schrijven dat AI per onderwerp ziet waar je over spreekt,
-          voor wie en in welke vorm: keynote, workshop of dagvoorzitter.
+          voor wie en in welke vorm: keynote, workshop of dagvoorzitter. De
+          teksten schrijven we in jouw toon. Jij keurt ze eerst goed.
         </LI>
         <LI>
-          JSON-LD-code die AI vertelt wie je bent, waar je over spreekt en welk
-          boek je schreef, als je dat hebt.
+          Code die AI vertelt wie je bent, waar je over spreekt en welk boek je
+          schreef, als je dat hebt (JSON-LD).
         </LI>
         <LI>Een FAQ met de vragen die organisatoren stellen.</LI>
         <LI>
-          Een analyse van je profielen buiten je site, zoals bij
-          sprekersbureaus: wat er staat, wat er mist en wat er beter kan.
+          Een analyse van je profielen bij sprekersbureaus: wat er staat, wat er
+          mist en wat je het bureau kunt vragen aan te passen.
         </LI>
         <LI>Een meting vooraf en een nameting na 90 dagen.</LI>
       </UL>
       <P>
-        Op onze <A href="/cases">casepagina</A> lees je hoe dat ging bij een
-        salestrainer en bij een spreker.
+        Het werk doet Quinten Orij zelf. Op de <A href="/cases">casepagina</A>{" "}
+        lees je hoe het ging bij een spreker en bij een salestrainer.
       </P>
     </>
   ),
@@ -60,14 +64,14 @@ const geoVoorSprekers: DienstPagina = {
         "Zorg dat AI bij jouw onderwerp jouw naam tegenkomt. Dat begint met een duidelijke pagina per onderwerp op je eigen site. Ook je profielen bij sprekersbureaus tellen mee. Een garantie bestaat niet, want AI stelt elk antwoord opnieuw samen.",
     },
     {
-      vraag: "Helpt een profiel bij een sprekersbureau?",
+      vraag: "Passen jullie mijn profielen bij sprekersbureaus aan?",
       antwoord:
-        "Ja, als het klopt en je onderwerpen erop staan. AI leest ook de overzichten van sprekersbureaus. In de audit kijken we welke profielen er zijn en wat erop beter kan.",
+        "Die profielen beheert het bureau. Je krijgt van ons per profiel wat er beter kan, zodat je het bureau gericht kunt vragen wat er moet veranderen. Je eigen site passen we wel zelf aan als je de audit met inbouw kiest.",
     },
     {
       vraag: "Wat kost dit voor een spreker?",
       antwoord:
-        "Hetzelfde als voor iedereen: de meting €295, de audit €999 en met inbouw op je site €1.495. Alles excl. btw en eenmalig.",
+        "De prijzen zijn voor iedereen gelijk. De meting kost €295 en de audit €999. Met inbouw op je site is het €1.495 en met nazorg €1.750. Alles excl. btw en eenmalig.",
     },
   ],
 };
