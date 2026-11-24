@@ -12,7 +12,7 @@ const faqs: FAQItem[] = [
   {
     question: "Hoe werkt de audit precies?",
     answer:
-      "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket: je acties op volgorde, herschreven teksten, een FAQ voor op je site, JSON-LD-code, een implementatiegids voor jouw platform en een analyse waar buiten je site de grootste winst te halen valt. Jij keurt de vragen en de nieuwe teksten goed. De rest doen wij.",
+      "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket: herschreven teksten, een FAQ voor op je site, JSON-LD-code, een implementatiegids voor jouw platform en een analyse waar buiten je site de grootste winst te halen valt. Jij keurt de vragen en de nieuwe teksten goed. De rest doen wij.",
   },
   {
     question: "Krijg ik alleen advies of doen jullie het ook?",
@@ -32,7 +32,7 @@ const faqs: FAQItem[] = [
   {
     question: "Hoe meten jullie of het werkt?",
     answer:
-      "Met echte cijfers. Vooraf stellen we AI twintig vragen die jouw klanten zouden kunnen stellen, plus vijf vragen over jou. Elke vraag stellen we drie keer aan ChatGPT, Claude en Gemini, de drie die jouw klanten het meest gebruiken. Dat zijn samen 225 echte antwoorden, waarin we tellen hoe vaak jij genoemd wordt en lezen wat AI over je vertelt. Op dag 90 draaien we precies dezelfde meting opnieuw. Dan zie je het verschil gewoon in cijfers. Het werk helpt ook in systemen die we niet meten, zoals Perplexity. Hoe snel het gaat verschilt per AI-systeem.",
+      "Met echte cijfers. Vooraf stellen we AI twintig vragen die jouw klanten zouden kunnen stellen, plus vijf vragen over jou. Elke vraag stellen we drie keer aan ChatGPT, Claude en Gemini, de drie die jouw klanten het meest gebruiken. Dat zijn samen 225 echte antwoorden, waarin we tellen hoe vaak jij genoemd wordt en lezen wat AI over je vertelt. Op dag 90 meten we opnieuw. Het werk helpt ook in systemen die we niet meten, zoals Perplexity. Hoe snel het gaat verschilt per AI-systeem.",
   },
   {
     question: "Kan ik eerst alleen laten meten waar ik sta?",
@@ -42,7 +42,7 @@ const faqs: FAQItem[] = [
   {
     question: "Wat is het verschil tussen de audit en de audit met nazorg?",
     answer:
-      "Bij de audit meten we vooraf en op dag 90 opnieuw, zodat je het verschil ziet. Bij de audit met nazorg komen we daarna nog twee keer terug: na 3 en na 6 maanden meten we opnieuw, lopen we je site na en werken we de verbeterpunten meteen voor je uit. In die eerste maanden wordt duidelijk waar AI je oppakt en waar nog niet. Precies daar sturen we bij.",
+      "Bij de audit meten we vooraf en op dag 90 opnieuw. Bij de audit met nazorg komen we daarna nog twee keer terug: na 3 en na 6 maanden meten we opnieuw, lopen we je site na en werken we de verbeterpunten meteen voor je uit. In die eerste maanden wordt duidelijk waar AI je oppakt en waar nog niet. Precies daar sturen we bij.",
   },
   {
     question: "Kunnen jullie het ook op mijn site zetten?",

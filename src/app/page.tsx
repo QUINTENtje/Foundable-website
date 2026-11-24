@@ -114,16 +114,6 @@ function Problem() {
 function Deliverables() {
   const deliverables = [
     {
-      title: "Begin hier",
-      description:
-        "De kortste route door het pakket: je acties op volgorde, met de grootste winst bovenaan. Wie alleen dit document afwerkt, heeft het grootste gat al gedicht.",
-      icon: (
-        <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0ZM3.75 12h.007v.008H3.75V12Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0ZM3.75 17.25h.007v.008H3.75v-.008Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
-        </svg>
-      ),
-    },
-    {
       title: "Nieuwe teksten voor je site die AI begrijpt",
       description:
         "We analyseren de teksten op jouw website en leveren verbeterde versies die AI wel begrijpt, geschreven in jouw eigen toon. Jij hoeft ze alleen te kopi\u00ebren.",
@@ -274,9 +264,8 @@ function Pricing() {
       name: "De audit",
       tagline: "Het volledige pakket",
       price: "€999",
-      meta: ["Betaling: 50% bij start, 50% bij oplevering", "Doorlooptijd: 2 weken na je akkoord op de vragen"],
+      meta: ["Betaling: 50% bij start, 50% bij oplevering", "Doorlooptijd: 2 weken na je akkoord op de vragen en de eerste betaling"],
       items: [
-        "Begin hier: je acties op volgorde, de grootste winst bovenaan",
         "Nieuwe teksten voor je site die AI begrijpt",
         "FAQ met vragen en antwoorden voor op je site",
         "JSON-LD structured data code",
@@ -470,7 +459,7 @@ const faqJsonLd = {
       name: "Hoe werkt de audit precies?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket: je acties op volgorde, herschreven teksten, een FAQ voor op je site, JSON-LD-code, een implementatiegids voor jouw platform en een analyse waar buiten je site de grootste winst te halen valt. Jij keurt de vragen en de nieuwe teksten goed. De rest doen wij.",
+        text: "We analyseren je website grondig: wat AI ziet, wat AI mist en wat AI verkeerd begrijpt. Daarna leveren we een compleet pakket: herschreven teksten, een FAQ voor op je site, JSON-LD-code, een implementatiegids voor jouw platform en een analyse waar buiten je site de grootste winst te halen valt. Jij keurt de vragen en de nieuwe teksten goed. De rest doen wij.",
       },
     },
     {
@@ -502,7 +491,7 @@ const faqJsonLd = {
       name: "Hoe meten jullie of het werkt?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Met echte cijfers. Vooraf stellen we AI twintig vragen die jouw klanten zouden kunnen stellen, plus vijf vragen over jou. Elke vraag stellen we drie keer aan ChatGPT, Claude en Gemini, de drie die jouw klanten het meest gebruiken. Dat zijn samen 225 echte antwoorden, waarin we tellen hoe vaak jij genoemd wordt en lezen wat AI over je vertelt. Op dag 90 draaien we precies dezelfde meting opnieuw. Dan zie je het verschil gewoon in cijfers. Het werk helpt ook in systemen die we niet meten, zoals Perplexity. Hoe snel het gaat verschilt per AI-systeem.",
+        text: "Met echte cijfers. Vooraf stellen we AI twintig vragen die jouw klanten zouden kunnen stellen, plus vijf vragen over jou. Elke vraag stellen we drie keer aan ChatGPT, Claude en Gemini, de drie die jouw klanten het meest gebruiken. Dat zijn samen 225 echte antwoorden, waarin we tellen hoe vaak jij genoemd wordt en lezen wat AI over je vertelt. Op dag 90 meten we opnieuw. Het werk helpt ook in systemen die we niet meten, zoals Perplexity. Hoe snel het gaat verschilt per AI-systeem.",
       },
     },
     {
@@ -518,7 +507,7 @@ const faqJsonLd = {
       name: "Wat is het verschil tussen de audit en de audit met nazorg?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Bij de audit meten we vooraf en op dag 90 opnieuw, zodat je het verschil ziet. Bij de audit met nazorg komen we daarna nog twee keer terug: na 3 en na 6 maanden meten we opnieuw, lopen we je site na en werken we de verbeterpunten meteen voor je uit. In die eerste maanden wordt duidelijk waar AI je oppakt en waar nog niet. Precies daar sturen we bij.",
+        text: "Bij de audit meten we vooraf en op dag 90 opnieuw. Bij de audit met nazorg komen we daarna nog twee keer terug: na 3 en na 6 maanden meten we opnieuw, lopen we je site na en werken we de verbeterpunten meteen voor je uit. In die eerste maanden wordt duidelijk waar AI je oppakt en waar nog niet. Precies daar sturen we bij.",
       },
     },
     {

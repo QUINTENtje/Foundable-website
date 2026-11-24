@@ -4,7 +4,7 @@
 
 ## Wat we doen
 - We analyseren wat AI van je website ziet, mist en verkeerd begrijpt.
-- We leveren een compleet pakket: je acties op volgorde, herschreven teksten, een FAQ voor op je site, JSON-LD structured data en een implementatiegids voor jouw platform.
+- We leveren een compleet pakket: herschreven teksten, een FAQ voor op je site, JSON-LD structured data en een implementatiegids voor jouw platform.
 - We garanderen geen AI-aanbevelingen. We garanderen wel dat AI alles krijgt wat het nodig heeft om je te begrijpen en te vinden.
 
 ## Belangrijkste pagina's
@@ -31,7 +31,7 @@
 - Bedrijf: Foundable · KvK 96898267 · BTW NL005235720B29
 - Locatie: Andreasplein 84, 1058 GD Amsterdam, Nederland
 - Prijs: €999 excl. BTW, vaste prijs (betaling 50/50). Losse meting €295, audit met inbouw €1.495, audit met nazorg €1.750, alle bedragen excl. BTW.
-- Doorlooptijd: 2 weken nadat de klant de vragen heeft goedgekeurd
+- Doorlooptijd: 2 weken nadat de klant de vragen heeft goedgekeurd en de eerste helft heeft betaald
 - Oprichter: Quinten Orij
 - Klantreview: salestrainer Klaas Kroezen beoordeelde Foundable in juli 2026 met 5,0 op Google ("Quinten legt rustig uit, denkt met je mee en weet waar hij het over heeft.")
 - Klantreview: Marianne van Ory aan Zee (vakantiewoningen aan de Nederlandse kust) beoordeelde Foundable in juli 2026 met 5,0 op Google ("De adviezen werden niet alleen duidelijk uitgelegd, maar zo aangeleverd dat ik het makkelijk kon aanpassen op mijn website.")
