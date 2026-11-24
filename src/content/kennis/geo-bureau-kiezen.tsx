@@ -114,7 +114,7 @@ const artikel: KennisArtikel = {
     {
       vraag: "Hoe snel zie ik resultaat van GEO?",
       antwoord:
-        "AI-modellen halen hun informatie deels live van je site en deels uit trainingsdata. Aanpassingen kunnen binnen weken zichtbaar worden in antwoorden die live zoeken, zoals ChatGPT met zoekfunctie en Perplexity. Wij meten daarom na 90 dagen opnieuw, dan is het effect goed te zien.",
+        "AI-modellen halen hun informatie deels live van je site en deels uit trainingsdata. Aanpassingen kunnen binnen weken zichtbaar worden in antwoorden die live zoeken, zoals ChatGPT met zoekfunctie en Perplexity. Wij meten daarom na 90 dagen opnieuw.",
     },
   ],
 };
