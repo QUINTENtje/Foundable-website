@@ -15,24 +15,26 @@ const geoBureauAmsterdam: DienstPagina = {
     <>
       <H2>Als je klant &ldquo;in Amsterdam&rdquo; vraagt</H2>
       <P>
-        Veel vragen aan AI bevatten een plaats, zoals een coach in Amsterdam
-        of een advocaat in de buurt. Bij zo&rsquo;n vraag toont de app van ChatGPT
-        soms een blokje met bedrijven op een kaart, met hun sterren erbij. Dat
-        zagen we in onze eigen checks, ook bij vragen over Amsterdam.
+        Vaak staat er een plaats in de vraag aan AI, zoals een coach in
+        Amsterdam of een advocaat in de buurt. Bij zo&rsquo;n vraag laat de app
+        van ChatGPT soms een blokje zien met bedrijven op een kaart, met hun
+        sterren erbij. Dat zagen we in onze eigen checks, ook bij vragen over
+        Amsterdam.
       </P>
       <P>
-        Wie in dat blokje komt, hangt af van je gegevens op kaartsites en in
-        bedrijvengidsen: je adres, je openingstijden en je reviews. Die moeten
-        overal kloppen met je eigen site. In de audit zie je per plek wat er
-        niet klopt en wat je moet aanpassen.
+        Waar ChatGPT de bedrijven en sterren op dat kaartje vandaan haalt,
+        zegt het er niet bij. Het is dus slim dat je adres en je reviews op
+        kaartsites en in gidsen kloppen met je eigen site. Staan die plekken
+        tussen de bronnen die AI in jouw vak leest, dan nemen we ze mee in de
+        analyse buiten je site.
       </P>
 
       <H2>Wat we voor je doen</H2>
       <UL>
         <LI>
-          Een meting: 25 vragen die je klanten zouden kunnen stellen, elk drie keer aan
-          ChatGPT, Claude en Gemini. Bij een lokaal bedrijf zitten daar ook
-          vragen met Amsterdam in.
+          Een meting: 20 vragen die je klanten zouden kunnen stellen en 5
+          vragen over jou, elk drie keer aan ChatGPT, Claude en Gemini. Bij een
+          lokaal bedrijf zitten daar ook vragen met Amsterdam in.
         </LI>
         <LI>
           Een audit met nieuwe teksten voor je site, een FAQ, code die AI
@@ -61,7 +63,7 @@ const geoBureauAmsterdam: DienstPagina = {
     {
       vraag: "Wat verandert er als een klant naar een bedrijf in Amsterdam vraagt?",
       antwoord:
-        "Bij een vraag met een plaatsnaam laat de app van ChatGPT soms bedrijven op een kaart zien, met hun sterren erbij. Daarom is het slim dat je adres en je reviews op kaartsites en in gidsen kloppen met je site. In de audit lopen we die plekken na.",
+        "Bij een vraag met een plaatsnaam laat de app van ChatGPT soms bedrijven op een kaart zien, met hun sterren erbij. Waar die gegevens vandaan komen, zegt ChatGPT er niet bij. Het is dus slim dat je adres en je reviews op kaartsites en in gidsen kloppen met je site.",
     },
     {
       vraag: "Werken jullie alleen voor bedrijven in Amsterdam?",
@@ -71,7 +73,7 @@ const geoBureauAmsterdam: DienstPagina = {
     {
       vraag: "Wat kost een GEO-bureau in Amsterdam?",
       antwoord:
-        "Bij Foundable kost een meting €295 en de audit €999. Met inbouw op je site is het €1.495 en met nazorg €1.750. Alles excl. btw en eenmalig.",
+        "Bij Foundable kost een meting €295 en de audit €999. Met inbouw op je site is het €1.495 en met nazorg €1.750. In Amsterdam betaal je hetzelfde als in de rest van Nederland. Alle prijzen zijn excl. btw.",
     },
   ],
 };

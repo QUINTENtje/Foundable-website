@@ -5,7 +5,7 @@ const geoVoorSprekers: DienstPagina = {
   slug: "geo-voor-sprekers",
   metaTitel: "Als spreker vaker aanbevolen door ChatGPT en AI · Foundable",
   description:
-    "Organisatoren vragen steeds vaker aan ChatGPT welke spreker ze moeten boeken. Foundable zorgt dat AI je begrijpt als spreker en je kan noemen bij jouw onderwerp.",
+    "Organisatoren vragen ChatGPT welke spreker ze moeten boeken. Foundable maakt op je site duidelijk waar je over spreekt, zodat AI je bij jouw onderwerp kan noemen.",
   naam: "GEO voor sprekers",
   h1: "Als spreker vaker aanbevolen worden door AI",
   intro:
@@ -36,9 +36,9 @@ const geoVoorSprekers: DienstPagina = {
       <H2>Wat we voor sprekers doen</H2>
       <UL>
         <LI>
-          Je site zo schrijven dat AI per onderwerp ziet waar je over spreekt,
-          voor wie en in welke vorm: keynote, workshop of dagvoorzitter. De
-          teksten schrijven we in jouw toon. Jij keurt ze eerst goed.
+          We schrijven je teksten zo dat AI per onderwerp ziet voor wie je
+          spreekt en in welke vorm, bijvoorbeeld als keynote of als
+          dagvoorzitter. In jouw toon. Jij keurt de teksten eerst goed.
         </LI>
         <LI>
           Code die AI vertelt wie je bent, waar je over spreekt en welk boek je
@@ -46,8 +46,8 @@ const geoVoorSprekers: DienstPagina = {
         </LI>
         <LI>Een FAQ met de vragen die organisatoren stellen.</LI>
         <LI>
-          Een analyse van je profielen bij sprekersbureaus: wat er staat, wat er
-          mist en wat je het bureau kunt vragen aan te passen.
+          We kijken welke profielen je hebt bij sprekersbureaus en wat je het
+          bureau kunt vragen aan te passen.
         </LI>
         <LI>Een meting vooraf en een nameting na 90 dagen.</LI>
       </UL>
@@ -71,7 +71,7 @@ const geoVoorSprekers: DienstPagina = {
     {
       vraag: "Wat kost dit voor een spreker?",
       antwoord:
-        "De prijzen zijn voor iedereen gelijk. De meting kost €295 en de audit €999. Met inbouw op je site is het €1.495 en met nazorg €1.750. Alles excl. btw en eenmalig.",
+        "De prijzen zijn voor iedereen gelijk. De meting kost €295 en de audit €999. Met inbouw op je site is het €1.495 en met nazorg €1.750. Alle prijzen zijn excl. btw.",
     },
   ],
 };

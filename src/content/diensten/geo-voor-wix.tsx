@@ -5,7 +5,7 @@ const geoVoorWix: DienstPagina = {
   slug: "geo-voor-wix",
   metaTitel: "Wix-site vindbaar maken voor ChatGPT en AI · Foundable",
   description:
-    "Staat je site op Wix en kun je niet programmeren? Foundable maakt hem geschikt voor ChatGPT, Claude en Gemini. Bij de audit met inbouw zetten we alles zelf in Wix.",
+    "Staat je site op Wix? Foundable maakt hem geschikt voor ChatGPT, Claude en Gemini. Bij de audit met inbouw zetten we alles zelf in Wix, dus programmeren hoeft niet.",
   naam: "GEO voor Wix",
   h1: "Je Wix-site vindbaar maken voor AI",
   intro:
@@ -44,7 +44,8 @@ const geoVoorWix: DienstPagina = {
       </P>
       <P>
         Doe je het liever zelf? Bij de gewone audit (€999) krijg je een gids
-        voor Wix, met per punt waar het moet staan. Wat we verder leveren, lees
+        voor Wix, met per punt waar het moet staan. Koos je eerst de gewone
+        audit, dan kun je de inbouw later alsnog bijboeken voor €500. Wat we verder leveren, lees
         je op de pagina <A href="/geo-bureau">GEO-bureau</A>.
       </P>
     </>
@@ -53,7 +54,7 @@ const geoVoorWix: DienstPagina = {
     {
       vraag: "Kan ChatGPT een Wix-site goed lezen?",
       antwoord:
-        "Ja, als de teksten en de code kloppen. In Wix kun je per pagina de titel, de omschrijving en code voor AI instellen. Daarmee begrijpt AI beter wat je doet.",
+        "Ja, als de teksten en de code kloppen. In Wix kun je per pagina een titel en een omschrijving instellen. Ook de code die AI vertelt wie je bent, kun je per pagina toevoegen. Dat helpt AI om je te begrijpen.",
     },
     {
       vraag: "Moet ik kunnen programmeren?",
@@ -63,7 +64,7 @@ const geoVoorWix: DienstPagina = {
     {
       vraag: "Verandert er iets aan hoe mijn site eruitziet?",
       antwoord:
-        "Je teksten worden aangescherpt, in jouw toon. De code voor AI zien je bezoekers niet. Aan het ontwerp van je site veranderen we niets.",
+        "Je teksten worden aangescherpt, in jouw toon. Soms komt er een FAQ bij. De code voor AI zien je bezoekers niet. Alles wat je bezoekers wel zien, krijg je eerst te zien.",
     },
     {
       vraag: "Hoeveel code past er in Wix?",
@@ -73,7 +74,7 @@ const geoVoorWix: DienstPagina = {
     {
       vraag: "Wat kost het om een Wix-site geschikt te maken voor AI?",
       antwoord:
-        "De audit kost €999 en met inbouw €1.495. Alles excl. btw en eenmalig.",
+        "De audit kost €999 en de audit met inbouw €1.495. Koos je eerst de gewone audit, dan kun je de inbouw later bijboeken voor €500. Alle prijzen zijn excl. btw.",
     },
   ],
 };

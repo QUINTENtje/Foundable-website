@@ -5,7 +5,7 @@ const geoVoorCoachesEnTrainers: DienstPagina = {
   slug: "geo-voor-coaches-en-trainers",
   metaTitel: "Als coach of trainer gevonden worden in ChatGPT · Foundable",
   description:
-    "Klanten vragen ChatGPT steeds vaker welke coach of trainer ze moeten kiezen. Foundable zorgt dat AI je begrijpt en kan noemen bij jouw vak. Vaste prijzen vanaf €295.",
+    "Welke coach of trainer past bij mij? Die vraag krijgt ChatGPT ook. Foundable maakt voor AI duidelijk waar je in gespecialiseerd bent en voor wie je werkt.",
   naam: "GEO voor coaches en trainers",
   h1: "Als coach of trainer gevonden worden in ChatGPT",
   intro:
@@ -32,8 +32,8 @@ const geoVoorCoachesEnTrainers: DienstPagina = {
 
       <H2>Ook als je klanten via via komen</H2>
       <P>
-        Hoor je vooral via via van nieuwe klanten? Ook dan vraagt een klant
-        vaak eerst aan AI wie je bent. Dan wil je dat het antwoord klopt: je
+        Hoor je vooral via via van nieuwe klanten? Ook dan kan een klant eerst
+        aan AI vragen wie je bent. Dan wil je dat het antwoord klopt: je
         vak, je aanpak en wat je eerder deed. In de meting stellen we daarom
         ook vijf vragen over jou.
       </P>
@@ -41,8 +41,8 @@ const geoVoorCoachesEnTrainers: DienstPagina = {
       <H2>Wat we voor coaches en trainers doen</H2>
       <UL>
         <LI>
-          Je site zo schrijven dat AI ziet waar je in gespecialiseerd bent en
-          voor wie je werkt. In jouw toon. Jij keurt de teksten eerst goed.
+          We schrijven je teksten zo dat AI ziet waar je in gespecialiseerd bent
+          en voor wie je werkt. In jouw toon. Jij keurt de teksten eerst goed.
         </LI>
         <LI>
           Code die AI vertelt wie je bent, wat je aanbiedt en welk boek je
@@ -50,8 +50,8 @@ const geoVoorCoachesEnTrainers: DienstPagina = {
         </LI>
         <LI>Een FAQ met de vragen die je klanten stellen.</LI>
         <LI>
-          Een analyse van je profielen buiten je site, zoals bij je
-          beroepsvereniging: wat er staat en wat er beter kan.
+          We kijken wat er beter kan aan je profielen buiten je site, zoals bij
+          je beroepsvereniging.
         </LI>
         <LI>Een meting vooraf en een nameting na 90 dagen.</LI>
       </UL>
@@ -70,12 +70,12 @@ const geoVoorCoachesEnTrainers: DienstPagina = {
     {
       vraag: "Werkt dit ook voor trainers die vooral bedrijven als klant hebben?",
       antwoord:
-        "Ja. Ook bij zakelijke opdrachten vraagt een klant vaak eerst een AI om advies. De vragen in de meting maken we voor jouw klanten, dus ook voor inkopers en HR.",
+        "Ja. De vragen in de meting maken we voor jouw klanten, dus ook voor inkopers en HR.",
     },
     {
       vraag: "Wat kost dit voor een coach of trainer?",
       antwoord:
-        "De prijzen zijn voor iedereen gelijk. De meting kost €295 en de audit €999. Met inbouw op je site is het €1.495 en met nazorg €1.750. Alles excl. btw en eenmalig.",
+        "De prijzen zijn voor iedereen gelijk. De meting kost €295 en de audit €999. Met inbouw op je site is het €1.495 en met nazorg €1.750. Alle prijzen zijn excl. btw.",
     },
   ],
 };

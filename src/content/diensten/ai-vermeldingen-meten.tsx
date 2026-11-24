@@ -5,11 +5,11 @@ const aiVermeldingenMeten: DienstPagina = {
   slug: "ai-vermeldingen-meten",
   metaTitel: "AI-zichtbaarheid meten: hoe vaak noemt AI je bedrijf? · Foundable",
   description:
-    "Laat meten hoe vaak ChatGPT, Claude en Gemini je bedrijf noemen. Over 225 echte antwoorden, met de top 10 namen in je vak en wat AI over je vertelt. Vaste prijs: €295.",
+    "Laat meten hoe vaak ChatGPT, Claude en Gemini je bedrijf noemen. Je krijgt de uitslag van 225 echte antwoorden, met de top 10 namen in je vak en wat AI over je vertelt. De meting kost €295.",
   naam: "AI-vermeldingen meten",
   h1: "Laat meten hoe vaak AI je bedrijf noemt",
   intro:
-    "Wil je weten of ChatGPT je bedrijf noemt? We stellen ChatGPT, Claude en Gemini 25 vragen die je klanten zouden kunnen stellen, elke vraag drie keer per AI. Zo krijg je 225 antwoorden. De uitslag krijg je op één A4: hoe vaak AI je noemt, wat het over je vertelt en welke namen het in jouw vak noemt. De meting kost €295.",
+    "Wil je weten of ChatGPT je bedrijf noemt? We stellen ChatGPT, Claude en Gemini 20 vragen die je klanten zouden kunnen stellen en 5 vragen over jou, elke vraag drie keer per AI. Zo krijg je 225 antwoorden. De uitslag krijg je op één A4: hoe vaak AI je noemt, wat het over je vertelt en welke namen het in jouw vak noemt. De meting kost €295.",
   cta: { label: "Vraag de meting aan", href: "/start?keuze=meting" },
   content: (
     <>
@@ -20,7 +20,7 @@ const aiVermeldingenMeten: DienstPagina = {
           of AI je uit zichzelf noemt.
         </LI>
         <LI>
-          Vijf vragen over jou. Zo zie je wat AI over je vertelt en of dat
+          Vijf vragen over jou. Dan zie je wat AI over je vertelt en of dat
           klopt.
         </LI>
         <LI>
@@ -41,6 +41,10 @@ const aiVermeldingenMeten: DienstPagina = {
       <H2>Zo gaat het</H2>
       <UL>
         <LI>Je vraagt de meting aan via het formulier.</LI>
+        <LI>
+          Binnen twee werkdagen krijg je een persoonlijke mail met de
+          betaallink. De meting betaal je in één keer.
+        </LI>
         <LI>Wij maken de vragen voor jouw vak. Jij kijkt ze na.</LI>
         <LI>
           Binnen een week nadat je de vragen hebt goedgekeurd, heb je de
@@ -73,7 +77,8 @@ const aiVermeldingenMeten: DienstPagina = {
     },
     {
       vraag: "Kan ik mijn eigen vragen aanleveren?",
-      antwoord: "Ja, op aanvraag. Standaard maken wij de vragen voor jouw vak en kijk jij ze na.",
+      antwoord:
+        "Ja. Wij maken eerst een voorstel voor de vragen in jouw vak. Wil je er eigen vragen bij of wil je er een paar vervangen, dan kan dat.",
     },
     {
       vraag: "Wat doe ik als AI me niet noemt?",
