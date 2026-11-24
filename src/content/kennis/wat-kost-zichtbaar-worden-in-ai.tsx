@@ -65,7 +65,7 @@ const artikel: KennisArtikel = {
           [
             "De audit",
             "€999",
-            "Nieuwe teksten, een FAQ voor op je site, JSON-LD structured data, een implementatiegids voor jouw platform, je acties op volgorde en een nameting na 90 dagen",
+            "Nieuwe teksten, een FAQ voor op je site, JSON-LD structured data, een implementatiegids voor jouw platform en een nameting na 90 dagen",
           ],
           [
             "De audit met inbouw",

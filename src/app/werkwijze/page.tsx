@@ -51,13 +51,13 @@ const howToSchema = {
       "@type": "HowToStep",
       position: 4,
       name: "Je ontvangt alles per mail",
-      text: "Zodra je de vragen hebt goedgekeurd, ligt de meting binnen een week als A4 in je mailbox. De audit ligt er binnen 2 weken als volledig pakket: je acties op volgorde, nieuwe teksten voor je site die AI begrijpt, een FAQ voor op je site, JSON-LD-code, implementatiegids en een analyse waar buiten je site de grootste winst te halen valt. Alles staat klaar om te kopiëren en te plakken, de gids laat per punt zien waar het in jouw platform moet staan. Loop je bij het plaatsen ergens vast, dan help ik je er per mail doorheen tot alles staat. Koos je de audit met inbouw? Dan plaatsen wij alles zelf op je site, zodra jij de zichtbare teksten hebt goedgekeurd. De tweede helft betaal je bij oplevering.",
+      text: "Zodra je de vragen hebt goedgekeurd en de eerste helft hebt betaald, ligt de meting binnen een week als A4 in je mailbox. De audit ligt er binnen 2 weken als volledig pakket: nieuwe teksten voor je site die AI begrijpt, een FAQ voor op je site, JSON-LD-code, implementatiegids en een analyse waar buiten je site de grootste winst te halen valt. Alles staat klaar om te kopiëren en te plakken, de gids laat per punt zien waar het in jouw platform moet staan. Loop je bij het plaatsen ergens vast, dan help ik je er per mail doorheen tot alles staat. Koos je de audit met inbouw? Dan plaatsen wij alles zelf op je site, zodra jij de zichtbare teksten hebt goedgekeurd. De tweede helft betaal je bij oplevering.",
     },
     {
       "@type": "HowToStep",
       position: 5,
       name: "Revisie en vervolg",
-      text: "Je hebt 14 dagen om feedback te geven, wij verwerken dat in twee revisierondes. Op dag 90 draaien we de nulmeting precies opnieuw, zodat je het verschil in cijfers ziet. Koos je de audit met nazorg? Dan komen we ook na 3 en na 6 maanden terug om opnieuw te meten en bij te sturen.",
+      text: "Je hebt 14 dagen om feedback te geven, wij verwerken dat in twee revisierondes. Op dag 90 meten we opnieuw. Koos je de audit met nazorg? Dan komen we ook na 3 en na 6 maanden terug om opnieuw te meten en bij te sturen.",
     },
   ],
 };
@@ -109,9 +109,9 @@ const steps = [
     title: "Je ontvangt alles per mail",
     text: (
       <>
-        Zodra je de vragen hebt goedgekeurd, ligt de meting binnen een week
-        als A4 in je mailbox. De audit ligt er binnen 2 weken als volledig
-        pakket: je acties op volgorde, nieuwe teksten
+        Zodra je de vragen hebt goedgekeurd en de eerste helft hebt betaald,
+        ligt de meting binnen een week als A4 in je mailbox. De audit ligt er
+        binnen 2 weken als volledig pakket: nieuwe teksten
         voor je site die AI begrijpt, een FAQ voor op je site, JSON-LD-code,
         implementatiegids en een analyse waar buiten je site de grootste
         winst te halen valt. Alles staat
@@ -129,8 +129,7 @@ const steps = [
     text: (
       <>
         Je hebt 14 dagen om feedback te geven, wij verwerken dat in twee
-        revisierondes. Op dag 90 draaien we de nulmeting precies opnieuw,
-        zodat je het verschil in cijfers ziet. Koos je de audit met nazorg?
+        revisierondes. Op dag 90 meten we opnieuw. Koos je de audit met nazorg?
         Dan komen we ook na 3 en na 6 maanden terug om opnieuw te meten en
         bij te sturen.
       </>
