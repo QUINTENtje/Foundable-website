@@ -9,7 +9,7 @@ const geoVoorCoachesEnTrainers: DienstPagina = {
   naam: "GEO voor coaches en trainers",
   h1: "Als coach of trainer gevonden worden in ChatGPT",
   intro:
-    "Wie een coach of trainer zoekt, vraagt het steeds vaker aan ChatGPT. AI noemt dan een paar namen. Jouw naam staat daar alleen tussen als AI begrijpt waar je goed in bent en voor wie. Foundable zorgt dat je site dat duidelijk zegt. We kijken ook mee naar je profielen elders. Een meting kost €295 en de audit €999.",
+    "Wie een coach of trainer zoekt, vraagt het ook aan ChatGPT. AI noemt dan een paar namen. Jouw naam staat daar alleen tussen als AI begrijpt waar je goed in bent en voor wie. Foundable zorgt dat je site dat duidelijk zegt. We kijken ook mee naar je profielen elders. Een meting kost €295 en de audit €999.",
   content: (
     <>
       <H2>Wat een klant aan AI vraagt</H2>
@@ -41,8 +41,9 @@ const geoVoorCoachesEnTrainers: DienstPagina = {
       <H2>Wat we voor coaches en trainers doen</H2>
       <UL>
         <LI>
-          We schrijven je teksten zo dat AI ziet waar je in gespecialiseerd bent
-          en voor wie je werkt. In jouw toon. Jij keurt de teksten eerst goed.
+          We schrijven je teksten zo dat AI ziet waar je in gespecialiseerd
+          bent en voor wie je werkt. We schrijven in jouw toon en jij keurt
+          de teksten eerst goed.
         </LI>
         <LI>
           Code die AI vertelt wie je bent, wat je aanbiedt en welk boek je
@@ -56,7 +57,7 @@ const geoVoorCoachesEnTrainers: DienstPagina = {
         <LI>Een meting vooraf en een nameting na 90 dagen.</LI>
       </UL>
       <P>
-        Het werk doet Quinten Orij zelf. Op de <A href="/cases">casepagina</A>{" "}
+        Quinten Orij doet het werk zelf. Op de pagina <A href="/cases">Cases</A>{" "}
         lees je hoe het ging bij een salestrainer.
       </P>
     </>
@@ -65,7 +66,7 @@ const geoVoorCoachesEnTrainers: DienstPagina = {
     {
       vraag: "Hoe word ik als coach gevonden in ChatGPT?",
       antwoord:
-        "Zorg dat AI op je eigen site terugvindt waar je in gespecialiseerd bent en voor wie je werkt. Ook je profielen elders tellen mee, zoals bij een beroepsvereniging. Een garantie bestaat niet, want AI stelt elk antwoord opnieuw samen.",
+        "Zorg dat AI op je eigen site terugvindt waar je in gespecialiseerd bent en voor wie je werkt. Ook je profielen elders tellen mee, zoals bij een beroepsvereniging. Garanderen kan niemand, want AI stelt elk antwoord opnieuw samen.",
     },
     {
       vraag: "Werkt dit ook voor trainers die vooral bedrijven als klant hebben?",
@@ -75,7 +76,7 @@ const geoVoorCoachesEnTrainers: DienstPagina = {
     {
       vraag: "Wat kost dit voor een coach of trainer?",
       antwoord:
-        "De prijzen zijn voor iedereen gelijk. De meting kost €295 en de audit €999. Met inbouw op je site is het €1.495 en met nazorg €1.750. Alle prijzen zijn excl. btw.",
+        "De prijzen zijn voor iedereen gelijk. De meting kost €295 en de audit €999. De audit met inbouw kost €1.495 en de audit met nazorg €1.750. Alle prijzen zijn excl. btw.",
     },
   ],
 };

@@ -24,8 +24,8 @@ const aiVermeldingenMeten: DienstPagina = {
           klopt.
         </LI>
         <LI>
-          Elke vraag stellen we drie keer aan ChatGPT, drie keer aan Claude en
-          drie keer aan Gemini.
+          Elke vraag stellen we drie keer aan elk model: ChatGPT, Claude en
+          Gemini.
         </LI>
         <LI>De top 10 namen die AI in jouw vak noemt. Dan zie je wie AI wel aanraadt.</LI>
       </UL>
@@ -58,9 +58,9 @@ const aiVermeldingenMeten: DienstPagina = {
 
       <H2>Eenmalig</H2>
       <P>
-        De meting is eenmalig, zonder abonnement. Een maandelijkse meting
-        bieden we niet aan. In de audit zit een meting vooraf en een nameting
-        op dag 90. Bij de audit met nazorg meten we ook na 3 en 6 maanden.
+        De meting is eenmalig, zonder abonnement. We bieden geen maandelijkse
+        meting aan. In de audit zitten een meting vooraf en een nameting op
+        dag 90. Bij de audit met nazorg meten we ook na 3 en 6 maanden.
       </P>
     </>
   ),

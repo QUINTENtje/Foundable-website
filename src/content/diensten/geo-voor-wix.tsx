@@ -15,10 +15,10 @@ const geoVoorWix: DienstPagina = {
     <>
       <H2>Waarom dit telt</H2>
       <P>
-        Steeds meer klanten vragen eerst aan ChatGPT wie ze moeten inhuren. AI
+        Klanten vragen ook aan ChatGPT wie ze moeten inhuren. AI
         zoekt dan op internet en noemt de bedrijven die online het duidelijkst
         bij de vraag passen. Of je site in Wix staat of ergens anders, maakt
-        daarbij weinig uit. Wat telt, is of AI snapt wat je doet en voor wie.
+        daarbij weinig uit. Het gaat erom of AI snapt wat je doet en voor wie.
       </P>
 
       <H2>Wat er in Wix kan</H2>
@@ -64,7 +64,7 @@ const geoVoorWix: DienstPagina = {
     {
       vraag: "Verandert er iets aan hoe mijn site eruitziet?",
       antwoord:
-        "Je teksten worden aangescherpt, in jouw toon. Soms komt er een FAQ bij. De code voor AI zien je bezoekers niet. Alles wat je bezoekers wel zien, krijg je eerst te zien.",
+        "Je teksten worden aangescherpt, in jouw toon. Soms komt er een FAQ bij. Je bezoekers zien de code voor AI niet. Alles wat je bezoekers wel zien, krijg je eerst te zien.",
     },
     {
       vraag: "Hoeveel code past er in Wix?",

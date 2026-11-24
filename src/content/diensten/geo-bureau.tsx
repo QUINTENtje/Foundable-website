@@ -50,8 +50,8 @@ const geoBureau: DienstPagina = {
         </p>
         <p className="mt-2 text-sm text-text-light">
           Jochem Uytdehaage, spreker en trainer, in zijn review op Google.
-          Meer klanten en hun reviews lees je op de{" "}
-          <A href="/cases">casepagina</A>.
+          Meer klanten en hun reviews lees je op de pagina{" "}
+          <A href="/cases">Cases</A>.
         </p>
       </Kader>
 
@@ -59,9 +59,9 @@ const geoBureau: DienstPagina = {
       <P>
         We werken vooral voor gevestigde experts die met hun eigen naam
         werken: trainers, sprekers, auteurs en coaches. Ook gespecialiseerde
-        advocaten en kleine adviesbureaus kunnen bij ons terecht. Wat ze
-        delen: hun klanten komen via hun eigen site binnen. Dan maakt het uit
-        of AI die site begrijpt.
+        advocaten en kleine adviesbureaus kunnen bij ons terecht. Hun klanten
+        komen via hun eigen site binnen, dus dan maakt het uit of AI die site
+        begrijpt.
       </P>
       <UL>
         <LI>
@@ -112,7 +112,7 @@ const geoBureau: DienstPagina = {
     {
       vraag: "Wat kost een GEO-bureau?",
       antwoord:
-        "Bij Foundable kost een meting €295 en de audit €999. Met inbouw op je site is het €1.495 en met nazorg €1.750. Alle prijzen zijn excl. btw. Veel bureaus werken met een abonnement per maand. Bij ons betaal je per opdracht.",
+        "Bij Foundable kost een meting €295 en de audit €999. De audit met inbouw kost €1.495 en de audit met nazorg €1.750. Alle prijzen zijn excl. btw. Veel bureaus werken met een abonnement per maand. Bij ons betaal je per opdracht.",
     },
     {
       vraag: "Wat is het verschil tussen een GEO-bureau en een SEO-bureau?",
@@ -137,7 +137,7 @@ const geoBureau: DienstPagina = {
     {
       vraag: "Kan ik een voorbeeld zien?",
       antwoord:
-        "Ja. Op de casepagina lees je wat de audit bij eerdere klanten opleverde. Wil je een echt document uit een audit inzien, mail dan even. Dan sturen we een voorbeeld mee.",
+        "Ja. Op de pagina Cases lees je wat de audit bij eerdere klanten opleverde. Wil je een echt document uit een audit inzien, mail dan even. Dan sturen we een voorbeeld mee.",
     },
     {
       vraag: "Werken jullie in heel Nederland?",

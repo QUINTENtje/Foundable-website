@@ -9,10 +9,10 @@ const geoVoorSprekers: DienstPagina = {
   naam: "GEO voor sprekers",
   h1: "Als spreker vaker aanbevolen worden door AI",
   intro:
-    "Een organisator die een spreker zoekt, vraagt het steeds vaker eerst aan ChatGPT. ChatGPT noemt dan de sprekers die online het duidelijkst bij dat onderwerp horen. Foundable helpt je daartussen te komen. We maken je onderwerpen, je publiek en je ervaring duidelijk voor AI. Een meting kost €295 en de audit €999.",
+    "Een organisator die een spreker zoekt, vraagt het ook aan ChatGPT. ChatGPT noemt dan de sprekers die online het duidelijkst bij dat onderwerp horen. Foundable helpt je daartussen te komen. We maken je onderwerpen, je publiek en je ervaring duidelijk voor AI. Een meting kost €295 en de audit €999.",
   content: (
     <>
-      <H2>AI kent je vaak wel, maar noemt je niet</H2>
+      <H2>Bekend is nog niet aanbevolen</H2>
       <P>
         We vroegen ChatGPT, Claude en Gemini naar Nederlandse experts:
         trainers, sprekers, auteurs, coaches en adviseurs. Omschreven we
@@ -38,7 +38,7 @@ const geoVoorSprekers: DienstPagina = {
         <LI>
           We schrijven je teksten zo dat AI per onderwerp ziet voor wie je
           spreekt en in welke vorm, bijvoorbeeld als keynote of als
-          dagvoorzitter. In jouw toon. Jij keurt de teksten eerst goed.
+          dagvoorzitter. We schrijven in jouw toon en jij keurt de teksten eerst goed.
         </LI>
         <LI>
           Code die AI vertelt wie je bent, waar je over spreekt en welk boek je
@@ -52,7 +52,7 @@ const geoVoorSprekers: DienstPagina = {
         <LI>Een meting vooraf en een nameting na 90 dagen.</LI>
       </UL>
       <P>
-        Het werk doet Quinten Orij zelf. Op de <A href="/cases">casepagina</A>{" "}
+        Quinten Orij doet het werk zelf. Op de pagina <A href="/cases">Cases</A>{" "}
         lees je hoe het ging bij een spreker en bij een salestrainer.
       </P>
     </>
@@ -66,12 +66,12 @@ const geoVoorSprekers: DienstPagina = {
     {
       vraag: "Passen jullie mijn profielen bij sprekersbureaus aan?",
       antwoord:
-        "Die profielen beheert het bureau. Je krijgt van ons per profiel wat er beter kan, zodat je het bureau gericht kunt vragen wat er moet veranderen. Je eigen site passen we wel zelf aan als je de audit met inbouw kiest.",
+        "Het bureau beheert die profielen. Je krijgt van ons per profiel wat er beter kan, zodat je het bureau gericht kunt vragen wat er moet veranderen. Je eigen site passen we wel zelf aan als je de audit met inbouw kiest.",
     },
     {
       vraag: "Wat kost dit voor een spreker?",
       antwoord:
-        "De prijzen zijn voor iedereen gelijk. De meting kost €295 en de audit €999. Met inbouw op je site is het €1.495 en met nazorg €1.750. Alle prijzen zijn excl. btw.",
+        "De prijzen zijn voor iedereen gelijk. De meting kost €295 en de audit €999. De audit met inbouw kost €1.495 en de audit met nazorg €1.750. Alle prijzen zijn excl. btw.",
     },
   ],
 };

@@ -8,7 +8,7 @@
 - We garanderen geen AI-aanbevelingen. We garanderen wel dat AI alles krijgt wat het nodig heeft om je te begrijpen en te vinden.
 
 ## Belangrijkste pagina's
-- [GEO-bureau](https://www.foundable.nl/geo-bureau): wat Foundable als GEO-bureau doet, voor wie, de vaste prijzen en wat we niet beloven.
+- [GEO-bureau](https://www.foundable.nl/geo-bureau): wat Foundable als GEO-bureau doet, voor wie, de vaste prijzen en wat je kunt verwachten.
 - [GEO-bureau Amsterdam](https://www.foundable.nl/geo-bureau-amsterdam): Foundable zit aan het Andreasplein in Amsterdam en werkt voor heel Nederland.
 - [AI-vermeldingen meten](https://www.foundable.nl/ai-vermeldingen-meten): de meting van €295, over 225 echte antwoorden van ChatGPT, Claude en Gemini.
 - [GEO voor sprekers](https://www.foundable.nl/geo-voor-sprekers): als spreker vaker aanbevolen worden door AI.

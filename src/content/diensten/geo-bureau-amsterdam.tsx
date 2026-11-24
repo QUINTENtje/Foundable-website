@@ -13,7 +13,7 @@ const geoBureauAmsterdam: DienstPagina = {
   plaats: "Amsterdam",
   content: (
     <>
-      <H2>Als je klant &ldquo;in Amsterdam&rdquo; vraagt</H2>
+      <H2>Als je klant een plaatsnaam noemt</H2>
       <P>
         Vaak staat er een plaats in de vraag aan AI, zoals een coach in
         Amsterdam of een advocaat in de buurt. Bij zo&rsquo;n vraag laat de app
@@ -55,7 +55,7 @@ const geoBureauAmsterdam: DienstPagina = {
       <P>
         Foundable zit aan het Andreasplein 84 in Amsterdam. Achter Foundable
         zit Quinten Orij, die het werk zelf doet. Hoe dat bij eerdere klanten
-        ging, lees je op de <A href="/cases">casepagina</A>.
+        ging, lees je op de pagina <A href="/cases">Cases</A>.
       </P>
     </>
   ),
@@ -73,7 +73,7 @@ const geoBureauAmsterdam: DienstPagina = {
     {
       vraag: "Wat kost een GEO-bureau in Amsterdam?",
       antwoord:
-        "Bij Foundable kost een meting €295 en de audit €999. Met inbouw op je site is het €1.495 en met nazorg €1.750. In Amsterdam betaal je hetzelfde als in de rest van Nederland. Alle prijzen zijn excl. btw.",
+        "Bij Foundable kost een meting €295 en de audit €999. De audit met inbouw kost €1.495 en de audit met nazorg €1.750. In Amsterdam betaal je hetzelfde als in de rest van Nederland. Alle prijzen zijn excl. btw.",
     },
   ],
 };
